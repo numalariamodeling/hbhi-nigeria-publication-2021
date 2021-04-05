@@ -9,7 +9,9 @@ import os
 from malaria.interventions.malaria_drug_campaigns import add_drug_campaign
 import pandas as pd
 
-datapath, projectpath = load_box_paths()
+SetupParser.default_block = 'HPC'
+
+datapath, projectpath = load_box_paths(parser_default=SetupParser.default_block)
 
 expname = 'NGA_2010_2020_allInterventions'
 num_seeds = 1
@@ -21,7 +23,6 @@ burnin_id = '068078bf-0db6-ea11-a2c6-c4346bcb1557' #use sweep id from sweep_seas
 sulf_C50 = 0.2
 
 if __name__ == "__main__":
-
     scenario_fname = os.path.join(projectpath, 'simulation_inputs',
                                     'projection_csvs', '2010_2020_LGA_intervention_files', 'Intervention_scenarios_past_estimates.csv')  # use script for loading all files for scenarios
     scen_df = pd.read_csv(scenario_fname)
@@ -142,7 +143,6 @@ if __name__ == "__main__":
         'exp_builder': builder
     }
 
-    SetupParser.default_block = 'HPC'
     SetupParser.init()
     exp_manager = ExperimentManagerFactory.init()
     exp_manager.run_simulations(**run_sim_args)

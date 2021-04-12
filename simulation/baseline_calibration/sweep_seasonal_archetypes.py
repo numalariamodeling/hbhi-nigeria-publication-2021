@@ -6,14 +6,17 @@ from malaria.reports.MalariaReport import add_filtered_report, add_summary_repor
 from malaria.reports.MalariaReport import add_event_counter_report
 import sys
 sys.path.append('../../../')
-from simulation.simulation_setup_helpers import update_basic_params, set_up_hfca, add_hfca_hs, load_master_csv, habitat_scales
+from simulation.set_up_simulation_config import update_basic_params, set_up_hfca, add_hfca_hs, load_master_csv, habitat_scales
 from malaria.interventions.malaria_drug_campaigns import add_drug_campaign
 import os
 import pandas as pd
 import numpy as np
 from simulation.load_paths import load_box_paths
 
-datapath, projectpath = load_box_paths()
+
+SetupParser.default_block = 'HPC'
+
+datapath, projectpath = load_box_paths(parser_default=SetupParser.default_block)
 
 
 expname = 'NGA archetype PfPR sweep burnin new'
@@ -52,22 +55,12 @@ hs_df = pd.read_csv(os.path.join(projectpath, 'simulation_inputs', 'projection_c
                                  'arch_med_10_v2.csv'))
 
 # for nmf_years in range(years - 5, years):
-#     add_drug_campaign(cb, 'MSAT', 'AL',
-#                       start_days=[1 + 365 * nmf_years],
-#                       coverage=0.0038,
-#                       repetitions=1000, tsteps_btwn_repetitions=1,
-#                       diagnostic_type='PF_HRP2', diagnostic_threshold=5,
-#                       receiving_drugs_event_name='Received_NMF_Treatment')
-
 # CUSTOM REPORTS
 add_filtered_report(cb, start=max([0, (years-1)*365]), end=years*365)
-# add_summary_report(cb, start=max([0, (years-1)*365]), age_bins=[0.25, 5, 15, 125], interval=30,
-#                    description='Monthly', parasitemia_bins=[10, 50, 1e9])
-# add_event_counter_report(cb, event_trigger_list=['Received_Treatment', 'Received_Severe_Treatment',
-#                                                  'Received_Self_Medication'], duration=years*365+1)
 
 df = load_master_csv()
-# hab_scale_factor_fname = os.path.join(projectpath, 'simulation_inputs', 'larval_habitat_multipliers.csv')
+
+# hab_scale_factor_fname = os.path.join(projectpath, 'simulation_inputs', 'larval_habitats', 'larval_habitat_multipliers_v4.csv')
 # hab_df = pd.read_csv(hab_scale_factor_fname)
 # hab_df = hab_df.set_index('DS_Name')
 rel_abundance_df = habitat_scales()
@@ -108,7 +101,6 @@ builder = ModBuilder.from_list([[ModFn(set_up_hfca, hfca=my_hfca,
                                 for hab_scale in sweepspace[my_hfca]
                                 ] )
 
-
 run_sim_args = {
     'exp_name': expname,
     'config_builder': cb,
@@ -118,7 +110,6 @@ run_sim_args = {
 
 if __name__ == "__main__":
 
-    SetupParser.default_block = 'HPC'
     SetupParser.init()
     exp_manager = ExperimentManagerFactory.init()
     exp_manager.run_simulations(**run_sim_args)

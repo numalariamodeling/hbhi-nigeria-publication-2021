@@ -4,7 +4,7 @@ from simtools.SetupParser import SetupParser
 from simtools.ModBuilder import ModBuilder, ModFn
 from malaria.reports.MalariaReport import add_filtered_report, add_summary_report
 from simulation.load_paths import load_box_paths
-from simulation.simulation_setup_helpers import update_basic_params, set_up_hfca, load_master_csv, habitat_scales, add_all_interventions, update_drug_config
+from simulation.set_up_simulation_config import update_basic_params, set_up_hfca, load_master_csv, habitat_scales, add_all_interventions, update_drug_config
 import os
 from malaria.interventions.malaria_drug_campaigns import add_drug_campaign
 import pandas as pd
@@ -13,19 +13,21 @@ datapath, projectpath = load_box_paths()
 
 
 num_seeds = 5
-
 years = 11
 ser_date = 10*365
 serialize = False
 pull_from_serialization = True
-burnin_id = '189271f8-43e6-ea11-a2c6-c4346bcb1557'
 sulf_C50 = 0.2
+
+burnin_id = '857fc923-d497-eb11-a2ce-c4346bcb1550'
 
 if __name__ == "__main__":
 
     scenario_fname = os.path.join(projectpath, 'simulation_inputs',
-                                    'projection_csvs', 'projection_v3', 'Intervention_scenarios_nigeria_v3.csv')  # use script for loading all files for scenarios
+                                    'projection_csvs', 'projection_v3', 'intervention_scenarios_nigeria_v3.csv')  # use script for loading all files for scenarios
     scen_df = pd.read_csv(scenario_fname)
+    # can't run -- nothing has a status of run
+    scen_df['status'] = 'run'
     scen_index = scen_df[scen_df['status'] == 'run'].index[0]
 
     expname = 'NGA projection scenario %d' % scen_df.at[scen_index, 'Scenario_no']
@@ -42,6 +44,7 @@ if __name__ == "__main__":
         # 'Base_Population_Scale_Factor' : 0.01,
         'x_Temporary_Larval_Habitat' : 0.03/0.15,
         "Report_Event_Recorder" : 1,
+        "Report_Event_Recorder_Individual_Properties" : [],
         "Report_Event_Recorder_Events" : ['Received_Severe_Treatment'],
         "Report_Event_Recorder_Ignore_Events_In_List" : 0,
         'Listed_Events' : ['Bednet_Got_New_One', 'Bednet_Using', 'Bednet_Discarded','Received_Severe_Treatment']
@@ -49,7 +52,10 @@ if __name__ == "__main__":
 
     if serialize:
         cb.update_params({
-            'Serialization_Time_Steps': [365 * years]
+            'Serialization_Time_Steps': [365 * years],
+            'Serialization_Type': 'TIMESTEP',
+            'Serialization_Mask_Node_Write': 0,
+            'Serialization_Precision': 'REDUCED'
         })
     # BASIC SETUP
     update_basic_params(cb)
@@ -119,6 +125,9 @@ if __name__ == "__main__":
     rel_abundance_df = habitat_scales()
     lhdf = pd.read_csv(os.path.join(projectpath, 'simulation_inputs', 'larval_habitats','monthly_habitatv2.csv'))
     df = load_master_csv()
+    df.reset_index(inplace=True)
+    df = df.set_index('LGA')
+    my_ds_list = list(df.index.values)
 
     # BUILDER
     builder = ModBuilder.from_list([[ModFn(set_up_hfca, hfca=my_hfca,

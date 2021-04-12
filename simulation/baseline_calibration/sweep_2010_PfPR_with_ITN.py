@@ -6,21 +6,23 @@ from malaria.reports.MalariaReport import add_filtered_report, add_summary_repor
 from malaria.interventions.malaria_drug_campaigns import add_drug_campaign
 import sys
 sys.path.append('../../../')
-from simulation.load_paths import load_box_paths
-from simulation.simulation_setup_helpers import update_basic_params, set_up_hfca, load_pop_scale_factor,\
+from simulation.set_up_simulation_config import update_basic_params, set_up_hfca, load_pop_scale_factor,\
     load_master_csv, habitat_scales, add_all_interventions
 import os
 import pandas as pd
 import numpy as np
+from simulation.load_paths import load_box_paths
 
-datapath, projectpath = load_box_paths()
+SetupParser.default_block = 'HPC'
+
+datapath, projectpath = load_box_paths(parser_default=SetupParser.default_block)
 
 
 expname = 'NGA archetype PfPR ITN sweep_new'
 num_seeds = 5
 ser_date = 50*365
 years = 1
-burnin_id = 'cd61d557-3f92-eb11-a2ce-c4346bcb1550' #use sweep id from sweep_seasonal_archetypes : cd61d557-3f92-eb11-a2ce-c4346bcb1550
+burnin_id = 'c0028e06-4499-eb11-a2ce-c4346bcb1550' #use sweep id from sweep_seasonal_archetypes : cd61d557-3f92-eb11-a2ce-c4346bcb1550
 pull_from_serialization = True
 
 if __name__ == "__main__":
@@ -71,6 +73,9 @@ if __name__ == "__main__":
                                           50) for r, row in lim_df.iterrows()}
 
     pop_scale = 0.15
+    df.reset_index(inplace=True)
+    df = df.set_index('LGA')
+    my_ds_list = list(df.index.values)
     # scale_factor = 1 / 10000. * (1 / pop_scale)
     lhdf = lhdf.reset_index()
 
@@ -82,14 +87,16 @@ if __name__ == "__main__":
                                            lhdf=lhdf,
                                            from_arch=True,
                                            hab_multiplier=hab_scale,
-                                           run_number=0),
+                                           run_number=0,
+                                           parser_default=SetupParser.default_block),
                                      ModFn(DTKConfigBuilder.set_param, 'Run_Number', x),
                                      ModFn(DTKConfigBuilder.set_param, 'x_Temporary_Larval_Habitat',
-                                           0.03/pop_scale),
+                                            0.03/pop_scale),
+      #                                     hab_scale),
                                      ModFn(DTKConfigBuilder.set_param, 'Habitat_Multiplier', hab_scale),
                                      ModFn(add_all_interventions, smc_df=pd.DataFrame(), itn_df=itn_df, hs_df=hs_df,
                                            hfca=my_hfca, irs_df=pd.DataFrame(), itn_anc_df=pd.DataFrame()),
-                                     ModFn(DTKConfigBuilder.set_param, 'DS_Name_for_ITN', my_hfca),
+                                     ModFn(DTKConfigBuilder.set_param, 'LGA_for_ITN', my_hfca),
                                      ]
                                     for my_hfca in sweepspace.keys()
                                     for x in range(num_seeds)
@@ -102,7 +109,6 @@ if __name__ == "__main__":
         'exp_builder': builder
     }
 
-    SetupParser.default_block = 'HPC'
     SetupParser.init()
     exp_manager = ExperimentManagerFactory.init()
     exp_manager.run_simulations(**run_sim_args)

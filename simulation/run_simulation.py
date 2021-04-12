@@ -4,8 +4,8 @@ from simtools.SetupParser import SetupParser
 from simtools.ModBuilder import ModBuilder, ModFn
 from malaria.reports.MalariaReport import add_filtered_report, add_summary_report, add_event_counter_report
 from load_paths import load_box_paths
-from simulation_setup_helpers import update_basic_params, set_up_hfca, hs_by_accessIP, add_hfca_hs
-from simulation_setup_helpers import load_master_csv, habitat_scales
+from set_up_simulation_config import update_basic_params, set_up_hfca, hs_by_accessIP, add_hfca_hs
+from set_up_simulation_config import load_master_csv, habitat_scales
 from dtk.interventions.property_change import change_individual_property_at_age
 from malaria.interventions.malaria_drug_campaigns import add_drug_campaign
 import os
@@ -55,7 +55,7 @@ if __name__ == "__main__":
     # hs_by_accessIP(cb, start=max([0, 365*(years-5)]), duration=-1, free_care=False)
     # hs_by_accessIP(cb, start=6 * 365, free_care=True)
 
-    hs_df = pd.read_csv(os.path.join(projectpath, 'simulation_inputs',
+    hs_df = pd.read_csv(os.path.join(projectpath, 'simulation_inputs', 'projection_csvs', 'archetype_files',
                                       'arch_med_10.csv'))
     for nmf_years in range(years-5,years):
         add_drug_campaign(cb, 'MSAT', 'AL',

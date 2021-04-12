@@ -11,7 +11,7 @@ def load_box_paths(user_path=None, parser_default='HPC'):
     if parser_default == 'HPC':
         home_path = os.path.join(user_path, 'Box', 'NU-malaria-team')
         data_path = os.path.join(home_path, 'data')
-        project_path = os.path.join(home_path, 'projects', 'hbhi_guinea')
+        project_path = os.path.join(home_path, 'projects', 'hbhi_nigeria')
     else:
         project_path = '/projects/b1139/malaria-gn-hbhi_IO/'
         data_path = os.path.join(project_path, 'data')

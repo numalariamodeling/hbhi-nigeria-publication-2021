@@ -34,6 +34,15 @@ def set_up_hfca(cb, hfca, archetype_hfca=None,
 
     set_habitats(cb, hfca, hdf, lhdf, archetype_hfca, abs(hab_multiplier))
 
+# run_LGA file names
+#
+# get rid of ITN killing NG churcher
+# make an input folder, add ITN files, SMC filenames, ANC files
+# Bring iPTP files
+# iPTi Adjustment scripts? Make sure they run
+# iPti scaling scripts -- run these sets of scripts
+
+
     if pull_from_serialization:
         if parser_default == 'HPC':
             from simtools.Utilities.COMPSUtilities import COMPS_login
@@ -74,7 +83,7 @@ def set_up_hfca(cb, hfca, archetype_hfca=None,
 
     return {'LGA' : hfca,
             'archetype' : archetype_hfca}
-
+# 7
 
 def set_habitats(cb, hfca, hdf, lhdf, archetype_hfca, hab_multiplier) :
 
@@ -105,6 +114,7 @@ def set_habitats(cb, hfca, hdf, lhdf, archetype_hfca, hab_multiplier) :
         set_larval_habitat(cb, { sp : {'LINEAR_SPLINE' : hab,
                                        'CONSTANT' : pow(10, const)*s*const_mult}})
 
+# 12
 
 def load_spline_and_scale_factors(lhdf, archetype_hfca) :
 
@@ -112,9 +122,12 @@ def load_spline_and_scale_factors(lhdf, archetype_hfca) :
     my_spline = [lhdf.at[archetype_hfca, 'Month%d' % x] for x in range(1, 13)]
     maxvalue = lhdf.at[archetype_hfca, 'MaxHab']
     const = lhdf.at[archetype_hfca, 'Constant']
+
+    # not in Guinea?
     pop_scale = lhdf.at[archetype_hfca, 'pop_scale']
 
     return my_spline, maxvalue, const, pop_scale
+
 
 
 def load_master_csv() :
@@ -125,7 +138,7 @@ def load_master_csv() :
     df = df.set_index('LGA')
     return df
 
-
+# not in Guinea
 def load_pop_scale_factor(lhdf, archetype_hfca) :
 
     df = load_master_csv()
@@ -141,7 +154,7 @@ def set_input_files(cb, hfca, archetype_hfca) :
     cb.update_params( {
         'LGA' : hfca,
         'Archeype' : archetype_hfca,
-        'Demographics_Filenames' : [os.path.join(hfca, '%s_demographics_accessIP_wSMC_risk.json' % hfca)],
+        'Demographics_Filenames' : [os.path.join(archetype_hfca, '%s_demographics_accessIP_wSMC_risk.json' % archetype_hfca)],
         "Air_Temperature_Filename": os.path.join(archetype_hfca, '%s_air_temperature_daily_2016.bin' % archetype_hfca),
         "Land_Temperature_Filename": os.path.join(archetype_hfca, '%s_air_temperature_daily_2016.bin' % archetype_hfca),
         "Rainfall_Filename": os.path.join(archetype_hfca, '%s_rainfall_daily_2016.bin' % archetype_hfca),

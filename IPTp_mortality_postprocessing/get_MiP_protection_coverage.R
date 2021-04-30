@@ -1,0 +1,379 @@
+# get_MiP_protection_coverage.R
+
+# functions to calculate what coverage should be assumed for IPTp and LLINs distributed during pregnancy.
+#   This information is used during simulation post-processing to adjust simulation output for the impact of MiP, IPTp, LLINp, and mortality
+
+
+
+get_IPTp_coverages = function(iptp_estimates_filename, iptp_dose_number_filename, future_projection_flag, first_year, last_year, coverage_string, iptp_estimates_ci_l_filename=NA, iptp_estimates_ci_u_filename=NA, iptp_project_trajectory_filename=NA){
+  #'  set IPTp coverage (and number of doses) through time for a particular scenario. Uses information on whether simulation 
+  #'     is a past scenario or future projection as well as the character string describing the IPTp scenario.
+  #'  
+  #' @param iptp_estimates_filename filepath for estimates of IPTp coverage (>=1 dose) in each DS in past years
+  #' @param iptp_dose_number_filename filepath for estimates of number of doses taken by people who receive IPTp
+  #' @param future_projection_flag boolean indicating whether the simulation is a future projection
+  #' @param first_year first year of simulation
+  #' @param last_year final year of simulation
+  #' @param coverage_string character string indicating which of several possible IPTp coverage scenarios should be applied
+  #' @param iptp_estimates_ci_l_filename filename for lower bound estimates of IPTp coverage (>=1 dose) in each DS in past years (only used when coverage_string == 'estimateWorseCoverage')
+  #' @param iptp_estimates_ci_u_filename filename for upper bound estimates of IPTp coverage (>=1 dose) in each DS in past years (only used when coverage_string == 'estimateBetterCoverage')
+  #' 
+  #' return list with:
+  #'   1) IPTp coverage (>=1 doses) through time in each DS and 
+  #'   2) fraction of individuals with 1,2, or 3 doses among individuals who receive IPTp in each year
+  #'   3) names of DS/LGAs
+
+  # read in estimated IPTp coverage
+  iptp_coverage_df = read.csv(iptp_estimates_filename, as.is=TRUE)[,-1]
+  ds_names = iptp_coverage_df$DS
+  # replace slashes with dashes in DS names from ds_names and from iptp_coverage_df to match simulation output
+  ds_names = gsub('/', '-', ds_names)
+  iptp_coverage_df$DS = gsub('/', '-', iptp_coverage_df$DS)
+  # check that all of the DS names from the IPTp file match with the simulation output
+  # for(i_ds in 1:length(ds_names)){
+  #   if(length(grep(toupper(ds_names[i_ds]), toupper(sim_output_all_runs$DS_Name))) == 0){
+  #     warning(print(paste('DS name not matched:', ds_names[i_ds])))
+  #   }
+  # }
+  
+  # read in the number of IPTp doses taken by people who receive IPTp
+  iptp_dose_number = read.csv(iptp_dose_number_filename, row.names=1)
+
+  ## - - - - - - - - - - - - - - - - - - - - ##
+  # simulations of historical transmission
+  ## - - - - - - - - - - - - - - - - - - - - ##
+  if (!future_projection_flag){
+    if(coverage_string == 'noCoverage'){
+      project_coverage = rep(0, length(iptp_coverage_df[,dim(iptp_coverage_df)[2]]))
+      project_dose_number = iptp_dose_number[,dim(iptp_dose_number)[2]]
+      
+      iptp_coverage_df = data.frame('DS' = ds_names)
+      iptp_dose_number = data.frame('doses' = c(1,2,3))
+      for(yy in first_year:last_year){
+        # update iptp coverage (>=1 dose)
+        new_coverage_df = data.frame(project_coverage)
+        colnames(new_coverage_df) = yy
+        iptp_coverage_df = cbind(iptp_coverage_df, new_coverage_df)
+        
+        # update iptp doses (of covered individuals, how many doses received?)
+        new_dose_df = data.frame(project_dose_number)
+        colnames(new_dose_df) = yy
+        iptp_dose_number = cbind(iptp_dose_number, new_dose_df)
+      }
+      # remove first column
+      iptp_dose_number = iptp_dose_number[,-1]
+      
+    } else if(coverage_string == 'estimateWorseCoverage'){
+      # read in estimated IPTp coverage
+      iptp_coverage_df = read.csv(iptp_estimates_ci_l_filename, as.is=TRUE)[,-1]
+      iptp_coverage_df$DS = gsub('/', '-', iptp_coverage_df$DS)
+      iptp_relative_risk = iptp_relative_risk_estimateWorseProtection
+      
+    } else if(coverage_string == 'estimateBetterCoverage'){
+      # read in estimated IPTp coverage
+      iptp_coverage_df = read.csv(iptp_estimates_ci_u_filename, as.is=TRUE)[,-1]
+      iptp_coverage_df$DS = gsub('/', '-', iptp_coverage_df$DS)
+      iptp_relative_risk = iptp_relative_risk_estimateBetterProtection
+      
+    } else if(coverage_string != 'curCoverage') warning('coverage string not recognized for historical simulations... assuming estimated true coverage')
+      
+  ## - - - - - - - - - - - - - - - - - - - - ##
+  # simulations of future transmission
+  ## - - - - - - - - - - - - - - - - - - - - ##
+  } else{
+    constant_future_values = TRUE
+    # replace entries with projection scenario
+    if(coverage_string =='curCoverage'){
+      # use coverage from latest year for projections
+      project_coverage = iptp_coverage_df[,dim(iptp_coverage_df)[2]]
+      project_dose_number = iptp_dose_number[,dim(iptp_dose_number)[2]]
+    } else if(coverage_string =='increase_by10'){
+      # increase probability of getting at least one IPTp does by 10%, up to a maximum 80%
+      project_coverage = sapply(iptp_coverage_df[,dim(iptp_coverage_df)[2]] * 1.1, min, 0.8)
+      project_coverage[iptp_coverage_df[,dim(iptp_coverage_df)[2]]>0.8] = iptp_coverage_df[which(iptp_coverage_df[,dim(iptp_coverage_df)[2]]>0.8), dim(iptp_coverage_df)[2]]
+      # also increase probability of getting 3 IPTp doses (given >=1 dose) by 10% and split remaining probability evenly between 1 and 2 doses
+      new_three_dose_fraction = min(1,iptp_dose_number[3,dim(iptp_dose_number)[2]] * 1.1)
+      project_dose_number = c((1-new_three_dose_fraction)/2, (1-new_three_dose_fraction)/2, new_three_dose_fraction)
+    }  else if(coverage_string =='increase_by20'){
+      # increase probability of getting at least one IPTp does by 20%, up to a maximum 80%
+      project_coverage =  sapply(iptp_coverage_df[,dim(iptp_coverage_df)[2]] * 1.2, min, 0.8)
+      project_coverage[iptp_coverage_df[,dim(iptp_coverage_df)[2]]>0.8] = iptp_coverage_df[which(iptp_coverage_df[,dim(iptp_coverage_df)[2]]>0.8), dim(iptp_coverage_df)[2]]
+      # also increase probability of getting 3 IPTp doses (given >=1 dose) by 20% and split remaining probability evenly between 1 and 2 doses
+      new_three_dose_fraction = min(1,iptp_dose_number[3,dim(iptp_dose_number)[2]] * 1.2)
+      project_dose_number = c((1-new_three_dose_fraction)/2, (1-new_three_dose_fraction)/2, new_three_dose_fraction)
+    }  else if(coverage_string =='increase_by30'){
+      # increase probability of getting at least one IPTp does by 30%, up to a maximum 80%
+      project_coverage =  sapply(iptp_coverage_df[,dim(iptp_coverage_df)[2]] * 1.3, min, 0.8)
+      project_coverage[iptp_coverage_df[,dim(iptp_coverage_df)[2]]>0.8] = iptp_coverage_df[which(iptp_coverage_df[,dim(iptp_coverage_df)[2]]>0.8), dim(iptp_coverage_df)[2]]
+      # also increase probability of getting 3 IPTp doses (given >=1 dose) by 30% and split remaining probability evenly between 1 and 2 doses
+      new_three_dose_fraction = min(1,iptp_dose_number[3,dim(iptp_dose_number)[2]] * 1.3)
+      project_dose_number = c((1-new_three_dose_fraction)/2, (1-new_three_dose_fraction)/2, new_three_dose_fraction)
+    } else if(coverage_string =='increase_10'){
+      # increase probability of getting at least one IPTp 10%, up to a maximum 80%
+      project_coverage = sapply(iptp_coverage_df[,dim(iptp_coverage_df)[2]] + 0.1, min, 0.8)
+      project_coverage[iptp_coverage_df[,dim(iptp_coverage_df)[2]]>0.8] = iptp_coverage_df[which(iptp_coverage_df[,dim(iptp_coverage_df)[2]]>0.8), dim(iptp_coverage_df)[2]]
+      # also increase probability of getting 3 IPTp doses (given >=1 dose)  10% and split remaining probability evenly between 1 and 2 doses
+      new_three_dose_fraction = min(1,iptp_dose_number[3,dim(iptp_dose_number)[2]] + 0.1)
+      project_dose_number = c((1-new_three_dose_fraction)/2, (1-new_three_dose_fraction)/2, new_three_dose_fraction)
+    }  else if(coverage_string =='increase_20'){
+      # increase probability of getting at least one IPTp 20%, up to a maximum 80%
+      project_coverage =  sapply(iptp_coverage_df[,dim(iptp_coverage_df)[2]] + 0.2, min, 0.8)
+      project_coverage[iptp_coverage_df[,dim(iptp_coverage_df)[2]]>0.8] = iptp_coverage_df[which(iptp_coverage_df[,dim(iptp_coverage_df)[2]]>0.8), dim(iptp_coverage_df)[2]]
+      # also increase probability of getting 3 IPTp doses (given >=1 dose) 20% and split remaining probability evenly between 1 and 2 doses
+      new_three_dose_fraction = min(1,iptp_dose_number[3,dim(iptp_dose_number)[2]] + 0.2)
+      project_dose_number = c((1-new_three_dose_fraction)/2, (1-new_three_dose_fraction)/2, new_three_dose_fraction)
+    }  else if(coverage_string =='increase_30'){
+      # increase probability of getting at least one IPTp 30%, up to a maximum 80%
+      project_coverage =  sapply(iptp_coverage_df[,dim(iptp_coverage_df)[2]]+ 0.3, min, 0.8)
+      project_coverage[iptp_coverage_df[,dim(iptp_coverage_df)[2]]>0.8] = iptp_coverage_df[which(iptp_coverage_df[,dim(iptp_coverage_df)[2]]>0.8), dim(iptp_coverage_df)[2]]
+      # also increase probability of getting 3 IPTp doses (given >=1 dose) 30% and split remaining probability evenly between 1 and 2 doses
+      new_three_dose_fraction = min(1,iptp_dose_number[3,dim(iptp_dose_number)[2]] + 0.3)
+      project_dose_number = c((1-new_three_dose_fraction)/2, (1-new_three_dose_fraction)/2, new_three_dose_fraction)
+    } else if(coverage_string =='betterCoverage'){
+      # specify coverage to use for projections
+      project_coverage = rep(0.95, length(ds_names))
+      project_dose_number = c(0.1, 0.2, 0.7)
+    } else if(coverage_string =='betterCoverage2'){
+      # specify coverage to use for projections
+      if(country_name == 'Burkina'){
+        # since coverage with >=1 IPTp is already higher than 80% in all Burkina DS (the average fraction of people with >=1 IPTp across DS is 0.9), 
+        #   for this scenario assume everyone gets >=1 IPTp, and increase the fraction of people with higher number of doses from (0.12, 0.27, 0.6) 
+        #   to (0.08, 0.18, 0.74). Overall, the fraction of people with >=3 IPTp increases from 0.9*0.6 = 0.54 to 1*0.74, so by 20%, in line with 
+        #   that scenario.
+        project_coverage = rep(1, length(ds_names))
+        project_dose_number = c(0.08, 0.18, 0.74)
+      } else if(country_name == 'Nigeria'){
+        # coverage with >=1 IPTp is not as high in Nigeria as was reported for Burkina (the average fraction of people with >=1 IPTp across DS is 0.64).
+        #   If we increase the fraction of people who get IPTp by 20%, and increase the fraction of IPTp-treated people who get three doses to 
+        #   (0.64*d3+0.2)/(0.64+0.2)=0.44 , then the fraction of individuals with >=3 doses increases 20% (d3 represents the original fraction of 
+        #   individuals with >=3 doses).This won't work exactly perfectly, because the coverage isn't equal in all DS, so some DS may have a larger 
+        #   or smaller increase in the fraction of individuals with >=3 doses, but overall, I think it should be close to the requested scenario. 
+        #   Also, when adding 20% to the >=1 IPTp coverage in each DS, some DS will truncate at 100% coverage, and that will bring the intervention 
+        #   mean down a bit. 
+        project_coverage = iptp_coverage_df[,dim(iptp_coverage_df)[2]] + 0.2
+        project_coverage[project_coverage>1] = 1
+        new_three_dose_fraction = (mean(iptp_coverage_df[,dim(iptp_coverage_df)[2]])*iptp_dose_number[3,dim(iptp_dose_number)[2]] + 0.2)/(0.2+mean(iptp_coverage_df[,dim(iptp_coverage_df)[2]]))
+        project_dose_number = c((1-new_three_dose_fraction)/2, (1-new_three_dose_fraction)/2, new_three_dose_fraction)
+        # # old fraction of individuals getting >=3 IPTp doses (mean across DS):  # 0.1716
+        # mean(iptp_coverage_df[,dim(iptp_coverage_df)[2]]*iptp_dose_number[3,dim(iptp_dose_number)[2]])
+        # # new fraction of individuals getting >=3 IPTp doses (mean across DS):  # 0.3667  <- around 0.2 greater than the original coverage, so looks good!
+        # mean(project_coverage * project_dose_number[3])
+      }
+    } else if(coverage_string =='betterCoverage3'){
+      # specify coverage to use for projections
+      project_coverage = rep(1, length(ds_names))
+      project_dose_number = c(0.05, 0.15, 0.8)
+    # } else if(coverage_string == 'chwCoverage'){
+    #   # for DS without CHW communication, use coverage from latest year for projections
+    #   project_coverage = iptp_coverage_df[,dim(iptp_coverage_df)[2]]
+    #   project_dose_number = iptp_dose_number[,dim(iptp_dose_number)[2]]
+    #   # for DS with communication, move frac_chw_reached from the 0 IPTp dose group into the >=1 IPTp group
+    #   frac_chw_reached = 0.5
+    #   # read in the csv file that tells which DS will be targeted
+    #   CHW_communication_df = read.csv(projection_CHW_communication_filename, as.is=TRUE)
+    #   # several DS have slightly different spellings... alter these now
+    #   CHW_communication_df$adm2[CHW_communication_df$adm2=='BITOU'] = 'BITTOU'
+    #   CHW_communication_df$adm2[CHW_communication_df$adm2=='GOROM'] = 'GOROM-GOROM'
+    #   CHW_communication_df$adm2[CHW_communication_df$adm2=='NDOROLA'] = "N'DOROLA"
+    #   CHW_communication_df$adm2[CHW_communication_df$adm2=='NONGR-MASSOM'] = 'NONGR-MASSOUM'
+    #   CHW_communication_df$adm2[CHW_communication_df$adm2=='SIG-NOGHIN'] = 'SIG-NONGHIN'
+    #   CHW_communication_df$adm2[CHW_communication_df$adm2=='MANNI'] = 'MANI'
+    #   CHW_communication_df$adm2[CHW_communication_df$adm2=='FADA'] = "FADA N'GOURMA"
+    #   CHW_communication_df$adm2[CHW_communication_df$adm2=='KARANGASSO VIGUE'] = 'KARANGASSO - VIGUE'
+    #   # iterate through the DS, matching the ds_names value with the row from CHW_communication_df and increasing coverage if appropriate
+    #   for(i_ds in 1:length(ds_names)){
+    #     # find the row in CHW_communication_df
+    #     cur_row = which(toupper(CHW_communication_df$adm2) == toupper(ds_names[i_ds]))
+    #     if(length(cur_row) == 1){
+    #       # check whether this DS gets enhanced CHW communication
+    #       if(iconv(CHW_communication_df$com1[cur_row],to="ASCII//TRANSLIT") == 'Mis en A\"uvre'){
+    #         project_coverage[i_ds] = project_coverage[i_ds] + (1-project_coverage[i_ds])*frac_chw_reached
+    #       }
+    #     } else warning(print(paste('ds name not macthed in chw communication df:', ds_names[i_ds])))
+    #   }
+    } else if(coverage_string =='coverage75'){
+      # use coverage from latest year for projections, with fraction of individuals getting >=1 dose decreased to 75% of original
+      project_coverage = iptp_coverage_df[,dim(iptp_coverage_df)[2]] * 0.75
+      project_dose_number = iptp_dose_number[,dim(iptp_dose_number)[2]]
+    } else if(coverage_string =='coverage50'){
+      # use coverage from latest year for projections, with fraction of individuals getting >=1 dose decreased to 50% of original
+      project_coverage = iptp_coverage_df[,dim(iptp_coverage_df)[2]] * 0.5
+      project_dose_number = iptp_dose_number[,dim(iptp_dose_number)[2]]
+    } else if(coverage_string =='coverage25'){
+      # use coverage from latest year for projections, with fraction of individuals getting >=1 dose decreased to 25% of original
+      project_coverage = iptp_coverage_df[,dim(iptp_coverage_df)[2]] * 0.25
+      project_dose_number = iptp_dose_number[,dim(iptp_dose_number)[2]]
+    } else if(coverage_string =='noCoverage'){
+      # use coverage from latest year for projections, with fraction of individuals getting >=1 dose decreased to 0% of original
+      project_coverage = iptp_coverage_df[,dim(iptp_coverage_df)[2]] * 0
+      project_dose_number = iptp_dose_number[,dim(iptp_dose_number)[2]]
+    } else if (coverage_string == 'increase_to80'){
+      # increase from current values to 80% coverage over 3 years
+      constant_future_values = FALSE
+      
+      # values from past year
+      project_coverage_past = iptp_coverage_df[,dim(iptp_coverage_df)[2]]
+      project_dose_number_past = iptp_dose_number[,dim(iptp_dose_number)[2]]
+      
+      # increase so that on thrid year, there is 80% coverage with >=1 dose and 80% of people  with >=1 dose get 3 doses
+      iptp_coverage_df = data.frame('DS' = ds_names)
+      iptp_dose_number = data.frame('doses' = c(1,2,3))
+      for(ii in 1:min(3,(last_year-first_year+1))){
+        yy = (first_year:last_year)[ii]
+        # update iptp coverage (>=1 dose)
+        new_coverage_df = data.frame(project_coverage_past + ii/3 * sapply((0.8-project_coverage_past), max, 0))
+        colnames(new_coverage_df) = yy
+        iptp_coverage_df = cbind(iptp_coverage_df, new_coverage_df)
+        
+        # update iptp doses (of covered individuals, how many doses received?)
+        three_dose_values = project_dose_number_past[3] + ii/3 * max((0.8 - project_dose_number_past[3]),0)
+        new_dose_df = data.frame(c((1-three_dose_values)/2, (1-three_dose_values)/2, three_dose_values))
+        colnames(new_dose_df) = yy
+        iptp_dose_number = cbind(iptp_dose_number, new_dose_df)
+      }
+      if((last_year - first_year)>3){
+        for(yy in (first_year+3):last_year){
+          # remaining years are at the maximum coverage
+          # update iptp coverage (>=1 dose)
+          new_coverage_df = data.frame(sapply(project_coverage_past, max, 0.8))
+          colnames(new_coverage_df) = yy
+          iptp_coverage_df = cbind(iptp_coverage_df, new_coverage_df)
+          
+          # update iptp doses (of covered individuals, how many doses received?)
+          three_dose_values = max(0.8, project_dose_number_past[3])
+          new_dose_df = data.frame(c((1-three_dose_values)/2, (1-three_dose_values)/2, three_dose_values))
+          colnames(new_dose_df) = yy
+          iptp_dose_number = cbind(iptp_dose_number, new_dose_df)
+        }
+      }
+      # remove first column
+      iptp_dose_number = iptp_dose_number[,-1]
+    } else if(coverage_string == 'trajectoryCoverage'){
+      constant_future_values = FALSE
+      
+      iptp_projection_coverage_df = read.csv(iptp_project_trajectory_filename, as.is=TRUE)#[,-1]
+      iptp_projection_coverage_df$DS = gsub('/', '-', iptp_projection_coverage_df$DS)
+      
+      included_columns = sapply(c('DS', first_year:last_year), grep, colnames(iptp_projection_coverage_df))
+      iptp_coverage_df = iptp_projection_coverage_df[, included_columns]
+      colnames(iptp_coverage_df) = gsub('X', '', colnames(iptp_coverage_df))
+      
+      # keep same dose number distribution as final year
+      project_dose_number = iptp_dose_number[,dim(iptp_dose_number)[2]]
+      iptp_dose_number = data.frame('doses' = c(1,2,3))
+      for(yy in first_year:last_year){
+        # update iptp doses (of covered individuals, how many doses received?)
+        new_dose_df = data.frame(project_dose_number)
+        colnames(new_dose_df) = yy
+        iptp_dose_number = cbind(iptp_dose_number, new_dose_df)
+      }
+      # remove first column
+      iptp_dose_number = iptp_dose_number[,-1]
+      
+    } else if(coverage_string == 'trajectoryCoverage_down25'){
+      constant_future_values = FALSE
+      
+      iptp_projection_coverage_df = read.csv(iptp_project_trajectory_filename, as.is=TRUE)[,-1]
+      iptp_projection_coverage_df$DS = gsub('/', '-', iptp_projection_coverage_df$DS)
+      
+      included_columns = sapply(c('DS', first_year:last_year), grep, colnames(iptp_projection_coverage_df))
+      iptp_coverage_df = iptp_projection_coverage_df[, included_columns]
+      iptp_coverage_df[2:dim(iptp_coverage_df)[2]] = iptp_coverage_df[2:dim(iptp_coverage_df)[2]] * 0.75
+      colnames(iptp_coverage_df) = gsub('X', '', colnames(iptp_coverage_df))
+      
+      # keep same dose number distribution as final year
+      project_dose_number = iptp_dose_number[,dim(iptp_dose_number)[2]]
+      iptp_dose_number = data.frame('doses' = c(1,2,3))
+      for(yy in first_year:last_year){
+        # update iptp doses (of covered individuals, how many doses received?)
+        new_dose_df = data.frame(project_dose_number)
+        colnames(new_dose_df) = yy
+        iptp_dose_number = cbind(iptp_dose_number, new_dose_df)
+      }
+      # remove first column
+      iptp_dose_number = iptp_dose_number[,-1]
+      
+    } else if(coverage_string == 'trajectoryCoverage_down50'){
+      constant_future_values = FALSE
+      
+      iptp_projection_coverage_df = read.csv(iptp_project_trajectory_filename, as.is=TRUE)[,-1]
+      iptp_projection_coverage_df$DS = gsub('/', '-', iptp_projection_coverage_df$DS)
+      
+      included_columns = sapply(c('DS', first_year:last_year), grep, colnames(iptp_projection_coverage_df))
+      iptp_coverage_df = iptp_projection_coverage_df[, included_columns]
+      iptp_coverage_df[2:dim(iptp_coverage_df)[2]] = iptp_coverage_df[2:dim(iptp_coverage_df)[2]] * 0.5
+      colnames(iptp_coverage_df) = gsub('X', '', colnames(iptp_coverage_df))
+      
+      # keep same dose number distribution as final year
+      project_dose_number = iptp_dose_number[,dim(iptp_dose_number)[2]]
+      iptp_dose_number = data.frame('doses' = c(1,2,3))
+      for(yy in first_year:last_year){
+        # update iptp doses (of covered individuals, how many doses received?)
+        new_dose_df = data.frame(project_dose_number)
+        colnames(new_dose_df) = yy
+        iptp_dose_number = cbind(iptp_dose_number, new_dose_df)
+      }
+      # remove first column
+      iptp_dose_number = iptp_dose_number[,-1]
+      
+    } else if(coverage_string == 'trajectoryCoverage_down75'){
+      constant_future_values = FALSE
+      
+      iptp_projection_coverage_df = read.csv(iptp_project_trajectory_filename, as.is=TRUE)[,-1]
+      iptp_projection_coverage_df$DS = gsub('/', '-', iptp_projection_coverage_df$DS)
+      
+      included_columns = sapply(c('DS', first_year:last_year), grep, colnames(iptp_projection_coverage_df))
+      iptp_coverage_df = iptp_projection_coverage_df[, included_columns]
+      iptp_coverage_df[2:dim(iptp_coverage_df)[2]] = iptp_coverage_df[2:dim(iptp_coverage_df)[2]] * 0.25
+      colnames(iptp_coverage_df) = gsub('X', '', colnames(iptp_coverage_df))
+      
+      # keep same dose number distribution as final year
+      project_dose_number = iptp_dose_number[,dim(iptp_dose_number)[2]]
+      iptp_dose_number = data.frame('doses' = c(1,2,3))
+      for(yy in first_year:last_year){
+        # update iptp doses (of covered individuals, how many doses received?)
+        new_dose_df = data.frame(project_dose_number)
+        colnames(new_dose_df) = yy
+        iptp_dose_number = cbind(iptp_dose_number, new_dose_df)
+      }
+      # remove first column
+      iptp_dose_number = iptp_dose_number[,-1]
+      
+    } else warning(print('coverage string not recognized'))
+    
+    if (constant_future_values){
+      iptp_coverage_df = data.frame('DS' = ds_names)
+      iptp_dose_number = data.frame('doses' = c(1,2,3))
+      for(yy in first_year:last_year){
+        # update iptp coverage (>=1 dose)
+        new_coverage_df = data.frame(project_coverage)
+        colnames(new_coverage_df) = yy
+        iptp_coverage_df = cbind(iptp_coverage_df, new_coverage_df)
+        
+        # update iptp doses (of covered individuals, how many doses received?)
+        new_dose_df = data.frame(project_dose_number)
+        colnames(new_dose_df) = yy
+        iptp_dose_number = cbind(iptp_dose_number, new_dose_df)
+      }
+      # remove first column
+      iptp_dose_number = iptp_dose_number[,-1]
+    }
+  }
+  return(list(iptp_coverage_df, iptp_dose_number, ds_names))
+}
+
+
+
+get_LLINp_coverages = function(LLINp_filename, ds_names){
+  #TODO: finish! this is a placeholder for a function that will return the probability a pregnant individual receives an LLIN through LLIN-in-pregnancy distribution, ordered the same as ds_names
+  LLINp_each_ds = read.csv(LLINp_filename, as.is=TRUE)
+  
+  ds_names
+  
+  return(LLINp_coverage)
+}
+
+
+
+
+

@@ -5,7 +5,7 @@ from simtools.ModBuilder import ModBuilder, ModFn
 from malaria.reports.MalariaReport import add_filtered_report, add_summary_report
 from malaria.reports.MalariaReport import add_event_counter_report
 import sys
-sys.path.append('../../../')
+sys.path.append('../../')
 from simulation.set_up_simulation_config import update_basic_params, set_up_hfca, add_hfca_hs, load_master_csv, habitat_scales
 from malaria.interventions.malaria_drug_campaigns import add_drug_campaign
 import os
@@ -14,7 +14,7 @@ import numpy as np
 from simulation.load_paths import load_box_paths
 
 
-SetupParser.default_block = 'HPC'
+SetupParser.default_block = 'NUCLUSTER'
 
 datapath, projectpath = load_box_paths(parser_default=SetupParser.default_block)
 

@@ -3,13 +3,13 @@ from simtools.ExperimentManager.ExperimentManagerFactory import ExperimentManage
 from simtools.SetupParser import SetupParser
 from simtools.ModBuilder import ModBuilder, ModFn
 from malaria.reports.MalariaReport import add_filtered_report, add_summary_report
-from simulation.load_paths import load_box_paths
-from simulation.set_up_simulation_config import update_basic_params, set_up_hfca, load_master_csv, habitat_scales, add_all_interventions, update_drug_config
+from load_paths import load_box_paths
+from set_up_simulation_config import update_basic_params, set_up_hfca, load_master_csv, habitat_scales, add_all_interventions, update_drug_config
 import os
 from malaria.interventions.malaria_drug_campaigns import add_drug_campaign
 import pandas as pd
 
-SetupParser.default_block = 'HPC'
+SetupParser.default_block = 'NUCLUSTER'
 
 datapath, projectpath = load_box_paths(parser_default=SetupParser.default_block)
 
@@ -18,7 +18,7 @@ num_seeds = 1
 years = 10
 ser_date = 50*365
 serialize = True
-pull_from_serialization = True
+pull_from_serialization = False
 burnin_id = '81e3e51a-c393-eb11-a2ce-c4346bcb1550' #use sweep id from sweep_seasonal_archetypes ( why we don't use the sweep pfpr with ITN: the sweep 2010 with ITN picks up from the seasonal sweep burnin (at year 2010) and doesn’t save its own burnin. so when we run to present,  we also pickup from the seasonal sweep burnin at year 2010, we just select only one habitat multiplier to pick up, rather than trying all of them like the sweep with ITN does.)
 sulf_C50 = 0.2
 

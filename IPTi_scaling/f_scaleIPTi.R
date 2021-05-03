@@ -1,9 +1,7 @@
 ### ============================================================
-# IPTi scaling function
-# August 2020, MR
-#
+### HBHI modelling - NGA: Estimating IPTi impact
+### IPTi scaling function
 ## ============================================================
-
 
 f_scaleForIPTi <- function(xU1, cov, PE) {
   #'  scale for IPTi using coverage and protective efficacy estimates - applied on a simple list of vector for one outcome
@@ -17,9 +15,7 @@ f_scaleForIPTi <- function(xU1, cov, PE) {
 }
 
 
-### Function applied for dataset calling the other smaller functions
-### Function applied for dataset calling the other smaller functions
-d_scaleForIPTi <- function(df, outcomeVars, covVar, PEs, outcomeIdentifier,  measures = "effectsize") {
+d_scaleForIPTi <- function(df, outcomeVars, covVar, PEs, outcomeIdentifier, measures = "effectsize") {
   #'  scale for IPTi using coverage and protective efficacy estimates applied on a dataframe and multiple outcomes
   #' @param df dataframe with predictions in long format (outcome.agegroup as variables per setting and scenario)
   #' @param outcomeVars names of the variable that contains the values to be scaled, should be absolute numbers and not rates or proportions (i.e. "pos")
@@ -33,13 +29,13 @@ d_scaleForIPTi <- function(df, outcomeVars, covVar, PEs, outcomeIdentifier,  mea
 
   dat_list <- list()
   for (measure in measures) {
-    # measure <- measures[1]
     temp_dat <- as.data.frame(df)
     temp_dat$measure <- measure
 
     for (outcomeVar in outcomeVars) {
       PE <- as.numeric(PEs[rownames(PEs) == outcomeIdentifier[outcomeVar], measure])
       temp_dat[, paste0(outcomeVar, "_scl")] <- f_scaleForIPTi(xU1 = temp_dat[, outcomeVar], cov = temp_dat[, "covVar_adj"], PE = PE)
+      rm(PE)
     }
 
     dat_list[[measure]] <- temp_dat
@@ -49,7 +45,6 @@ d_scaleForIPTi <- function(df, outcomeVars, covVar, PEs, outcomeIdentifier,  mea
   dat.scl <- dat_list %>%
     bind_rows() %>%
     as.data.frame()
-  # table(dat.scl$measure)
 
   return(dat.scl)
 }

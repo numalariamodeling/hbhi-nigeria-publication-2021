@@ -45,6 +45,6 @@ source(file.path(wdir, "IPTieffectiveness.R"))
 
 ### Combine scaling factor csvs for all scenarios
 print("Running combineIPTi_files.R")
-f_combineAndSave(exp_names, Uage = "U1", fnameOUT = "IPTi_adjustment.U1.csv")
-f_combineAndSave(exp_names, Uage = "U5", fnameOUT = "IPTi_adjustment.csv")
-f_combineAndSave(exp_names, Uage = "Uall", fnameOUT = "IPTi_adjustment.Uall.csv")
+f_combineAndSave(exp_names, Uage = "U1", fnameOUT = "IPTi_adjustment_U1.csv")
+f_combineAndSave(exp_names, Uage = "U5", fnameOUT = "IPTi_adjustment_U5csv")
+f_combineAndSave(exp_names, Uage = "Uall", fnameOUT = "IPTi_adjustment_Uall.csv")

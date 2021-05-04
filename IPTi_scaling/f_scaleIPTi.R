@@ -1,5 +1,5 @@
 ### ============================================================
-### HBHI modelling - NGA: Estimating IPTi impact
+### HBHI modeling - NGA: Estimating IPTi impact
 ### IPTi scaling function
 ## ============================================================
 

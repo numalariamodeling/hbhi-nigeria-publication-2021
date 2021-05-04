@@ -1,5 +1,5 @@
 ### ==========================================================================================
-### HBHI modelling - NGA: Estimating IPTi impact
+### HBHI modeling - NGA: Estimating IPTi impact
 ### Input: Simulation output csv files, CM coverage, IPTi coverage per LGA
 ### Output: Csv files per scenario and age bin (U1, U5, Uall) with relative reductions due to IPTi per outcome
 ### (`IPTi_adjustment_U1.csv`,`IPTi_adjustment_U5.csv`,`IPTi_adjustment_Uall.csv`)

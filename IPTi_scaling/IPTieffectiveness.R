@@ -97,6 +97,12 @@ for (i in c(1:length(exp_names))) {
         deaths_scl = deaths - deaths_diff_U1,
         total_cases_scl = total_cases - total_cases_diff_U1,
         total_severe_cases_scl = total_severe_cases - total_severe_cases_diff_U1
+      ) %>%
+      dplyr::mutate(
+        pos_scl = ifelse(pos_scl < 0, 0, pos_scl),
+        deaths_scl = ifelse(deaths_scl < 0, 0, deaths_scl),
+        total_cases_scl = ifelse(total_cases_scl < 0, 0, total_cases_scl),
+        total_severe_cases_scl = ifelse(total_severe_cases_scl < 0, 0, total_severe_cases_scl)
       )
 
     Ualldat_list[[length(Ualldat_list) + 1]] <- Ualldat %>%
@@ -106,7 +112,14 @@ for (i in c(1:length(exp_names))) {
         deaths_scl = deaths - deaths_diff_U1,
         total_cases_scl = total_cases - total_cases_diff_U1,
         total_severe_cases_scl = total_severe_cases - total_severe_cases_diff_U1
+      ) %>%
+      dplyr::mutate(
+        pos_scl = ifelse(pos_scl < 0, 0, pos_scl),
+        deaths_scl = ifelse(deaths_scl < 0, 0, deaths_scl),
+        total_cases_scl = ifelse(total_cases_scl < 0, 0, total_cases_scl),
+        total_severe_cases_scl = ifelse(total_severe_cases_scl < 0, 0, total_severe_cases_scl)
       )
+
   }
 
   U5dat_scl <- U5dat_list %>% bind_rows()

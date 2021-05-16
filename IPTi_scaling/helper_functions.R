@@ -3,7 +3,7 @@
 ### Helper functions for  IPTieffectiveness.R
 ### ==========================================================================================
 
-f_loadCMdat <- function(scen, CMfilename) {
+f_loadCMdat <- function(CMfilename) {
   library(dplyr)
 
   CMdat <- fread(file.path(cm_dir, paste0(CMfilename, ".csv")))
@@ -88,7 +88,15 @@ f_load_U1_df <- function(scenarioname, maxyear) {
       Severe_cases_U1 = sum(Severe_cases_U1),
       Num_U1_Received_Severe_Treatment = sum(Num_U1_Received_Severe_Treatment, na.rm = TRUE)
     ) %>%
-    dplyr::group_by(year, LGA, Run_Number) %>%
+        dplyr::group_by(year, LGA) %>%
+    dplyr::summarize(
+      PfPR_U1 = mean(PfPR_U1),
+      Cases_U1 = mean(Cases_U1),
+      Pop_U1 = mean(Pop_U1),
+      Severe_cases_U1 = mean(Severe_cases_U1),
+      Num_U1_Received_Severe_Treatment = mean(Num_U1_Received_Severe_Treatment, na.rm = TRUE)
+    ) %>%
+    dplyr::group_by(year, LGA) %>%
     dplyr::mutate(
       pos_U1 = PfPR_U1 * Pop_U1,
       total_cases_U1 = Cases_U1 * Pop_U1 * 30 / 365,
@@ -124,7 +132,15 @@ f_load_U5_df <- function(scenarioname, maxyear) {
       Severe_cases_U5 = sum(Severe_cases_U5),
       Num_U5_Received_Severe_Treatment = sum(Num_U5_Received_Severe_Treatment, na.rm = TRUE)
     ) %>%
-    dplyr::group_by(year, LGA, Run_Number) %>%
+     dplyr::group_by(year, LGA) %>%
+    dplyr::summarize(
+      PfPR_U5 = mean(PfPR_U5),
+      Cases_U5 = mean(Cases_U5),
+      Pop_U5 = mean(Pop_U5),
+      Severe_cases_U5 = mean(Severe_cases_U5),
+      Num_U5_Received_Severe_Treatment = mean(Num_U5_Received_Severe_Treatment, na.rm = TRUE)
+    ) %>%
+    dplyr::group_by(year, LGA) %>%
     dplyr::mutate(
       pos_U5 = PfPR_U5 * Pop_U5,
       total_cases_U5 = Cases_U5 * Pop_U5 * 30 / 365,
@@ -161,7 +177,15 @@ f_load_Uall_df <- function(scenarioname, maxyear) {
       Severe_cases = sum(New_Severe_Cases),
       Received_Severe_Treatment = sum(Received_Severe_Treatment)
     ) %>%
-    dplyr::group_by(year, LGA, Run_Number) %>%
+   dplyr::group_by(year, LGA) %>%
+    dplyr::summarize(
+      PfPR = mean(PfPR),
+      Cases = mean(Cases),
+      Pop = mean(Pop),
+      Severe_cases = mean(Severe_cases),
+      Received_Severe_Treatment = mean(Received_Severe_Treatment)
+    ) %>%
+    dplyr::group_by(year, LGA) %>%
     dplyr::mutate(
       pos = PfPR * Pop,
       total_cases = Cases * Pop * 30 / 365,
@@ -174,35 +198,18 @@ f_load_Uall_df <- function(scenarioname, maxyear) {
 }
 
 
-f_getScalingTable <- function(df, aggregateRuns = TRUE) {
-  groupVars <- c("LGA", "IPTicov", "IPTicov.adj", "year", "Run_Number", "IPTyn", "measure")
-
-  if (aggregateRuns) {
-    groupVars <- groupVars[!(grepl("Run_Number", groupVars))]
-
-    df <- df %>%
-      dplyr::group_by_at(groupVars) %>%
-      dplyr::summarize(
-        pos_scl = mean(pos_scl),
-        pos = mean(pos),
-        total_cases = mean(total_cases),
-        total_cases_scl = mean(total_cases_scl),
-        total_severe_cases = mean(total_severe_cases),
-        total_severe_cases_scl = mean(total_severe_cases_scl),
-        deaths = mean(deaths),
-        deaths_scl = mean(deaths_scl)
-      )
-  }
+f_getScalingTable <- function(df) {
 
   df <- df %>%
-    as.data.frame() %>%
-    dplyr::group_by_at(groupVars) %>%
     dplyr::mutate(
       IPTiscl.pos = ifelse(pos != 0, pos_scl / pos, 1),
       IPTiscl.cases = ifelse(total_cases != 0, total_cases_scl / total_cases, 1),
       IPTiscl.Severe.cases = ifelse(total_severe_cases != 0, total_severe_cases_scl / total_severe_cases, 1),
       IPTiscl.deaths = ifelse(deaths != 0, deaths_scl / deaths, 1)
     ) %>%
+    dplyr::select(LGA ,IPTicov ,IPTicov.adj ,year ,IPTyn ,measure ,pos_scl ,pos ,
+                  total_cases ,total_cases_scl ,total_severe_cases ,total_severe_cases_scl ,deaths ,deaths_scl ,
+                  IPTiscl.pos ,IPTiscl.cases ,IPTiscl.Severe.cases ,IPTiscl.deaths ) %>%
     as.data.frame()
 
   sclvars <- colnames(df)[grep("IPTiscl", colnames(df))]

@@ -22,7 +22,7 @@ expname = 'NGA archetype PfPR ITN sweep_new'
 num_seeds = 5
 ser_date = 50*365
 years = 1
-burnin_id = 'c0028e06-4499-eb11-a2ce-c4346bcb1550' #use sweep id from sweep_seasonal_archetypes : cd61d557-3f92-eb11-a2ce-c4346bcb1550
+burnin_id = '8a268c61-57af-eb11-a2e3-c4346bcb7275' #use sweep id from sweep_seasonal_archetypes : cd61d557-3f92-eb11-a2ce-c4346bcb1550
 pull_from_serialization = True
 
 if __name__ == "__main__":
@@ -52,10 +52,7 @@ if __name__ == "__main__":
                           receiving_drugs_event_name='Received_NMF_Treatment')
     itn_df = pd.read_csv(os.path.join(projectpath, 'simulation_inputs', 'projection_csvs', 'archetype_files',
                                       'ITN_archetype_10_v4.csv'))
-    # itn_anc_df = pd.read_csv(os.path.join(projectpath, 'simulation_inputs', 'ITN_ANC_with_killing.csv'))
-
     # CUSTOM REPORTS
-    # add_filtered_report(cb, start=(years-1)*365, end=years*365)
     add_summary_report(cb, start=0, age_bins=[0.25, 5, 15, 125], interval=30,
                        description='MonthlyU5', parasitemia_bins=[10, 50, 1e9])
     add_summary_report(cb, start=0, age_bins=[2, 10, 125], interval=365,
@@ -76,7 +73,6 @@ if __name__ == "__main__":
     df.reset_index(inplace=True)
     df = df.set_index('LGA')
     my_ds_list = list(df.index.values)
-    # scale_factor = 1 / 10000. * (1 / pop_scale)
     lhdf = lhdf.reset_index()
 
     # BUILDER
@@ -87,12 +83,10 @@ if __name__ == "__main__":
                                            lhdf=lhdf,
                                            from_arch=True,
                                            hab_multiplier=hab_scale,
-                                           run_number=0,
-                                           parser_default=SetupParser.default_block),
+                                           run_number=0),
                                      ModFn(DTKConfigBuilder.set_param, 'Run_Number', x),
                                      ModFn(DTKConfigBuilder.set_param, 'x_Temporary_Larval_Habitat',
                                             0.03/pop_scale),
-      #                                     hab_scale),
                                      ModFn(DTKConfigBuilder.set_param, 'Habitat_Multiplier', hab_scale),
                                      ModFn(add_all_interventions, smc_df=pd.DataFrame(), itn_df=itn_df, hs_df=hs_df,
                                            hfca=my_hfca, irs_df=pd.DataFrame(), itn_anc_df=pd.DataFrame()),

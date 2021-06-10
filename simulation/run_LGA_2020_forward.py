@@ -9,7 +9,9 @@ import os
 from malaria.interventions.malaria_drug_campaigns import add_drug_campaign
 import pandas as pd
 
-datapath, projectpath = load_box_paths()
+SetupParser.default_block = 'HPC'
+
+datapath, projectpath = load_box_paths(parser_default=SetupParser.default_block)
 
 
 num_seeds = 5
@@ -26,8 +28,7 @@ if __name__ == "__main__":
     scenario_fname = os.path.join(projectpath, 'simulation_inputs',
                                     'projection_csvs', 'projection_v3', 'intervention_scenarios_nigeria_v3.csv')  # use script for loading all files for scenarios
     scen_df = pd.read_csv(scenario_fname)
-    # can't run -- nothing has a status of run
-    scen_df['status'] = 'run'
+
     scen_index = scen_df[scen_df['status'] == 'run'].index[0]
 
     expname = 'NGA projection scenario %d' % scen_df.at[scen_index, 'Scenario_no']
@@ -110,12 +111,12 @@ if __name__ == "__main__":
     for year in range(years):
         for year in range(years):
             add_summary_report(cb, start=365 * year,
-                               age_bins= [1, 5, 120],
-                               interval=30, duration_days=365,
-                               description='FineMonthly%d' %(year + 2020), parasitemia_bins = [10, 50, 1e9])
-            add_summary_report(cb, start=365 * year, age_bins=[0.25, 5, 15, 30, 50, 125],
+                               age_bins= [0.25, 5, 15, 30,50, 125],
                                interval=30, duration_days=365,
                                description='Monthly%d' %(year + 2020), parasitemia_bins = [10, 50, 1e9])
+            add_summary_report(cb, start=365 * year, age_bins=[1, 5, 120],
+                               interval=30, duration_days=365,
+                               description='FineMonthly%d' %(year + 2020), parasitemia_bins = [10, 50, 1e9])
 
     # FOR CONFIGURING LARVAL HABTIATS
     hab_scale_factor_fname = os.path.join(projectpath, 'simulation_inputs', 'larval_habitats',

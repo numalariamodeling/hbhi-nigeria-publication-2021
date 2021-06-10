@@ -20,13 +20,13 @@ if ("mambrose" %in% user) {
   shpDir <- file.path(ProjectDir, "nigeria_shapefiles")
   cm_dir <- file.path(ProjectDir, "hbhi_nigeria/simulation_inputs/projection_csvs/projection_v3")
 } else {
-  Drive <- file.path(gsub("[\\]", "/", gsub("Documents", "", Sys.getenv("HOME"))))
+  Drive <- "C:/Users/dhano_5" # file.path(gsub("[\\]", "/", gsub("Documents", "", Sys.getenv("HOME"))))
   NUDir <- file.path(Drive, "Box/NU-malaria-team")
   ProjectDir <- file.path(NUDir, "projects")
   WorkingDir <- file.path(ProjectDir, "IPTi")
   shpDir <- file.path(Drive, "Box/NU-malaria-team/data/nigeria_shapefiles")
   cm_dir <- file.path(ProjectDir, "hbhi_nigeria/simulation_inputs/projection_csvs/projection_v3")
-  script_directory <- file.path(getwd()) #' IPTi_scaling'
+  script_directory <- "C:/Users/dhano_5/Documents/hbhi-nigeria-publication-2021/IPTi_scaling" # file.path(getwd()) #' IPTi_scaling'
 }
 
 

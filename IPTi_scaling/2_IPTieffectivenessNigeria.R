@@ -385,3 +385,4 @@ for (scenarioname in exp_names) {
     rm(scenarioname, simdat, U1Dat_scl, U5Dat_scl, UAlllDat_scl, U1Dat_tbl, U5Dat_tbl, UAlllDat_tbl, additionalData)
   }
 }
+

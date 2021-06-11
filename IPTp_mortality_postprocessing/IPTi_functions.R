@@ -4,7 +4,7 @@
 ### February 2020, MR
 ###
 ### Simulation output: U5_PfPR_ClinicalIncidence_severeTreatment.csv, All_Age_Monthly_Cases.csv, 
-### IPTi adjustment tables: IPTi_adjustment.csv and  IPTi_adjustment.Uall.csv 
+### IPTi adjustment tables:  IPTi_adjustment_U5.csv and  IPTi_adjustment_Uall.csv
 ### Output:  Simulation output with scaled malaria event variables 
 ### 
 ### Comments:
@@ -34,7 +34,7 @@ library(dplyr)
 #  scenario_dirs_to_analyze = file.path(simout_dir,"cache4")
 #  scenarioNames = list.dirs(scenario_dirs, recursive = F, full.names = F)
 #  
-# ### requires IPTi_adjustment.csv and  IPTi_adjustment.Uall.csv  found in the respective simulation output folder
+# ### requires IPTi_adjustment_U5.csv and  IPTi_adjustment_Uall.csv  found in the respective simulation output folder
 # # source(file.path(..., "IPTieffectivenessNigeria.R"))
  
 
@@ -179,10 +179,10 @@ scaleIPTi <- function(iptidat,
 #   
 #   scen = list.dirs(scenario_dirs, recursive = F, full.names = F)
 # 
-#   ipti_adj_U5 = read.csv(file.path(iptiDir, 'IPTi_adjustment.csv'))
+#   ipti_adj_U5 = read.csv(file.path(iptiDir, 'IPTi_adjustment_U5.csv'))
 #   ipti_adj_U5 = ipti_adj_U5[ ipti_adj_U5[,'scenario'] == scenarioName, ]
 # 
-#   ipti_adj_Uall = read.csv(file.path(iptiDir, 'IPTi_adjustment.Uall.csv'))
+#   ipti_adj_Uall = read.csv(file.path(iptiDir, 'IPTi_adjustment_Uall.csv'))
 #   ipti_adj_Uall = ipti_adj_Uall[ipti_adj_Uall[,'scenario'] == scenarioName, ]
 # 
 #   df_U5 = read.csv(file.path(scenario_dirs_to_analyze, scenarioName, 'U5_PfPR_ClinicalIncidence_severeTreatment.csv'))

@@ -465,7 +465,6 @@ if("Case management - uncomplicated" %in% input$varType){
   #--------------------------------------------------------  
   ### ITN coverage
   #--------------------------------------------------------
-  browser()
   if(("Insecticide treated net coverage" %in% input$varType) &  ("> 5 years" %in% input$ITN_age))
   {
     ITN_map<- reactive({

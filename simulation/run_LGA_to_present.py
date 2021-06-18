@@ -3,13 +3,13 @@ from simtools.ExperimentManager.ExperimentManagerFactory import ExperimentManage
 from simtools.SetupParser import SetupParser
 from simtools.ModBuilder import ModBuilder, ModFn
 from malaria.reports.MalariaReport import add_filtered_report, add_summary_report
-from load_paths import load_box_paths
-from set_up_simulation_config import update_basic_params, set_up_hfca, load_master_csv, habitat_scales, add_all_interventions, update_drug_config
+from simulation.load_paths import load_box_paths
+from simulation.set_up_simulation_config import update_basic_params, set_up_hfca, load_master_csv, habitat_scales, add_all_interventions, update_drug_config
 import os
 from malaria.interventions.malaria_drug_campaigns import add_drug_campaign
 import pandas as pd
 
-SetupParser.default_block = 'NUCLUSTER'
+SetupParser.default_block = 'HPC'
 
 datapath, projectpath = load_box_paths(parser_default=SetupParser.default_block)
 

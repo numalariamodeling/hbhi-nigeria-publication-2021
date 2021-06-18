@@ -95,7 +95,9 @@ title_function <-function(mainTitle, subTitle, footNote){
 ######################################################################################
 
 #LGA shape file 
-LGAsf <- sf::st_read("data/LGA_shape/NGA_LGAs.shp") %>%  
+data_dir <- file.path(Sys.getenv("HOME"),"Box", "NU-malaria-team", "projects", "hbhi_nigeria_shiny_app_data")
+
+LGAsf <- sf::st_read(file.path(data_dir, "LGA_shape", "NGA_LGAs.shp")) %>%  
   dplyr::mutate(LGA = stringr::str_replace_all(LGA, "/", "-"),
                 LGA = dplyr::case_when(LGA == "kiyawa"~ "Kiyawa",
                                 LGA == "kaita"~ "Kaita",

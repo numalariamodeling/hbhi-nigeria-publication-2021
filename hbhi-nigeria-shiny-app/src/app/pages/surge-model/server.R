@@ -20,13 +20,14 @@ observe({
 ###Map generation script  
 #--------------------------------------------------------
 data <- eventReactive(input$submit_loc,{
+  data_dir <- file.path(Sys.getenv("HOME"),"Box", "NU-malaria-team", "projects", "hbhi_nigeria_shiny_app_data")
 
   #--------------------------------------------------------  
   ### Case management 
   #--------------------------------------------------------
 if("Case management - uncomplicated" %in% input$varType){
   case_management <- 
-    data.table::fread("data/case_management.csv")
+    data.table::fread(file.path(data_dir, "case_management.csv"))
   #browser()
 }
   
@@ -185,7 +186,7 @@ if("Case management - uncomplicated" %in% input$varType){
  
   if("Case management - severe" %in% input$varType){
     severe_cm <- 
-      data.table::fread("data/severe_case_management.csv")
+      data.table::fread(file.path(data_dir, "severe_case_management.csv"))
     #browser()
   }
   
@@ -469,7 +470,8 @@ if("Case management - uncomplicated" %in% input$varType){
   {
     ITN_map<- reactive({
       filename = paste0(input$scenarioInput,  "_",  as.character(input$yearInput))
-      kill_grid=readRDS(file = paste0("data/ITN_map_grid/u5_scenario/", filename, ".rds"))
+      RDS_file_path <- file.path(data_dir, "ITN_map_grid", "u5_scenario", filename)
+      kill_grid=readRDS(file = paste0(RDS_file_path, ".rds"))
       
     })
     return(ITN_map())

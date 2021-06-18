@@ -79,7 +79,8 @@ OUTPUT_COLUMN_DESCRIPTIONS <- list(
 	ICU_bed_max = 'ICU patient bed capacity'
 )
 
+data_dir <- file.path(Sys.getenv("HOME"),"Box", "NU-malaria-team", "projects", "hbhi_nigeria_shiny_app_data")
 
-admin<- readr::read_csv("data/admin.csv")
-interventions<-read.csv("data/Interventions.csv") 
+admin<- readr::read_csv(file.path(data_dir, "admin.csv"))
+interventions<-read.csv(file.path(data_dir, "Interventions.csv"))
 

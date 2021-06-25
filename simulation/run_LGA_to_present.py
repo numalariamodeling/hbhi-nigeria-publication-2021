@@ -3,30 +3,31 @@ from simtools.ExperimentManager.ExperimentManagerFactory import ExperimentManage
 from simtools.SetupParser import SetupParser
 from simtools.ModBuilder import ModBuilder, ModFn
 from malaria.reports.MalariaReport import add_filtered_report, add_summary_report
-from load_paths import load_box_paths
-from set_up_simulation_config import update_basic_params, set_up_hfca, load_master_csv, habitat_scales, add_all_interventions, update_drug_config
+from simulation.load_paths import load_box_paths
+from simulation.set_up_simulation_config import update_basic_params, set_up_hfca, load_master_csv, habitat_scales, add_all_interventions, update_drug_config
 import os
 from malaria.interventions.malaria_drug_campaigns import add_drug_campaign
 import pandas as pd
 
-SetupParser.default_block = 'NUCLUSTER'
+SetupParser.default_block = 'HPC'
 
 datapath, projectpath = load_box_paths(parser_default=SetupParser.default_block)
 
 expname = 'NGA_2010_2020_allInterventions'
-num_seeds = 1
+num_seeds = 5
 years = 10
 ser_date = 50*365
+
 serialize = True
 pull_from_serialization = False
 burnin_id = '81e3e51a-c393-eb11-a2ce-c4346bcb1550' #use sweep id from sweep_seasonal_archetypes ( why we don't use the sweep pfpr with ITN: the sweep 2010 with ITN picks up from the seasonal sweep burnin (at year 2010) and doesn’t save its own burnin. so when we run to present,  we also pickup from the seasonal sweep burnin at year 2010, we just select only one habitat multiplier to pick up, rather than trying all of them like the sweep with ITN does.)
+
 sulf_C50 = 0.2
 
 if __name__ == "__main__":
     scenario_fname = os.path.join(projectpath, 'simulation_inputs',
                                     'projection_csvs', '2010_2020_LGA_intervention_files', 'Intervention_scenarios_past_estimates.csv')  # use script for loading all files for scenarios
     scen_df = pd.read_csv(scenario_fname)
-    scen_df['status'].replace({'queue': 'run'}, inplace=True)
     scen_index = scen_df[scen_df['status'] == 'run'].index[0]
 
     cb = DTKConfigBuilder.from_defaults('MALARIA_SIM')
@@ -106,16 +107,17 @@ if __name__ == "__main__":
     for year in range(years):
         add_summary_report(cb, start=365 * year, age_bins=[0.25, 5, 15, 30,50, 125], interval=30, duration_days=365,
                            description='Monthly%d' % (year + 2010), parasitemia_bins=[10, 50, 1e9])
-        # NOTE: Guinea has an extra add_summary_report?
+        add_summary_report(cb, start=365 * year, age_bins=[1, 5, 120], interval=30, duration_days=365,
+                           description='FineMonthly%d' % (year + 2010), parasitemia_bins=[10, 50, 1e9])
 
-    # FOR CONFIGURING LARVAL HABTIATS
+    # FOR CONFIGURING LARVAL HABITATS
     df = load_master_csv()
-    hab_scale_factor_fname = os.path.join(projectpath, 'simulation_inputs', 'larval_habitats','larval_habitat_multipliers_v4.csv')
+    hab_scale_factor_fname = os.path.join(projectpath, 'simulation_inputs', 'larval_habitats',
+                                          'larval_habitat_multipliers_v4.csv')
     hab_df = pd.read_csv(hab_scale_factor_fname)
     hab_df = hab_df.set_index('LGA')
     rel_abundance_df = habitat_scales()
-    lhdf = pd.read_csv(os.path.join(projectpath, 'simulation_inputs', 'larval_habitats','monthly_habitatv2.csv'))
-
+    lhdf = pd.read_csv(os.path.join(projectpath, 'simulation_inputs', 'larval_habitats', 'monthly_habitatv2.csv'))
 
     # BUILDER
     builder = ModBuilder.from_list([[ModFn(set_up_hfca, hfca=my_hfca,
@@ -127,8 +129,7 @@ if __name__ == "__main__":
                                            lhdf=lhdf,
                                            from_arch=True,
                                            hab_multiplier=hab_df.at[df.at[my_hfca, 'Archetype'], 'Habitat_Multiplier'],
-                                           run_number=0,
-                                           parser_default=SetupParser.default_block),
+                                           run_number=0),
                                      ModFn(add_all_interventions, smc_df=smc_df, itn_df= itn_df, hs_df=hs_df,
                                            hfca=my_hfca, irs_df=pd.DataFrame(), itn_anc_df=itn_anc_df),
                                      ModFn(update_drug_config,

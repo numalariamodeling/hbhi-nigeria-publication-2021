@@ -12,11 +12,11 @@ from dtk.interventions.biting_risk import change_biting_risk
 from dtk.interventions.irs import add_IRS
 from malaria.interventions.malaria_drug_campaigns import add_drug_campaign, add_diagnostic_survey
 from malaria.reports.MalariaReport import add_event_counter_report
-from load_paths import load_box_paths
-from update_drug_params import update_drugs
+from simulation.load_paths import load_box_paths
+from simulation.update_drug_params import update_drugs
 
 
-location = 'NUCLUSTER'
+location = 'HPC'
 
 datapath, projectpath = load_box_paths(parser_default=location)
 

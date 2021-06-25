@@ -35,7 +35,6 @@ cb.update_params( {
     'Enable_Vector_Species_Report' : 0,
     'Report_Detection_Threshold_Blood_Smear_Parasites' : 20,
     "Parasite_Smear_Sensitivity": 0.05,  # 50/uL
-    # 'Base_Population_Scale_Factor' : 0.01,
 })
 
 if serialize :
@@ -54,15 +53,11 @@ update_basic_params(cb)
 hs_df = pd.read_csv(os.path.join(projectpath, 'simulation_inputs', 'projection_csvs', 'archetype_files',
                                  'arch_med_10_v2.csv'))
 
-# for nmf_years in range(years - 5, years):
 # CUSTOM REPORTS
 add_filtered_report(cb, start=max([0, (years-1)*365]), end=years*365)
 
 df = load_master_csv()
 
-# hab_scale_factor_fname = os.path.join(projectpath, 'simulation_inputs', 'larval_habitats', 'larval_habitat_multipliers_v4.csv')
-# hab_df = pd.read_csv(hab_scale_factor_fname)
-# hab_df = hab_df.set_index('DS_Name')
 rel_abundance_df = habitat_scales()
 lhdf = pd.read_csv(os.path.join(projectpath, 'simulation_inputs', 'larval_habitats', 'monthly_habitatv2.csv'))
 if read_limits_from_file :
@@ -76,7 +71,6 @@ else :
 
 lhdf = lhdf.set_index('archetype')
 pop_scale = 0.15
-# scale_factor = 1 / 10000. * (1 / pop_scale)
 lhdf = lhdf.reset_index()
 
 # BUILDER
@@ -90,7 +84,6 @@ builder = ModBuilder.from_list([[ModFn(set_up_hfca, hfca=my_hfca,
                                        from_arch=True,
                                        hab_multiplier=hab_scale, #hab_df.at[my_hfca, 'x_Temporary_Larval_Habitat'],
                                        run_number=0),
-                                 # ModFn(add_hfca_hs, hs_df=hs_df, hfca=my_hfca),
                                  ModFn(DTKConfigBuilder.set_param, 'Run_Number', x),
                                  ModFn(DTKConfigBuilder.set_param, 'x_Temporary_Larval_Habitat', 0.03/pop_scale),
                                  ModFn(DTKConfigBuilder.set_param, 'Habitat_Multiplier', hab_scale),

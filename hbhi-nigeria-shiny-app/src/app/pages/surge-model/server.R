@@ -1,4 +1,4 @@
-import::here('./vm.R', LGAsf, LGA_list, generateMap, title_function)
+import::here('./functions.R', LGAsf, LGA_list, generateMap, title_function)
 import::here('./utils.R', interventions)
 
 
@@ -20,7 +20,8 @@ observe({
 ###Map generation script  
 #--------------------------------------------------------
 data <- eventReactive(input$submit_loc,{
-  data_dir <- file.path(Sys.getenv("HOME"),"Box", "NU-malaria-team", "projects", "hbhi_nigeria_shiny_app_data")
+  Drive <- file.path(gsub("[\\]", "/", gsub("Documents", "", Sys.getenv("HOME"))))
+  data_dir <- file.path(Drive,"Box", "NU-malaria-team", "projects", "hbhi_nigeria_shiny_app_data")
 
   #--------------------------------------------------------  
   ### Case management 

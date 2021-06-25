@@ -1,4 +1,4 @@
-import::from('./vm.R', admin)
+import::from('./functions.R', admin)
 
 
 shinyjs::disable('popsize')

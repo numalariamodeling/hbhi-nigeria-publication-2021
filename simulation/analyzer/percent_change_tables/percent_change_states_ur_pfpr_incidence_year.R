@@ -23,12 +23,14 @@ dir.create(file.path(PrintDir, "national"), showWarnings = FALSE)
 UpdatePrintDir <- file.path(ProcessDir, "percent_change_tables", "national")
 dir.create(file.path(PrintDir, "SMC_areas"), showWarnings = FALSE)
 SMC_areas <- file.path(PrintDir, "SMC_areas")
+dir.create(file.path(PrintDir, "States"), showWarnings = FALSE)
+States <- file.path(PrintDir, "States")
 source(file.path(ScriptDir,"/DHS/1_variables_scripts","generic_functions", "DHS_fun.R"))
 source(file.path(ScriptDir, "simulation/analyzer_simulation_output", "functions_percent_change.R")) #reads in the percentage change and sum functions
 
 
-#baseline year options used in the paper - 2020, 2019 and 2015 
-year = 2015
+#baseline year options used in the paper at the national level - 2020, 2019 and 2015 
+year = 2020
 
 ###############################################################################
 # national level % change 
@@ -159,7 +161,7 @@ df <- plyr::ldply(df_ls, rbind)
 df_all<- df %>% mutate(scenario = str_split(.id, "/", simplify = T)[, 10]) 
 
 
-fin_df <- percent_change_fun_20(df_all, FALSE) 
+fin_df <- percent_change_fun_30(df_all, FALSE) 
 fin_df$run_number <- paste0('run number', " ", names[i]) 
 
 write_csv(fin_df, paste0(SMC_areas,"/",  Sys.Date(), "_percent_change_indicators_2020_base_SMC_states", names[i], ".csv"))
@@ -183,3 +185,46 @@ fin_df = left_join(df_com, mean_df2)%>%
 write_csv(fin_df, paste0(SMC_areas, "/",  Sys.Date(), "_2020_base_2020_2025_2030_with_intervals_SMC_states", ".csv"))
 
 
+all_df2 = all_df %>%  map(~filter(., (year == 2030) & run_number == "run number mean"))
+
+write_csv(all_df2[[1]], paste0(SMC_areas, "/",  Sys.Date(), "_2030_scenario_seven_SMC_base_SMC_states", ".csv"))
+
+###############################################################################
+# state-level analayses 
+###############################################################################
+
+scen_dat <- read.csv(file.path(ProcessDir, "scenario_adjustment_info.csv"))
+for (row in 1:nrow(scen_dat)){
+    files <- list.files(path = file.path(ProcessDir, scen_dat[, "ScenarioName"]), pattern = "*annual_indicators_", full.names = TRUE)
+    files<- files[-(grep('_funder_|_2020_2030|each_LGA|_unadjusted_', files))]
+    df <- sapply(files, read_csv, simplify = F)
+}
+
+
+#select columns of interest and co
+df <- plyr::ldply(df, rbind)%>%  dplyr::select(.id,year, PfPR_all_ages, PfPR_U5, incidence_all_ages, incidence_U5, death_rate_1_all_ages,death_rate_2_all_ages,death_rate_1_U5, death_rate_2_U5)
+
+df_all<- df %>% mutate(State =  str_split(.id, "indicators_", simplify = TRUE)[,2], 
+                         State = str_sub(State, 1, str_length(State)-4), scenario = str_split(.id, "/", simplify = T)[, 10],
+                         death_rate_mean_all_ages= (death_rate_1_all_ages + death_rate_2_all_ages)/2, death_rate_mean_U5 = (death_rate_1_U5 + death_rate_2_U5)/2)
+
+
+fin_df <- percent_change_fun_20(df_all, TRUE)  
+
+
+#create new variables to detects the column with the greatest reduction in indicators or the best scenario in year 2030
+
+fin_df2 <- fin_df%>%  filter(year == 2030) %>%
+  group_by(State) %>%
+  mutate(pfpr_min = ifelse(PfPR_percent_change == min(PfPR_percent_change), 1, 0),
+         U5_pfpr_min = ifelse(U5_PfPR_percent_change == min(U5_PfPR_percent_change), 1, 0),
+         incidence_min = ifelse(U5_PfPR_percent_change == min(U5_PfPR_percent_change), 1, 0),
+         U5_incidence_min = ifelse(U5_incidence_percent_change == min(U5_incidence_percent_change), 1, 0),
+         death_min = ifelse(death_percent_change == min(death_percent_change), 1, 0),
+         U5_death_min = ifelse(U5_death_percent_change == min(U5_death_percent_change), 1, 0))%>%
+  rowwise() %>%
+  mutate(sumVar = sum(c_across(pfpr_min:U5_death_min)),
+         best_scenario = ifelse(sumVar == 6, scenario, "variable"))
+
+
+write_csv(fin_df2, paste0(States, "/",  Sys.Date(), "_percent_change_States_best_scenario_2030.csv"))

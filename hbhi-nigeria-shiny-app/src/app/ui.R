@@ -6,8 +6,8 @@
 #################################################
 
 
-import::from('./pages/surge-model/ui.R', LGAModelUI)
-import::from('./pages/sensitivity/ui.R', outcomesUI)
+import::from('./pages/LGAinputs/ui.R', LGAModelUI)
+import::from('./pages/LGAoutcomes/ui.R', outcomesUI)
 
 navbarPageWithInputs <- function(..., inputs) {
 	navbar <- navbarPage(...)

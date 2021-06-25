@@ -1,5 +1,9 @@
+##-----------------------------
+## LGAinputs/server.R
+##------------------------------
+
 import::here('./functions.R', LGAsf, LGA_list, generateMap, title_function)
-import::here('./utils.R', interventions)
+import::here('./ui_selection_data.R', interventions)
 
 
 import::from(dplyr, rename,case_when, left_join,  '%>%' )

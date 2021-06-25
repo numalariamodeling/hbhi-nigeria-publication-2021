@@ -36,19 +36,7 @@ outcomesUI <- function () {
 				  label = 'Select State or LGA name (This option is only available if you selected "State", or "LGA" in the Administrative Unit Option',
 				  choices =  admin$name,
 				),
-				# shiny::selectInput(
-				# 	inputId='parameterSelect',
-				# 	label='parameter for plotting sensitivity analysis',
-				# 	c(
-				# 		INPUT_PARAM_DESCRIPTIONS[['seed_prop']],
-				# 		INPUT_PARAM_DESCRIPTIONS[['prob_admit']],
-				# 		INPUT_PARAM_DESCRIPTIONS[['drop_Reffective']],
-				# 		INPUT_PARAM_DESCRIPTIONS[['dur_admitted']],
-				# 		INPUT_PARAM_DESCRIPTIONS[['social_distancing']],
-				# 		INPUT_PARAM_DESCRIPTIONS[['prob_test_max']],
-				# 		INPUT_PARAM_DESCRIPTIONS[['R0']]
-				# 	)
-				# )
+	
 			),
 			
 			shiny::mainPanel(

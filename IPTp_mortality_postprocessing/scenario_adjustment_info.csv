@@ -1,0 +1,5 @@
+ScenarioName,IPTp_string,future_projection_flag,IPTi,IPTi_cov_muliplier,Scenario_no,ITN_filename,SMC_filename,ANC_filename,IRS_filename,CM_filename,IPTi_scenario_name,process_state_data 
+NGA projection scenario 1,curCoverage,TRUE,FALSE,0,1,itn_scenario1_BAU_2020_2030,smc_scenario1_BAU_2020_2030,ITN_ANC_current_coverage,,cm_scenario1_BAU_2020_2030,,TRUE
+NGA projection scenario 2,increase_to80,TRUE,TRUE,0.8,2,itn_scenario2_increase80_2020_2030,smc_scenario2_5_increase80_2020_2030,ITN_ANC_current_coverage,,cm_scenario2_increase80_2020_2030,NGA projection scenario 2,TRUE
+NGA projection scenario 3,trajectoryCoverage,TRUE,FALSE,0,3,itn_scenario6_7_funded_2020_2030,smc_scenario6_noPAAR_2020_2030,ITN_ANC_current_coverage,,cm_scenario6_7_funded_2020_2030,,TRUE
+NGA projection scenario 4,trajectoryCoverage,TRUE,FALSE,0,4,itn_scenario6_7_funded_2020_2030,smc_scenario7_PAAR_2020_2030,ITN_ANC_current_coverage,,cm_scenario6_7_funded_2020_2030,,TRUE

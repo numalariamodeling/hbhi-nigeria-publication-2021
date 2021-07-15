@@ -1,5 +1,0 @@
-Scenario_no,status,ITN_filename,SMC_filename,ANC_filename,IRS_filename,CM_filename,IPTi_cov_muliplier,future_projection_flag,ScenarioName,notes 
-1,queued,ITN\\itn_scenario1_BAU_2020_2030,SMC\\smc_scenario1_BAU_2020_2030,ITN_ANC\\ITN_ANC_current_coverage,,CM\\cm_scenario1_BAU_2020_2030,0,TRUE,NGA projection scenario 1,"done (skips), hold(skips), run, queued"
-2,queued,ITN\\itn_scenario2_increase80_2020_2030,SMC\\smc_scenario2_increase80_2020_2030,ITN_ANC\\ITN_ANC_current_coverage,,CM\\cm_scenario2_increase80_2020_2030,0.8,TRUE,NGA projection scenario 2,*insecure_(check with Jaline)
-3,queued,ITN\\itn_scenario3_4_funded_2020_2030,SMC\\smc_scenario3_noPAAR_2020_2030,ITN_ANC\\ITN_ANC_current_coverage,,CM\\cm_scenario3_4_funded_2020_2030,0,TRUE,NGA projection scenario 3,
-4,queued,ITN\\itn_scenario3_4_funded_2020_2031,SMC\\smc_scenario4_PAAR_2020_2030,ITN_ANC\\ITN_ANC_current_coverage,,CM\\cm_scenario3_4_funded_2020_2030,0,TRUE,NGA projection scenario 4,

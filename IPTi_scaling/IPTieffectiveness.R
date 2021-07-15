@@ -82,7 +82,7 @@ for (i in c(1:length(exp_names))) {
       total_cases_diff_U1 = total_cases - total_cases_scl,
       total_severe_cases_diff_U1 = total_severe_cases - total_severe_cases_scl
     ) %>%
-    dplyr::select(LGA, year, Run_Number, measure, pos_diff_U1, deaths_diff_U1, total_cases_diff_U1, total_severe_cases_diff_U1)
+    dplyr::select(LGA, year, measure, pos_diff_U1, deaths_diff_U1, total_cases_diff_U1, total_severe_cases_diff_U1)
 
   ## Remove malaria events averted in U1 from U5 and Uall
   U5dat_list <- list()
@@ -91,7 +91,7 @@ for (i in c(1:length(exp_names))) {
     U1dat_scl_diff_i <- subset(U1dat_scl_diff, measure == i)
 
     U5dat_list[[length(U5dat_list) + 1]] <- U5dat %>%
-      left_join(U1dat_scl_diff_i, by = c("LGA", "year", "Run_Number"), all.x = TRUE) %>%
+      left_join(U1dat_scl_diff_i, by = c("LGA", "year"), all.x = TRUE) %>%
       dplyr::mutate(
         pos_scl = pos - pos_diff_U1,
         deaths_scl = deaths - deaths_diff_U1,
@@ -106,7 +106,7 @@ for (i in c(1:length(exp_names))) {
       )
 
     Ualldat_list[[length(Ualldat_list) + 1]] <- Ualldat %>%
-      left_join(U1dat_scl_diff_i, by = c("LGA", "year", "Run_Number"), all.x = TRUE) %>%
+      left_join(U1dat_scl_diff_i, by = c("LGA", "year"), all.x = TRUE) %>%
       dplyr::mutate(
         pos_scl = pos - pos_diff_U1,
         deaths_scl = deaths - deaths_diff_U1,

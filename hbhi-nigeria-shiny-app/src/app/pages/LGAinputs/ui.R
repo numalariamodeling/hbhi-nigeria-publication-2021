@@ -1,8 +1,11 @@
-#SURGE MODEL ui.r
+#LGAinput ui.r
 
-import::from('../../utils.R', INPUT_PARAM_DESCRIPTIONS, interventions)
-
+import::from('../../ui_selection_data.R', INPUT_PARAM_DESCRIPTIONS, interventions)
 import::from(tidyr, '%>%')
+
+
+
+
 
 
 LGAModelUI <- function () {

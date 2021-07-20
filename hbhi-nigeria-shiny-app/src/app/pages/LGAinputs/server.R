@@ -26,164 +26,52 @@ observe({
 data <- eventReactive(input$submit_loc,{
   Drive <- file.path(gsub("[\\]", "/", gsub("Documents", "", Sys.getenv("HOME"))))
   data_dir <- file.path(Drive,"Box", "NU-malaria-team", "projects", "hbhi_nigeria_shiny_app_data")
-
+  repo <- file.path(Drive, 'Documents', 'hbhi-nigeria-publication-2021', 'hbhi-nigeria-shiny-app', 'data')
+  
+  
   #--------------------------------------------------------  
   ### Case management 
   #--------------------------------------------------------
 if("Case management - uncomplicated" %in% input$varType){
   case_management <- 
     data.table::fread(file.path(data_dir, "case_management.csv"))
-  #browser()
+  
 }
   
 
   
-  
-  if(("Scenario 1 (Business as Usual)"%in% input$scenarioInput)  & ("Case management - uncomplicated" %in% input$varType)) {
+  if(("Case management - uncomplicated" %in% input$varType)) {
     cm_map<- reactive({
-    cm  = case_management[which(case_management$scenario ==input$scenarioInput), ]
-    #browser()
-    cm_df = merge(LGAsf, cm, by ="LGA", all.x =TRUE)
-    cm_df$year = input$yearInput
-    cm_map = generateMap(cm_df, quo(U5_coverage))
-    })
-    #browser()
-    return(cm_map())
-    
-    } 
-  
-  
-  if(("Scenario 2 (High effective coverage)" %in% input$scenarioInput) & ("Case management - uncomplicated" %in% input$varType)){
-    cm_map<- reactive({
-    
       
-      if (input$yearInput > 2025) {
-        cm = case_management[which(case_management$scenario == input$scenarioInput, year == 2025), ]
-        #browser()
-        cm_df = split(cm , by="simday")
-        cm_df = merge(LGAsf, y=cm_df[[3]] , by="LGA",all.x =TRUE)
-        cm_df$simday = "continuous"
-        cm_df$year = input$yearInput
-        cm_map = generateMap(cm_df, quo(U5_coverage)) 
-      
+      if (input$scenarioInput == "Scenario 1 (Business as Usual)"){
+        cm_map=readRDS(file = paste0(repo, "/CM/", 'CM_', input$scenarioInput, ".rds"))
+        cm_map$data$year = input$yearInput
+        
       } 
       
-      else  {
-        
-        cm = case_management[which(case_management$scenario ==input$scenarioInput & year == input$yearInput), ]
-        cm_df  = split(cm , by="simday")
-        cm_df = purrr::map2(LGA_list,cm_df, left_join, by="LGA")
-        cols_list = list(quo(U5_coverage))
-        cm_map <-purrr::map2(cm_df, cols_list, generateMap)
-       
-              
-         if(length(cm_map) > 2){
-            
-           legend <- cowplot::get_legend(
-             # create some space to the left of the legend
-             cm_map[[1]] + theme(legend.box.margin = margin(0, 0, 0, 12))
-           )
-           cm_map =  plot_grid(cm_map[[1]]+ theme(legend.position="none"),cm_map[[2]] + theme(legend.position="none"), cm_map[[3]] + theme(legend.position="none"), nrow = 1)
-         
-           cm_map = plot_grid(cm_map, legend, rel_widths = c(3, .4))
-         } 
-        
-           else {
-             
-             legend <- cowplot::get_legend(
-               # create some space to the left of the legend
-               cm_map[[1]] + theme(legend.box.margin = margin(0, 0, 0, 12))
-             )
-            
-             cm_map <- plot_grid(cm_map[[1]] + theme(legend.position="none"),cm_map[[2]]+ theme(legend.position="none") , nrow = 1)
-             
-             cm_map = plot_grid(cm_map, legend, rel_widths = c(3, .4))
-             
-              }
-             
-          }
-     
-    
-
-      })
-    
-  
-
-          return(cm_map())
-   
-  }
-  
-  # Scenarios 3-7
-   if("Case management - uncomplicated" %in% input$varType) {
-     cm_map<- reactive({
-       if(substr(input$scenarioInput, 10, 10) %in% c('6', '7')){
-         cm = case_management[which(case_management$scenario ==input$scenarioInput & year == input$yearInput), ]
-       } else {
-         cm  = case_management[which(case_management$scenario ==input$scenarioInput), ]
-       }
-       
-       cm_df <- merge(LGAsf, cm , by="LGA", all.x =TRUE)
-       cm_df$year = input$yearInput
-       cm_map = generateMap(cm_df, quo(U5_coverage))
+      else if (input$scenarioInput == "Scenario 4 (Budget-prioritized plan)") {
+        cm_map=readRDS(file = paste0(repo, "/CM/", 'CM_', 'Scenario 3 (Budget-prioritized plan)', '_', as.character(input$yearInput), ".rds"))
+      }
+      
+      
+       else  {
+      cm_map=readRDS(file = paste0(repo, "/CM/", 'CM_', input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
+      
+      }
+      
+      cm_map = cm_map + ggplot2::labs(title = paste0("Simday:", " ", max(cm_map$data$simday, na.rm = T), ", Year:", " ", max(cm_map$data$year, na.rm=T)))
+      
     })
+    return(cm_map())
+    
+  } 
+  
+  
+ 
+  
 
-     return(cm_map())}
 
-# 
-# 
-# 
-#  if(("Scenario 3 (Improved coverage)" %in% input$scenarioInput) & ("Case management - uncomplicated" %in% input$varType)) {
-#    cm_map<- reactive({
-#      cm  = case_management[which(case_management$scenario ==input$scenarioInput), ]
-#      cm_df <- merge(LGAsf, cm , by="LGA", all.x =TRUE)
-#      cm_df$year = input$yearInput
-#      cm_map = generateMap(cm_df, quo(U5_coverage))
-#   })
-# 
-#   return(cm_map())}
-# 
-# 
-#   if(("Scenario 4 (Improved coverage)" %in% input$scenarioInput) & ("Case management - uncomplicated" %in% input$varType)) {
-#     cm_map<- reactive({
-#       cm  = case_management[which(case_management$scenario ==input$scenarioInput), ]
-#       cm_df <- merge(LGAsf, cm , by="LGA", all.x =TRUE)
-#       cm_df$year = input$yearInput
-#       cm_map = generateMap(cm_df, quo(U5_coverage))
-#     })
-#   return(cm_map())}
-# 
-# 
-# if(("Scenario 5 (Improved coverage)" %in% input$scenarioInput) & ("Case management - uncomplicated" %in% input$varType)) {
-#   cm_map<- reactive({
-#     cm  = case_management[which(case_management$scenario ==input$scenarioInput), ]
-#     cm_df <- merge(LGAsf, cm , by="LGA", all.x =TRUE)
-#     cm_df$year = input$yearInput
-#     cm_map = generateMap(cm_df, quo(U5_coverage))
-#   })
-#   return(cm_map())}
-# 
-# 
-# if(("Scenario 6 (Considered for funding in the NSP)"  %in% input$scenarioInput) & ("Case management - uncomplicated" %in% input$varType)) {
-# 
-#   cm_map<- reactive({
-#     cm  = case_management[which(case_management$scenario ==input$scenarioInput & year == input$yearInput), ]
-#     cm_df <- merge(LGAsf, cm , by="LGA", all.x =TRUE)
-#     cm_df$year = input$yearInput
-#     cm_map = generateMap(cm_df, quo(U5_coverage))
-#   })
-#   return(cm_map())}
-# 
-# 
-#   if(("Scenario 7 (Considered for funding in the NSP)" %in% input$scenarioInput) & ("Case management - uncomplicated" %in% input$varType)) {
-#     cm_map<- reactive({
-#       cm  = case_management[which(case_management$scenario ==input$scenarioInput & year == input$yearInput), ]
-#       cm_df <- merge(LGAsf, cm , by="LGA", all.x =TRUE)
-#       cm_df$year = input$yearInput
-#       cm_map = generateMap(cm_df, quo(U5_coverage))
-#     })
-#     return(cm_map())}
-# 
-#   
+
 
   #--------------------------------------------------------  
   ### Severe case management 
@@ -286,57 +174,6 @@ if("Case management - uncomplicated" %in% input$varType){
 
     return(cm_map())}
   
-
-  # if(("Scenario 3 (Improved coverage)" %in% input$scenarioInput) & ("Case management - severe" %in% input$varType)) {
-  #   cm_map<- reactive({
-  #     cm  = severe_cm[which(severe_cm$scenario ==input$scenarioInput), ]
-  #     cm_df <- merge(LGAsf, cm , by="LGA", all.x =TRUE)
-  #     cm_df$year = input$yearInput
-  #     cm_map = generateMap(cm_df, quo(severe_cases))
-  #   })
-  # 
-  #   return(cm_map())}
-  # 
-  # 
-  # if(("Scenario 4 (Improved coverage)" %in% input$scenarioInput) & ("Case management - severe" %in% input$varType)) {
-  #   cm_map<- reactive({
-  #     cm  = severe_cm[which(severe_cm$scenario ==input$scenarioInput), ]
-  #     cm_df <- merge(LGAsf, cm , by="LGA", all.x =TRUE)
-  #     cm_df$year = input$yearInput
-  #     cm_map = generateMap(cm_df, quo(severe_cases))
-  #   })
-  #   return(cm_map())}
-  # 
-  # 
-  # if(("Scenario 5 (Improved coverage)" %in% input$scenarioInput) & ("Case management - severe" %in% input$varType)) {
-  #   cm_map<- reactive({
-  #     cm  = severe_cm[which(severe_cm$scenario ==input$scenarioInput), ]
-  #     cm_df <- merge(LGAsf, cm , by="LGA", all.x =TRUE)
-  #     cm_df$year = input$yearInput
-  #     cm_map = generateMap(cm_df, quo(severe_cases))
-  #   })
-  #   return(cm_map())}
-  # 
-  # 
-  # if(("Scenario 6 (Considered for funding in the NSP)" %in% input$scenarioInput) & ("Case management - severe" %in% input$varType)) {
-  # 
-  #   cm_map<- reactive({
-  #     cm  = severe_cm[which(severe_cm$scenario ==input$scenarioInput & year == input$yearInput), ]
-  #     cm_df <- merge(LGAsf, cm , by="LGA", all.x =TRUE)
-  #     cm_df$year = input$yearInput
-  #     cm_map = generateMap(cm_df, quo(severe_cases))
-  #   })
-  #   return(cm_map())}
-  # 
-  # 
-  # if(("Scenario 7 (Considered for funding in the NSP)" %in% input$scenarioInput) & ("Case management - severe" %in% input$varType)) {
-  #   cm_map<- reactive({
-  #     cm  = severe_cm[which(severe_cm$scenario ==input$scenarioInput& year == input$yearInput), ]
-  #     cm_df <- merge(LGAsf, cm , by="LGA", all.x =TRUE)
-  #     cm_df$year = input$yearInput
-  #     cm_map = generateMap(cm_df, quo(severe_cases))
-  #   })
-  #   return(cm_map())}
 
   
   

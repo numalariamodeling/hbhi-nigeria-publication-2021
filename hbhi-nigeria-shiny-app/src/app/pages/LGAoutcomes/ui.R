@@ -1,6 +1,6 @@
 # SENSITIVITY ui.R
 
-import::from('../../utils.R', INPUT_PARAM_DESCRIPTIONS, admin)
+import::from('../../ui_selection_data.R', INPUT_PARAM_DESCRIPTIONS, admin)
 import::from(tidyr, '%>%')
 
 

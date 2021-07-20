@@ -24,7 +24,7 @@ generateMap <-function(data, column){
     viridis::scale_fill_viridis(direction = -1, na.value = 'grey', limits = c(0, 90)) +
     # colormap::scale_fill_colormap(
     #   colormap=colormap::colormaps$viridis, reverse = T) +
-    ggplot2::labs(title = paste0("Simday:", " ", max(data$simday, na.rm = T), ", Year:", " ", max(data$year, na.rm=T)))+
+    #ggplot2::labs(title = paste0("Simday:", " ", max(data$simday, na.rm = T), ", Year:", " ", max(data$year, na.rm=T)))+
     ggplot2::theme(plot.title = ggplot2::element_text(face="italic", hjust = 0.5, size=8),
                    axis.text.x = ggplot2::element_blank(),
                    axis.text.y = ggplot2::element_blank(),
@@ -104,6 +104,47 @@ LGA_list<- list(LGAsf)
 # intervention 
 ######################################################################################
 # 
+
+# Drive <- file.path(gsub("[\\]", "/", gsub("Documents", "", Sys.getenv("HOME"))))
+# repo <- file.path(Drive, 'Documents', 'hbhi-nigeria-publication-2021')
+# data <- file.path(repo, 'hbhi-nigeria-shiny-app', 'data')
+# inputs <- file.path(repo, 'simulation_inputs', 'CM')
+# # 
+# cm = data.table::fread(file.path(data_dir, "case_management.csv"))
+# cm  = cm[which(cm$scenario =="Scenario 1 (Business as Usual)"), ]
+# cm_df = merge(LGAsf, cm, by ="LGA", all.x =TRUE)
+# cm_map = generateMap(cm_df, quo(U5_coverage))
+# saveRDS(cm_map, paste0(repo, '/', "CM_", "Scenario 1 (Business as Usual)", ".rds"))
+# 
+# cm_map$data$year = '2021'
+# cm_map = cm_map + ggplot2::labs(title = paste0("Simday:", " ", max(cm_map$data$simday, na.rm = T), ", Year:", " ", max(cm_map$data$year, na.rm=T)))
+# 
+# 
+
+
+#cm_map=readRDS(file = paste0(repo, "/CM/CM_Scenario 1 (Business as Usual)", ".rds"))
+#cm_map$data$year = input$yearInput
+
+
+# year = c(2020:2030)
+# 
+# 
+# for (i in 1:length(year)){
+# cm = data.table::fread(file.path(inputs, "cm_scenario3_4_funded_2020_2030.csv"))
+# cm  = cm[which(cm$year ==as.character(year[[i]])), ]
+# cm_df = merge(LGAsf, cm, by ="LGA", all.x =TRUE)
+# cm_df$U5_coverage = round(cm_df$U5_coverage * 100, 1)
+# cm_map = generateMap(cm_df, quo(U5_coverage))
+# saveRDS(cm_map, paste0(data, '/CM/', "CM_", "Scenario 3 (Budget-prioritized plan)", "_", as.character(year[[i]]),  ".rds"))
+# }
+# 
+# 
+# repo <- file.path(Drive, 'Documents', 'hbhi-nigeria-publication-2021', 'hbhi-nigeria-shiny-app', 'data')
+# scenarioInput = 'Scenario 3 (Budget-prioritized plan)'
+# yearInput = '2025'
+# cm_map=readRDS(file = paste0(repo, "/CM/", 'CM_', scenarioInput, '_', as.character(yearInput), ".rds"))
+
+
 # year = c(2020:2030)
 # 
 # ITN <-

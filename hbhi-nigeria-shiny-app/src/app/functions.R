@@ -105,16 +105,17 @@ LGA_list<- list(LGAsf)
 ######################################################################################
 # 
 
-# Drive <- file.path(gsub("[\\]", "/", gsub("Documents", "", Sys.getenv("HOME"))))
-# repo <- file.path(Drive, 'Documents', 'hbhi-nigeria-publication-2021')
-# data <- file.path(repo, 'hbhi-nigeria-shiny-app', 'data')
-# inputs <- file.path(repo, 'simulation_inputs', 'CM')
-# # 
-# cm = data.table::fread(file.path(data_dir, "case_management.csv"))
-# cm  = cm[which(cm$scenario =="Scenario 1 (Business as Usual)"), ]
-# cm_df = merge(LGAsf, cm, by ="LGA", all.x =TRUE)
-# cm_map = generateMap(cm_df, quo(U5_coverage))
-# saveRDS(cm_map, paste0(repo, '/', "CM_", "Scenario 1 (Business as Usual)", ".rds"))
+Drive <- file.path(gsub("[\\]", "/", gsub("Documents", "", Sys.getenv("HOME"))))
+repo <- file.path(Drive, 'Documents', 'hbhi-nigeria-publication-2021')
+data <- file.path(repo, 'hbhi-nigeria-shiny-app', 'data')
+inputs <- file.path(repo, 'simulation_inputs', 'CM')
+outputs <- file.path(data, 'Severe_CM')
+#
+cm = data.table::fread(file.path(inputs, "cm_scenario1_BAU_2020_2030.csv"))
+cm_df = merge(LGAsf, cm, by ="LGA", all.x =TRUE)
+cm_df$severe_cases = round(cm_df$severe_cases * 100, 1)
+cm_map = generateMap(cm_df, quo(severe_cases))
+saveRDS(cm_map, paste0(outputs, '/', "Severe_CM_", "Scenario 1 (Business as Usual)", ".rds"))
 # 
 # cm_map$data$year = '2021'
 # cm_map = cm_map + ggplot2::labs(title = paste0("Simday:", " ", max(cm_map$data$simday, na.rm = T), ", Year:", " ", max(cm_map$data$year, na.rm=T)))

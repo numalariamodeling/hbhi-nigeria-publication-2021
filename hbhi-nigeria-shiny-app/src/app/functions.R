@@ -104,22 +104,23 @@ LGA_list<- list(LGAsf)
 ######################################################################################
 # intervention 
 ######################################################################################
-
-inputs <- file.path(repo, 'simulation_inputs', 'ITN')
-outputs <- file.path(data, 'ITN_kill_rate')
-
-val_year = c(2020:2030)
-#
-#
-#
-for (i in 1:length(val_year)){
-ITN <-data.table::fread(file.path(inputs, "itn_scenario1_BAU_2020_2030.csv")) %>% dplyr::select(-c(ends_with('_use'), 'block_initial', 'mortality_rate', 'LGA_old'))
-ITN= ITN[which(ITN$year == val_year[[i]]), ]
-ITN_df = merge(LGAsf, ITN, by ="LGA", all.x =TRUE)
-ITN_df$kill_rate = round(ITN_df$kill_rate * 100, 1)
-#ITN_map = generateMap(ITN_df, quo(kill_rate))
-saveRDS(ITN_df, paste0(outputs, '/', "ITN_kill_rate_", "Scenario 1 (Business as Usual)", "_", as.character(val_year[[i]]), ".rds"), compress = FALSE)
- }
+# 
+# inputs <- file.path(repo, 'simulation_inputs', 'ITN')
+# outputs <- file.path(data, 'ITN_block_rate')
+# 
+# val_year = c(2020:2030)
+# #
+# #
+# #
+# for (i in 1:length(val_year)){
+# ITN <-data.table::fread(file.path(inputs, "itn_scenario3_4_funded_2020_2030.csv")) %>% dplyr::select(-c(ends_with('_use'), 'kill_rate', 'mortality', 'LGA_old', mass_llins_fund))
+# ITN= ITN[which(ITN$year == val_year[[i]]), ]
+# ITN_df = merge(LGAsf, ITN, by ="LGA", all.x =TRUE)
+# ITN_df$block_rate = round(ITN_df$block_initial * 100, 1)
+# ITN_df = ITN_df %>%  dplyr::select(-c('block_initial'))
+# #ITN_map = generateMap(ITN_df, quo(kill_rate))
+# saveRDS(ITN_df, paste0(outputs, '/', "ITN_block_rate_", "Scenario 3 (Budget-prioritized plan)", "_", as.character(val_year[[i]]), ".rds"), compress = FALSE)
+#  }
 # # 
 # # 
 # kill_map=readRDS(file = paste0(outputs, '/', "ITN_kill_rate_", "Scenario 1 (Business as Usual)", "_", '2021', ".rds"))

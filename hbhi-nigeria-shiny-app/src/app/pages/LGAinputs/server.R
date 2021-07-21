@@ -25,20 +25,12 @@ observe({
 #--------------------------------------------------------
 data <- eventReactive(input$submit_loc,{
   Drive <- file.path(gsub("[\\]", "/", gsub("Documents", "", Sys.getenv("HOME"))))
-  data_dir <- file.path(Drive,"Box", "NU-malaria-team", "projects", "hbhi_nigeria_shiny_app_data")
   repo <- file.path(Drive, 'Documents', 'hbhi-nigeria-publication-2021', 'hbhi-nigeria-shiny-app', 'data')
   
   
   #--------------------------------------------------------  
   ### Case management 
   #--------------------------------------------------------
-if("Case management - uncomplicated" %in% input$varType){
-  case_management <- 
-    data.table::fread(file.path(data_dir, "case_management.csv"))
-  
-}
-  
-
   
   if(("Case management - uncomplicated" %in% input$varType)) {
     cm_map<- reactive({
@@ -47,16 +39,37 @@ if("Case management - uncomplicated" %in% input$varType){
         cm_map=readRDS(file = paste0(repo, "/CM/", 'CM_', input$scenarioInput, ".rds"))
         cm_map$data$year = input$yearInput
         
-      } 
-      
-      else if (input$scenarioInput == "Scenario 4 (Budget-prioritized plan)") {
+      } else if (input$scenarioInput == "Scenario 4 (Budget-prioritized plan)") {
         cm_map=readRDS(file = paste0(repo, "/CM/", 'CM_', 'Scenario 3 (Budget-prioritized plan)', '_', as.character(input$yearInput), ".rds"))
+      
+      }else  {
+      cm_map=readRDS(file = paste0(repo, "/CM/", 'CM_', input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
       }
       
+      cm_map = cm_map + ggplot2::labs(title = paste0("Simday:", " ", max(cm_map$data$simday, na.rm = T), ", Year:", " ", max(cm_map$data$year, na.rm=T)))
       
-       else  {
-      cm_map=readRDS(file = paste0(repo, "/CM/", 'CM_', input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
+    })
+    return(cm_map())
+  } 
+  
+
+
+  #--------------------------------------------------------  
+  ### Severe case management 
+  #--------------------------------------------------------
+
+  if(("Case management - severe" %in% input$varType)) {
+    cm_map<- reactive({
       
+      if (input$scenarioInput == "Scenario 1 (Business as Usual)"){
+        cm_map=readRDS(file = paste0(repo, "/Severe_CM/", 'Severe_CM_', input$scenarioInput, ".rds"))
+        cm_map$data$year = input$yearInput
+        
+      } else if (input$scenarioInput == "Scenario 4 (Budget-prioritized plan)") {
+        cm_map=readRDS(file = paste0(repo, "/Severe_CM/", 'Severe_CM_', 'Scenario 3 (Budget-prioritized plan)', '_', as.character(input$yearInput), ".rds"))
+      }
+      else  {
+        cm_map=readRDS(file = paste0(repo, "/Severe_CM/", 'Severe_CM_', input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
       }
       
       cm_map = cm_map + ggplot2::labs(title = paste0("Simday:", " ", max(cm_map$data$simday, na.rm = T), ", Year:", " ", max(cm_map$data$year, na.rm=T)))
@@ -67,242 +80,31 @@ if("Case management - uncomplicated" %in% input$varType){
   } 
   
   
- 
-  
-
-
-
-
-  #--------------------------------------------------------  
-  ### Severe case management 
-  #--------------------------------------------------------
- 
-  if("Case management - severe" %in% input$varType){
-    severe_cm <- 
-      data.table::fread(file.path(data_dir, "severe_case_management.csv"))
-    #browser()
-  }
-  
-  
-  
-  if(("Scenario 1 (Business as Usual)" %in% input$scenarioInput) & ("Case management - severe" %in% input$varType)) {
-    cm_map<- reactive({
-      cm  = severe_cm[which(severe_cm$scenario ==input$scenarioInput), ]
-      #browser()
-      cm_df = merge(LGAsf, cm, by ="LGA", all.x =TRUE)
-      cm_df$year = input$yearInput
-      cm_map = generateMap(cm_df, quo(severe_cases))
-    })
-    return(cm_map())
-    
-  } 
-  
-  
-  
-  if(("Scenario 2 (High effective coverage)" %in% input$scenarioInput) & ("Case management - severe" %in% input$varType)){
-    cm_map<- reactive({
-      
-      
-      
-      if (input$yearInput > 2025) {
-        cm = severe_cm[which(severe_cm$scenario ==input$scenarioInput & year == 2025), ]
-        cm_df = split(cm , by="simday")
-        cm_df = merge(LGAsf, y=cm_df[[3]] , by="LGA",all.x =TRUE)
-        cm_df$simday = "continuous"
-        cm_df$year = input$yearInput
-        cm_map = generateMap(cm_df, quo(severe_cases))
-        
-      } 
-      
-      else  {
-        
-        cm = severe_cm[which(severe_cm$scenario ==input$scenarioInput & year == input$yearInput), ]
-        cm_df  = split(cm , by="simday")
-        cm_df = purrr::map2(LGA_list,cm_df, left_join, by="LGA")
-        cols_list = list(quo(severe_cases))
-        cm_map <-purrr::map2(cm_df, cols_list, generateMap)
-        
-        
-        if(length(cm_map) > 2){
-          
-          legend <- cowplot::get_legend(
-            # create some space to the left of the legend
-            cm_map[[1]] + theme(legend.box.margin = margin(0, 0, 0, 12))
-          )
-          cm_map =  plot_grid(cm_map[[1]]+ theme(legend.position="none"),cm_map[[2]] + theme(legend.position="none"), cm_map[[3]] + theme(legend.position="none"), nrow = 1)
-          
-          cm_map = plot_grid(cm_map, legend, rel_widths = c(3, .4))
-        } 
-        
-        else {
-          
-          legend <- cowplot::get_legend(
-            # create some space to the left of the legend
-            cm_map[[1]] + theme(legend.box.margin = margin(0, 0, 0, 12))
-          )
-          
-          cm_map <- plot_grid(cm_map[[1]] + theme(legend.position="none"),cm_map[[2]]+ theme(legend.position="none") , nrow = 1)
-          
-          cm_map = plot_grid(cm_map, legend, rel_widths = c(3, .4))
-          
-        }
-        
-      }
-      
-      
-      
-    })
-    
-    
-    
-    return(cm_map())
-    
-  }
-  
-  # Scenarios 3-7
-  if("Case management - severe" %in% input$varType){
-    cm_map <- reactive({
-      if(substr(input$scenarioInput, 10, 10) %in% c('6', '7')){
-        cm = severe_cm[which(severe_cm$scenario ==input$scenarioInput & year == input$yearInput), ]
-      } else {
-        cm  = severe_cm[which(severe_cm$scenario ==input$scenarioInput), ]
-      }
-      cm_df <- merge(LGAsf, cm, by="LGA", all.x = TRUE)
-      cm_df$year = input$yearInput
-      cm_map = generateMap(cm_df, quo(severe_cases))
-    })
-
-    return(cm_map())}
-  
-
-  
   
   #--------------------------------------------------------  
   ### ITN kill rate 
   #--------------------------------------------------------
-  # code is really similar, can likely be simplified greatly 
+  
   if("Insecticide treated net kill rate" %in% input$varType){
       kill_map<- reactive({
         
-        filename = paste0("kill_grid_scenario", substr(input$scenarioInput, 10, 10), "_", as.character(input$yearInput))
-        #browser()
-        kill_grid=readRDS(file = paste0("data/kill_rate_map_grids/", filename, ".rds"))
+        if (input$scenarioInput == "Scenario 4 (Budget-prioritized plan)"){
+          
+        kill_map=readRDS(file = paste0(repo, "/ITN_kill_rate/", 'ITN_kill_rate_', 'Scenario 3 (Budget-prioritized plan)', '_', as.character(input$yearInput), ".rds"))
+        
+        }else{
+          
+          kill_map=readRDS(file = paste0(repo, "/ITN_kill_rate/", 'ITN_kill_rate_', input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
+        }
+        kill_map = generateMap(kill_map, quo(kill_rate), "kill rate")
+        kill_map = kill_map + ggplot2::labs(title = paste0("Simdays:", " ", min(kill_map$data$simday, na.rm = T), "-", max(kill_map$data$simday, na.rm = T),   ", Year:", " ", max(kill_map$data$year, na.rm=T)))
         
       })
-      #browser()
+      
       return(kill_map())
   }
-  # 
-  # 
-  # if(("Insecticide treated net kill rate" %in% input$varType) &  ("Scenario 1 (Business as Usual)" %in% input$scenarioInput))
-  # {
-  #   kill_map<- reactive({
-  #     filename = paste0("kill_grid_scenario1_", as.character(input$yearInput))
-  #     #browser()
-  #     kill_grid=readRDS(file = paste0("data/kill_rate_map_grids/", filename, ".rds"))
-  #     
-  #   })
-  #   #browser()
-  #   return(kill_map())
-  #   
-  # } 
-  # 
-  # 
-  # 
-  # if(("Insecticide treated net kill rate" %in% input$varType) &  ("Scenario 2 (High effective coverage)" %in% input$scenarioInput))
-  #     {
-  #   kill_map<- reactive({
-  #   filename = paste0("kill_grid_scenario2_", as.character(input$yearInput))
-  #   #browser()
-  #   kill_grid=readRDS(file = paste0("data/kill_rate_map_grids/", filename, ".rds"))
-  #   
-  #   })
-  #   #browser()
-  #   return(kill_map())
-  #   
-  # } 
-  # 
-  # 
-  # if(("Insecticide treated net kill rate" %in% input$varType) &  ("Scenario 3 (Improved coverage)"  %in% input$scenarioInput))
-  # {
-  #   kill_map<- reactive({
-  #     filename = paste0("kill_grid_scenario3_", as.character(input$yearInput))
-  #     #browser()
-  #     kill_grid=readRDS(file = paste0("data/kill_rate_map_grids/", filename, ".rds"))
-  #     
-  #   })
-  #   return(kill_map())
-  #   
-  # } 
-  # 
-  # 
-  # 
-  # if(("Insecticide treated net kill rate" %in% input$varType) &  ("Scenario 4 (Improved coverage)"  %in% input$scenarioInput))
-  # {
-  #   kill_map<- reactive({
-  #     filename = paste0("kill_grid_scenario4_", as.character(input$yearInput))
-  #     #browser()
-  #     kill_grid=readRDS(file = paste0("data/kill_rate_map_grids/", filename, ".rds"))
-  #     
-  #   })
-  #   return(kill_map())
-  #   
-  # } 
-  # 
-  # 
-  # if(("Insecticide treated net kill rate" %in% input$varType) &  ("Scenario 4 (Improved coverage)"  %in% input$scenarioInput))
-  # {
-  #   kill_map<- reactive({
-  #     filename = paste0("kill_grid_scenario4_", as.character(input$yearInput))
-  #     #browser()
-  #     kill_grid=readRDS(file = paste0("data/kill_rate_map_grids/", filename, ".rds"))
-  #     
-  #   })
-  #   return(kill_map())
-  #   
-  # }
-  # 
-  # 
-  # 
-  # if(("Insecticide treated net kill rate" %in% input$varType) &  ("Scenario 5 (Improved coverage)"  %in% input$scenarioInput))
-  # {
-  #   kill_map<- reactive({
-  #     filename = paste0("kill_grid_scenario5_", as.character(input$yearInput))
-  #     #browser()
-  #     kill_grid=readRDS(file = paste0("data/kill_rate_map_grids/", filename, ".rds"))
-  #     
-  #   })
-  #   return(kill_map())
-  #   
-  # }
-  # 
-  # 
-  # if(("Insecticide treated net kill rate" %in% input$varType) &  ("Scenario 6 (Considered for funding in the NSP)" %in% input$scenarioInput))
-  # {
-  #   kill_map<- reactive({
-  #     filename = paste0("kill_grid_scenario6_", as.character(input$yearInput))
-  #     #browser()
-  #     kill_grid=readRDS(file = paste0("data/kill_rate_map_grids/", filename, ".rds"))
-  #     
-  #   })
-  #   return(kill_map())
-  #   
-  # }
-  # 
-  # 
-  # 
-  # if(("Insecticide treated net kill rate" %in% input$varType) &  ("Scenario 7 (Considered for funding in the NSP)" %in% input$scenarioInput))
-  # {
-  #   kill_map<- reactive({
-  #     filename = paste0("kill_grid_scenario6_", as.character(input$yearInput))
-  #     #browser()
-  #     kill_grid=readRDS(file = paste0("data/kill_rate_map_grids/", filename, ".rds"))
-  #     
-  #   })
-  #   return(kill_map())
-  #   
-  # }
-  # 
+
+
   
   #--------------------------------------------------------  
   ### ITN coverage
@@ -342,39 +144,8 @@ title <- eventReactive(input$submit_loc,{
     cm_titles <-title_function("Case Management (CM) Coverage", input$scenarioInput, footnote_cm)
     })
     return(cm_titles())} 
-  
-  # if(("Scenario 2 (High effective coverage)" %in% input$scenarioInput) & ("Case management - uncomplicated" %in% input$varType)){
-  #   cm_titles <-reactive({title_function("Case Management (CM) Coverage", "Scenario 2 (National strategic plan with high effective coverage)", footnote_cm)
-  #   })
-  #   return(cm_titles())}
-  # 
-  # if(("Scenario 3 (Improved coverage)" %in% input$scenarioInput) & ("Case management - uncomplicated" %in% input$varType)) {
-  #    cm_titles <-reactive({title_function("Case Management (CM) Coverage", "Scenario 3 (National strategic plan with Improved coverage)", footnote_cm)
-  #     })
-  #    return(cm_titles())} 
-  # 
-  # 
-  #  if(("Scenario 4 (Improved coverage)" %in% input$scenarioInput) & ("Case management - uncomplicated" %in% input$varType)) {
-  #    cm_titles <-reactive({title_function("Case Management (CM) Coverage", "Scenario 4 (National strategic plan with Improved coverage)", footnote_cm)
-  #    })
-  #   return(cm_titles())}
-  #   
-  #   if(("Scenario 5 (Improved coverage)" %in% input$scenarioInput) & ("Case management - uncomplicated" %in% input$varType)) {
-  #     cm_titles <-reactive({title_function("Case Management (CM) Coverage", "Scenario 5 (National strategic plan with Improved coverage)", footnote_cm)
-  #     })
-  #     return(cm_titles())}
-  # 
-  # 
-  #  if(("Scenario 6 (Considered for funding in the NSP)" %in% input$scenarioInput) & ("Case management - uncomplicated" %in% input$varType)) {
-  #   cm_titles <-reactive({title_function("Case Management (CM) Coverage", "Scenario 6 (Prioritized plans submitted to the Global Fund)", footnote_cm)
-  #    })
-  #    return(cm_titles())}
-  # 
-  #  if(("Scenario 7 (Considered for funding in the NSP)" %in% input$scenarioInput) & ("Case management - uncomplicated" %in% input$varType)) {
-  #    cm_titles <-reactive({title_function("Case Management (CM) Coverage", "Scenario 7 (Prioritized plans submitted to the Global Fund)", footnote_cm)
-  #    })
-  #    return(cm_titles())}
-  # 
+
+
   
   
   
@@ -390,42 +161,7 @@ title <- eventReactive(input$submit_loc,{
     return(cm_titles())} 
   
   
-  # if(("Scenario 2 (High effective coverage)" %in% input$scenarioInput) & ("Case management - severe" %in% input$varType)) {
-  #   cm_titles<-reactive({
-  #     cm_titles <-title_function(" Severe Case Management (CM) Coverage", "Scenario 2 (National strategic plan with high effective coverage)", 'Severe case management at baseline was estimated based on literature and expert opinion')
-  #   })
-  #   return(cm_titles())} 
-  # 
-  # 
-  # if(("Scenario 3 (Improved coverage)" %in% input$scenarioInput) & ("Case management - severe" %in% input$varType)) {
-  #   cm_titles <-reactive({title_function("Case Management (CM) Coverage", "Scenario 3 (National strategic plan with Improved coverage)", 'Severe case management at baseline was estimated based on literature and expert opinion')
-  #   })
-  #   return(cm_titles())} 
-  # 
-  # 
-  # if(("Scenario 4 (Improved coverage)" %in% input$scenarioInput) & ("Case management - severe" %in% input$varType)) {
-  #   cm_titles <-reactive({title_function("Case Management (CM) Coverage", "Scenario 4 (National strategic plan with Improved coverage)", 'Severe case management at baseline was estimated based on literature and expert opinion')
-  #   })
-  #   return(cm_titles())}
-  # 
-  # if(("Scenario 5 (Improved coverage)" %in% input$scenarioInput) & ("Case management - severe" %in% input$varType)) {
-  #   cm_titles <-reactive({title_function("Case Management (CM) Coverage", "Scenario 5 (National strategic plan with Improved coverage)", 'Severe case management at baseline was estimated based on literature and expert opinion')
-  #   })
-  #   return(cm_titles())}
-  # 
-  # 
-  # if(("Scenario 6 (Considered for funding in the NSP)" %in% input$scenarioInput) & ("Case management - severe" %in% input$varType)) {
-  #   cm_titles <-reactive({title_function("Case Management (CM) Coverage", "Scenario 6 (Prioritized plans submitted to the Global Fund)", 'Severe case management at baseline was estimated based on literature and expert opinion')
-  #   })
-  #   return(cm_titles())}
-  # 
-  # if(("Scenario 7 (Considered for funding in the NSP)" %in% input$scenarioInput) & ("Case management - severe" %in% input$varType)) {
-  #   cm_titles <-reactive({title_function("Case Management (CM) Coverage", "Scenario 7 (Prioritized plans submitted to the Global Fund)",  'Severe case management at baseline was estimated based on literature and expert opinion')
-  #   })
-  #   return(cm_titles())}
-  # 
-  
-  
+ 
   
   
   
@@ -476,29 +212,7 @@ output$modelPlot <-ggiraph::renderggiraph({
 
 })
 
-#   g <- ggplot2::ggplot(data()) +
-#     ggiraph::geom_polygon_interactive(
-#       color='grey',
-#       ggplot2::aes(long, lat, group=group, fill=U5_coverage,
-#                    tooltip=paste0(LGA, " ",  "is in", " ", State.x,  " ", "State"))) +
-#     colormap::scale_fill_colormap(
-#       colormap=colormap::colormaps$viridis, reverse = T) +
-#     ggplot2::labs(title='Case Management (CM) Coverage', subtitle=unique(data()$scenario),
-#                   caption='The Demographic and Health surveys were used to parameterize CM coverage. \n
-#                   The same coverage levels were used for both adults and children', fill = "")+
-#     ggplot2::theme(axis.text.x = ggplot2::element_blank(),
-#                    axis.text.y = ggplot2::element_blank(),
-#                    axis.ticks = ggplot2::element_blank(),
-#                    rect = ggplot2::element_blank(),
-#                    plot.title = ggplot2::element_text(face="bold", hjust = 0.5),
-#                    plot.subtitle = ggplot2::element_text(face ="italic", hjust = 0.5),
-#                    plot.caption = ggplot2::element_text(size = 8, face = "italic"))+
-#     ggplot2::xlab("")+ 
-#     ggplot2::ylab("")
-# 
-#   
-#   ggiraph::ggiraph(code = print(g))
-# })
+
 
 # Create button for downloading CSV; displayed only when submit button is clicked 
 # is computed
@@ -510,61 +224,9 @@ do.call(shiny::downloadButton, list('downloadCSV', 'Download model input as CSV'
 output$downloadCSV <- shiny::downloadHandler(
 filename = 'model_input.csv',
 content = function(file) {
-outputData <- data() %>%  dplyr::distinct(LGA, State.x, U5_coverage, Rep_DS, year, scenario) %>% dplyr::select(State = State.x, LGA, `Epidemiological Archetype` = Rep_DS, 
-                                                                                                               `case management coverage (U5 or adults) ` =U5_coverage, 
-                                                                                                               year, scenario) 
+outputData <- data()$data %>%  sf::st_drop_geometry()
 write.csv(outputData, file, row.names = FALSE)
 }
 )
 
 
-
-# case_param<-shiny::reactive({(cm_scen1_df)})
-# 
-# 
-# # case_param<-shiny::reactive({
-# # 
-# #   if ("Scenario 1 (Business as Usual)" %in% input$scenarioInput)
-# #   return(cm_scen1_df)})
-# 
-# #join case_param to map and plot 
-# 
-# # plotData <- shiny::reactive({
-# #   
-# # })
-# # 
-# # output$modelPlot <- 
-# 
-# # Server functionality
-# # inputParams <- shiny::reactive({
-# # 	# Validate input
-# # 	shiny::validate(
-# # 		shiny::need(
-# # 			input$scenarioInput != case_management$scenario, 
-# # 			'Scenarios are not same in the option box and data'
-# # 		),
-# # 		shiny::need(
-# # 			input$dur_incubation > input$dur_latent,
-# # 			'Duration of incubation period must be greater than duration of latent period!'
-# # 		)
-# # 	)
-# # 	setupParams(input)
-# # })
-# # modelOut <- shiny::reactive({runSimulation(inputParams())})
-# # plotData <- shiny::reactive({generatePlotData(input, modelOut())})
-# output$modelPlot <- plotly::renderPlotly(generateModelPlot(case_param(), ~U5_coverage))
-# 
-# # Create button for downloading CSV; displayed only when plotData
-# # is computed
-# # output$downloadUI <- shiny::renderUI({
-# # 	req(plotData())
-# # 	do.call(shiny::downloadButton, list('downloadCSV', 'Download model output as CSV'))
-# # })
-# # 
-# # output$downloadCSV <- shiny::downloadHandler(
-# # 	filename = 'model_results.csv',
-# # 	content = function(file) {
-# # 		outputData <- plotData() %>% rename(!!! swap_kv(OUTPUT_COLUMN_DESCRIPTIONS))
-# # 		write.csv(outputData, file, row.names = FALSE)
-# # 	}
-# # )

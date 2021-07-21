@@ -555,3 +555,148 @@
 # 
 #    return(cm_map())}
 
+# ITN$U5_ITN_use = ITN$U5_ITN_use*100
+# ITN$simday = sort(ITN$simday)
+# ITN_df = split(ITN , by="simday")
+# ITN_df = purrr::map2(LGA_list,ITN_df, left_join, by="LGA")
+# cols_list = list(quo(U5_ITN_use))
+# ITN_map = purrr::map2(ITN_df, cols_list, generateMap)
+# #ITN_map[[2]]
+
+
+
+# 
+# legend <- cowplot::get_legend(
+#     # create some space to the left of the legend
+#     ITN_map[[4]] + guides(color = guide_legend(nrow = 1)) +
+#       theme(legend.position = "bottom")
+#   )
+# 
+#   ITN_grid = plot_grid(ITN_map[[1]] + theme(legend.position="none"),ITN_map[[2]] + theme(legend.position="none"),
+#                          ITN_map[[3]] + theme(legend.position="none"), ITN_map[[4]] + theme(legend.position="none"),
+#                          ITN_map[[5]] + theme(legend.position="none"), ITN_map[[6]] + theme(legend.position="none"), nrow = 2)
+# 
+# 
+#   ITN_grid= plot_grid(ITN_grid, legend, nrow = 2, rel_heights = c(1, .1))
+#   ITN_grid
+#   saveRDS(ITN_grid,
+#           paste0("data/ITN_map_grid/u5_scenario/", "Scenario 7 (Considered for funding in the NSP)", "_", as.character(year[[i]]),  ".rds"))
+# }
+
+
+# filename = paste0("Scenario 1 (Business as Usual)", "_", "2020")
+# #browser()
+# kill_grid=readRDS(file = paste0("data/ITN_map_grid/u5_scenario1/", filename, ".rds"))
+
+
+
+# case_management <- fread("data/severe_case_management.csv")
+# footnote_cm <-'The Demographic and Health surveys were used to parameterize CM coverage. \n
+#                   #The same coverage levels were used for both adults and children'
+# 
+# cm_scen1_df <- case_management[which(case_management$scenario =="Scenario 1(Business as Usual)"), ]
+# cm_scen1_df <- merge(LGAsf, y=cm_scen1_df , by="LGA",all.x =TRUE)
+# cm_scen1_map<-generateMap(cm_scen1_df, quo(severe_cases))
+# cm_scen1_titles <-title_function("Case Management (CM) Coverage", "Scenario 1 (Business as Usual)", footnote_cm)
+
+
+
+
+
+
+
+
+#CM map scripts
+
+# 
+
+#inputs <- file.path(repo, 'simulation_inputs', 'CM')
+#outputs <- file.path(data, 'Severe_CM')
+# cm = data.table::fread(file.path(inputs, "cm_scenario1_BAU_2020_2030.csv"))
+# cm_df = merge(LGAsf, cm, by ="LGA", all.x =TRUE)
+# cm_df$severe_cases = round(cm_df$severe_cases * 100, 1)
+# cm_map = generateMap(cm_df, quo(severe_cases))
+# saveRDS(cm_map, paste0(outputs, '/', "Severe_CM_", "Scenario 1 (Business as Usual)", ".rds"))
+# 
+# cm_map$data$year = '2021'
+# cm_map = cm_map + ggplot2::labs(title = paste0("Simday:", " ", max(cm_map$data$simday, na.rm = T), ", Year:", " ", max(cm_map$data$year, na.rm=T)))
+# 
+# 
+
+
+#cm_map=readRDS(file = paste0(repo, "/CM/CM_Scenario 1 (Business as Usual)", ".rds"))
+#cm_map$data$year = input$yearInput
+
+
+# year = c(2020:2030)
+# 
+# 
+# for (i in 1:length(year)){
+# cm = data.table::fread(file.path(inputs, "cm_scenario3_4_funded_2020_2030.csv"))
+# cm  = cm[which(cm$year ==as.character(year[[i]])), ]
+# cm_df = merge(LGAsf, cm, by ="LGA", all.x =TRUE)
+# cm_df$severe_cases = round(cm_df$severe_cases * 100, 1)
+# cm_map = generateMap(cm_df, quo(severe_cases))
+# saveRDS(cm_map, paste0(outputs, '/', "Severe_CM_", "Scenario 3 (Budget-prioritized plan)", "_", as.character(year[[i]]),  ".rds"))
+# }
+# 
+# 
+# repo <- file.path(Drive, 'Documents', 'hbhi-nigeria-publication-2021', 'hbhi-nigeria-shiny-app', 'data')
+# scenarioInput = 'Scenario 3 (Budget-prioritized plan)'
+# yearInput = '2025'
+# cm_map=readRDS(file = paste0(repo, "/CM/", 'CM_', scenarioInput, '_', as.character(yearInput), ".rds"))
+
+
+#   g <- ggplot2::ggplot(data()) +
+#     ggiraph::geom_polygon_interactive(
+#       color='grey',
+#       ggplot2::aes(long, lat, group=group, fill=U5_coverage,
+#                    tooltip=paste0(LGA, " ",  "is in", " ", State.x,  " ", "State"))) +
+#     colormap::scale_fill_colormap(
+#       colormap=colormap::colormaps$viridis, reverse = T) +
+#     ggplot2::labs(title='Case Management (CM) Coverage', subtitle=unique(data()$scenario),
+#                   caption='The Demographic and Health surveys were used to parameterize CM coverage. \n
+#                   The same coverage levels were used for both adults and children', fill = "")+
+#     ggplot2::theme(axis.text.x = ggplot2::element_blank(),
+#                    axis.text.y = ggplot2::element_blank(),
+#                    axis.ticks = ggplot2::element_blank(),
+#                    rect = ggplot2::element_blank(),
+#                    plot.title = ggplot2::element_text(face="bold", hjust = 0.5),
+#                    plot.subtitle = ggplot2::element_text(face ="italic", hjust = 0.5),
+#                    plot.caption = ggplot2::element_text(size = 8, face = "italic"))+
+#     ggplot2::xlab("")+ 
+#     ggplot2::ylab("")
+# 
+#   
+#   ggiraph::ggiraph(code = print(g))
+# })
+
+
+
+generateMap <-function(data, column, tooltip_name){
+  
+  g <- ggplot2::ggplot(data) +
+    ggiraph::geom_sf_interactive(
+      color='grey', size =0.03, 
+      ggplot2::aes(fill=!!column,
+                   tooltip=paste0(LGA, " ",  "is in", " ", State,  " ", "State ", " with ", round(!!column, 1), "%", " ", tooltip_name,
+                                  ",", "\n",
+                                  "Simday:", " ", simday))) +
+    viridis::scale_fill_viridis(direction = -1, na.value = 'grey', limits = c(0, 90)) +
+    # colormap::scale_fill_colormap(
+    #   colormap=colormap::colormaps$viridis, reverse = T) +
+    #ggplot2::labs(title = paste0("Simday:", " ", max(data$simday, na.rm = T), ", Year:", " ", max(data$year, na.rm=T)))+
+    ggplot2::theme(plot.title = ggplot2::element_text(face="italic", hjust = 0.5, size=8),
+                   axis.text.x = ggplot2::element_blank(),
+                   axis.text.y = ggplot2::element_blank(),
+                   axis.ticks = ggplot2::element_blank(),
+                   rect = ggplot2::element_blank(),
+                   plot.background = ggplot2::element_rect(fill = "white", colour = NA),
+                   legend.title = ggplot2::element_blank())+
+    ggplot2::theme(plot.margin = ggplot2::margin(6, 0, 6, 0))+
+    ggplot2::xlab("")+
+    ggplot2::ylab("")
+  return(g)
+}
+
+

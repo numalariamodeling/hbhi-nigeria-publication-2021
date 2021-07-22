@@ -5,9 +5,6 @@ import::from(tidyr, '%>%')
 
 
 
-
-
-
 LGAModelUI <- function () {
 	ui <- shiny::fluidPage(
 	      wellPanel(shiny::h3('Input Data Visualization', style='margin-top: 0;')),

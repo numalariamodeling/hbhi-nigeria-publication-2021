@@ -2,7 +2,7 @@
 ## LGAinputs/server.R
 ##------------------------------
 
-import::here('./functions.R', LGAsf, LGA_list, generateMap, title_function)
+import::here('./functions.R', generateMap, title_function)
 import::here('./ui_selection_data.R', interventions)
 
 
@@ -24,32 +24,30 @@ observe({
 ###Map generation script  
 #--------------------------------------------------------
 data <- eventReactive(input$submit_loc,{
-  Drive <- file.path(gsub("[\\]", "/", gsub("Documents", "", Sys.getenv("HOME"))))
-  repo <- file.path(Drive, 'Documents', 'hbhi-nigeria-publication-2021', 'hbhi-nigeria-shiny-app', 'data')
-  
+  data <- "../../data"
   
   #--------------------------------------------------------  
   ### Case management 
   #--------------------------------------------------------
   
   if(("Case management - uncomplicated" %in% input$varType)) {
-    cm_map<- reactive({
+    map<- reactive({
       
       if (input$scenarioInput == "Scenario 1 (Business as Usual)"){
-        cm_map=readRDS(file = paste0(repo, "/CM/", 'CM_', input$scenarioInput, ".rds"))
-        cm_map$data$year = input$yearInput
+        map=readRDS(file = paste0(data, "/CM/", 'CM_', input$scenarioInput, ".rds"))
+        map$data$year = input$yearInput
         
       } else if (input$scenarioInput == "Scenario 4 (Budget-prioritized plan)") {
-        cm_map=readRDS(file = paste0(repo, "/CM/", 'CM_', 'Scenario 3 (Budget-prioritized plan)', '_', as.character(input$yearInput), ".rds"))
+        map=readRDS(file = paste0(data, "/CM/", 'CM_', 'Scenario 3 (Budget-prioritized plan)', '_', as.character(input$yearInput), ".rds"))
       
       }else  {
-      cm_map=readRDS(file = paste0(repo, "/CM/", 'CM_', input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
+      map=readRDS(file = paste0(data, "/CM/", 'CM_', input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
       }
       
-      cm_map = cm_map + ggplot2::labs(title = paste0("Simday:", " ", max(cm_map$data$simday, na.rm = T), ", Year:", " ", max(cm_map$data$year, na.rm=T)))
+      map = map + ggplot2::labs(title = paste0("Simday:", " ", max(map$data$simday, na.rm = T), ", Year:", " ", max(map$data$year, na.rm=T)))
       
     })
-    return(cm_map())
+    return(map())
   } 
   
 
@@ -59,23 +57,23 @@ data <- eventReactive(input$submit_loc,{
   #--------------------------------------------------------
 
   if(("Case management - severe" %in% input$varType)) {
-    cm_map<- reactive({
+    map<- reactive({
       
       if (input$scenarioInput == "Scenario 1 (Business as Usual)"){
-        cm_map=readRDS(file = paste0(repo, "/Severe_CM/", 'Severe_CM_', input$scenarioInput, ".rds"))
-        cm_map$data$year = input$yearInput
+        map=readRDS(file = paste0(data, "/Severe_CM/", 'Severe_CM_', input$scenarioInput, ".rds"))
+        map$data$year = input$yearInput
         
       } else if (input$scenarioInput == "Scenario 4 (Budget-prioritized plan)") {
-        cm_map=readRDS(file = paste0(repo, "/Severe_CM/", 'Severe_CM_', 'Scenario 3 (Budget-prioritized plan)', '_', as.character(input$yearInput), ".rds"))
+        map=readRDS(file = paste0(data, "/Severe_CM/", 'Severe_CM_', 'Scenario 3 (Budget-prioritized plan)', '_', as.character(input$yearInput), ".rds"))
       }
       else  {
-        cm_map=readRDS(file = paste0(repo, "/Severe_CM/", 'Severe_CM_', input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
+        map=readRDS(file = paste0(data, "/Severe_CM/", 'Severe_CM_', input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
       }
       
-      cm_map = cm_map + ggplot2::labs(title = paste0("Simday:", " ", max(cm_map$data$simday, na.rm = T), ", Year:", " ", max(cm_map$data$year, na.rm=T)))
+      map = map + ggplot2::labs(title = paste0("Simday:", " ", max(map$data$simday, na.rm = T), ", Year:", " ", max(map$data$year, na.rm=T)))
       
     })
-    return(cm_map())
+    return(map())
     
   } 
   
@@ -86,24 +84,48 @@ data <- eventReactive(input$submit_loc,{
   #--------------------------------------------------------
   
   if("Insecticide treated net kill rate" %in% input$varType){
-      kill_map<- reactive({
+      map<- reactive({
         
         if (input$scenarioInput == "Scenario 4 (Budget-prioritized plan)"){
           
-        kill_map=readRDS(file = paste0(repo, "/ITN_kill_rate/", 'ITN_kill_rate_', 'Scenario 3 (Budget-prioritized plan)', '_', as.character(input$yearInput), ".rds"))
+        map=readRDS(file = paste0(data, "/ITN_kill_rate/", 'ITN_kill_rate_', 'Scenario 3 (Budget-prioritized plan)', '_', as.character(input$yearInput), ".rds"))
         
         }else{
           
-          kill_map=readRDS(file = paste0(repo, "/ITN_kill_rate/", 'ITN_kill_rate_', input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
+          map=readRDS(file = paste0(data, "/ITN_kill_rate/", 'ITN_kill_rate_', input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
         }
-        kill_map = generateMap(kill_map, quo(kill_rate), "kill rate")
-        kill_map = kill_map + ggplot2::labs(title = paste0("Simdays:", " ", min(kill_map$data$simday, na.rm = T), "-", max(kill_map$data$simday, na.rm = T),   ", Year:", " ", max(kill_map$data$year, na.rm=T)))
+        map = generateMap(map, quo(kill_rate), "kill rate")
+        map = map + ggplot2::labs(title = paste0("Simdays:", " ", min(map$data$simday, na.rm = T), "-", max(map$data$simday, na.rm = T),   ", Year:", " ", max(map$data$year, na.rm=T)))
         
       })
       
-      return(kill_map())
+      return(map())
   }
 
+  
+  #--------------------------------------------------------  
+  ### ITN block rate 
+  #--------------------------------------------------------
+  
+  if("Insecticide treated net blocking rate" %in% input$varType){
+    map<- reactive({
+      
+      if (input$scenarioInput == "Scenario 4 (Budget-prioritized plan)"){
+        
+        map=readRDS(file = paste0(data, "/ITN_block_rate/", 'ITN_block_rate_', 'Scenario 3 (Budget-prioritized plan)', '_', as.character(input$yearInput), ".rds"))
+        
+      }else{
+        
+        map=readRDS(file = paste0(data, "/ITN_block_rate/", 'ITN_block_rate_', input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
+      }
+       map = generateMap(map, quo(block_rate), "blocking rate")
+      map = map + ggplot2::labs(title = paste0("Simdays:", " ", min(map$data$simday, na.rm = T), "-", max(map$data$simday, na.rm = T),   ", Year:", " ", max(map$data$year, na.rm=T)))
+      
+    })
+    
+    return(map())
+  }
+  
 
   
   #--------------------------------------------------------  
@@ -138,7 +160,6 @@ title <- eventReactive(input$submit_loc,{
                   The same coverage levels were used for both adults and children'
   }
   
-  
   if(("Case management - uncomplicated" %in% input$varType)) {
     cm_titles<-reactive({
     cm_titles <-title_function("Case Management (CM) Coverage", input$scenarioInput, footnote_cm)
@@ -146,12 +167,6 @@ title <- eventReactive(input$submit_loc,{
     return(cm_titles())} 
 
 
-  
-  
-  
-  
-  
-  
   
   #severe case management 
   if(("Case management - severe" %in% input$varType)) {
@@ -162,25 +177,34 @@ title <- eventReactive(input$submit_loc,{
   
   
  
-  
-  
-  
-  
-  
-  
-  
+
   #ITN kill rate  
   if("Insecticide treated net kill rate" %in% input$varType){
     footnote_itn <- "Kill rates were parameterized by constructing a relationship between mosquito mortality\n
                    in a bioassay and ITN kill rates in EMOD. ITNs will not be distributed in areas shaded in grey"
   }
   
-  
   if(("Insecticide treated net kill rate" %in% input$varType)) {
     itn_titles<-reactive({
       itn_titles <-title_function("Insecticide Treated Net (ITN) Kill Rates", input$scenarioInput, footnote_itn)
     })
     return(itn_titles())} 
+  
+  
+  
+  
+  #ITN block rate  
+  if("Insecticide treated net blocking rate" %in% input$varType){
+    footnote_itn <- "Blocking rates were parameterized based on a literature review. ITNs will not be distributed in areas shaded in grey"
+  }
+  
+  
+  if(("Insecticide treated net blocking rate" %in% input$varType)) {
+    itn_titles<-reactive({
+      itn_titles <-title_function("Insecticide Treated Net (ITN) Blocking Rates", input$scenarioInput, footnote_itn)
+    })
+    return(itn_titles())} 
+  
   
   
   

@@ -88,13 +88,7 @@ title_function <-function(mainTitle, subTitle, footNote){
 ######################################################################################
 
 #LGA shape file 
-Drive <- file.path(gsub("[\\]", "/", gsub("Documents", "", Sys.getenv("HOME"))))
-repo <- file.path(Drive, 'Documents', 'hbhi-nigeria-publication-2021')
-data <- file.path(repo, 'hbhi-nigeria-shiny-app', 'data')
-
-
-
-LGAsf <- sf::st_read(file.path(data, "LGA_shape", "NGA_LGAs.shp")) %>%  
+LGAsf <- sf::st_read("../../data/LGA_shape/NGA_LGAs.shp") %>%  
   dplyr::mutate(LGA = stringr::str_replace_all(LGA, "/", "-"),
                 LGA = dplyr::case_when(LGA == "kiyawa"~ "Kiyawa",
                                 LGA == "kaita"~ "Kaita",
@@ -105,6 +99,8 @@ LGA_list<- list(LGAsf)
 # intervention 
 ######################################################################################
 # 
+
+
 # inputs <- file.path(repo, 'simulation_inputs', 'ITN')
 # outputs <- file.path(data, 'ITN_block_rate')
 # 

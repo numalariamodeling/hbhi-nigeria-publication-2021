@@ -98,29 +98,31 @@ LGA_list<- list(LGAsf)
 ######################################################################################
 # intervention 
 ######################################################################################
-# 
 
 
+# repo<- "../../../"
 # inputs <- file.path(repo, 'simulation_inputs', 'ITN')
-# outputs <- file.path(data, 'ITN_block_rate')
+# outputs <- file.path('../../data/ITN_coverage')
 # 
 # val_year = c(2020:2030)
-# #
-# #
-# #
+# 
 # for (i in 1:length(val_year)){
-# ITN <-data.table::fread(file.path(inputs, "itn_scenario3_4_funded_2020_2030.csv")) %>% dplyr::select(-c(ends_with('_use'), 'kill_rate', 'mortality', 'LGA_old', mass_llins_fund))
+# ITN <-data.table::fread(file.path(inputs, "itn_scenario3_4_funded_2020_2030.csv")) %>% dplyr::select(-c(six_nine_ITN_use,ten_eighteen_ITN_use, 
+#                                                                                                         over_eighteen_ITN_use, 'kill_rate', 'mortality', block_initial, 'LGA_old', mass_llins_fund))
 # ITN= ITN[which(ITN$year == val_year[[i]]), ]
 # ITN_df = merge(LGAsf, ITN, by ="LGA", all.x =TRUE)
-# ITN_df$block_rate = round(ITN_df$block_initial * 100, 1)
-# ITN_df = ITN_df %>%  dplyr::select(-c('block_initial'))
-# #ITN_map = generateMap(ITN_df, quo(kill_rate))
-# saveRDS(ITN_df, paste0(outputs, '/', "ITN_block_rate_", "Scenario 3 (Budget-prioritized plan)", "_", as.character(val_year[[i]]), ".rds"), compress = FALSE)
+# ITN_df$U5_ITN_use= round(ITN_df$U5_ITN_use* 100, 1)
+# ITN_df = rename(ITN_df, ITN_use = U5_ITN_use)
+# saveRDS(ITN_df, paste0(outputs, '/', "ITN_coverage", "_> 5 years_Scenario 3 (Budget-prioritized plan)", "_", as.character(val_year[[i]]), ".rds"), compress = FALSE)
 #  }
-# # 
-# # 
-# kill_map=readRDS(file = paste0(outputs, '/', "ITN_kill_rate_", "Scenario 1 (Business as Usual)", "_", '2021', ".rds"))
-# kill_map = generateMap(kill_map, quo(kill_rate), "kill rate")
+
+# 
+# 
+# 
+# coverage_map=readRDS(file = paste0(outputs, '/', "ITN_coverage", "Scenario 1 (Business as Usual)", "_", '2021', ".rds"))
+# coverage_map = generateMap(coverage_map, quo(U5_ITN_use), "U5 ITN coverage")
+
+
 # kill_map = kill_map + ggplot2::labs(title = paste0("Simdays:", " ", min(kill_map$data$simday, na.rm = T), "-", max(kill_map$data$simday, na.rm = T),   ", Year:", " ", max(kill_map$data$year, na.rm=T)))
 # 
 # data <- kill_map$data %>%  sf::st_drop_geometry

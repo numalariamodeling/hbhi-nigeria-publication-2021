@@ -93,6 +93,40 @@ percent_change_fun_15 <- function(df, boolean){
 }  
 
 
+
+
+percent_change_fun_30 <- function(df, boolean){
+  
+  if(boolean == TRUE){
+    df %>% group_by(State) %>% mutate(PfPR_percent_change = (PfPR_all_ages - PfPR_all_ages[year =="2030" & scenario == "NGA projection scenario 7"])/PfPR_all_ages[year =="2030" & scenario == 'NGA projection scenario 7']* 100, 
+                                      U5_PfPR_percent_change = 
+                                        ( PfPR_U5 -  PfPR_U5[year =="2030" & scenario == "NGA projection scenario 7"])/ PfPR_U5[year =="2030" & scenario == "NGA projection scenario 7"]* 100, 
+                                      incidence_percent_change = 
+                                        (incidence_all_ages - incidence_all_ages[year =="2030" & scenario == "NGA projection scenario 7"])/incidence_all_ages[year =="2030" & scenario == "NGA projection scenario 7"]* 100, 
+                                      U5_incidence_percent_change = 
+                                        (incidence_U5 - incidence_U5[year =="2030" & scenario == "NGA projection scenario 7"])/incidence_U5[year =="2030" & scenario == "NGA projection scenario 7"]* 100,
+                                      death_percent_change = 
+                                        (death_rate_mean_all_ages - death_rate_mean_all_ages[year =="2030" & scenario == "NGA projection scenario 7"])/death_rate_mean_all_ages[year =="2030" & scenario == "NGA projection scenario 7"]* 100,
+                                      U5_death_percent_change = 
+                                        (death_rate_mean_U5 - death_rate_mean_U5[year =="2030" & scenario == "NGA projection scenario 7"])/death_rate_mean_U5[year =="2030" & scenario == "NGA projection scenario 7"]* 100)
+  } else if(boolean == FALSE){
+    df %>% mutate(PfPR_percent_change = (PfPR_all_ages - PfPR_all_ages[year =="2030" & scenario == "NGA projection scenario 7"])/PfPR_all_ages[year =="2030" & scenario == 'NGA projection scenario 7']* 100, 
+                  U5_PfPR_percent_change = 
+                    ( PfPR_U5 -  PfPR_U5[year =="2030" & scenario == "NGA projection scenario 7"])/ PfPR_U5[year =="2030" & scenario == "NGA projection scenario 7"]* 100, 
+                  incidence_percent_change = 
+                    (incidence_all_ages - incidence_all_ages[year =="2030" & scenario == "NGA projection scenario 7"])/incidence_all_ages[year =="2030" & scenario == "NGA projection scenario 7"]* 100, 
+                  U5_incidence_percent_change = 
+                    (incidence_U5 - incidence_U5[year =="2030" & scenario == "NGA projection scenario 7"])/incidence_U5[year =="2030" & scenario == "NGA projection scenario 7"]* 100,
+                  death_percent_change = 
+                    (death_rate_mean_all_ages - death_rate_mean_all_ages[year =="2030" & scenario == "NGA projection scenario 7"])/death_rate_mean_all_ages[year =="2030" & scenario == "NGA projection scenario 7"]* 100,
+                  U5_death_percent_change = 
+                    (death_rate_mean_U5 - death_rate_mean_U5[year =="2030" & scenario == "NGA projection scenario 7"])/death_rate_mean_U5[year =="2030" & scenario == "NGA projection scenario 7"]* 100)
+  }
+  
+}  
+
+
+
 #function to compute indicators 
 sum_fun <- function(df1, df2){
   df<- df1 %>%  filter(LGA %in% df2$LGA)%>% 
@@ -110,34 +144,4 @@ sum_fun <- function(df1, df2){
     dplyr::select(-c(death_rate_1_all_ages,death_rate_2_all_ages,death_rate_1_U5, death_rate_2_U5))
 }
 
-
-percent_change_fun_2030 <- function(df, boolean){
-  
-  if(boolean == TRUE){
-    df %>% group_by(State) %>% mutate(PfPR_percent_change = (PfPR_all_ages - PfPR_all_ages[year =="2030" & scenario == "NGA projection scenario 6"])/PfPR_all_ages[year =="2030" & scenario == 'NGA projection scenario 6']* 100, 
-                                      U5_PfPR_percent_change = 
-                                        ( PfPR_U5 -  PfPR_U5[year =="2030" & scenario == "NGA projection scenario 6"])/ PfPR_U5[year =="2030" & scenario == "NGA projection scenario 6"]* 100, 
-                                      incidence_percent_change = 
-                                        (incidence_all_ages - incidence_all_ages[year =="2030" & scenario == "NGA projection scenario 6"])/incidence_all_ages[year =="2030" & scenario == "NGA projection scenario 6"]* 100, 
-                                      U5_incidence_percent_change = 
-                                        (incidence_U5 - incidence_U5[year =="2030" & scenario == "NGA projection scenario 6"])/incidence_U5[year =="2030" & scenario == "NGA projection scenario 6"]* 100,
-                                      death_percent_change = 
-                                        (death_rate_mean_all_ages - death_rate_mean_all_ages[year =="2030" & scenario == "NGA projection scenario 6"])/death_rate_mean_all_ages[year =="2030" & scenario == "NGA projection scenario 6"]* 100,
-                                      U5_death_percent_change = 
-                                        (death_rate_mean_U5 - death_rate_mean_U5[year =="2030" & scenario == "NGA projection scenario 6"])/death_rate_mean_U5[year =="2030" & scenario == "NGA projection scenario 6"]* 100)
-  } else if(boolean == FALSE){
-    df %>% mutate(PfPR_percent_change = (PfPR_all_ages - PfPR_all_ages[year =="2030" & scenario == "NGA projection scenario 6"])/PfPR_all_ages[year =="2030" & scenario == 'NGA projection scenario 6']* 100, 
-                  U5_PfPR_percent_change = 
-                    ( PfPR_U5 -  PfPR_U5[year =="2030" & scenario == "NGA projection scenario 6"])/ PfPR_U5[year =="2030" & scenario == "NGA projection scenario 6"]* 100, 
-                  incidence_percent_change = 
-                    (incidence_all_ages - incidence_all_ages[year =="2030" & scenario == "NGA projection scenario 6"])/incidence_all_ages[year =="2030" & scenario == "NGA projection scenario 6"]* 100, 
-                  U5_incidence_percent_change = 
-                    (incidence_U5 - incidence_U5[year =="2030" & scenario == "NGA projection scenario 6"])/incidence_U5[year =="2030" & scenario == "NGA projection scenario 6"]* 100,
-                  death_percent_change = 
-                    (death_rate_mean_all_ages - death_rate_mean_all_ages[year =="2030" & scenario == "NGA projection scenario 6"])/death_rate_mean_all_ages[year =="2030" & scenario == "NGA projection scenario 6"]* 100,
-                  U5_death_percent_change = 
-                    (death_rate_mean_U5 - death_rate_mean_U5[year =="2030" & scenario == "NGA projection scenario 6"])/death_rate_mean_U5[year =="2030" & scenario == "NGA projection scenario 6"]* 100)
-  }
-  
-}  
 

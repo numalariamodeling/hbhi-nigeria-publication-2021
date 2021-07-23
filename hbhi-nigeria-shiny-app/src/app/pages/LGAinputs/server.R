@@ -131,6 +131,30 @@ data <- eventReactive(input$submit_loc,{
   #--------------------------------------------------------  
   ### ITN coverage
   #--------------------------------------------------------
+  
+  if("Insecticide treated net coverage" %in% input$varType){
+    map<- reactive({
+      
+      if (input$scenarioInput == "Scenario 4 (Budget-prioritized plan)"){
+        
+        map=readRDS(file = paste0(data, "/ITN_coverage/", 'ITN_coverage_', input$ITN_age, '_','Scenario 3 (Budget-prioritized plan)', '_', as.character(input$yearInput), ".rds"))
+        
+      }else{
+        
+        map=readRDS(file = paste0(data, "/ITN_coverage/", 'ITN_coverage_',input$ITN_age, '_',   input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
+      }
+      map = generateMap(map, quo(ITN_use), "ITN use")
+      map = map + ggplot2::labs(title = paste0("Simdays:", " ", min(map$data$simday, na.rm = T), "-", max(map$data$simday, na.rm = T),   ", Year:", " ", max(map$data$year, na.rm=T)))
+      
+    })
+    
+    return(map())
+  }
+  
+  
+  
+  
+  
   if(("Insecticide treated net coverage" %in% input$varType) &  ("> 5 years" %in% input$ITN_age))
   {
     ITN_map<- reactive({
@@ -157,7 +181,7 @@ title <- eventReactive(input$submit_loc,{
   #case management 
   if("Case management - uncomplicated" %in% input$varType){
     footnote_cm <- 'The Demographic and Health surveys were used to parameterize CM coverage at baseline. \n
-                  The same coverage levels were used for both adults and children'
+                  The same coverage levels were used for both adults and children. Values are percentages'
   }
   
   if(("Case management - uncomplicated" %in% input$varType)) {
@@ -181,7 +205,8 @@ title <- eventReactive(input$submit_loc,{
   #ITN kill rate  
   if("Insecticide treated net kill rate" %in% input$varType){
     footnote_itn <- "Kill rates were parameterized by constructing a relationship between mosquito mortality\n
-                   in a bioassay and ITN kill rates in EMOD. ITNs will not be distributed in areas shaded in grey"
+                   in a bioassay and ITN kill rates in EMOD. ITNs will not be distributed in areas shaded in grey. 
+                    Values are percentages"
   }
   
   if(("Insecticide treated net kill rate" %in% input$varType)) {
@@ -195,7 +220,8 @@ title <- eventReactive(input$submit_loc,{
   
   #ITN block rate  
   if("Insecticide treated net blocking rate" %in% input$varType){
-    footnote_itn <- "Blocking rates were parameterized based on a literature review. ITNs will not be distributed in areas shaded in grey"
+    footnote_itn <- "Blocking rates were parameterized based on a literature review. \n
+    ITNs will not be distributed in areas shaded in grey. Values are percentages"
   }
   
   
@@ -210,8 +236,8 @@ title <- eventReactive(input$submit_loc,{
   
   #ITN coverage   
   if("Insecticide treated net coverage" %in% input$varType){
-    footnote_itn <- "The Demographic and Health surveys were used to parameterize age-specific\n
-                   ITN coverage. ITNs will not be distributed in areas shaded in grey"
+    footnote_itn <- "The Demographic and Health surveys were used to parameterize age-specific
+                   ITN coverage. ITNs will not be distributed in areas shaded in grey. \nValues are percentages"
   }
   
   

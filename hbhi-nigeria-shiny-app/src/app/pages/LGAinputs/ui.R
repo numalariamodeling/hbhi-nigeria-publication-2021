@@ -8,7 +8,7 @@ import::from(tidyr, '%>%')
 LGAModelUI <- function () {
 	ui <- shiny::fluidPage(
 	      wellPanel(shiny::h3('Input Data Visualization', style='margin-top: 0;')),
-	      ggiraph::ggiraphOutput('modelPlot') %>% shinycssloaders::withSpinner(),
+	      ggiraph::girafeOutput('modelPlot', width = '100%', height = '500px') %>% shinycssloaders::withSpinner(),
 	      shiny::br(),
 	      shiny::uiOutput('downloadUI'),
 	      
@@ -45,7 +45,15 @@ LGAModelUI <- function () {
 				  inputId = 'ITN_age',
 				  label = 'Select age for ITN coverage', 
 				  choices = interventions$age_group)
-				  )
+				  ),
+			
+			
+			column(width = 4, shiny::selectInput(
+			  inputId = 'SMC_access_type',
+			  label = 'Select access type for SMC', 
+			  choices = interventions$SMC_access)
+			)
+			
 			),
 				
 				actionButton(

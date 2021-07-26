@@ -15,7 +15,9 @@ import::from(ggiraph, girafe_options)
 
 observe({
   updateSelectInput(session, "ITN_age", choices = interventions[interventions$interventions==input$varType, "age_group"])
+  updateSelectInput(session, "SMC_access_type", choices = interventions[interventions$interventions==input$varType, "SMC_access"])
 })
+
 
 
 
@@ -92,7 +94,7 @@ data <- eventReactive(input$submit_loc,{
         
         }else{
           
-          map=readRDS(file = paste0(data, "/ITN_kill_rate/", 'ITN_kill_rate_', input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
+          map=readRDS(file = paste0(data, "/ITN_kill_rate/",'ITN_kill_rate_',input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
         }
         map = generateMap(map, quo(kill_rate), "kill rate")
         map = map + ggplot2::labs(title = paste0("Simdays:", " ", min(map$data$simday, na.rm = T), "-", max(map$data$simday, na.rm = T),   ", Year:", " ", max(map$data$year, na.rm=T)))
@@ -116,7 +118,7 @@ data <- eventReactive(input$submit_loc,{
         
       }else{
         
-        map=readRDS(file = paste0(data, "/ITN_block_rate/", 'ITN_block_rate_', input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
+        map=readRDS(file = paste0(data, "/ITN_block_rate/", 'ITN_block_rate_',input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
       }
        map = generateMap(map, quo(block_rate), "blocking rate")
       map = map + ggplot2::labs(title = paste0("Simdays:", " ", min(map$data$simday, na.rm = T), "-", max(map$data$simday, na.rm = T),   ", Year:", " ", max(map$data$year, na.rm=T)))
@@ -141,7 +143,7 @@ data <- eventReactive(input$submit_loc,{
         
       }else{
         
-        map=readRDS(file = paste0(data, "/ITN_coverage/", 'ITN_coverage_',input$ITN_age, '_',   input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
+        map=readRDS(file = paste0(data, "/ITN_coverage/", 'ITN_coverage_',input$ITN_age, '_',input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
       }
       map = generateMap(map, quo(ITN_use), "ITN use")
       map = map + ggplot2::labs(title = paste0("Simdays:", " ", min(map$data$simday, na.rm = T), "-", max(map$data$simday, na.rm = T),   ", Year:", " ", max(map$data$year, na.rm=T)))
@@ -151,21 +153,30 @@ data <- eventReactive(input$submit_loc,{
     return(map())
   }
   
+ 
+  #--------------------------------------------------------  
+  ### SMC
+  #-------------------------------------------------------- 
   
-  
-  
-  
-  if(("Insecticide treated net coverage" %in% input$varType) &  ("> 5 years" %in% input$ITN_age))
-  {
-    ITN_map<- reactive({
-      filename = paste0(input$scenarioInput,  "_",  as.character(input$yearInput))
-      RDS_file_path <- file.path(data_dir, "ITN_map_grid", "u5_scenario", filename)
-      kill_grid=readRDS(file = paste0(RDS_file_path, ".rds"))
+  if("Seasonal malaria chemoprevention" %in% input$varType){
+    map<- reactive({
+      
+      if (input$scenarioInput == "Scenario 4 (Budget-prioritized plan)"){
+        
+        map=readRDS(file = paste0(data, "/ITN_coverage/", 'ITN_coverage_', input$ITN_age, '_','Scenario 3 (Budget-prioritized plan)', '_', as.character(input$yearInput), ".rds"))
+        
+      }else{
+        map=readRDS(file = paste0(data, "/SMC/", 'SMC_',input$SMC_access_type, '_',input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
+      }
+      
       
     })
-    return(ITN_map())
     
+    return(map())
   }
+  
+  
+
   
   
   
@@ -257,7 +268,7 @@ title <- eventReactive(input$submit_loc,{
 #--------------------------------------------------------
 output$modelPlot <-ggiraph::renderggiraph({
   ggiraph::girafe(ggobj = cowplot::plot_grid(title()[[1]], title()[[2]], data(), title()[[3]], ncol = 1, 
-                                             rel_heights = c(0.1, 0.1, 1, 0.3)), width_svg = 8, height_svg = 4, 
+                                             rel_heights = c(0.1, 0.1, 1, 0.3)), width_svg = 9, height_svg = 6, 
                   options = list(ggiraph::opts_zoom(max = 5)))
 
 })

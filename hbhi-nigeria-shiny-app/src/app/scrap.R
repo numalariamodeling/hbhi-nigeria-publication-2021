@@ -700,3 +700,34 @@ generateMap <-function(data, column, tooltip_name){
 }
 
 
+
+
+coverage_map = generateMap(LGA_shp, quo(coverage_high_access), "SMC coverage low access group")
+coverage_map2 = generateMap(LGA_shp[[2]], quo(coverage_low_access), "SMC coverage low access group")
+coverage_map3 = generateMap(LGA_shp[[3]], quo(coverage_low_access), "SMC coverage low access group")
+coverage_map4 = generateMap(LGA_shp[[4]], quo(coverage_low_access), "SMC coverage low access group")
+
+check_2 = coverage_map2$data %>%  na.omit()
+print(coverage_map2)
+
+LGA_dat1 <- LGA_shp$LGA
+LGA_dat2 <- LGA_shp2$LGA
+
+setdiff(LGA_dat1 ,LGA_dat2)
+
+tm_shape(LGA_shp) +
+  tm_polygons()
+
+
+st_crs(LGAsf)
+
+check = LGA_shp %>%  na.omit()
+
+
+user <- Sys.getenv("USERNAME")
+Drive <- file.path(gsub("[\\]", "/", gsub("Documents", "", Sys.getenv("HOME"))))
+NuDir <- file.path(Drive, "Box", "NU-malaria-team")
+ScriptDir <- file.path(NuDir,"data/nigeria_dhs/data_analysis/src/DHS/1_variables_scripts")
+source(file.path(ScriptDir, "generic_functions", "DHS_fun.R"))
+
+LGAsf2 <- sf::st_read("../../data/LGA_shp_2/gadm36_NGA_1.shp") 

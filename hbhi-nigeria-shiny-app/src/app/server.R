@@ -1,3 +1,5 @@
+
+
 server <- function (input, output, session) {
 	shinyBS::toggleModal(session, 'infoModal', toggle='open')
 

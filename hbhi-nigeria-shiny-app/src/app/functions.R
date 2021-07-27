@@ -59,7 +59,7 @@ draw_label_theme <- function(label, theme = NULL, element = "text", ...) {
                       fontfamily = elements$family,
                       #fontface = elements$face,
                       colour = elements$color,
-                      size = elements$size,
+                      size = 14,
                       ...
   )
 }

@@ -191,8 +191,8 @@ title <- eventReactive(input$submit_loc,{
   
   #case management 
   if("Case management - uncomplicated" %in% input$varType){
-    footnote_cm <- 'The Demographic and Health surveys were used to parameterize CM coverage at baseline. \n
-                  The same coverage levels were used for both adults and children. Values are percentages'
+    footnote_cm <- 'The Demographic and Health surveys were used to parameterize CM coverage at baseline. The same 
+                           coverage levels were used for both adults and children. Values are percentages'
   }
   
   if(("Case management - uncomplicated" %in% input$varType)) {
@@ -232,7 +232,7 @@ title <- eventReactive(input$submit_loc,{
   #ITN block rate  
   if("Insecticide treated net blocking rate" %in% input$varType){
     footnote_itn <- "Blocking rates were parameterized based on a literature review. \n
-    ITNs will not be distributed in areas shaded in grey. Values are percentages"
+    ITNs will not be distributed in areas shaded in grey. Values are percentages."
   }
   
   
@@ -248,7 +248,7 @@ title <- eventReactive(input$submit_loc,{
   #ITN coverage   
   if("Insecticide treated net coverage" %in% input$varType){
     footnote_itn <- "The Demographic and Health surveys were used to parameterize age-specific
-                   ITN coverage. ITNs will not be distributed in areas shaded in grey. \nValues are percentages"
+                   ITN coverage. ITNs will not be distributed in areas shaded in grey. \nValues are percentages."
   }
   
   
@@ -267,8 +267,8 @@ title <- eventReactive(input$submit_loc,{
 ###final map, title and footnote generation script  
 #--------------------------------------------------------
 output$modelPlot <-ggiraph::renderggiraph({
-  ggiraph::girafe(ggobj = cowplot::plot_grid(title()[[1]], title()[[2]], data(), title()[[3]], ncol = 1, 
-                                             rel_heights = c(0.1, 0.1, 1, 0.3)), width_svg = 9, height_svg = 6, 
+  ggiraph::girafe(ggobj = cowplot::plot_grid(title()[[1]], NULL,  title()[[2]], data(), title()[[3]], ncol = 1, 
+                                             rel_heights = c(0.09, 0.02, 0.09, 3, 0.3)), width_svg = 10, height_svg = 7, 
                   options = list(ggiraph::opts_zoom(max = 5)))
 
 })

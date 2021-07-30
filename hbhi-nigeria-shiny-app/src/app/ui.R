@@ -20,7 +20,7 @@ ui <- shiny::tagList(
 	navbarPageWithInputs(
 		id='navbar',
 		theme='flatly.min.css',
-		'Malaria intervention scenarios and outcomes: Nigeria impact modeling',
+		'Malaria intervention scenarios and projections: Nigeria impact modeling',
 		shiny::tabPanel(
 			value='Interventions',
 			icon=shiny::icon('globe-africa'),
@@ -50,10 +50,10 @@ ui <- shiny::tagList(
 	),
 	shinyBS::bsModal(
 		id='infoModal', 
-		title='Malaria Intervention Scenarios and Outcomes',
+		title='Malaria intervention scenarios and projections',
 		trigger='infoButton',
 		size='large',
-		"This tool visualizes intervention packages and projected outcomes for four scenarios considered for funding 
+		"This tool visualizes intervention packages and projections for four scenarios considered for funding 
 		the Nigerian Malaria Elimination Program as part of the 
 		World Health Organization's ", htmltools::tags$a(href ="https://www.who.int/malaria/publications/atoz/high-impact-response/en/", "High Burden to High Impact Initiative (HBHI)", target ="_blank"),
 		"to develop targeted interventions for high-burden countries.", "LGA-level intervention packages were used 

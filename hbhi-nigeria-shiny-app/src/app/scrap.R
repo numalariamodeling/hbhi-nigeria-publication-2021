@@ -731,3 +731,151 @@ ScriptDir <- file.path(NuDir,"data/nigeria_dhs/data_analysis/src/DHS/1_variables
 source(file.path(ScriptDir, "generic_functions", "DHS_fun.R"))
 
 LGAsf2 <- sf::st_read("../../data/LGA_shp_2/gadm36_NGA_1.shp") 
+
+
+
+#case management
+# if("Case management - uncomplicated" %in% input$varType){
+#   footnote_cm <- 'The Demographic and Health surveys were used to parameterize CM coverage at baseline. The same
+#                          coverage levels were used for both adults and children. Values are percentages'
+# }
+# 
+# if(("Case management - uncomplicated" %in% input$varType)) {
+#   cm_titles<-reactive({
+#   cm_titles <-title_function("Case Management (CM) Coverage", input$scenarioInput, footnote_cm)
+#   })
+#   return(cm_titles())}
+
+
+
+
+theme_georgia <- function(...) {
+  theme_gray(base_family = "Georgia", ...) + 
+    theme(plot.title = element_text(face = "bold"))
+}
+
+draw_label_theme <- function(label, theme = NULL, element = "text", ...) {
+  if (is.null(theme)) {
+    theme <- ggplot2::theme_get()
+  }
+  if (!element %in% names(theme)) {
+    stop("Element must be a valid ggplot theme element name")
+  }
+  
+  elements <- ggplot2::calc_element(element, theme)
+  
+  cowplot::draw_label(label, 
+                      fontfamily = elements$family,
+                      #fontface = elements$face,
+                      colour = elements$color,
+                      size = 14,
+                      ...
+  )
+}
+
+title_function <-function(mainTitle, subTitle, footNote){
+  title <- ggdraw() +
+    draw_label_theme(mainTitle, 
+                     theme = theme_georgia(), element = "plot.title",
+                     hjust=0.5,  fontface ="bold")+ ggplot2::theme(plot.margin = ggplot2::unit(c(0, 0, 0, 0), "cm"))
+  subtitle <- ggdraw() +
+    draw_label_theme(subTitle,
+                     theme = theme_georgia(), element = "plot.subtitle",
+                     hjust=0.5, fontface="italic") + ggplot2::theme(plot.margin = ggplot2::unit(c(0, 0, 0, 0), "cm"))
+  footnote<-ggdraw() +
+    draw_label_theme(footNote,
+                     theme = theme_georgia(), element = "plot.caption",
+                     hjust=0.5,  fontface ="italic") + ggplot2::theme(plot.margin = ggplot2::unit(c(0, 0, 0, 0), "cm"))
+  
+  title_ls<-list(title, subtitle, footnote)
+  return(title_ls)
+}
+
+
+# ggiraph::girafe(ggobj = cowplot::plot_grid(title()[[1]], NULL,  title()[[2]], data(),NULL, title()[[3]], ncol = 1, 
+#                                            rel_heights = c(0.09, 0.02, 0.09, 3,-0.02, 0.3), align = 'none'), width_svg = 10, height_svg = 7, 
+#                 options = list(ggiraph::opts_zoom(max = 5)))
+
+
+
+# for (i in 1:length(val_year)){
+# ITN <-data.table::fread(file.path(inputs, "itn_scenario3_4_funded_2020_2030.csv")) %>% dplyr::select(-c(six_nine_ITN_use,ten_eighteen_ITN_use,
+#                                                                                                         over_eighteen_ITN_use, 'kill_rate', 'mortality', block_initial, 'LGA_old', mass_llins_fund))
+# ITN= ITN[which(ITN$year == val_year[[i]]), ]
+# ITN_df = merge(LGAsf, ITN, by ="LGA", all.x =TRUE)
+# ITN_df$U5_ITN_use= round(ITN_df$U5_ITN_use* 100, 1)
+# ITN_df = rename(ITN_df, ITN_use = U5_ITN_use)
+# saveRDS(ITN_df, paste0(outputs, '/', "ITN_coverage", "_> 5 years_Scenario 3 (Budget-prioritized plan)", "_", as.character(val_year[[i]]), ".rds"), compress = FALSE)
+#  }
+
+# 
+# 
+# 
+# coverage_map=readRDS(file = paste0(outputs, '/', "ITN_coverage_> 5 years_", "Scenario 1 (Business as Usual)", "_", '2021', ".rds"))
+# coverage_map = generateMap(coverage_map, quo(ITN_use), "U5 ITN coverage")
+
+
+# kill_map = kill_map + ggplot2::labs(title = paste0("Simdays:", " ", min(kill_map$data$simday, na.rm = T), "-", max(kill_map$data$simday, na.rm = T),   ", Year:", " ", max(kill_map$data$year, na.rm=T)))
+# 
+# data <- kill_map$data %>%  sf::st_drop_geometry
+# class(data)
+
+# library(patchwork)
+# SMC = data.table::fread(file.path(inputs, "smc_scenario1_BAU_2020_2030.csv")) %>%  dplyr::select(-c(State))
+# SMC = SMC %>%  dplyr::filter(year == 2020)
+# SMC$coverage_high_access= round(SMC$coverage_high_access* 100, 1)
+# SMC = split(SMC, SMC$round)
+# LGA_shp <-map2(LGA_list, SMC, left_join, by ="LGA")
+# val = list(quo(coverage_high_access))
+# tooltip = list("SMC coverage high access group")
+# maps <- pmap(list(LGA_shp, val,tooltip), generateMap)
+# 
+# legend <- cowplot::get_legend(
+#     # create some space to the left of the legend
+#     maps[[4]] + guides(color = guide_legend(nrow = 1)) +
+#       theme(legend.position = "right")
+#   )
+# 
+# all_maps =maps[[1]] + ggplot2::xlab(paste0('Round:', " ", unique(na.omit(maps[[1]]$data$round))))+
+#   ggplot2::labs(title = paste0("Simdays:", " ", min(maps[[1]]$data$simday, na.rm = T), "-", max(maps[[1]]$data$simday, na.rm = T),   ", Year:", " ", max(maps[[1]]$data$year, na.rm=T))) +
+#   theme(legend.position="none", plot.margin = unit(c(0, 0, 0, 0), "cm")) +
+#   
+#   
+#   maps[[2]] +
+#   ggplot2::xlab(paste0('Round:', " ", unique(na.omit(maps[[2]]$data$round))))+
+#   ggplot2::labs(title = paste0("Simdays:", " ", min(maps[[2]]$data$simday, na.rm = T), "-", max(maps[[2]]$data$simday, na.rm = T),   ", Year:", " ", max(maps[[2]]$data$year, na.rm=T))) +
+#   theme(legend.position="none", plot.margin = unit(c(0, 0, 0, 0), "cm")) +
+#   
+#   maps[[3]] + ggplot2::xlab(paste0('Round:', " ", unique(na.omit(maps[[3]]$data$round))))+
+#   ggplot2::labs(title = paste0("Simdays:", " ", min(maps[[3]]$data$simday, na.rm = T), "-", max(maps[[3]]$data$simday, na.rm = T),   ", Year:", " ", max(maps[[3]]$data$year, na.rm=T))) +
+# theme(legend.position="none", plot.margin = unit(c(0, 0, 0, 0), "cm")) +
+#   
+#   maps[[4]] + ggplot2::xlab(paste0('Round:', " ", unique(na.omit(maps[[4]]$data$round))))+
+#   ggplot2::labs(title = paste0("Simdays:", " ", min(maps[[4]]$data$simday, na.rm = T), "-", max(maps[[4]]$data$simday, na.rm = T),   ", Year:", " ", max(maps[[4]]$data$year, na.rm=T)))+
+# theme(plot.margin = unit(c(0, 0, 0, 0), "cm")) 
+# 
+# all_map = plot_grid(
+#   maps[[1]] + ggplot2::xlab(paste0('Round:', " ", unique(na.omit(maps[[1]]$data$round))))+
+#   ggplot2::labs(title = paste0("Simdays:", " ", min(maps[[1]]$data$simday, na.rm = T), "-", max(maps[[1]]$data$simday, na.rm = T),   ", Year:", " ", max(maps[[1]]$data$year, na.rm=T))) +
+#     theme(legend.position="none", plot.margin = unit(c(0, 0, 0.1, 0), "cm")),
+# 
+#   maps[[2]] + ggplot2::xlab(paste0('Round:', " ", unique(na.omit(maps[[2]]$data$round))))+
+#   ggplot2::labs(title = paste0("Simdays:", " ", min(maps[[2]]$data$simday, na.rm = T), "-", max(maps[[2]]$data$simday, na.rm = T),   ", Year:", " ", max(maps[[2]]$data$year, na.rm=T))) +
+#     theme(legend.position="none", plot.margin = unit(c(0, 0, 0.1, 0), "cm")),
+# 
+#   maps[[3]] + ggplot2::xlab(paste0('Round:', " ", unique(na.omit(maps[[3]]$data$round))))+
+#     ggplot2::labs(title = paste0("Simdays:", " ", min(maps[[3]]$data$simday, na.rm = T), "-", max(maps[[3]]$data$simday, na.rm = T),   ", Year:", " ", max(maps[[3]]$data$year, na.rm=T)))
+#   + theme(legend.position="none", plot.margin = unit(c(0, 0, 0.1, 0), "cm")),
+# 
+#   maps[[4]] + ggplot2::xlab(paste0('Round:', " ", unique(na.omit(maps[[4]]$data$round))))+
+#     ggplot2::labs(title = paste0("Simdays:", " ", min(maps[[4]]$data$simday, na.rm = T), "-", max(maps[[4]]$data$simday, na.rm = T),   ", Year:", " ", max(maps[[4]]$data$year, na.rm=T)))
+#   + theme(legend.position="none", plot.margin = unit(c(0, 0, 0.1, 0), "cm")))
+# 
+# # 
+# map_leg = plot_grid(all_map, legend, nrow = 2, rel_heights = c(1, .2))
+# # 
+# saveRDS(all_maps, paste0(outputs, '/', "SMC", "_high access children_Scenario 1 (Business as Usual)", "_", as.character(2020), ".rds"), compress = FALSE)
+# 
+# # 
+# 
+

@@ -77,7 +77,7 @@ LGAModelUI <- function () {
   ui <- fluidPage(
     shiny::sidebarLayout(
       shiny::sidebarPanel(
-        shiny::h3('Input data Visualization', style='margin-top: 0;'),
+        shiny::h3('Input data visualization', style='margin-top: 0;'),
         br(),
         shiny::selectInput(
           inputId = 'scenarioInput',

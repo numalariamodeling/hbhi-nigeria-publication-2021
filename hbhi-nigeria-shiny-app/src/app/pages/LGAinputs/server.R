@@ -2,15 +2,16 @@
 ## LGAinputs/server.R
 ##------------------------------
 
-import::here('./functions.R', generateMap, title_function)
+import::here('./functions.R', generateMap)
 import::here('./ui_selection_data.R', interventions)
 
 
 import::from(dplyr, rename,case_when, left_join,  '%>%' )
 import::from(cowplot, ggdraw, plot_grid)
-import::from(ggplot2, theme, margin)
+import::from(ggplot2, theme, margin, element_text)
 import::from(rlang, quo)
 import::from(ggiraph, girafe_options)
+library(patchwork)
 
 
 observe({
@@ -46,7 +47,10 @@ data <- eventReactive(input$submit_loc,{
       map=readRDS(file = paste0(data, "/CM/", 'CM_', input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
       }
       
-      map = map + ggplot2::labs(title = paste0("Simday:", " ", max(map$data$simday, na.rm = T), ", Year:", " ", max(map$data$year, na.rm=T)))
+      #browser()
+      map = map + ggplot2::labs(title = paste0("Year:", " ", max(map$data$year, na.rm=T)))+
+        theme(plot.title=element_text(size = 12, color = "black",  hjust=0.5), legend.key.size = ggplot2::unit(1, 'cm'), legend.text = element_text(size=12))
+
       
     })
     return(map())
@@ -72,7 +76,8 @@ data <- eventReactive(input$submit_loc,{
         map=readRDS(file = paste0(data, "/Severe_CM/", 'Severe_CM_', input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
       }
       
-      map = map + ggplot2::labs(title = paste0("Simday:", " ", max(map$data$simday, na.rm = T), ", Year:", " ", max(map$data$year, na.rm=T)))
+      map = map + ggplot2::labs(title = paste0("Year:", " ", max(map$data$year, na.rm=T)))+
+        theme(plot.title=element_text(size = 12, color = "black",  hjust=0.5), legend.key.size = ggplot2::unit(1, 'cm'), legend.text = element_text(size=12))
       
     })
     return(map())
@@ -97,7 +102,8 @@ data <- eventReactive(input$submit_loc,{
           map=readRDS(file = paste0(data, "/ITN_kill_rate/",'ITN_kill_rate_',input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
         }
         map = generateMap(map, quo(kill_rate), "kill rate")
-        map = map + ggplot2::labs(title = paste0("Simdays:", " ", min(map$data$simday, na.rm = T), "-", max(map$data$simday, na.rm = T),   ", Year:", " ", max(map$data$year, na.rm=T)))
+        map = map + ggplot2::labs(title = paste0("Year:", " ", max(map$data$year, na.rm=T))) +
+          theme(plot.title=element_text(size = 12, color = "black",  hjust=0.5), legend.key.size = ggplot2::unit(1, 'cm'), legend.text = element_text(size=12))
         
       })
       
@@ -121,7 +127,8 @@ data <- eventReactive(input$submit_loc,{
         map=readRDS(file = paste0(data, "/ITN_block_rate/", 'ITN_block_rate_',input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
       }
        map = generateMap(map, quo(block_rate), "blocking rate")
-      map = map + ggplot2::labs(title = paste0("Simdays:", " ", min(map$data$simday, na.rm = T), "-", max(map$data$simday, na.rm = T),   ", Year:", " ", max(map$data$year, na.rm=T)))
+      map = map + ggplot2::labs(title = paste0("Year:", " ", max(map$data$year, na.rm=T)))+
+        theme(plot.title=element_text(size = 12, color = "black",  hjust=0.5), legend.key.size = ggplot2::unit(1, 'cm'), legend.text = element_text(size=12))
       
     })
     
@@ -146,7 +153,8 @@ data <- eventReactive(input$submit_loc,{
         map=readRDS(file = paste0(data, "/ITN_coverage/", 'ITN_coverage_',input$ITN_age, '_',input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
       }
       map = generateMap(map, quo(ITN_use), "ITN use")
-      map = map + ggplot2::labs(title = paste0("Simdays:", " ", min(map$data$simday, na.rm = T), "-", max(map$data$simday, na.rm = T),   ", Year:", " ", max(map$data$year, na.rm=T)))
+      map = map + ggplot2::labs(title = paste0("Year:", " ", max(map$data$year, na.rm=T)))+
+        theme(plot.title=element_text(size = 12, color = "black",  hjust=0.5), legend.key.size = ggplot2::unit(1, 'cm'), legend.text = element_text(size=12))
       
     })
     
@@ -188,78 +196,55 @@ data <- eventReactive(input$submit_loc,{
 ###title and footnote generation script  
 #--------------------------------------------------------
 title <- eventReactive(input$submit_loc,{
-  
-  #case management 
-  if("Case management - uncomplicated" %in% input$varType){
-    footnote_cm <- 'The Demographic and Health surveys were used to parameterize CM coverage at baseline. The same 
-                           coverage levels were used for both adults and children. Values are percentages'
-  }
-  
+
+
   if(("Case management - uncomplicated" %in% input$varType)) {
-    cm_titles<-reactive({
-    cm_titles <-title_function("Case Management (CM) Coverage", input$scenarioInput, footnote_cm)
+    titles<-reactive({
+      titles <-list(title = "Case Management (CM) Coverage", subtitle = input$scenarioInput, caption =
+                         'The Demographic and Health surveys were used to parameterize CM coverage at baseline. The same
+                           coverage levels were used for both adults and children. Values are percentages.')
     })
-    return(cm_titles())} 
-
+    return(titles())}
 
   
-  #severe case management 
   if(("Case management - severe" %in% input$varType)) {
-    cm_titles<-reactive({
-      cm_titles <-title_function("Severe Case Management (CM) Coverage", input$scenarioInput, 'Severe case management at baseline was estimated based on literature and expert opinion')
+    titles<-reactive({
+      titles <-list(title = "Severe Case Management (CM) Coverage", subtitle = input$scenarioInput, caption =
+                         'Severe case management at baseline was estimated based on literature and expert opinion.')
     })
-    return(cm_titles())} 
-  
-  
- 
+    return(titles())}
 
-  #ITN kill rate  
-  if("Insecticide treated net kill rate" %in% input$varType){
-    footnote_itn <- "Kill rates were parameterized by constructing a relationship between mosquito mortality\n
-                   in a bioassay and ITN kill rates in EMOD. ITNs will not be distributed in areas shaded in grey. 
-                    Values are percentages"
-  }
-  
+
   if(("Insecticide treated net kill rate" %in% input$varType)) {
-    itn_titles<-reactive({
-      itn_titles <-title_function("Insecticide Treated Net (ITN) Kill Rates", input$scenarioInput, footnote_itn)
+    titles<-reactive({
+      titles <-list(title = "Insecticide Treated Net (ITN) Kill Rates", subtitle = input$scenarioInput, caption =
+                      "Kill rates were parameterized by constructing a relationship between mosquito mortality\n
+                   in a bioassay and ITN kill rates in EMOD. ITNs will not be distributed in areas shaded in grey.
+                    Values are percentages.")
     })
-    return(itn_titles())} 
-  
-  
-  
-  
-  #ITN block rate  
-  if("Insecticide treated net blocking rate" %in% input$varType){
-    footnote_itn <- "Blocking rates were parameterized based on a literature review. \n
-    ITNs will not be distributed in areas shaded in grey. Values are percentages."
-  }
-  
-  
+    return(titles())}
+
+
   if(("Insecticide treated net blocking rate" %in% input$varType)) {
-    itn_titles<-reactive({
-      itn_titles <-title_function("Insecticide Treated Net (ITN) Blocking Rates", input$scenarioInput, footnote_itn)
+    titles<-reactive({
+      titles <-list(title = "Insecticide Treated Net (ITN) Blocking Rates", subtitle = input$scenarioInput, caption =
+                      "Blocking rates were parameterized based on a literature review. \n
+    ITNs will not be distributed in areas shaded in grey. Values are percentages.")
     })
-    return(itn_titles())} 
-  
-  
-  
-  
-  #ITN coverage   
-  if("Insecticide treated net coverage" %in% input$varType){
-    footnote_itn <- "The Demographic and Health surveys were used to parameterize age-specific
-                   ITN coverage. ITNs will not be distributed in areas shaded in grey. \nValues are percentages."
-  }
-  
-  
+    return(titles())}
+
+
+
   if(("Insecticide treated net coverage" %in% input$varType)) {
-    itn_titles<-reactive({
-     itn_titles <-title_function(paste0("Insecticide Treated Net (ITN) Coverage", ",", input$ITN_age), input$scenarioInput, footnote_itn)
+    titles<-reactive({
+    titles <-list(title = "Insecticide Treated Net (ITN) Coverage", subtitle = input$scenarioInput, caption =
+                    "The Demographic and Health surveys were used to parameterize age-specific
+                   ITN coverage. ITNs will not be distributed in areas shaded in grey. \nValues are percentages.")
     })
-    return(itn_titles())} 
-  
-  
-  
+    return(titles())}
+
+
+
 })
 
 
@@ -267,9 +252,11 @@ title <- eventReactive(input$submit_loc,{
 ###final map, title and footnote generation script  
 #--------------------------------------------------------
 output$modelPlot <-ggiraph::renderggiraph({
-  ggiraph::girafe(ggobj = cowplot::plot_grid(title()[[1]], NULL,  title()[[2]], data(), title()[[3]], ncol = 1, 
-                                             rel_heights = c(0.09, 0.02, 0.09, 3, 0.3)), width_svg = 10, height_svg = 7, 
-                  options = list(ggiraph::opts_zoom(max = 5)))
+  
+  ggiraph::girafe(code = print(data() + plot_annotation(title = title()[[1]], theme = theme(plot.title = element_text(face = 'bold', hjust = 0.5, size = 14), 
+                                                                                            plot.subtitle = element_text(hjust = 0.5, size = 13)),
+                                                              subtitle = title()[[2]],
+                                                              caption = title()[[3]])), width_svg = 10, height_svg = 7)
 
 })
 

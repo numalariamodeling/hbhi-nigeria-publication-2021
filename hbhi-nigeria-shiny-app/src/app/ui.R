@@ -43,7 +43,7 @@ ui <- shiny::tagList(
 					'codeButton',
 					icon=shiny::icon('github'),
 					'Code',
-					onclick='window.open(\'https://github.com/numalariamodeling/hbhi-NGA-interventions-outcome-data-viz\', \'_blank\')'
+					onclick='window.open(\'https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-nigeria-shiny-app/src/app\', \'_blank\')'
 				)
 			)
 			
@@ -59,6 +59,10 @@ ui <- shiny::tagList(
 		"to develop targeted interventions for high-burden countries.", "LGA-level intervention packages were used 
 		inputs in an agent-based model of malaria transmission as described in the manuscript entitled Application of 
 		mathematical modeling to inform intervention planning in Nigeria.",
+		br(), br(),
+		
+	  "To download per cycle coverage and addition simulation data for SMC,",  htmltools::tags$a(href ="https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/simulation_inputs/SMC", "Click here", target ="_blank"),
+		
 		br(), br(),
 		"To use the agent-based model, visit the ", htmltools::tags$a(href ="https://github.com/numalariamodeling/hbhi-nigeria-publication-2021", "HBHI Github Repo", target ="_blank"),
 		"for more details",

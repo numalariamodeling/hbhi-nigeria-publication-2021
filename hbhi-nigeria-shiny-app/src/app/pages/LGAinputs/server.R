@@ -43,6 +43,7 @@ data <- eventReactive(input$submit_loc,{
       } else if (input$scenarioInput == "Scenario 4 (Budget-prioritized plan)") {
         map=readRDS(file = paste0(data, "/CM/", 'CM_', 'Scenario 3 (Budget-prioritized plan)', '_', as.character(input$yearInput), ".rds"))
       
+        
       }else  {
       map=readRDS(file = paste0(data, "/CM/", 'CM_', input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
       }
@@ -168,15 +169,12 @@ data <- eventReactive(input$submit_loc,{
   
   if("Seasonal malaria chemoprevention" %in% input$varType){
     map<- reactive({
-      
-      if (input$scenarioInput == "Scenario 4 (Budget-prioritized plan)"){
-        
-        map=readRDS(file = paste0(data, "/ITN_coverage/", 'ITN_coverage_', input$ITN_age, '_','Scenario 3 (Budget-prioritized plan)', '_', as.character(input$yearInput), ".rds"))
-        
-      }else{
-        map=readRDS(file = paste0(data, "/SMC/", 'SMC_',input$SMC_access_type, '_',input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
-      }
-      
+    
+  map=readRDS(file = paste0(data, "/SMC/", 'SMC_',input$SMC_access_type, '_',input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
+  map = generateMap(map, quo(average_coverage_per_round), "average per cycle coverage in high access children")
+  map = map + ggplot2::labs(title = paste0("Year:", " ", max(map$data$year, na.rm=T)))+
+    theme(plot.title=element_text(size = 12, color = "black",  hjust=0.5), legend.key.size = ggplot2::unit(1, 'cm'), legend.text = element_text(size=12))
+  
       
     })
     
@@ -184,7 +182,29 @@ data <- eventReactive(input$submit_loc,{
   }
   
   
-
+  #--------------------------------------------------------  
+  ### IPTp
+  #--------------------------------------------------------
+  
+  if("Intermittent preventive treatment in pregnancy" %in% input$varType){
+    map<- reactive({
+      
+      if (input$scenarioInput == "Scenario 4 (Budget-prioritized plan)"){
+        
+        map=readRDS(file = paste0(data, "/IPTp/", 'IPTp_','Scenario 3 (Budget-prioritized plan)', '_', as.character(input$yearInput), ".rds"))
+        
+      }else{
+        
+        map=readRDS(file = paste0(data, "/IPTp/", 'IPTp_',input$scenarioInput, '_', as.character(input$yearInput), ".rds"))
+      }
+      map = generateMap(map, quo(IPTp), "IPTp coverage")
+      map = map + ggplot2::labs(title = paste0("Year:", " ", max(map$data$year, na.rm=T)))+
+        theme(plot.title=element_text(size = 12, color = "black",  hjust=0.5), legend.key.size = ggplot2::unit(1, 'cm'), legend.text = element_text(size=12))
+      
+    })
+    
+    return(map())
+  }
   
   
   
@@ -218,9 +238,8 @@ title <- eventReactive(input$submit_loc,{
   if(("Insecticide treated net kill rate" %in% input$varType)) {
     titles<-reactive({
       titles <-list(title = "Insecticide Treated Net (ITN) Kill Rates", subtitle = input$scenarioInput, caption =
-                      "Kill rates were parameterized by constructing a relationship between mosquito mortality\n
-                   in a bioassay and ITN kill rates in EMOD. ITNs will not be distributed in areas shaded in grey.
-                    Values are percentages.")
+                      "Kill rates were parameterized by constructing a relationship between mosquito mortality in a bioassay and ITN kill rates in EMOD. 
+                        ITNs will not be distributed in areas shaded in grey. Values are percentages.")
     })
     return(titles())}
 
@@ -228,21 +247,37 @@ title <- eventReactive(input$submit_loc,{
   if(("Insecticide treated net blocking rate" %in% input$varType)) {
     titles<-reactive({
       titles <-list(title = "Insecticide Treated Net (ITN) Blocking Rates", subtitle = input$scenarioInput, caption =
-                      "Blocking rates were parameterized based on a literature review. \n
-    ITNs will not be distributed in areas shaded in grey. Values are percentages.")
+                      "Blocking rates were parameterized based on a literature review. ITNs will not be distributed 
+                       in areas shaded in grey. Values are percentages.")
     })
     return(titles())}
 
 
-
+  
   if(("Insecticide treated net coverage" %in% input$varType)) {
     titles<-reactive({
-    titles <-list(title = "Insecticide Treated Net (ITN) Coverage", subtitle = input$scenarioInput, caption =
-                    "The Demographic and Health surveys were used to parameterize age-specific
-                   ITN coverage. ITNs will not be distributed in areas shaded in grey. \nValues are percentages.")
+      titles <-list(title = "Insecticide Treated Net (ITN) Coverage", subtitle = input$scenarioInput, caption =
+                      "The Demographic and Health surveys were used to parameterize age-specific ITN coverage. 
+                      ITNs will not be distributed in areas shaded in grey. Values are percentages.")
     })
     return(titles())}
-
+  
+  if(("Seasonal malaria chemoprevention" %in% input$varType)) {
+    titles<-reactive({
+      titles <-list(title = "Seasonal Malaria Chemoprevention (SMC)", subtitle = paste(input$scenarioInput, ',',' ',input$SMC_access_type), caption =
+                      "Post-campaign surveys from the Nigerian Malaria Elimination Program were used to parameterize SMC. High access children 
+                       were assumed to be more likely to receive SMC doses than “low access” children. Click on the info button for links 
+                       to download per cycle coverage for high and low access children. Areas in grey are not eligible for SMC. 
+                       Values are percentages.")
+    })
+    return(titles())}
+  
+  if(("Intermittent preventive treatment in pregnancy" %in% input$varType)) {
+    titles<-reactive({
+      titles <-list(title = "Intermittent preventive treatment in pregnancy (IPTp)", subtitle = input$scenarioInput, caption =
+                      "The Demographic and Health surveys were used to parameterize IPTp coverage. Values are percentages.")
+    })
+    return(titles())}
 
 
 })
@@ -254,7 +289,8 @@ title <- eventReactive(input$submit_loc,{
 output$modelPlot <-ggiraph::renderggiraph({
   
   ggiraph::girafe(code = print(data() + plot_annotation(title = title()[[1]], theme = theme(plot.title = element_text(face = 'bold', hjust = 0.5, size = 14), 
-                                                                                            plot.subtitle = element_text(hjust = 0.5, size = 13)),
+                                                                                            plot.subtitle = element_text(hjust = 0.5, size = 13),
+                                                                                            plot.caption = element_text(size =11, hjust = 0.5)),
                                                               subtitle = title()[[2]],
                                                               caption = title()[[3]])), width_svg = 10, height_svg = 7)
 

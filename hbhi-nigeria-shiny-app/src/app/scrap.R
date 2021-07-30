@@ -879,3 +879,12 @@ title_function <-function(mainTitle, subTitle, footNote){
 # # 
 # 
 
+for (i in 1:length(val_year)){
+  SMC = data.table::fread(file.path(inputs, "smc_scenario2_increase80_2020_2030.csv")) #%>%  dplyr::select(-c(State))
+  SMC = SMC %>%  dplyr::filter(year == val_year[[i]])
+  SMC$coverage_low_access= round(SMC$coverage_low_access* 100, 1)
+  SMC = SMC %>%  group_by(LGA) %>%  summarise(average_coverage_per_round = mean(coverage_low_access))
+  SMC$year = val_year[[i]]
+  LGA_shp <- left_join(LGAsf, SMC, by ="LGA")
+  saveRDS(LGA_shp, paste0(outputs, '/', "SMC_", "low access children_", "Scenario 2 (National malaria strategic plan)", "_", as.character(val_year[[i]]), ".rds"), compress = FALSE)
+}

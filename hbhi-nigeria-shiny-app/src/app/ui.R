@@ -22,14 +22,14 @@ ui <- shiny::tagList(
 		theme='flatly.min.css',
 		'Malaria intervention scenarios and projections: Nigeria impact modeling',
 		shiny::tabPanel(
-			value='Interventions',
+			value='Scenarios',
 			icon=shiny::icon('globe-africa'),
-			'Interventions', 
+			'Scenarios', 
 			LGAModelUI()),
 		shiny::tabPanel(
-			value='Outcomes',
+			value='Projections',
 			icon=shiny::icon('chart-area'),
-			'Outcomes', 
+			'Projections', 
 			outcomesUI()),
 		inputs=
 			list(
@@ -55,13 +55,13 @@ ui <- shiny::tagList(
 		size='large',
 		"This tool visualizes intervention packages and projections for four scenarios considered for funding 
 		the Nigerian Malaria Elimination Program as part of the 
-		World Health Organization's ", htmltools::tags$a(href ="https://www.who.int/malaria/publications/atoz/high-impact-response/en/", "High Burden to High Impact Initiative (HBHI)", target ="_blank"),
+		World Health Organization's ", htmltools::tags$a(href ="https://www.who.int/publications/i/item/WHO-CDS-GMP-2018.25", "High Burden to High Impact Initiative (HBHI)", target ="_blank"),
 		"to develop targeted interventions for high-burden countries.", "LGA-level intervention packages were used 
-		inputs in an agent-based model of malaria transmission as described in the manuscript entitled Application of 
-		mathematical modeling to inform intervention planning in Nigeria.",
+		inputs in an agent-based model of malaria transmission as described in the manuscript entitled 'Application of 
+		mathematical modeling to inform intervention planning in Nigeria'.",
 		br(), br(),
 		
-	  "To download per cycle coverage and addition simulation data for SMC,",  htmltools::tags$a(href ="https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/simulation_inputs/SMC", "Click here", target ="_blank"),
+	  "To download per cycle coverage and additional simulation data for SMC,",  htmltools::tags$a(href ="https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/simulation_inputs/SMC", "Click here", target ="_blank"),
 		
 		br(), br(),
 		"To use the agent-based model, visit the ", htmltools::tags$a(href ="https://github.com/numalariamodeling/hbhi-nigeria-publication-2021", "HBHI Github Repo", target ="_blank"),

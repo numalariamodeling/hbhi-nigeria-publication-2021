@@ -207,7 +207,33 @@ data <- eventReactive(input$submit_loc,{
   }
   
   
+ 
+  #--------------------------------------------------------  
+  ### IPTi
+  #--------------------------------------------------------
   
+  if(("Intermittent preventive treatment in infants" %in% input$varType)) {
+    map<- reactive({
+      
+      if (input$scenarioInput == "Scenario 2 (National malaria strategic plan)"){
+        map=readRDS(file = paste0(data, "/IPTi/", 'IPTi_', input$scenarioInput, ".rds"))
+        map$data$year = input$yearInput
+        map = map + ggplot2::labs(title = paste0("Year:", " ", max(map$data$year, na.rm=T)))+
+          theme(plot.title=element_text(size = 12, color = "black",  hjust=0.5), legend.key.size = ggplot2::unit(1, 'cm'), legend.text = element_text(size=12))
+        
+      }else  {
+        map = readRDS(file = paste0(data, "/IPTi/", 'IPTi_', 'all_scenarios', ".rds"))
+      }
+      
+      
+    })
+    return(map())
+  } 
+  
+  
+  
+  
+   
   
 })
 
@@ -237,7 +263,7 @@ title <- eventReactive(input$submit_loc,{
 
   if(("Insecticide treated net kill rate" %in% input$varType)) {
     titles<-reactive({
-      titles <-list(title = "Insecticide Treated Net (ITN) Kill Rates", subtitle = input$scenarioInput, caption =
+      titles <-list(title = "Insecticide Treated Net (ITN) Kill Rate", subtitle = input$scenarioInput, caption =
                       "Kill rates were parameterized by constructing a relationship between mosquito mortality in a bioassay and ITN kill rates in EMOD. 
                         ITNs will not be distributed in areas shaded in grey. Values are percentages.")
     })
@@ -246,7 +272,7 @@ title <- eventReactive(input$submit_loc,{
 
   if(("Insecticide treated net blocking rate" %in% input$varType)) {
     titles<-reactive({
-      titles <-list(title = "Insecticide Treated Net (ITN) Blocking Rates", subtitle = input$scenarioInput, caption =
+      titles <-list(title = "Insecticide Treated Net (ITN) Blocking Rate", subtitle = input$scenarioInput, caption =
                       "Blocking rates were parameterized based on a literature review. ITNs will not be distributed 
                        in areas shaded in grey. Values are percentages.")
     })
@@ -279,6 +305,22 @@ title <- eventReactive(input$submit_loc,{
     })
     return(titles())}
 
+
+  if(("Intermittent preventive treatment in infants" %in% input$varType)) {
+    titles<-reactive({
+      if (input$scenarioInput == "Scenario 2 (National malaria strategic plan)"){
+      titles <-list(title = "Intermittent preventive treatment in infants (IPTi)", subtitle = input$scenarioInput, caption =
+                      "IPTi has historically never been administered in the Nigeria. Vaccine coverage in the 
+                    Demographic and Health surveys were used to parameterize assumed IPTi coverage. Values are percentages.")
+      }else{
+        titles <- list(title = "IPTi was not administered in this scenario but is available only in Scenario 2.",
+                       subtitle = ' ', caption = ' ')
+      }
+    })
+    return(titles())}
+  
+  
+  
 
 })
 

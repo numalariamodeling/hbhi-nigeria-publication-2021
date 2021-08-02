@@ -888,3 +888,15 @@ for (i in 1:length(val_year)){
   LGA_shp <- left_join(LGAsf, SMC, by ="LGA")
   saveRDS(LGA_shp, paste0(outputs, '/', "SMC_", "low access children_", "Scenario 2 (National malaria strategic plan)", "_", as.character(val_year[[i]]), ".rds"), compress = FALSE)
 }
+
+
+library(dplyr)
+IPTi = data.table::fread(file.path(inputs, "assumedIPTicov.csv")) %>%  dplyr::select(-c(State)) %>%
+  dplyr::mutate(LGA = stringr::str_replace_all(LGA, "/", "-"),LGA = dplyr::case_when(LGA == "kiyawa"~ "Kiyawa",
+                                                                                     LGA == "kaita"~ "Kaita", TRUE ~ as.character(LGA)))
+IPTi$ipti_cov_mean= round(IPTi$ipti_cov_mean* 0, 1)
+IPTi$ipti_cov_cil = round(IPTi$ipti_cov_cil *0, 1)
+IPTi$ipti_cov_ciu = round(IPTi$ipti_cov_ciu *0, 1)
+LGA_shp <- left_join(LGAsf, IPTi, by ="LGA")
+coverage_map = generateMap(LGA_shp, quo(ipti_cov_mean), "IPTi coverage")
+saveRDS(coverage_map, paste0(outputs, '/', "IPTi_", "all_scenarios", ".rds"), compress = FALSE)

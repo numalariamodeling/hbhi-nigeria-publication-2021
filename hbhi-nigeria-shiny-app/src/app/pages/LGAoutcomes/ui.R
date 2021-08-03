@@ -9,13 +9,13 @@ outcomesUI <- function () {
 	ui <- fluidPage(
 		shiny::sidebarLayout(
 			shiny::sidebarPanel(
-				shiny::h3('Simulation results', style='margin-top: 0;'),
+				shiny::h3('Burden projections', style='margin-top: 0;'),
 				br(),
-				shiny::selectInput(
-				  inputId = 'scenarioInput',
-				  label = "Scenarios",
-				  choices = INPUT_PARAM_DESCRIPTIONS[['scenarios']]
-				),
+				# shiny::selectInput(
+				#   inputId = 'scenarioInput',
+				#   label = "Scenarios",
+				#   choices = INPUT_PARAM_DESCRIPTIONS[['scenarios']]
+				#),
 				shiny::selectInput(
 				  inputId = 'adminInput',
 				  label = "Administrative Unit",
@@ -36,16 +36,22 @@ outcomesUI <- function () {
 				  label = 'Select State or LGA name (This option is only available if you selected "State", or "LGA" in the Administrative Unit Option',
 				  choices =  admin$name,
 				),
+				
+				actionButton(
+				  inputId = "submit_proj",
+				  label = "Submit")
 	
 			),
 			
 			shiny::mainPanel(
 				shiny::wellPanel(
-					shiny::h3('Projection plots', style='margin-top: 0;'),
-					br(),
-					shiny::uiOutput('paramRangeUI'),
-					plotly::plotlyOutput('hospSensitivityPlot') %>% shinycssloaders::withSpinner(),
-					plotly::plotlyOutput('ICUSensitivityPlot') %>% shinycssloaders::withSpinner(),
+				  
+				  ggiraph::girafeOutput('projections') %>% shinycssloaders::withSpinner(),
+					                 #shiny::uiOutput('downloadUI'),
+				  
+				  ggiraph::girafeOutput('projections_u5') %>% shinycssloaders::withSpinner()
+					#plotly::plotlyOutput('ICUSensitivityPlot') %>% shinycssloaders::withSpinner(),
+					#shiny::uiOutput('downloadUI')
 				)
 			)
 		)

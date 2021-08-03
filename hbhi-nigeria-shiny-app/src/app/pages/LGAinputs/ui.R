@@ -45,7 +45,7 @@ LGAModelUI <- function () {
       
       
       shiny::mainPanel(tags$style(".col-sm-8 .well {background-color:#FFFFFF;}"), 
-        shiny::wellPanel(ggiraph::girafeOutput('modelPlot', width = '100%', height = '780px') %>% shinycssloaders::withSpinner(),
+        shiny::wellPanel(ggiraph::girafeOutput('modelPlot', width = '100%', height = 'auto') %>% shinycssloaders::withSpinner(),
         #shiny::br(),
         shiny::uiOutput('downloadUI'),
         tags$div(style="width:200px;height:300px"))

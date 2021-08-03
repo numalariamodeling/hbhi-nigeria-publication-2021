@@ -1,7 +1,7 @@
-# SENSITIVITY ui.R
+# Outcomes ui.R
 
 import::from('../../ui_selection_data.R', INPUT_PARAM_DESCRIPTIONS, admin)
-import::from(tidyr, '%>%')
+import::here(tidyr, '%>%')
 
 
 
@@ -46,12 +46,12 @@ outcomesUI <- function () {
 			shiny::mainPanel(
 				shiny::wellPanel(
 				  
-				  ggiraph::girafeOutput('projections') %>% shinycssloaders::withSpinner(),
-					                 #shiny::uiOutput('downloadUI'),
-				  
-				  ggiraph::girafeOutput('projections_u5') %>% shinycssloaders::withSpinner()
-					#plotly::plotlyOutput('ICUSensitivityPlot') %>% shinycssloaders::withSpinner(),
-					#shiny::uiOutput('downloadUI')
+				  ggiraph::girafeOutput('projections', width = '100%', height = 'auto') %>% shinycssloaders::withSpinner(),
+					shiny::uiOutput('projdownUI'),
+				  br(),
+				  ggiraph::girafeOutput('projections_u5', width = '100%', height = 'auto') %>% shinycssloaders::withSpinner(),
+					shiny::uiOutput('proj_u5_downUI')
+			
 				)
 			)
 		)

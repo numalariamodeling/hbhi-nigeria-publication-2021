@@ -2,8 +2,8 @@
 ## LGAinputs/server.R
 ##------------------------------
 
-import::here('./functions.R', generateMap)
-import::here('./ui_selection_data.R', interventions)
+import::from('./functions.R', generateMap)
+import::from('./ui_selection_data.R', interventions)
 
 
 import::from(dplyr, rename,case_when, left_join,  '%>%' )
@@ -11,7 +11,7 @@ import::from(cowplot, ggdraw, plot_grid)
 import::from(ggplot2, theme, margin, element_text)
 import::from(rlang, quo)
 import::from(ggiraph, girafe_options)
-library(patchwork)
+import::from(patchwork, plot_annotation)
 
 
 observe({
@@ -332,9 +332,9 @@ output$modelPlot <-ggiraph::renderggiraph({
   
   ggiraph::girafe(code = print(data() + plot_annotation(title = title()[[1]], theme = theme(plot.title = element_text(face = 'bold', hjust = 0.5, size = 14), 
                                                                                             plot.subtitle = element_text(hjust = 0.5, size = 13),
-                                                                                            plot.caption = element_text(size =11, hjust = 0.5)),
+                                                                                            plot.caption = element_text(size =12, hjust = 0.5)),
                                                               subtitle = title()[[2]],
-                                                              caption = title()[[3]])), width_svg = 10, height_svg = 7)
+                                                              caption = title()[[3]])), width_svg = 11, height_svg = 8)
 
 })
 

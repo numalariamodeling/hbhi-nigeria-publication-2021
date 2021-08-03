@@ -3,8 +3,9 @@
 ##------------------------------
 
 
-import::from('./functions.R', admin)
-import::from(ggplot2, theme, element_text)
+import::from('./ui_selection_data.R', admin)
+import::from(ggplot2, theme, element_text, element_blank)
+import::from(dplyr, mutate, '%>%')
 
 #Load admin unit description and names 
 updateSelectInput(session, "admin_name", choices = admin[admin$admin==input$adminInput, "name"])
@@ -25,7 +26,7 @@ proj <- eventReactive(input$submit_proj,{
     plot<- reactive({
       #browser()
         plot=readRDS(file = paste0(data, "/Prevalence/",  input$Indicator, '_', input$adminInput, ".rds"))
-        plot = plot + theme(legend.position = c(legend.position = c(0.28, 0.3)))
+        plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.35)))
     })
     
     return(plot())
@@ -37,54 +38,32 @@ proj <- eventReactive(input$submit_proj,{
 })
 
 
-
-
-# #--------------------------------------------------------  
-# ###title and footnote generation script  
-# #--------------------------------------------------------
-# proj_title <- eventReactive(input$submit_proj,{
-#   
-#   if(("Trends" %in% input$statistic)){
-#     
-#     title<-reactive({
-#       #browser
-#       title <- list(title = paste0('Projected', input$admin, input$statistic, 'in all age', input$Indicator ))
-#       
-#     })
-#     
-#     return(title())
-#   }
-#   
-#   
-# })
-
-
-
 #--------------------------------------------------------  
 ###final plot, title and footnote generation script  
 #--------------------------------------------------------
 output$projections <-ggiraph::renderggiraph({
   
-  ggiraph::girafe(code = print(proj()), width_svg = 9, height_svg = 5)
+  ggiraph::girafe(code = print(proj()), width_svg = 9.5, height_svg = 4)
   
 })
 
+#----------------------------------
+#download button for all ages
+#----------------------------------
 
+#Create button for downloading CSV; displayed only when submit button is clicked is computed
+output$projdownUI <- shiny::renderUI({
+  req(proj())
+  do.call(shiny::downloadButton, list('downloadCSV_proj', 'Download all age projections as CSV'))
+})
 
-# Create button for downloading CSV; displayed only when submit button is clicked 
-# is computed
-# output$projdownUI <- shiny::renderUI({
-#   req(data())
-#   do.call(shiny::downloadButton, list('downloadCSV', 'Download model input as CSV'))
-# })
-# 
-# output$downloadCSV <- shiny::downloadHandler(
-#   filename = 'model_input.csv',
-#   content = function(file) {
-#     outputData <- data()$data %>%  sf::st_drop_geometry()
-#     write.csv(outputData, file, row.names = FALSE)
-#   }
-# )
+output$downloadCSV_proj <- shiny::downloadHandler(
+  filename = 'projections.csv',
+  content = function(file) {
+    outputData <- proj()$data %>% dplyr::mutate(scenario = ifelse(scenario == 'NGA projection scenario 0', 'NGA historical projections', scenario))
+    write.csv(outputData, file, row.names = FALSE)
+  }
+)
 
 
 
@@ -103,8 +82,8 @@ proj_u5 <- eventReactive(input$submit_proj,{
   if(("Trends" %in% input$statistic)) {
     plot<- reactive({
       #browser()
-      plot=readRDS(file = paste0(data, "/Prevalence/",  input$Indicator, '_', input$adminInput, ".rds"))
-      plot = plot + theme(legend.position = c(legend.position = c(0.28, 0.3)), plot.title = element_blank())
+      plot=readRDS(file = paste0(data, "/Prevalence/",  input$Indicator, '_', input$adminInput, '_U5', ".rds"))
+      plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.33))) +  theme(plot.title = element_blank())
       
     })
     
@@ -123,5 +102,25 @@ proj_u5 <- eventReactive(input$submit_proj,{
 #--------------------------------------------------------
 output$projections_u5 <-ggiraph::renderggiraph({
   
-  ggiraph::girafe(code = print(proj()), width_svg = 9, height_svg = 5)
+  ggiraph::girafe(code = print(proj_u5()), width_svg = 9.5, height_svg = 4)
 })
+
+
+
+#----------------------------------
+#download button for U5
+#----------------------------------
+
+#Create button for downloading CSV; displayed only when submit button is clicked is computed
+output$proj_u5_downUI <- shiny::renderUI({
+  req(proj_u5())
+  do.call(shiny::downloadButton, list('downloadCSV_proj_u5', 'Download U5 projections as CSV'))
+})
+
+output$downloadCSV_proj_u5 <- shiny::downloadHandler(
+  filename = 'projections_u5.csv',
+  content = function(file) {
+    outputData <- proj_u5()$data %>% dplyr::mutate(scenario = ifelse(scenario == 'NGA projection scenario 0', 'NGA historical projections', scenario))
+    write.csv(outputData, file, row.names = FALSE)
+  }
+)

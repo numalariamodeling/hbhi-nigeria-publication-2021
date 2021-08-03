@@ -900,3 +900,22 @@ IPTi$ipti_cov_ciu = round(IPTi$ipti_cov_ciu *0, 1)
 LGA_shp <- left_join(LGAsf, IPTi, by ="LGA")
 coverage_map = generateMap(LGA_shp, quo(ipti_cov_mean), "IPTi coverage")
 saveRDS(coverage_map, paste0(outputs, '/', "IPTi_", "all_scenarios", ".rds"), compress = FALSE)
+
+# #--------------------------------------------------------  
+# ###title and footnote generation script  
+# #--------------------------------------------------------
+# proj_title <- eventReactive(input$submit_proj,{
+#   
+#   if(("Trends" %in% input$statistic)){
+#     
+#     title<-reactive({
+#       #browser
+#       title <- list(title = paste0('Projected', input$admin, input$statistic, 'in all age', input$Indicator ))
+#       
+#     })
+#     
+#     return(title())
+#   }
+#   
+#   
+# })

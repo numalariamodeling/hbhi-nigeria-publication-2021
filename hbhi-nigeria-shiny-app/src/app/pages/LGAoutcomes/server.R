@@ -25,7 +25,7 @@ proj <- eventReactive(input$submit_proj,{
   if(("Trends" %in% input$statistic)) {
     plot<- reactive({
       #browser()
-        plot=readRDS(file = paste0(data, "/Prevalence/",  input$Indicator, '_', input$adminInput, ".rds"))
+        plot=readRDS(file = paste0(data, "/Trends/",  input$Indicator, '_', input$adminInput, ".rds"))
         plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.35)))
     })
     
@@ -82,7 +82,7 @@ proj_u5 <- eventReactive(input$submit_proj,{
   if(("Trends" %in% input$statistic)) {
     plot<- reactive({
       #browser()
-      plot=readRDS(file = paste0(data, "/Prevalence/",  input$Indicator, '_', input$adminInput, '_U5', ".rds"))
+      plot=readRDS(file = paste0(data, "/Trends/",  input$Indicator, '_', input$adminInput, '_U5', ".rds"))
       plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.33))) +  theme(plot.title = element_blank())
       
     })

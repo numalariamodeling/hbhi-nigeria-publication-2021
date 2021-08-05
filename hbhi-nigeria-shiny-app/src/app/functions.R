@@ -52,13 +52,15 @@ LGA_list<- list(LGAsf)
 # intervention 
 ######################################################################################
 
-# library(ggplot2)
-# library(ggiraph)
-# library(dplyr)
-# library(tidyr)
-# repo<- "../../../"
-# # outputs <- file.path('../../data/Prevalence')
-# inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
+library(ggplot2)
+library(ggiraph)
+library(dplyr)
+library(tidyr)
+repo<- "../../../"
+outputs <- file.path('../../data/Trends')
+inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
+
+
 
 #################################################
 #no GTS
@@ -75,15 +77,15 @@ LGA_list<- list(LGAsf)
 # 
 # values <- c( "#5a5757", '#913058', "#F6851F", "#00A08A", "#8971B3")
 
-
-
-# line_plot <- function(y,ylab, ymin, ymax, title, pin, limits) {
-#   p<-ggplot(df, aes(x = year, y = y, color =scenario, fill =scenario, tooltip = y)) +
-#     geom_ribbon(aes(ymin =ymin, ymax =ymax), alpha = .3, colour = NA)  +
+# 
+# 
+# line_plot <- function(y,ylab, title, pin, limits) {
+#   p<-ggplot(df, aes(x = year, y = y, color =scenario, group =scenario)) +
 #     geom_line_interactive(size =0.7)+
+#     geom_point_interactive(size=0.1, aes(tooltip =y))+
 #     scale_color_manual(labels= labels,
 #                        values = values)+
-#     scale_fill_manual(values = values, guide = FALSE)+
+#     #scale_fill_manual(values = values, guide = FALSE)+
 #     theme_bw()+
 #     theme(legend.direction = "vertical",
 #           legend.position = c(0.28, 0.25),
@@ -104,21 +106,30 @@ LGA_list<- list(LGAsf)
 #     labs(x = '', y = ylab, col= "INTERVENTION SCENARIOS", title =title) +
 #     theme(axis.title.x=element_blank())
 # }
-
-# #PfPR all ages
 # 
+# # #PfPR all ages
+# #
 # df<- data.table::fread(file.path(inputs, 'indicators_noGTS_data.csv'))
 # df$PfPR_all_ages <- round(df$PfPR_all_ages, 3)
 # df$PfPR_all_ages_max <- round(df$PfPR_all_ages_max, 3)
 # df$PfPR_all_ages_min <- round(df$PfPR_all_ages_min, 3)
-# 
+# #
 # df <- tibble::tibble(PfPR_all_ages=df$PfPR_all_ages, PfPR_all_ages_min=df$PfPR_all_ages_min,
 #                      PfPR_all_ages_max=df$PfPR_all_ages_max, year = df$year, scenario=df$scenario)
+# #
+# pfpr <- line_plot(df$PfPR_all_ages, "all age PfPR by microscopy, annual average", 'Projected national yearly trends in parasite prevalence (2020 - 2030)', pin = c(0, 0.10, 0.20, 0.30), limits = c(0.00, 0.30))
 # 
-# pfpr <- line_plot(df$PfPR_all_ages, "all age PfPR by microscopy, annual average", df$PfPR_all_ages_min, df$PfPR_all_ages_max, 'Projected national yearly trends in parasite prevalence (2020 - 2030)', pin = c(0, 0.10, 0.20, 0.30), limits = c(0.00, 0.30))
+# x = girafe(ggobj = pfpr, options = list(opts_tooltip(
+#     opacity = .8,
+#     css = "background-color:gray;color:white;padding:2px;border-radius:2px;"
+#   ),
+#   opts_hover(css = "fill:#1279BF;stroke:#1279BF;cursor:pointer;")
+# )
+# )
+# 
 # saveRDS(pfpr, paste0(outputs, '/', "Prevalence_", "National", ".rds"), compress = FALSE)
-# 
-# 
+#
+
 # 
 # # U5 PfPR
 # 
@@ -130,13 +141,20 @@ LGA_list<- list(LGAsf)
 # df <- tibble::tibble(PfPR_U5=df$PfPR_U5, PfPR_U5_min=df$PfPR_U5_min,
 #                      PfPR_U5_max=df$PfPR_U5_max, year = df$year, scenario=df$scenario)
 # 
-# U5pfpr <- line_plot(df$PfPR_U5, "U5 PfPR by microscopy, annual average", df$PfPR_U5_min, df$PfPR_U5_max,
-#                     'Projected trends in parasite prevalence', pin = c(0.00, 0.10, 0.20, 0.30), limits = c(range(pretty(df$PfPR_U5))))
+# U5pfpr <- line_plot(df$PfPR_U5, "U5 PfPR by microscopy, annual average", title='Projected trends in parasite prevalence', pin = c(0.00, 0.10, 0.20, 0.30), limits = c(range(pretty(df$PfPR_U5))))
 # 
 # U5pfpr=U5pfpr + theme(plot.title = element_blank())
 # 
-# saveRDS(U5pfpr, paste0(outputs, '/', "Prevalence_", "National", '_U5',  ".rds"), compress = FALSE)
+# x = girafe(ggobj = U5pfpr, options = list(opts_tooltip(
+#   opacity = .8,
+#   css = "background-color:gray;color:white;padding:2px;border-radius:2px;"
+# ),
+# opts_hover(css = "fill:#1279BF;stroke:#1279BF;cursor:pointer;")
+# )
+# )
 # 
+# saveRDS(U5pfpr, paste0(outputs, '/', "Prevalence_", "National", '_U5',  ".rds"), compress = FALSE)
+# # 
 # 
 # # U5 incidence
 # 
@@ -148,20 +166,27 @@ LGA_list<- list(LGAsf)
 # df <- tibble::tibble(incidence_U5=df$incidence_U5, incidence_U5_min=df$incidence_U5_min,
 #                      incidence_U5_max=df$incidence_U5_max, year = df$year, scenario=df$scenario)
 # 
-# u5_incidence <- line_plot(df$incidence_U5, "U5 annual incidence per 1000", df$incidence_U5_min, df$incidence_U5_max,
-#                           '', pin = c(0, 1000, 2000), limits = c(0, 2500))
+# u5_incidence <- line_plot(df$incidence_U5, "U5 annual incidence per 1000", '', pin = c(0, 1000, 2000), limits = c(0, 2500))
 # 
 # u5_incidence=u5_incidence + theme(plot.title = element_blank())
 # 
-# outputs <- file.path('../../data/Incidence')
+# x = girafe(ggobj = u5_incidence, options = list(opts_tooltip(
+#   opacity = .8,
+#   css = "background-color:gray;color:white;padding:2px;border-radius:2px;"
+# ),
+# opts_hover(css = "fill:#1279BF;stroke:#1279BF;cursor:pointer;")
+# )
+# )
+# outputs <- file.path('../../data/Trends')
 # saveRDS(u5_incidence, paste0(outputs, '/', "Incidence_", "National", '_U5', ".rds"), compress = FALSE)
-# 
+
 # 
 #U5 deaths
 # line_plot_int <- function(y,ylab, ymin, ymax, title, pin, limits) {
-#   p<-ggplot(df, aes(x = year, y = y, color =scenario, fill =scenario, tooltip = y)) +
-#     geom_ribbon(aes(ymin =ymin, ymax =ymax), alpha = .3, color = NA)  +
+#   p<-ggplot(df, aes(x = year, y = y, color =scenario, fill =scenario)) +
+#     geom_ribbon_interactive(aes(ymin =ymin, ymax =ymax), alpha = .3, color = NA)  +
 #     geom_line_interactive(size =0.7)+
+#     geom_point_interactive(size=0.1, aes(tooltip =y))+
 #     scale_color_manual(labels= labels,
 #                        values = values)+
 #     scale_fill_manual(values = values, guide = FALSE)+
@@ -199,6 +224,14 @@ LGA_list<- list(LGAsf)
 # 
 # u5_deaths=u5_deaths + theme(plot.title = element_blank())
 # 
+# x = girafe(ggobj = u5_deaths, options = list(opts_tooltip(
+#   opacity = .8,
+#   css = "background-color:gray;color:white;padding:2px;border-radius:2px;"
+# ),
+# opts_hover(css = "fill:#1279BF;stroke:#1279BF;cursor:pointer;")
+# )
+# )
+# 
 # outputs <- file.path('../../data/Trends')
 # 
 # saveRDS(u5_deaths, paste0(outputs, '/', "Mortality_", "National", "_U5", ".rds"), compress = FALSE)
@@ -216,9 +249,9 @@ LGA_list<- list(LGAsf)
 # shapes <- c(NA, NA,NA, NA, NA, 19)
 # 
 # linetype <- c("solid", "solid","solid", "solid", "solid", 'blank')
-
-
-# #incidence
+# 
+# # #
+# # # #incidence
 # inputs <- file.path(repo, 'simulation_outputs', 'indicators_withGTS_data')
 # df_gts<- data.table::fread(file.path(inputs, 'indicators_withGTS_data.csv'))
 # df_gts$incidence_all_ages <- round(df_gts$incidence_all_ages, 3)
@@ -229,12 +262,17 @@ LGA_list<- list(LGAsf)
 #                         incidence_all_ages_min=df_gts$incidence_all_ages_min,
 #                         year = df_gts$year, scenario=df_gts$scenario)
 # 
-# #pin<- pretty(df_gts$incidence_all_ages)
+# #
+# data = filter(df_gts, !(scenario %in% c('GTS targets based on 2015 modeled estimate')))
+# data2 = filter(df_gts, scenario %in% c('GTS targets based on 2015 modeled estimate'))
+# 
+# # #pin<- pretty(df_gts$incidence_all_ages)
 # incidence<-ggplot(df_gts, aes(x = year,  y = incidence_all_ages, color =scenario, fill =scenario)) +
-#   geom_ribbon(data = filter(df_gts, !(scenario %in% c('GTS targets based on 2015 modeled estimate'))),
+#   geom_ribbon_interactive(data = data,
 #               aes(ymin =incidence_all_ages_min, ymax =incidence_all_ages_max), alpha = .3, color = NA)+
-#   geom_line_interactive(data = filter(df_gts, !(scenario %in% c('GTS targets based on 2015 modeled estimate'))),  size =0.5)+
-#   geom_point(data = filter(df_gts, scenario %in% c('GTS targets based on 2015 modeled estimate')), size = 3)+
+#   geom_line_interactive(data = data,  size =0.7)+
+#   geom_point_interactive(data =data, size =0.1, aes(tooltip = round(data$incidence_all_ages, 3)))+
+#   geom_point_interactive(data = data2, size = 3, tooltip =round(data2$incidence_all_ages, 3))+
 #   labs(y = "all age annual incidence per 1000", color= "INTERVENTION SCENARIOS", title ='Projected trends in national uncomplicated malaria incidence (2020 - 2030)')+
 #   scale_color_manual(labels=labels,
 #                      values = values,
@@ -262,19 +300,28 @@ LGA_list<- list(LGAsf)
 #       axis.title.y = element_text(face ='bold'))+
 #   scale_y_continuous(expand = c(0, 0), breaks =c(0, 400, 800, 1200),  limits = c(0, 1400)) +
 #   theme(axis.title.x=element_blank())
+# #
+# x = girafe(ggobj = incidence, options = list(opts_tooltip(
+#     opacity = .8,
+#     css = "background-color:gray;color:white;padding:2px;border-radius:2px;"
+#   ),
+#   opts_hover(css = "fill:#1279BF;stroke:#1279BF;cursor:pointer;")
+#   )
+#   )
+# 
 # 
 # outputs <- file.path('../../data/Trends')
 # 
 # saveRDS(incidence, paste0(outputs, '/', "Incidence_", "National", ".rds"), compress = FALSE)
-# 
+
 # 
 # 
 # #deaths
 # inputs <- file.path(repo, 'simulation_outputs', 'indicators_withGTS_data')
 # df_gts<- data.table::fread(file.path(inputs, 'indicators_withGTS_data.csv'))
-# 
-# #data cleaning
-# 
+
+#data cleaning
+
 # df_gts$death_rate_mean_all_ages <- round(df_gts$death_rate_mean_all_ages, 3)
 # df_gts$death_rate_mean_all_ages_max <- round(df_gts$death_rate_mean_all_ages_max, 3)
 # df_gts$death_rate_mean_all_ages_min <- round(df_gts$death_rate_mean_all_ages_min, 3)
@@ -283,15 +330,18 @@ LGA_list<- list(LGAsf)
 #                         death_rate_mean_all_ages_max=df_gts$death_rate_mean_all_ages_max,
 #                         death_rate_mean_all_ages_min=df_gts$death_rate_mean_all_ages_min,
 #                         year = df_gts$year, scenario=df_gts$scenario)
-# 
-# 
-# 
+
+
+# data = filter(df_gts, !(scenario %in% c('GTS targets based on 2015 modeled estimate')))
+# data2 = filter(df_gts, scenario %in% c('GTS targets based on 2015 modeled estimate'))
+
 #pin<- pretty(df_gts$death_rate_mean_all_ages)
 # death<-ggplot(df_gts, aes(x = year,  y = death_rate_mean_all_ages, color =scenario, fill =scenario)) +
-#   geom_ribbon(data = filter(df_gts, !(scenario %in% c('GTS targets based on 2015 modeled estimate'))),
+#   geom_ribbon_interactive(data = data,
 #               aes(ymin =death_rate_mean_all_ages_min, ymax =death_rate_mean_all_ages_max), alpha = .3, color = NA)+
-#   geom_line_interactive(data = filter(df_gts, !(scenario %in% c('GTS targets based on 2015 modeled estimate'))),  size =0.5)+
-#   geom_point(data = filter(df_gts, scenario %in% c('GTS targets based on 2015 modeled estimate')), size = 3)+
+#   geom_line_interactive(data = data, size =0.7)+
+#   geom_point_interactive(data =data, size =0.1, aes(tooltip = round(death_rate_mean_all_ages, 3)))+
+#   geom_point_interactive(data = data2, size = 3, tooltip =round(data2$death_rate_mean_all_ages, 3))+
 #   labs(x = '', y = 'all age annual death per 1000', color= "INTERVENTION SCENARIOS", title ="Projected trends in malaria mortality (2020 - 2030)")+
 #   scale_color_manual(labels=labels,
 #                      values = values,
@@ -321,8 +371,10 @@ LGA_list<- list(LGAsf)
 #   theme(axis.title.x=element_blank())
 # 
 # outputs <- file.path('../../data/Trends')
-# 
+
 # saveRDS(death, paste0(outputs, '/', "Mortality_", "National", ".rds"), compress = FALSE)
+
+
 # data <- "../../data"
 # plot=readRDS(file = paste0(data, "/Prevalence/", 'Prevalence', '_', 'National', ".rds"))
 # print(plot)
@@ -333,11 +385,132 @@ LGA_list<- list(LGAsf)
 
 #---------------------------------------------
 
-
+# 
 # library(ggplot2)
 # library(ggiraph)
 # library(dplyr)
 # library(tidyr)
+# library(stringr)
 # repo<- "../../../"
-# outputs <- file.path('../../data/Relative_change_2030')
-inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
+# inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2015_base')
+# outputs <- file.path('../../data/Relative_change_2025_2015_base')
+# 
+# 
+# 
+# 
+# 
+# values <-c('#913058', "#F6851F", "#00A08A", "#8971B3")
+# 
+# generateBar<- function(y, ylab, title){
+# plot =ggplot(df, aes(x = scenario, y =y, fill =scenario))+
+#   geom_bar_interactive(stat="identity", tooltip = round(y, 1))+
+#   scale_x_discrete(labels = function(x) str_wrap(df$scenario, width = 20))+
+#   labs(x = '', y = ylab,  title =title) +
+#   theme_classic()+
+#   scale_fill_manual(values = values)+
+#   theme(legend.position = 'none',
+#         axis.text.x = element_text(size = 12, color = "black"),
+#         axis.text.y = element_text(size = 12, color = "black"),
+#         axis.title.y = element_text(face ='bold'),
+#         plot.title=element_text(color = "black", face = "bold", hjust=0.5))
+# 
+# }
+# 
+# df<- data.table::fread(file.path(inputs, 'relative_change_2015_base.csv')) %>%  filter(year ==2025)
+# df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
+#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
+#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
+# 
+# df <- tibble::tibble(scenario=df$scenario, PfPR_percent_change=df$PfPR_percent_change)
+# pfpr <- generateBar(df$PfPR_percent_change,'Percent change in all age PfPR in 2025 \n compared to 2015 modeled estimate', "Projected change in 2025 prevalence relative to 2015 \n modeled estimate")
+# saveRDS(pfpr, paste0(outputs, '/','Prevalence_',  "National", ".rds"), compress = FALSE)
+# 
+# x <- girafe(ggobj = pfpr)
+# if( interactive() ) print(x)
+# 
+# 
+# df<- data.table::fread(file.path(inputs, 'relative_change_2015_base.csv')) %>%  filter(year ==2025)
+# df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
+#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
+#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
+# 
+# df <- tibble::tibble(scenario=df$scenario, U5_PfPR_percent_change=df$U5_PfPR_percent_change)
+# u5pfpr <-generateBar(df$U5_PfPR_percent_change,'Percent change in U5 PfPR in 2025 \n compared to 2015 modeled estimate', "")
+# ufpfpr = u5pfpr + theme(plot.title = element_blank())
+# 
+# x <- girafe(ggobj = u5pfpr)
+# if( interactive() ) print(x)
+# 
+# 
+# saveRDS(u5pfpr, paste0(outputs, '/','Prevalence_',  "National", "_U5",  ".rds"), compress = FALSE)
+# 
+# 
+# 
+# 
+# df<- data.table::fread(file.path(inputs, 'relative_change_2015_base.csv')) %>%  filter(year ==2025)
+# df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
+#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
+#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
+# 
+# df <- tibble::tibble(scenario=df$scenario, incidence_percent_change=df$incidence_percent_change)
+# incidence <-generateBar(df$incidence_percent_change,'Percent change in incidence in 2025 \n compared to 2015 modeled estimate',
+#                         "Projected change in 2025 prevalence relative to 2015 modeled estimate")
+# 
+# 
+# 
+# x <- girafe(ggobj = incidence)
+# if( interactive() ) print(x)
+# 
+# saveRDS(incidence, paste0(outputs, '/','Incidence_',  "National", ".rds"), compress = FALSE)
+# 
+# 
+# df<- data.table::fread(file.path(inputs, 'relative_change_2015_base.csv')) %>%  filter(year ==2025)
+# df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
+#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
+#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
+# 
+# df <- tibble::tibble(scenario=df$scenario, U5_incidence_percent_change=df$U5_incidence_percent_change)
+# 
+# u5_incidence <-generateBar(df$U5_incidence_percent_change,'Percent change in U5 incidence in 2025 \n compared to 2015 modeled estimate',
+#                        "")
+# u5_incidence = u5_incidence + theme(plot.title = element_blank())
+# 
+# x <- girafe(ggobj = u5_incidence)
+# if( interactive() ) print(x)
+# #
+# saveRDS(u5_incidence, paste0(outputs, '/','Incidence_',  "National", "_U5", ".rds"), compress = FALSE)
+# 
+# 
+# 
+# df<- data.table::fread(file.path(inputs, 'relative_change_2015_base.csv')) %>%  filter(year ==2025)
+# df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
+#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
+#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
+# 
+# df <- tibble::tibble(scenario=df$scenario, death_percent_change=df$death_percent_change)
+# mortality <-generateBar(df$death_percent_change,'Percent change in mortality in 2025 \n compared to 2015 modeled estimate',
+#                         "Projected change in 2025 prevalence relative to 2015 modeled estimate")
+# #
+# #
+# x <- girafe(ggobj = mortality)
+# if( interactive() ) print(x)
+# #
+# saveRDS(mortality, paste0(outputs, '/','Mortality_',  "National", ".rds"), compress = FALSE)
+# 
+# 
+# df<- data.table::fread(file.path(inputs, 'relative_change_2015_base.csv')) %>%  filter(year ==2025)
+# df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
+#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
+#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
+# 
+# df <- tibble::tibble(scenario=df$scenario, U5_death_percent_change=df$U5_death_percent_change)
+# 
+# u5_mortality <-generateBar(df$U5_death_percent_change,'Percent change in U5 mortality in 2025 \n compared to 2015 modeled estimate',
+#                         "")
+# u5_mortality = u5_mortality + theme(plot.title = element_blank())
+# 
+# x <- girafe(ggobj = u5_mortality)
+# if( interactive() ) print(x)
+# 
+# saveRDS(u5_mortality, paste0(outputs, '/','Mortality_',  "National", "_U5", ".rds"), compress = FALSE)
+# 

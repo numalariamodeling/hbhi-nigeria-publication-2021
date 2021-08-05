@@ -6,6 +6,7 @@
 import::from('./ui_selection_data.R', admin)
 import::from(ggplot2, theme, element_text, element_blank)
 import::from(dplyr, mutate, '%>%')
+import::from(stringr, str_wrap)
 
 #Load admin unit description and names 
 updateSelectInput(session, "admin_name", choices = admin[admin$admin==input$adminInput, "name"])
@@ -34,6 +35,27 @@ proj <- eventReactive(input$submit_proj,{
 }
   
   
+  
+  if(("Relative change in 2025 compared to BAU in 2020" %in% input$statistic)) {
+    plot<- reactive({
+      #browser()
+      plot=readRDS(file = paste0(data, "/Relative_change_2025/",  input$Indicator, '_', input$adminInput, ".rds"))
+    })
+    
+    return(plot())
+    
+  }
+  
+  
+  if(("Relative change in 2030 compared to BAU in 2020" %in% input$statistic)) {
+    plot<- reactive({
+      #browser()
+      plot=readRDS(file = paste0(data, "/Relative_change_2030/",  input$Indicator, '_', input$adminInput, ".rds"))
+    })
+    
+    return(plot())
+    
+  }
   
 })
 
@@ -92,6 +114,26 @@ proj_u5 <- eventReactive(input$submit_proj,{
   }
   
   
+  if(("Relative change in 2025 compared to BAU in 2020" %in% input$statistic)) {
+    plot<- reactive({
+      #browser()
+      plot=readRDS(file = paste0(data, "/Relative_change_2025/",  input$Indicator, '_', input$adminInput, '_U5', ".rds"))
+    })
+    
+    return(plot())
+    
+  }
+  
+  
+  if(("Relative change in 2030 compared to BAU in 2020" %in% input$statistic)) {
+    plot<- reactive({
+      #browser()
+      plot=readRDS(file = paste0(data, "/Relative_change_2030/",  input$Indicator, '_', input$adminInput, '_U5', ".rds"))
+    })
+    
+    return(plot())
+    
+  }
   
 })
 

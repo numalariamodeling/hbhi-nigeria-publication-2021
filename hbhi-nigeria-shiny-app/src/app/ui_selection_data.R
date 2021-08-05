@@ -5,7 +5,7 @@ INPUT_PARAM_DESCRIPTIONS <- list(
   interventions = c("Case management - uncomplicated", 'Insecticide treated net kill rate', 'Insecticide treated net blocking rate', 'Insecticide treated net coverage', 'Seasonal malaria chemoprevention', 'Intermittent preventive treatment in pregnancy', 'Intermittent preventive treatment in infants', 'ALL'),
   admin = c("National", "State", "LGA"),
   indicator = c(" ", "Prevalence", "Incidence", "Mortality"),
-  statistic = c(" ", "Trends", "Relative change in 2030 compared to BAU in 2020", "Relative change in 2030 compared to projection in 2015")
+  statistic = c(" ", "Trends", "Relative change in 2025 compared to BAU in 2020", "Relative change in 2030 compared to BAU in 2020", "Relative change in 2025 compared to 2015 modeled estimate", "Relative change in 2030 compared to 2015 modeled estimate")
 )
 
 

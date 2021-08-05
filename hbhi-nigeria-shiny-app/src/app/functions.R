@@ -391,21 +391,22 @@ LGA_list<- list(LGAsf)
 # library(dplyr)
 # library(tidyr)
 # library(stringr)
-# repo<- "../../../"
-# 
-# #params
+# library(rlang)
+
+
+#params
 # projection_year = 2025
 # comparison_year = 2015
+# repo<- "../../../"
 # input_csv='relative_change_2015_base.csv'
 # inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2015_base')
 # outputs <- file.path('../../data/Relative_change_2025_2015_base')
 # 
 # values <-c('#913058', "#F6851F", "#00A08A", "#8971B3")
 # 
-# generateBar<- function(y, ylab, title){
-# plot =ggplot(df, aes(x = scenario, y =y, fill =scenario))+
-#   geom_bar_interactive(stat="identity", tooltip = round(y, 1))+
-#   scale_x_discrete(labels = function(x) str_wrap(df$scenario, width = 20))+
+# generateBar<- function(column1, column2, ylab, title){
+# plot =ggplot(df, aes(x = {{column1}}, y = column2, fill ={{column1}}))+
+#   ggiraph::geom_bar_interactive(data=df, stat="identity", tooltip = round(column2, 1))+
 #   labs(x = '', y = ylab,  title =title) +
 #   theme_classic()+
 #   scale_fill_manual(values = values)+
@@ -417,25 +418,36 @@ LGA_list<- list(LGAsf)
 # 
 # }
 # 
+# str_wrap_factor <- function(x, ...) {
+#   levels(x) <- str_wrap(levels(x), ...)
+#   x
+# }
+# 
+# #pfpr
 # df<- data.table::fread(file.path(inputs, input_csv)) %>%  filter(year == projection_year)
-# df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
-#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
-#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
 # 
 # df <- tibble::tibble(scenario=df$scenario, PfPR_percent_change=df$PfPR_percent_change, projection_year = projection_year,
 #                      comparison_year = comparison_year)
-# pfpr <- generateBar(df$PfPR_percent_change,
+# df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
+#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
+#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
+# df$scenario = str_wrap_factor(df$scenario, width=20)
+# 
+# 
+# pfpr <- generateBar(scenario,df$PfPR_percent_change,
 #                    paste0('Percent change in all age PfPR in ', projection_year, '\n compared to ', comparison_year),
 #                     paste0("Projected change in ", projection_year, ' prevalence relative to ', comparison_year))
-# 
+# pfpr
 # x <- girafe(ggobj = pfpr)
 # if( interactive() ) print(x)
 # 
 # saveRDS(pfpr, paste0(outputs, '/','Prevalence_',  "National", ".rds"), compress = FALSE)
 # 
+# pfpr<-readRDS(paste0(outputs, '/','Prevalence_',  "National", ".rds"))
+# pfpr
 # 
 # 
-# 
+# #u5 pfpr
 # df<- data.table::fread(file.path(inputs, input_csv)) %>%  filter(year ==projection_year)
 # df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
 #                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
@@ -443,7 +455,9 @@ LGA_list<- list(LGAsf)
 # 
 # df <- tibble::tibble(scenario=df$scenario, U5_PfPR_percent_change=df$U5_PfPR_percent_change, projection_year = projection_year,
 #                      comparison_year = comparison_year)
-# u5pfpr <-generateBar(df$U5_PfPR_percent_change,
+# 
+# df$scenario = str_wrap_factor(df$scenario, width=20)
+# u5pfpr <-generateBar(scenario, df$U5_PfPR_percent_change,
 #                      paste0('Percent change in U5 PfPR in ', projection_year,  '\n compared to ', comparison_year), "")
 # ufpfpr = u5pfpr + theme(plot.title = element_blank())
 # 
@@ -453,9 +467,11 @@ LGA_list<- list(LGAsf)
 # 
 # saveRDS(u5pfpr, paste0(outputs, '/','Prevalence_',  "National", "_U5",  ".rds"), compress = FALSE)
 # 
+# u5pfpr<-readRDS(paste0(outputs, '/','Prevalence_',  "National", "_U5", ".rds"))
+# u5pfpr
 # 
 # 
-# 
+# # incidence
 # df<- data.table::fread(file.path(inputs, input_csv)) %>%  filter(year ==projection_year)
 # df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
 #                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
@@ -464,7 +480,8 @@ LGA_list<- list(LGAsf)
 # df <- tibble::tibble(scenario=df$scenario, incidence_percent_change=df$incidence_percent_change,
 #                      projection_year = projection_year,
 #                      comparison_year = comparison_year)
-# incidence <-generateBar(df$incidence_percent_change,
+# df$scenario = str_wrap_factor(df$scenario, width=20)
+# incidence <-generateBar(scenario, df$incidence_percent_change,
 #                         paste0('Percent change in incidence in ', projection_year, '\n compared to ', comparison_year),
 #                         paste0("Projected change in ", projection_year, ' incidence relative to ', comparison_year))
 # 
@@ -476,6 +493,7 @@ LGA_list<- list(LGAsf)
 # saveRDS(incidence, paste0(outputs, '/','Incidence_',  "National", ".rds"), compress = FALSE)
 # 
 # 
+# #u5 incidence
 # df<- data.table::fread(file.path(inputs, input_csv)) %>%  filter(year ==projection_year)
 # df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
 #                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
@@ -484,7 +502,8 @@ LGA_list<- list(LGAsf)
 # df <- tibble::tibble(scenario=df$scenario, U5_incidence_percent_change=df$U5_incidence_percent_change, projection_year = projection_year,
 #                      comparison_year = comparison_year)
 # 
-# u5_incidence <-generateBar(df$U5_incidence_percent_change,
+# df$scenario = str_wrap_factor(df$scenario, width=20)
+# u5_incidence <-generateBar(scenario, df$U5_incidence_percent_change,
 #                            paste0('Percent change in U5 incidence in ','\n', projection_year, ' compared to ', comparison_year),
 #                        "")
 # u5_incidence = u5_incidence + theme(plot.title = element_blank())
@@ -496,6 +515,7 @@ LGA_list<- list(LGAsf)
 # 
 # 
 # 
+# #mortality
 # df<- data.table::fread(file.path(inputs, input_csv)) %>%  filter(year ==projection_year)
 # df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
 #                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
@@ -503,8 +523,8 @@ LGA_list<- list(LGAsf)
 # 
 # df <- tibble::tibble(scenario=df$scenario, death_percent_change=df$death_percent_change,
 #                      projection_year = projection_year, comparison_year = comparison_year)
-# 
-# mortality <-generateBar(df$death_percent_change,
+# df$scenario = str_wrap_factor(df$scenario, width=20)
+# mortality <-generateBar(scenario, df$death_percent_change,
 #                         paste0('Percent change in mortality in ', projection_year, '\n compared to ', comparison_year),
 #                         paste0("Projected change in ", projection_year, ' mortality relative to ', comparison_year))
 # 
@@ -515,6 +535,8 @@ LGA_list<- list(LGAsf)
 # saveRDS(mortality, paste0(outputs, '/','Mortality_',  "National", ".rds"), compress = FALSE)
 # 
 # 
+# 
+# #u5 mortality
 # df<- data.table::fread(file.path(inputs, input_csv)) %>%  filter(year ==projection_year)
 # df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
 #                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
@@ -522,8 +544,8 @@ LGA_list<- list(LGAsf)
 # 
 # df <- tibble::tibble(scenario=df$scenario, U5_death_percent_change=df$U5_death_percent_change,
 #                      projection_year = projection_year, comparison_year = comparison_year)
-# 
-# u5_mortality <-generateBar(df$U5_death_percent_change,
+# df$scenario = str_wrap_factor(df$scenario, width=20)
+# u5_mortality <-generateBar(scenario, df$U5_death_percent_change,
 #                            paste0('Percent change in U5 mortality in ', projection_year, '\n compared to ', comparison_year),
 #                         "")
 # u5_mortality = u5_mortality + theme(plot.title = element_blank())

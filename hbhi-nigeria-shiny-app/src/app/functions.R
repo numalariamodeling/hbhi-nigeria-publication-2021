@@ -394,11 +394,11 @@ LGA_list<- list(LGAsf)
 # repo<- "../../../"
 # 
 # #params
-# projection_year = 2030
-# comparison_year = 2020
-# input_csv='relative_change.csv'
-# inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2020_base')
-# outputs <- file.path('../../data/Relative_change_2030')
+# projection_year = 2025
+# comparison_year = 2015
+# input_csv='relative_change_2015_base.csv'
+# inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2015_base')
+# outputs <- file.path('../../data/Relative_change_2025_2015_base')
 # 
 # values <-c('#913058', "#F6851F", "#00A08A", "#8971B3")
 # 
@@ -425,7 +425,7 @@ LGA_list<- list(LGAsf)
 # df <- tibble::tibble(scenario=df$scenario, PfPR_percent_change=df$PfPR_percent_change, projection_year = projection_year,
 #                      comparison_year = comparison_year)
 # pfpr <- generateBar(df$PfPR_percent_change,
-#                    paste0('Percent change in all age PfPR in ', projection_year, '\n compared to ', comparison_year), 
+#                    paste0('Percent change in all age PfPR in ', projection_year, '\n compared to ', comparison_year),
 #                     paste0("Projected change in ", projection_year, ' prevalence relative to ', comparison_year))
 # 
 # x <- girafe(ggobj = pfpr)
@@ -485,7 +485,7 @@ LGA_list<- list(LGAsf)
 #                      comparison_year = comparison_year)
 # 
 # u5_incidence <-generateBar(df$U5_incidence_percent_change,
-#                            paste0('Percent change in U5 incidence in ', projection_year, '\n compared to ', comparison_year),
+#                            paste0('Percent change in U5 incidence in ','\n', projection_year, ' compared to ', comparison_year),
 #                        "")
 # u5_incidence = u5_incidence + theme(plot.title = element_blank())
 # 

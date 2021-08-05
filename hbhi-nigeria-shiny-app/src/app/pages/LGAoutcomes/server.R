@@ -57,7 +57,6 @@ proj <- eventReactive(input$submit_proj,{
     
   }
   
-<<<<<<< HEAD
   
   if(("Relative change in 2025 compared to 2015 modeled estimate" %in% input$statistic)) {
     plot<- reactive({
@@ -80,8 +79,6 @@ proj <- eventReactive(input$submit_proj,{
     
   }
   
-=======
->>>>>>> dffaf7d3b0f8681f63352613f2b36e07c8384abe
 })
 
 
@@ -159,7 +156,6 @@ proj_u5 <- eventReactive(input$submit_proj,{
     return(plot())
     
   }
-<<<<<<< HEAD
   
   if(("Relative change in 2025 compared to 2015 modeled estimate" %in% input$statistic)) {
     plot<- reactive({
@@ -181,8 +177,6 @@ proj_u5 <- eventReactive(input$submit_proj,{
     return(plot())
     
   }
-=======
->>>>>>> dffaf7d3b0f8681f63352613f2b36e07c8384abe
   
 })
 

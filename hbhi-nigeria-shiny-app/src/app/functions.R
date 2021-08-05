@@ -52,7 +52,6 @@ LGA_list<- list(LGAsf)
 # intervention 
 ######################################################################################
 
-<<<<<<< HEAD
 # library(ggplot2)
 # library(ggiraph)
 # library(dplyr)
@@ -60,17 +59,6 @@ LGA_list<- list(LGAsf)
 # repo<- "../../../"
 # outputs <- file.path('../../data/Trends')
 # inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
-=======
-library(ggplot2)
-library(ggiraph)
-library(dplyr)
-library(tidyr)
-repo<- "../../../"
-outputs <- file.path('../../data/Trends')
-inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
-
-
->>>>>>> dffaf7d3b0f8681f63352613f2b36e07c8384abe
 
 
 
@@ -129,11 +117,7 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 # df <- tibble::tibble(PfPR_all_ages=df$PfPR_all_ages, PfPR_all_ages_min=df$PfPR_all_ages_min,
 #                      PfPR_all_ages_max=df$PfPR_all_ages_max, year = df$year, scenario=df$scenario)
 # #
-<<<<<<< HEAD
 # pfpr <- line_plot(df$PfPR_all_ages, "all age PfPR by microscopy, annual average", 'Projected national yearly trends in parasite prevalence (comparison_year - 2030)', pin = c(0, 0.10, 0.20, 0.30), limits = c(0.00, 0.30))
-=======
-# pfpr <- line_plot(df$PfPR_all_ages, "all age PfPR by microscopy, annual average", 'Projected national yearly trends in parasite prevalence (2020 - 2030)', pin = c(0, 0.10, 0.20, 0.30), limits = c(0.00, 0.30))
->>>>>>> dffaf7d3b0f8681f63352613f2b36e07c8384abe
 # 
 # x = girafe(ggobj = pfpr, options = list(opts_tooltip(
 #     opacity = .8,
@@ -401,14 +385,13 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 
 #---------------------------------------------
 
-# 
+
 # library(ggplot2)
 # library(ggiraph)
 # library(dplyr)
 # library(tidyr)
 # library(stringr)
 # repo<- "../../../"
-<<<<<<< HEAD
 # 
 # #params
 # projection_year = 2030
@@ -416,14 +399,6 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 # input_csv='relative_change.csv'
 # inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2020_base')
 # outputs <- file.path('../../data/Relative_change_2030')
-=======
-# inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2015_base')
-# outputs <- file.path('../../data/Relative_change_2025_2015_base')
-# 
-# 
-# 
-# 
->>>>>>> dffaf7d3b0f8681f63352613f2b36e07c8384abe
 # 
 # values <-c('#913058', "#F6851F", "#00A08A", "#8971B3")
 # 
@@ -442,54 +417,34 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 # 
 # }
 # 
-<<<<<<< HEAD
 # df<- data.table::fread(file.path(inputs, input_csv)) %>%  filter(year == projection_year)
-=======
-# df<- data.table::fread(file.path(inputs, 'relative_change_2015_base.csv')) %>%  filter(year ==2025)
->>>>>>> dffaf7d3b0f8681f63352613f2b36e07c8384abe
 # df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
 #                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
 #                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
 # 
-<<<<<<< HEAD
 # df <- tibble::tibble(scenario=df$scenario, PfPR_percent_change=df$PfPR_percent_change, projection_year = projection_year,
 #                      comparison_year = comparison_year)
 # pfpr <- generateBar(df$PfPR_percent_change,
 #                    paste0('Percent change in all age PfPR in ', projection_year, '\n compared to ', comparison_year), 
 #                     paste0("Projected change in ", projection_year, ' prevalence relative to ', comparison_year))
-=======
-# df <- tibble::tibble(scenario=df$scenario, PfPR_percent_change=df$PfPR_percent_change)
-# pfpr <- generateBar(df$PfPR_percent_change,'Percent change in all age PfPR in 2025 \n compared to 2015 modeled estimate', "Projected change in 2025 prevalence relative to 2015 \n modeled estimate")
-# saveRDS(pfpr, paste0(outputs, '/','Prevalence_',  "National", ".rds"), compress = FALSE)
->>>>>>> dffaf7d3b0f8681f63352613f2b36e07c8384abe
 # 
 # x <- girafe(ggobj = pfpr)
 # if( interactive() ) print(x)
 # 
-<<<<<<< HEAD
 # saveRDS(pfpr, paste0(outputs, '/','Prevalence_',  "National", ".rds"), compress = FALSE)
 # 
 # 
 # 
 # 
 # df<- data.table::fread(file.path(inputs, input_csv)) %>%  filter(year ==projection_year)
-=======
-# 
-# df<- data.table::fread(file.path(inputs, 'relative_change_2015_base.csv')) %>%  filter(year ==2025)
->>>>>>> dffaf7d3b0f8681f63352613f2b36e07c8384abe
 # df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
 #                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
 #                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
 # 
-<<<<<<< HEAD
 # df <- tibble::tibble(scenario=df$scenario, U5_PfPR_percent_change=df$U5_PfPR_percent_change, projection_year = projection_year,
 #                      comparison_year = comparison_year)
 # u5pfpr <-generateBar(df$U5_PfPR_percent_change,
 #                      paste0('Percent change in U5 PfPR in ', projection_year,  '\n compared to ', comparison_year), "")
-=======
-# df <- tibble::tibble(scenario=df$scenario, U5_PfPR_percent_change=df$U5_PfPR_percent_change)
-# u5pfpr <-generateBar(df$U5_PfPR_percent_change,'Percent change in U5 PfPR in 2025 \n compared to 2015 modeled estimate', "")
->>>>>>> dffaf7d3b0f8681f63352613f2b36e07c8384abe
 # ufpfpr = u5pfpr + theme(plot.title = element_blank())
 # 
 # x <- girafe(ggobj = u5pfpr)
@@ -501,27 +456,17 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 # 
 # 
 # 
-<<<<<<< HEAD
 # df<- data.table::fread(file.path(inputs, input_csv)) %>%  filter(year ==projection_year)
-=======
-# df<- data.table::fread(file.path(inputs, 'relative_change_2015_base.csv')) %>%  filter(year ==2025)
->>>>>>> dffaf7d3b0f8681f63352613f2b36e07c8384abe
 # df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
 #                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
 #                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
 # 
-<<<<<<< HEAD
 # df <- tibble::tibble(scenario=df$scenario, incidence_percent_change=df$incidence_percent_change,
 #                      projection_year = projection_year,
 #                      comparison_year = comparison_year)
 # incidence <-generateBar(df$incidence_percent_change,
 #                         paste0('Percent change in incidence in ', projection_year, '\n compared to ', comparison_year),
 #                         paste0("Projected change in ", projection_year, ' incidence relative to ', comparison_year))
-=======
-# df <- tibble::tibble(scenario=df$scenario, incidence_percent_change=df$incidence_percent_change)
-# incidence <-generateBar(df$incidence_percent_change,'Percent change in incidence in 2025 \n compared to 2015 modeled estimate',
-#                         "Projected change in 2025 prevalence relative to 2015 modeled estimate")
->>>>>>> dffaf7d3b0f8681f63352613f2b36e07c8384abe
 # 
 # 
 # 
@@ -531,50 +476,31 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 # saveRDS(incidence, paste0(outputs, '/','Incidence_',  "National", ".rds"), compress = FALSE)
 # 
 # 
-<<<<<<< HEAD
 # df<- data.table::fread(file.path(inputs, input_csv)) %>%  filter(year ==projection_year)
-=======
-# df<- data.table::fread(file.path(inputs, 'relative_change_2015_base.csv')) %>%  filter(year ==2025)
->>>>>>> dffaf7d3b0f8681f63352613f2b36e07c8384abe
 # df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
 #                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
 #                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
 # 
-<<<<<<< HEAD
 # df <- tibble::tibble(scenario=df$scenario, U5_incidence_percent_change=df$U5_incidence_percent_change, projection_year = projection_year,
 #                      comparison_year = comparison_year)
 # 
 # u5_incidence <-generateBar(df$U5_incidence_percent_change,
 #                            paste0('Percent change in U5 incidence in ', projection_year, '\n compared to ', comparison_year),
-=======
-# df <- tibble::tibble(scenario=df$scenario, U5_incidence_percent_change=df$U5_incidence_percent_change)
-# 
-# u5_incidence <-generateBar(df$U5_incidence_percent_change,'Percent change in U5 incidence in 2025 \n compared to 2015 modeled estimate',
->>>>>>> dffaf7d3b0f8681f63352613f2b36e07c8384abe
 #                        "")
 # u5_incidence = u5_incidence + theme(plot.title = element_blank())
 # 
 # x <- girafe(ggobj = u5_incidence)
 # if( interactive() ) print(x)
-<<<<<<< HEAD
 # 
-=======
-# #
->>>>>>> dffaf7d3b0f8681f63352613f2b36e07c8384abe
 # saveRDS(u5_incidence, paste0(outputs, '/','Incidence_',  "National", "_U5", ".rds"), compress = FALSE)
 # 
 # 
 # 
-<<<<<<< HEAD
 # df<- data.table::fread(file.path(inputs, input_csv)) %>%  filter(year ==projection_year)
-=======
-# df<- data.table::fread(file.path(inputs, 'relative_change_2015_base.csv')) %>%  filter(year ==2025)
->>>>>>> dffaf7d3b0f8681f63352613f2b36e07c8384abe
 # df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
 #                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
 #                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
 # 
-<<<<<<< HEAD
 # df <- tibble::tibble(scenario=df$scenario, death_percent_change=df$death_percent_change,
 #                      projection_year = projection_year, comparison_year = comparison_year)
 # 
@@ -590,44 +516,20 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 # 
 # 
 # df<- data.table::fread(file.path(inputs, input_csv)) %>%  filter(year ==projection_year)
-=======
-# df <- tibble::tibble(scenario=df$scenario, death_percent_change=df$death_percent_change)
-# mortality <-generateBar(df$death_percent_change,'Percent change in mortality in 2025 \n compared to 2015 modeled estimate',
-#                         "Projected change in 2025 prevalence relative to 2015 modeled estimate")
-# #
-# #
-# x <- girafe(ggobj = mortality)
-# if( interactive() ) print(x)
-# #
-# saveRDS(mortality, paste0(outputs, '/','Mortality_',  "National", ".rds"), compress = FALSE)
-# 
-# 
-# df<- data.table::fread(file.path(inputs, 'relative_change_2015_base.csv')) %>%  filter(year ==2025)
->>>>>>> dffaf7d3b0f8681f63352613f2b36e07c8384abe
 # df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
 #                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
 #                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
 # 
-<<<<<<< HEAD
 # df <- tibble::tibble(scenario=df$scenario, U5_death_percent_change=df$U5_death_percent_change,
 #                      projection_year = projection_year, comparison_year = comparison_year)
 # 
 # u5_mortality <-generateBar(df$U5_death_percent_change,
 #                            paste0('Percent change in U5 mortality in ', projection_year, '\n compared to ', comparison_year),
-=======
-# df <- tibble::tibble(scenario=df$scenario, U5_death_percent_change=df$U5_death_percent_change)
-# 
-# u5_mortality <-generateBar(df$U5_death_percent_change,'Percent change in U5 mortality in 2025 \n compared to 2015 modeled estimate',
->>>>>>> dffaf7d3b0f8681f63352613f2b36e07c8384abe
 #                         "")
 # u5_mortality = u5_mortality + theme(plot.title = element_blank())
 # 
 # x <- girafe(ggobj = u5_mortality)
 # if( interactive() ) print(x)
-<<<<<<< HEAD
 # #
-=======
-# 
->>>>>>> dffaf7d3b0f8681f63352613f2b36e07c8384abe
 # saveRDS(u5_mortality, paste0(outputs, '/','Mortality_',  "National", "_U5", ".rds"), compress = FALSE)
 # 

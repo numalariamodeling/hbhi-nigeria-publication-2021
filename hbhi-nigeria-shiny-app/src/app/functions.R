@@ -52,13 +52,13 @@ LGA_list<- list(LGAsf)
 # intervention 
 ######################################################################################
 
-# library(ggplot2)
-# library(ggiraph)
-# library(dplyr)
-# library(tidyr)
-# repo<- "../../../"
-# outputs <- file.path('../../data/Trends')
-# inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
+library(ggplot2)
+library(ggiraph)
+library(dplyr)
+library(tidyr)
+repo<- "../../../"
+outputs <- file.path('../../data/Trends')
+inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 
 
 
@@ -262,16 +262,17 @@ LGA_list<- list(LGAsf)
 #                         incidence_all_ages_min=df_gts$incidence_all_ages_min,
 #                         year = df_gts$year, scenario=df_gts$scenario)
 # 
-# #
-# data = filter(df_gts, !(scenario %in% c('GTS targets based on 2015 modeled estimate')))
-# data2 = filter(df_gts, scenario %in% c('GTS targets based on 2015 modeled estimate'))
+# # #
+# data = dplyr::filter(df_gts, !(scenario %in% c('GTS targets based on 2015 modeled estimate')))
+# data2 = dplyr::filter(df_gts, scenario %in% c('GTS targets based on 2015 modeled estimate'))
+# incidence_all_ages =data$incidence_all_ages
 # 
 # # #pin<- pretty(df_gts$incidence_all_ages)
 # incidence<-ggplot(df_gts, aes(x = year,  y = incidence_all_ages, color =scenario, fill =scenario)) +
 #   geom_ribbon_interactive(data = data,
 #               aes(ymin =incidence_all_ages_min, ymax =incidence_all_ages_max), alpha = .3, color = NA)+
 #   geom_line_interactive(data = data,  size =0.7)+
-#   geom_point_interactive(data =data, size =0.1, aes(tooltip = round(data$incidence_all_ages, 3)))+
+#   geom_point_interactive(data =data, size =0.1, aes(tooltip = round(incidence_all_ages, 3)))+
 #   geom_point_interactive(data = data2, size = 3, tooltip =round(data2$incidence_all_ages, 3))+
 #   labs(y = "all age annual incidence per 1000", color= "INTERVENTION SCENARIOS", title ='Projected trends in national uncomplicated malaria incidence (2020 - 2030)')+
 #   scale_color_manual(labels=labels,
@@ -313,7 +314,9 @@ LGA_list<- list(LGAsf)
 # outputs <- file.path('../../data/Trends')
 # 
 # saveRDS(incidence, paste0(outputs, '/', "Incidence_", "National", ".rds"), compress = FALSE)
-
+# 
+# incidence<-readRDS(paste0(outputs, '/','Incidence_',  "National", "_U5", ".rds"))
+# incidence
 # 
 # 
 # #deaths

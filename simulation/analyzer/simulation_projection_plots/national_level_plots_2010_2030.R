@@ -99,8 +99,8 @@ df_gts$scenario <- factor(df_gts$scenario, levels = c('NGA projection scenario 0
 # make plots 
 #_____________________________
 labels <-c('Modeled historical trend', 'Business as usual (Scenario 1)', 'NMSP with ramping up to 80% coverage (Scenario 2)',
-           'Budget-prioritized plan with coverage increases at historical rate and SMC in 235 LGAs (Scenario 3)  ',
-           'Budget-prioritized plan with coverage increases at historical rate and SMC in 310 LGAs (Scenario 4)  ', 'GTS targets based on 2015 modeled estimate') 
+           'Budget-prioritized plan with coverage increases at historical rate and \n SMC in 235 LGAs (Scenario 3)  ',
+           'Budget-prioritized plan with coverage increases at historical rate and \n SMC in 310 LGAs (Scenario 4)  ', 'GTS targets based on 2015 modeled estimate') 
 
 values <-c("#5a5757", '#913058', "#F6851F", "#00A08A", "#8971B3", "#000000") #"", "#D61B5A", "#5393C3", "#98B548"
 
@@ -110,7 +110,7 @@ linetype <- c("solid", "solid","solid", "solid", "solid", 'blank')
 
 pin<- pretty(df_gts$incidence_all_ages)
 incidence<-ggplot(df_gts, aes(x = year,  y = incidence_all_ages, color =scenario, fill =scenario)) + 
-    geom_ribbon(data = filter(df, !(scenario %in% c('GTS targets based on 2015 modeled estimate'))), 
+    geom_ribbon(data = filter(df_gts, !(scenario %in% c('GTS targets based on 2015 modeled estimate'))), 
                 aes(ymin =incidence_all_ages_min, ymax =incidence_all_ages_max), alpha = .3, color = NA)+
     geom_line(data = filter(df_gts, !(scenario %in% c('GTS targets based on 2015 modeled estimate'))),  size =0.5)+
     geom_point(data = filter(df_gts, scenario %in% c('GTS targets based on 2015 modeled estimate')), size = 3)+
@@ -125,12 +125,17 @@ incidence<-ggplot(df_gts, aes(x = year,  y = incidence_all_ages, color =scenario
   scale_shape_manual(values = shapes)+
   theme_minimal()+
     theme(legend.direction = "vertical", 
-          plot.title=element_text(size=, color = "black", face = "bold", hjust=0.5),
+          legend.key = element_rect(size = 3, colour = 'white'),
+          legend.key.size = unit(0.8, "cm"),
+          plot.title=element_text(color = "black", face = "bold", hjust=0.5),
           panel.border = element_rect(colour = "black", fill=NA, size=0.5),
           axis.ticks.x = element_blank(),
           axis.ticks.y = element_blank(),
+          axis.text.x = element_text(size = 12, colour = 'black'),
+          axis.text.y = element_text(size = 12, colour = 'black'),   
+          axis.ticks.length = unit(.01, "cm"),
           strip.text.x = element_text(size = 8, colour = "black", face = "bold"))+
-    scale_y_continuous(expand = c(0, 0), breaks =pin,  limits = c(range(pin))) 
+    scale_y_continuous(expand = c(0, 0), breaks =c(0, 400, 800, 1200),  limits = c(0, 1400))
 
 
 
@@ -154,7 +159,7 @@ incidence<- as_ggplot(incidence_fixed)
 
 pin<- pretty(df_gts$death_rate_mean_all_ages)
 death<-ggplot(df_gts, aes(x = year,  y = death_rate_mean_all_ages, color =scenario, fill =scenario)) + 
-  geom_ribbon(data = filter(df, !(scenario %in% c('GTS targets based on 2015 modeled estimate'))), 
+  geom_ribbon(data = filter(df_gts, !(scenario %in% c('GTS targets based on 2015 modeled estimate'))), 
               aes(ymin =death_rate_mean_all_ages_min, ymax =death_rate_mean_all_ages_max), alpha = .3, color = NA)+
   geom_line(data = filter(df_gts, !(scenario %in% c('GTS targets based on 2015 modeled estimate'))),  size =0.5)+
   geom_point(data = filter(df_gts, scenario %in% c('GTS targets based on 2015 modeled estimate')), size = 3)+
@@ -169,12 +174,15 @@ death<-ggplot(df_gts, aes(x = year,  y = death_rate_mean_all_ages, color =scenar
   scale_shape_manual(values = shapes)+
   theme_minimal()+
   theme(legend.direction = "vertical", 
-        plot.title=element_text(size=, color = "black", face = "bold", hjust=0.5),
+        plot.title=element_text(color = "black", face = "bold", hjust=0.5),
         panel.border = element_rect(colour = "black", fill=NA, size=0.5),
         axis.ticks.x = element_blank(),
         axis.ticks.y = element_blank(),
+        axis.text.x = element_text(size = 12, colour = 'black'),
+        axis.text.y = element_text(size = 12, colour = 'black'),   
+        axis.ticks.length = unit(.01, "cm"),
         strip.text.x = element_text(size = 8, colour = "black", face = "bold"))+
-  scale_y_continuous(expand = c(0, 0), breaks=pin, limits = c(range(pin))) 
+  scale_y_continuous(expand = c(0, 0), breaks=c(0.0,0.2, 0.4, 0.6, 0.8,1.0), limits = c(range(pin))) 
 
 death_fixed <- set_panel_size(death +theme(legend.position="none"),
                                   width  = unit(8, "cm"),
@@ -202,6 +210,9 @@ line_plot <- function(y,ylab, ymin, ymax, title, pin, limits) {
           panel.border = element_rect(colour = "black", fill=NA, size=0.5),
           axis.ticks.x = element_blank(),
           axis.ticks.y = element_blank(),
+          axis.text.x = element_text(size = 12, colour = 'black'),
+          axis.text.y = element_text(size = 12, colour = 'black'),   
+          axis.ticks.length = unit(.01, "cm"),
           strip.text.x = element_text(size = 8, colour = "black", face = "bold"))+
     scale_y_continuous(expand = c(0, 0), breaks = pin, limits = limits) +
     labs(x = '', y = ylab, col= "INTERVENTION SCENARIOS", title =title)
@@ -218,7 +229,7 @@ u5_title <- expression(paste(atop(textstyle(bold("children under the age of five
 #___________________________
 # apply line plot function 
 #___________________________
-pfpr <- line_plot(df$PfPR_all_ages, all_ages_title, df$PfPR_all_ages_min, df$PfPR_all_ages_max, 'Parasite Prevalence', pretty(df$PfPR_all_ages), limits = c(0.00, 0.30))
+pfpr <- line_plot(df$PfPR_all_ages, all_ages_title, df$PfPR_all_ages_min, df$PfPR_all_ages_max, 'Parasite Prevalence', c(0.00, 0.10,0.20, 0.30), limits = c(0.00, 0.30))
 
 pfpr_fixed <- set_panel_size(pfpr +theme(legend.position="none"),
                                   width  = unit(8, "cm"),
@@ -226,7 +237,7 @@ pfpr_fixed <- set_panel_size(pfpr +theme(legend.position="none"),
 
 pfpr<- as_ggplot(pfpr_fixed)
 
-u5_pfpr <- line_plot(df$PfPR_U5, u5_title, df$PfPR_U5_min, df$PfPR_U5_max, '', pretty(df$PfPR_U5), limits = c(range(pretty(df$PfPR_U5))))
+u5_pfpr <- line_plot(df$PfPR_U5, u5_title, df$PfPR_U5_min, df$PfPR_U5_max, '', c(0, 0.10, 0.20, 0.30), limits = c(range(pretty(df$PfPR_U5))))
 
 u5_pfpr_fixed <- set_panel_size(u5_pfpr +theme(legend.position="none"),
                              width  = unit(8, "cm"),
@@ -234,7 +245,7 @@ u5_pfpr_fixed <- set_panel_size(u5_pfpr +theme(legend.position="none"),
 
 u5_pfpr<- as_ggplot(u5_pfpr_fixed)
 
-u5_incidence <- line_plot(df$incidence_U5,  "U5 annual incidence per 1000", df$incidence_U5_min, df$incidence_U5_max, '', pretty(df$incidence_U5), limits = c(0, 2500))
+u5_incidence <- line_plot(df$incidence_U5,  "U5 annual incidence per 1000", df$incidence_U5_min, df$incidence_U5_max, '', c(0, 500, 1000, 1500, 2000), limits = c(0, 2500))
 
 u5_incidence_fixed <- set_panel_size(u5_incidence +theme(legend.position="none"),
                                 width  = unit(8, "cm"),
@@ -243,7 +254,7 @@ u5_incidence_fixed <- set_panel_size(u5_incidence +theme(legend.position="none")
 u5_incidence<- as_ggplot(u5_incidence_fixed)
 
 
-death_U5 <- line_plot(df$death_rate_mean_U5, "U5 annual death per 1000", df$death_rate_mean_U5_min, df$death_rate_mean_U5_max, '', pretty(df$death_rate_mean_U5), limits = c(range(pretty(df$death_rate_mean_U5))) )
+death_U5 <- line_plot(df$death_rate_mean_U5, "U5 annual death per 1000", df$death_rate_mean_U5_min, df$death_rate_mean_U5_max, '', c(0, 1, 2, 3, 4), limits = c(range(pretty(df$death_rate_mean_U5))) )
 
 death_U5_fixed <- set_panel_size(death_U5 +theme(legend.position="none"),
                                      width  = unit(8, "cm"),

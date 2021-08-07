@@ -32,7 +32,7 @@ source(file.path(ScriptDir, "simulation/analyzer_simulation_output", "functions_
 
 
 #baseline year options used in the paper - 2020, 2019 and 2015 
-year = 2015
+year = 2019
 
 ###############################################################################
 # national level % change 
@@ -105,8 +105,59 @@ mean_df2 = mean_df2 %>%  dplyr::select(scenario, year, ends_with('_change'))
 
 fin_df = left_join(df_com, mean_df2)%>% dplyr::select(scenario, year, sort(names(.)))
 
-write_csv(fin_df, paste0(UpdatePrintDir, "/",  Sys.Date(), "_", as.character(year), "_base_2020_2025_2030_with_intervals", ".csv"))
+#subsetting by year 
+fin_df_2025 = fin_df %>%  filter(year == 2025) %>%   mutate(across(is.numeric, ~ round(., 1)))
+fin_df_2030 = fin_df %>%  filter(year == 2030) %>%   mutate(across(is.numeric, ~ round(., 1)))
 
+
+
+#manuscript tables
+man_tables_pfpr = tibble::tibble(Scenario = c(1, 2, 3, 4), 
+`All age PfPR percent change in 2025 relative to BAU 2020 (%)` = c(paste0(fin_df_2025$PfPR_percent_change, " (",
+                                                                          fin_df_2025$PfPR_percent_change_max, ", ",fin_df_2025$PfPR_percent_change_min, ")")),
+
+ `U5 PfPR percent change in 2025 relative to BAU 2020 (%)` = c(paste0(fin_df_2025$U5_PfPR_percent_change, " (",
+                                                                     fin_df_2025$U5_PfPR_percent_change_max, ", ",fin_df_2025$U5_PfPR_percent_change_min, ")")),
+
+`All age PfPR percent change in 2030 relative to BAU 2020 (%)` = c(paste0(fin_df_2030$PfPR_percent_change, " (",
+                                                                          fin_df_2030$PfPR_percent_change_max, ", ", fin_df_2030$PfPR_percent_change_min, ")")),
+
+`U5 PfPR percent change in 2030 relative to BAU 2020 (%)` = c(paste0(fin_df_2030$U5_PfPR_percent_change, " (",
+                                                                     fin_df_2030$U5_PfPR_percent_change_max, ", ", fin_df_2030$U5_PfPR_percent_change_min, ")")))                                                                
+
+
+man_tables_incidence = tibble::tibble(Scenario = c(1, 2, 3, 4), 
+`All age incidence percent change in 2025 relative to BAU 2020 (%)` = c(paste0(fin_df_2025$incidence_percent_change, " (",
+                                                                         fin_df_2025$incidence_percent_change_max, ", ",fin_df_2025$incidence_percent_change_min, ")")),
+
+`U5 incidence percent change in 2025 relative to BAU 2020 (%)` = c(paste0(fin_df_2025$U5_incidence_percent_change, " (",
+                                                                    fin_df_2025$U5_incidence_percent_change_max, ", ",fin_df_2025$U5_incidence_percent_change_min, ")")),
+
+`All age incidence  percent change in 2030 relative to BAU 2020 (%)` = c(paste0(fin_df_2030$incidence_percent_change, " (",
+                                                                         fin_df_2030$incidence_percent_change_max, ", ", fin_df_2030$incidence_percent_change_min, ")")),
+
+`U5 incidence percent change in 2030 relative to BAU 2020 (%)` = c(paste0(fin_df_2030$U5_incidence_percent_change, " (",
+                                                                    fin_df_2030$U5_incidence_percent_change_max, ", ", fin_df_2030$U5_incidence_percent_change_min, ")")))                                                                
+
+
+man_tables_mortality = tibble::tibble(Scenario = c(1, 2, 3, 4), 
+`All age mortality percent change in 2025 relative to BAU 2020 (%)` = c(paste0(fin_df_2025$death_percent_change, " (",
+                                                                               fin_df_2025$death_percent_change_max, ", ",fin_df_2025$death_percent_change_min, ")")),
+
+`U5 mortality percent change in 2025 relative to BAU 2020 (%)` = c(paste0(fin_df_2025$U5_death_percent_change, " (",
+                                                                           fin_df_2025$U5_death_percent_change_max, ", ",fin_df_2025$U5_death_percent_change_min, ")")),
+
+`All age mortality percent change in 2030 relative to BAU 2020 (%)` = c(paste0(fin_df_2030$death_percent_change, " (",
+                                                                                fin_df_2030$death_percent_change_max, ", ", fin_df_2030$death_percent_change_min, ")")),
+
+`U5 mortality percent change in 2030 relative to BAU 2020 (%)` = c(paste0(fin_df_2030$U5_death_percent_change, " (",
+                                                                           fin_df_2030$U5_death_percent_change_max, ", ", fin_df_2030$U5_death_percent_change_min, ")")))                                                                
+
+
+write_csv(fin_df, paste0(UpdatePrintDir, "/",  Sys.Date(), "_", as.character(year), "_base_2020_2025_2030_with_intervals", ".csv"))
+write_csv(man_tables_pfpr, paste0(UpdatePrintDir, "/",  Sys.Date(), "_", as.character(year), "_pfpr_base_2020_2025_2030_with_intervals", ".csv"))
+write_csv(man_tables_incidence, paste0(UpdatePrintDir, "/",  Sys.Date(), "_", as.character(year), "_incidence_base_2020_2025_2030_with_intervals", ".csv"))
+write_csv(man_tables_mortality, paste0(UpdatePrintDir, "/",  Sys.Date(), "_", as.character(year), "_mortality_base_2020_2025_2030_with_intervals", ".csv"))
 
 } else if (year == 2019){
   all_df2 = all_df %>%  map(~filter(., (year==2019|year == 2020| year == 2025| year == 2030) & run_number != "run number mean"))
@@ -122,7 +173,7 @@ write_csv(fin_df, paste0(UpdatePrintDir, "/",  Sys.Date(), "_", as.character(yea
   df_com = plyr::ldply(all_df2, rbind) %>%  group_by(scenario, year) %>% summarise_at(vars(ends_with('_change')), list(min = min, max = max))
   
   mean_df2 = all_df %>%  map(~filter(., (year==2015|year == 2020| year == 2025| year == 2030) & run_number == "run number mean")) %>%  plyr::ldply(rbind)
-
+  #fin_df = left_join(df_com, mean_df2)%>% dplyr::select(scenario, year, sort(names(.)))
 }
 
 
@@ -138,7 +189,7 @@ for (i in 1:length(names)){
       scen_dat <- read.csv(file.path(ProcessDir, "scenario_adjustment_info.csv")) %>%  filter(Scenario_no %in% c(1, 2, 3, 4))
 
       for (row in 1:nrow(scen_dat)){
-        files <- list.files(path = file.path(ProcessDir, scen_dat[, "ScenarioName"]), pattern = paste0("*annual_indicators_each_LGA_", names[1], ".csv"), full.names = TRUE)
+        files <- list.files(path = file.path(ProcessDir, scen_dat[, "ScenarioName"]), pattern = paste0("*annual_indicators_each_LGA_", names[i], ".csv"), full.names = TRUE)
         df <- sapply(files, read_csv, simplify = F)
       }
     
@@ -186,8 +237,28 @@ mean_df2 = mean_df2 %>%  dplyr::select(scenario, year, ends_with('_change'))
 fin_df = left_join(df_com, mean_df2)%>% 
   dplyr::select(scenario, year, sort(names(.)))
 
-write_csv(fin_df, paste0(SMC_areas, "/",  Sys.Date(), "_2020_base_2020_2025_2030_with_intervals_SMC_states", ".csv"))
 
+fin_df_2025 = fin_df %>%  filter(year == 2025, scenario !='NGA projection scenario 2') %>%   mutate(across(is.numeric, ~ round(., 1)))
+fin_df_2030 = fin_df %>%  filter(year == 2030, scenario !='NGA projection scenario 2') %>%   mutate(across(is.numeric, ~ round(., 1)))
+
+
+#manuscript table 
+man_tables_SMC = tibble::tibble(Scenario = c(1, 3, 4), 
+`U5 incidence percent change in 2025 relative to BAU 2020  (%)` = c(paste0(fin_df_2025$U5_incidence_percent_change, " (",
+                     fin_df_2025$U5_incidence_percent_change_max, ", ",fin_df_2025$U5_incidence_percent_change_min, ")")),
+
+`U5 mortality percent change in 2025 relative to BAU 2020 (%)` = c(paste0(fin_df_2025$U5_death_percent_change, " (",
+                fin_df_2025$U5_death_percent_change_max, ", ",fin_df_2025$U5_death_percent_change_min, ")")),
+
+`U5 incidence percent change in 2030 relative to BAU in 2020 (%)` = c(paste0(fin_df_2030$U5_incidence_percent_change, " (",
+                     fin_df_2030$U5_incidence_percent_change_max, ", ", fin_df_2030$U5_incidence_percent_change_min, ")")),
+
+`U5 mortality percent change in 2030 relative to BAU 2020 (%)` = c(paste0(fin_df_2030$U5_death_percent_change, " (",
+                fin_df_2030$U5_death_percent_change_max, ", ", fin_df_2030$U5_death_percent_change_min, ")")))                                                                
+
+
+write_csv(fin_df, paste0(SMC_areas, "/",  Sys.Date(), "_2020_base_2020_2025_2030_with_intervals_SMC_states", ".csv"))
+write_csv(man_tables_SMC, paste0(SMC_areas, "/",  Sys.Date(), "_U5_incidence_deaths_2020_base_2020_2025_2030_with_intervals_SMC_states", ".csv"))
 
 
 

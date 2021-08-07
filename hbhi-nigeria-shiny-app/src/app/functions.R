@@ -52,13 +52,13 @@ LGA_list<- list(LGAsf)
 # intervention 
 ######################################################################################
 
-library(ggplot2)
-library(ggiraph)
-library(dplyr)
-library(tidyr)
-repo<- "../../../"
-outputs <- file.path('../../data/Trends')
-inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
+# library(ggplot2)
+# library(ggiraph)
+# library(dplyr)
+# library(tidyr)
+# repo<- "../../../"
+# outputs <- file.path('../../data/Trends')
+# inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 
 
 
@@ -76,7 +76,7 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 # linetype <- c("solid", "solid","solid", "solid", "solid", 'blank')
 # 
 # values <- c( "#5a5757", '#913058', "#F6851F", "#00A08A", "#8971B3")
-
+# 
 # 
 # 
 # line_plot <- function(y,ylab, title, pin, limits) {
@@ -107,8 +107,8 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 #     theme(axis.title.x=element_blank())
 # }
 # 
-# # #PfPR all ages
-# #
+# #PfPR all ages
+# 
 # df<- data.table::fread(file.path(inputs, 'indicators_noGTS_data.csv'))
 # df$PfPR_all_ages <- round(df$PfPR_all_ages, 3)
 # df$PfPR_all_ages_max <- round(df$PfPR_all_ages_max, 3)
@@ -128,8 +128,8 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 # )
 # 
 # saveRDS(pfpr, paste0(outputs, '/', "Prevalence_", "National", ".rds"), compress = FALSE)
-#
-
+# 
+# 
 # 
 # # U5 PfPR
 # 
@@ -154,7 +154,7 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 # )
 # 
 # saveRDS(U5pfpr, paste0(outputs, '/', "Prevalence_", "National", '_U5',  ".rds"), compress = FALSE)
-# # 
+# 
 # 
 # # U5 incidence
 # 
@@ -179,9 +179,9 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 # )
 # outputs <- file.path('../../data/Trends')
 # saveRDS(u5_incidence, paste0(outputs, '/', "Incidence_", "National", '_U5', ".rds"), compress = FALSE)
-
 # 
-#U5 deaths
+# 
+# #U5 deaths
 # line_plot_int <- function(y,ylab, ymin, ymax, title, pin, limits) {
 #   p<-ggplot(df, aes(x = year, y = y, color =scenario, fill =scenario)) +
 #     geom_ribbon_interactive(aes(ymin =ymin, ymax =ymax), alpha = .3, color = NA)  +
@@ -235,10 +235,10 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 # outputs <- file.path('../../data/Trends')
 # 
 # saveRDS(u5_deaths, paste0(outputs, '/', "Mortality_", "National", "_U5", ".rds"), compress = FALSE)
-
-# #################################################
-# #GTS
-# ################################################
+# 
+# # #################################################
+# # #GTS
+# # ################################################
 # 
 # labels <-c('Modeled historical trend', 'Business as usual (Scenario 1)', 'NMSP with ramping up to 80% coverage (Scenario 2)',
 # 'Budget-prioritized plan with coverage increases at \n historical rate and SMC in 235 LGAs (Scenario 3)  ',
@@ -250,8 +250,8 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 # 
 # linetype <- c("solid", "solid","solid", "solid", "solid", 'blank')
 # 
-# # #
-# # # #incidence
+# 
+# #incidence
 # inputs <- file.path(repo, 'simulation_outputs', 'indicators_withGTS_data')
 # df_gts<- data.table::fread(file.path(inputs, 'indicators_withGTS_data.csv'))
 # df_gts$incidence_all_ages <- round(df_gts$incidence_all_ages, 3)
@@ -262,12 +262,12 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 #                         incidence_all_ages_min=df_gts$incidence_all_ages_min,
 #                         year = df_gts$year, scenario=df_gts$scenario)
 # 
-# # #
+# 
 # data = dplyr::filter(df_gts, !(scenario %in% c('GTS targets based on 2015 modeled estimate')))
 # data2 = dplyr::filter(df_gts, scenario %in% c('GTS targets based on 2015 modeled estimate'))
 # incidence_all_ages =data$incidence_all_ages
 # 
-# # #pin<- pretty(df_gts$incidence_all_ages)
+# #pin<- pretty(df_gts$incidence_all_ages)
 # incidence<-ggplot(df_gts, aes(x = year,  y = incidence_all_ages, color =scenario, fill =scenario)) +
 #   geom_ribbon_interactive(data = data,
 #               aes(ymin =incidence_all_ages_min, ymax =incidence_all_ages_max), alpha = .3, color = NA)+
@@ -301,7 +301,7 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 #       axis.title.y = element_text(face ='bold'))+
 #   scale_y_continuous(expand = c(0, 0), breaks =c(0, 400, 800, 1200),  limits = c(0, 1400)) +
 #   theme(axis.title.x=element_blank())
-# #
+# 
 # x = girafe(ggobj = incidence, options = list(opts_tooltip(
 #     opacity = .8,
 #     css = "background-color:gray;color:white;padding:2px;border-radius:2px;"
@@ -322,9 +322,9 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 # #deaths
 # inputs <- file.path(repo, 'simulation_outputs', 'indicators_withGTS_data')
 # df_gts<- data.table::fread(file.path(inputs, 'indicators_withGTS_data.csv'))
-
-#data cleaning
-
+# 
+# #data cleaning
+# 
 # df_gts$death_rate_mean_all_ages <- round(df_gts$death_rate_mean_all_ages, 3)
 # df_gts$death_rate_mean_all_ages_max <- round(df_gts$death_rate_mean_all_ages_max, 3)
 # df_gts$death_rate_mean_all_ages_min <- round(df_gts$death_rate_mean_all_ages_min, 3)
@@ -333,12 +333,12 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 #                         death_rate_mean_all_ages_max=df_gts$death_rate_mean_all_ages_max,
 #                         death_rate_mean_all_ages_min=df_gts$death_rate_mean_all_ages_min,
 #                         year = df_gts$year, scenario=df_gts$scenario)
-
-
+# 
+# 
 # data = filter(df_gts, !(scenario %in% c('GTS targets based on 2015 modeled estimate')))
 # data2 = filter(df_gts, scenario %in% c('GTS targets based on 2015 modeled estimate'))
-
-#pin<- pretty(df_gts$death_rate_mean_all_ages)
+# 
+# pin<- pretty(df_gts$death_rate_mean_all_ages)
 # death<-ggplot(df_gts, aes(x = year,  y = death_rate_mean_all_ages, color =scenario, fill =scenario)) +
 #   geom_ribbon_interactive(data = data,
 #               aes(ymin =death_rate_mean_all_ages_min, ymax =death_rate_mean_all_ages_max), alpha = .3, color = NA)+
@@ -374,31 +374,31 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 #   theme(axis.title.x=element_blank())
 # 
 # outputs <- file.path('../../data/Trends')
-
+# 
 # saveRDS(death, paste0(outputs, '/', "Mortality_", "National", ".rds"), compress = FALSE)
-
-
-# data <- "../../data"
-# plot=readRDS(file = paste0(data, "/Prevalence/", 'Prevalence', '_', 'National', ".rds"))
-# print(plot)
-
-#--------------------------------------------
-
-# relative change in 2030 compared to 2020
-
-#---------------------------------------------
-
-
+# 
+# 
+# # data <- "../../data"
+# # plot=readRDS(file = paste0(data, "/Prevalence/", 'Prevalence', '_', 'National', ".rds"))
+# # print(plot)
+# 
+# #--------------------------------------------
+# 
+# # relative change in 2030 compared to 2020
+# 
+# #---------------------------------------------
+# 
+# 
 # library(ggplot2)
 # library(ggiraph)
 # library(dplyr)
 # library(tidyr)
 # library(stringr)
 # library(rlang)
-
-
-#params
-# projection_year = 2025
+# 
+# 
+# #params
+# projection_year = 2030
 # comparison_year = 2015
 # repo<- "../../../"
 # input_csv='relative_change_2015_base.csv'
@@ -555,6 +555,6 @@ inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 # 
 # x <- girafe(ggobj = u5_mortality)
 # if( interactive() ) print(x)
-# #
+# 
 # saveRDS(u5_mortality, paste0(outputs, '/','Mortality_',  "National", "_U5", ".rds"), compress = FALSE)
 # 

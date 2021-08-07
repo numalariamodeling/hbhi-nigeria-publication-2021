@@ -39,7 +39,7 @@ proj <- eventReactive(input$submit_proj,{
   if(("Relative change in 2025 compared to BAU in 2020" %in% input$statistic)) {
     plot<- reactive({
       #browser()
-      plot=readRDS(file = paste0(data, "/Relative_change_2025/",  input$Indicator, '_', input$adminInput, ".rds"))
+      plot=readRDS(file = paste0(data, "/Relative_change_2025_2020_base/",  input$Indicator, '_', input$adminInput, ".rds"))
     })
     
     return(plot())
@@ -50,7 +50,7 @@ proj <- eventReactive(input$submit_proj,{
   if(("Relative change in 2030 compared to BAU in 2020" %in% input$statistic)) {
     plot<- reactive({
       #browser()
-      plot=readRDS(file = paste0(data, "/Relative_change_2030/",  input$Indicator, '_', input$adminInput, ".rds"))
+      plot=readRDS(file = paste0(data, "/Relative_change_2030_2020_base/",  input$Indicator, '_', input$adminInput, ".rds"))
     })
     
     return(plot())
@@ -139,7 +139,7 @@ proj_u5 <- eventReactive(input$submit_proj,{
   if(("Relative change in 2025 compared to BAU in 2020" %in% input$statistic)) {
     plot<- reactive({
       #browser()
-      plot=readRDS(file = paste0(data, "/Relative_change_2025/",  input$Indicator, '_', input$adminInput, '_U5', ".rds"))
+      plot=readRDS(file = paste0(data, "/Relative_change_2025_2020_base/",  input$Indicator, '_', input$adminInput, '_U5', ".rds"))
     })
     
     return(plot())
@@ -150,7 +150,7 @@ proj_u5 <- eventReactive(input$submit_proj,{
   if(("Relative change in 2030 compared to BAU in 2020" %in% input$statistic)) {
     plot<- reactive({
       #browser()
-      plot=readRDS(file = paste0(data, "/Relative_change_2030/",  input$Indicator, '_', input$adminInput, '_U5', ".rds"))
+      plot=readRDS(file = paste0(data, "/Relative_change_2030_2020_base/",  input$Indicator, '_', input$adminInput, '_U5', ".rds"))
     })
     
     return(plot())

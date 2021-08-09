@@ -33,7 +33,8 @@ proj <- eventReactive(input$submit_proj,{
       if(input$adminInput == 'National'){
       #browser()
         plot=readRDS(file = paste0(data, "/Trends/",  input$Indicator, '_', input$adminInput, ".rds"))
-        plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.35)))
+        plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.35))) +
+          labs(title=paste0('Projected annual trends in all ages malaria ', tolower(input$Indicator), ', Nigeria'))
         
         }else if(input$adminInput == 'State'){
           #browser()
@@ -160,7 +161,8 @@ proj_u5 <- eventReactive(input$submit_proj,{
       if(input$adminInput == 'National'){
       #browser()
       plot=readRDS(file = paste0(data, "/Trends/",  input$Indicator, '_', input$adminInput, '_U5', ".rds"))
-      plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.33))) +  theme(plot.title = element_blank())
+      plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.33))) + 
+        labs(title=paste0('Projected annual trends in U5 malaria ', tolower(input$Indicator), ', Nigeria'))
       
       
     }else if(input$adminInput == 'State'){

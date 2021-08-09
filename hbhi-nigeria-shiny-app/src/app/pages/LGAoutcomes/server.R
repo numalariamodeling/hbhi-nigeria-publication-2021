@@ -4,11 +4,12 @@
 
 
 import::from('./ui_selection_data.R', admin)
-import::from('./functions.R', generateLine)
+import::from('./functions.R', generateLine, statesf)
 import::from(ggplot2, theme, element_text, element_blank, element_line, element_blank, element_rect, unit, scale_y_continuous,
              margin, labs)
 import::from(dplyr, mutate, '%>%')
 import::from(stringr, str_wrap)
+import::from(patchwork, plot_layout)
 
 #Load admin unit description and names 
 updateSelectInput(session, "admin_name", choices = admin[admin$admin==input$adminInput, "name"])
@@ -38,8 +39,19 @@ proj <- eventReactive(input$submit_proj,{
           #browser()
           line_df =data.table::fread(file.path(inputs, 'indicators_noGTS_state_new.csv')) 
           line_df = line_df[which(line_df$trend == input$Indicator & line_df$State == input$admin_name & line_df$age == 'all_ages'), ]
-          plot=generateLine(line_df, line_df$count, "all age PfPR by microscopy, annual average", title=paste0('Projected trends in parasite prevalence (2020 - 2030)', ", ", input$admin_name), pin = c(0.00, 0.10, 0.20, 0.30), limits = c(range(pretty(line_df$count))))
-          plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.35)))
+          plot=generateLine(line_df, line_df$count, "all age PfPR by microscopy, annual average", title=paste0('Projected trends in parasite prevalence (2020 - 2030)', ", ", input$admin_name), pin = pretty(line_df$count), limits = c(range(pretty(line_df$count))))
+           plot = plot + theme(legend.position = c(legend.position = c(0.25, 0.25)))
+          map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
+          map = ggplot2::ggplot(map)+
+            ggiraph::geom_sf_interactive(ggplot2::aes(fill = interest, tooltip = interest), color = 'white', size = 0.2)+
+            ggplot2::theme(axis.text.x = ggplot2::element_blank(),
+                           axis.text.y = ggplot2::element_blank(),
+                           axis.ticks = ggplot2::element_blank(),
+                           rect = ggplot2::element_blank(),
+                           plot.background = ggplot2::element_rect(fill = "white", colour = NA),
+                           legend.position = 'none')+
+            ggplot2::scale_fill_manual(values = c('blue'),na.value = "lightgrey")
+          plot = map + plot +  plot_layout(widths = c(0.5, 2))
           
           
         }else{
@@ -156,8 +168,20 @@ proj_u5 <- eventReactive(input$submit_proj,{
       #browser()
       line_df =data.table::fread(file.path(inputs, 'indicators_noGTS_state_new.csv')) 
       line_df = line_df[which(line_df$trend == input$Indicator & line_df$State == input$admin_name & line_df$age == 'U5'), ]
-      plot=generateLine(line_df, line_df$count, "U5 PfPR by microscopy, annual average", title=paste0('Projected trends in parasite prevalence (2020 - 2030)', ", ", input$admin_name), pin = c(0.00, 0.10, 0.20, 0.30), limits = c(range(pretty(line_df$count))))
-      plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.35)))+  theme(plot.title = element_blank())
+      plot=generateLine(line_df, line_df$count, "U5 PfPR by microscopy, annual average", title=paste0('Projected trends in parasite prevalence (2020 - 2030)', ", ", input$admin_name), pin = pretty(line_df$count), limits = c(range(pretty(line_df$count))))
+      plot = plot + theme(legend.position = c(legend.position = c(0.25, 0.25)))
+      map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
+      map = ggplot2::ggplot(map)+
+        ggiraph::geom_sf_interactive(ggplot2::aes(fill = interest, tooltip = interest), color = 'white', size = 0.2)+
+        ggplot2::theme(axis.text.x = ggplot2::element_blank(),
+                       axis.text.y = ggplot2::element_blank(),
+                       axis.ticks = ggplot2::element_blank(),
+                       rect = ggplot2::element_blank(),
+                       plot.background = ggplot2::element_rect(fill = "white", colour = NA),
+                       legend.position = 'none')+
+        ggplot2::scale_fill_manual(values = c('blue'),na.value = "lightgrey")
+      plot = map + plot +  plot_layout(widths = c(0.5, 2))
+        
       
       
     }else{
@@ -238,7 +262,7 @@ output$proj_u5_downUI <- shiny::renderUI({
 })
 
 output$downloadCSV_proj_u5 <- shiny::downloadHandler(
-  filename = paste0('projections_u5_', input$adminInput,'_', input$Indicator, '_',input$statistic, 'csv'),
+  filename = paste0('projections_u5_', input$adminInput,'_', input$Indicator, '_',input$statistic, '.csv'),
   content = function(file) {
     outputData <- proj_u5()$data %>% dplyr::mutate(scenario = ifelse(scenario == 'NGA projection scenario 0', 'NGA historical projections', scenario))
     write.csv(outputData, file, row.names = FALSE)

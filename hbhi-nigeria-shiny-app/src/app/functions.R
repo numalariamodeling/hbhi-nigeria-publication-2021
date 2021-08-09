@@ -48,6 +48,12 @@ LGAsf <- sf::st_read("../../data/LGA_shape/NGA_LGAs.shp") %>%
 
 
 LGA_list<- list(LGAsf)
+
+statesf <- sf::st_read("../../data/shapefiles/gadm36_NGA_shp/gadm36_NGA_1.shp") %>% 
+  dplyr::mutate(NAME_1 = dplyr::case_when(NAME_1 == 'Nassarawa' ~ 'Nasarawa',
+                                     TRUE ~ as.character(NAME_1)))
+
+
 ######################################################################################
 # intervention 
 ######################################################################################
@@ -56,9 +62,9 @@ LGA_list<- list(LGAsf)
 # library(ggiraph)
 # library(dplyr)
 # library(tidyr)
-repo<- "../../../"
-outputs <- file.path('../../data/Trends')
-inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
+# repo<- "../../../"
+# outputs <- file.path('../../data/Trends')
+# inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 
 
 
@@ -84,16 +90,15 @@ generateLine <- function(df, y,ylab, title, pin, limits) {
     ggiraph::geom_line_interactive(size =0.7)+
     ggiraph::geom_point_interactive(size=0.1, ggplot2::aes(tooltip =y))+
     ggplot2::scale_color_manual(labels= c('Modeled historical trend', 'Business as usual (Scenario 1)', 'NMSP, ramping up to 80% coverage (Scenario 2)',
-                                          'Budget-prioritized plan with coverage increases at \n historical rate and SMC in 235 LGAs (Scenario 3)',
-                                          'Budget-prioritized plan with coverage increases at \n historical rate and SMC in 310 LGAs (Scenario 4)'),
+                                          'BPP, coverage increases at historical rate \n (Scenario 3)',
+                                          'BPP, coverage increases at historical rate \n and expanded SMC (Scenario 4)'),
                                 values = c( "#5a5757", '#913058', "#F6851F", "#00A08A", "#8971B3"))+
     ggplot2::theme_bw()+
-    ggplot2::theme(legend.direction = "vertical",
-                   legend.position = c(0.28, 0.25),
+    ggplot2::theme(legend.direction = "vertical", 
                    legend.background = element_rect(fill = "white", colour = 'black'),
                    legend.key = element_rect(size = 3),
-                   legend.key.size = unit(0.8, "cm"),
-                   legend.text = ggplot2::element_text(size = 9.5),
+                   legend.key.size = unit(0.65, "cm"),
+                   legend.text = ggplot2::element_text(size = 8),
                    plot.title=ggplot2::element_text(size=, color = "black", face = "bold", hjust=0.5),
                    panel.border = element_blank(),
                    axis.line.x = element_line(size = 0.5, linetype = "solid", colour = "black"),
@@ -104,25 +109,41 @@ generateLine <- function(df, y,ylab, title, pin, limits) {
     scale_y_continuous(breaks = pin, limits = limits) +
     theme(axis.title.y.left = ggplot2::element_text(margin = margin(r = 0.1, unit ='in')),
           axis.title.y = ggplot2::element_text(face ='bold'))+
-    labs(x = '', y = ylab, col= "INTERVENTION SCENARIOS", title =title) +
-    theme(axis.title.x=element_blank())
+    labs(x = '', y = ylab,  title =title) + #col= "INTERVENTION SCENARIOS",
+    theme(axis.title.x=element_blank(), legend.title = element_blank())
 }
 
-# line<- data.table::fread(file.path(inputs, 'indicators_noGTS_state_new.csv')) %>%  dplyr::filter(trend == 'Prevalence' & age =='U5', State == 'Abia')
-# 
-# plot=generateLine(line, line$count, "U5 PfPR by microscopy, annual average", title='Projected trends in parasite prevalence', pin = c(0.00, 0.10, 0.20, 0.30), limits = c(range(pretty(plot$count))))
-# U5pfpr <- generateLine(plot, plot$count, "U5 PfPR by microscopy, annual average", title='Projected trends in parasite prevalence', pin = c(0.00, 0.10, 0.20, 0.30), limits = c(range(pretty(plot$count))))
-# # #
-# # library(dplyr)
+#creating State data 
+
+# library(dplyr)
 # library(tidyr)
+# library(stringr)
+# library(patchwork)
 # df<- data.table::fread(file.path(inputs, 'indicators_noGTS_state.csv')) %>% dplyr::select(-c(death_rate_1_all_ages,death_rate_2_all_ages, death_rate_1_U5, death_rate_2_U5, V1, .id)) %>%
 #  filter(year !=2010) %>%  pivot_longer(cols=-c('State', 'scenario', 'year'), names_to = 'indicator', values_to='count') %>%
 #   mutate(trend = ifelse(grepl('^PfPR', indicator),'Prevalence',
 #                                             ifelse(grepl('^incidence', indicator),'Incidence',
-#                                                              ifelse(grepl('^death', indicator), 'Mortality', NA))))
-# write.csv(df, file.path(inputs, 'indicators_noGTS_state_new.csv'))
-
+#                                                              ifelse(grepl('^death', indicator), 'Mortality', NA)))) %>%
+#   mutate(age =  ifelse(grepl('ages', indicator), 'all_ages',
+#                        ifelse(grepl('U5', indicator), 'U5', NA))) %>%
+#   mutate(State = stringr::str_replace_all(State, '\\_', ' ')) %>%  mutate(count = round(count, 2))
+# # write.csv(df, file.path(inputs, 'indicators_noGTS_state_new.csv'), row.names = FALSE)
 # 
+# line<- data.table::fread(file.path(inputs, 'indicators_noGTS_state_new.csv')) %>%  dplyr::filter(trend == 'Prevalence' & age =='U5', State == 'Abia')
+# U5pfpr <- generateLine(line, line$count, "U5 PfPR by microscopy, annual average", title='Projected trends in parasite prevalence', pin = c(0.00, 0.10, 0.20, 0.30), limits = c(range(pretty(line$count))))
+# map <- statesf %>%  filter(NAME_1 == 'Abia')
+# plot = statesf%>% mutate(interest = ifelse(NAME_1 == 'Abia', 'Abia', NA)) 
+# map = ggplot2::ggplot(plot)+
+#   ggiraph::geom_sf_interactive(ggplot2::aes(fill = interest))+
+#   ggplot2::theme(axis.text.x = ggplot2::element_blank(),
+#                  axis.text.y = ggplot2::element_blank(),
+#                  axis.ticks = ggplot2::element_blank(),
+#                  rect = ggplot2::element_blank(),
+#                  plot.background = ggplot2::element_rect(fill = "white", colour = NA),
+#                  legend.position = 'none')
+# patchwork::map + U5pfpr +  plot_layout(widths = c(0.5, 2))
+
+
 # #PfPR all ages
 # 
 # df<- data.table::fread(file.path(inputs, 'indicators_noGTS_data.csv'))

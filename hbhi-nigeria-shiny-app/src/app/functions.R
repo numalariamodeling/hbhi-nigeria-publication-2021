@@ -62,6 +62,45 @@ generateLine <- function(df, y,ylab, title, pin, limits) {
     theme(axis.title.x=element_blank(), legend.title = element_blank())
 }
 
+
+generateLinePT <- function(df_gts, data_1, data_2, breaks, limits) {
+  p<-ggplot(df_gts, aes(x = year,  y = count, color =scenario, fill =scenario)) +
+    geom_line_interactive(data = data_1,  
+                          size =0.7)+
+    geom_point_interactive(data = data_1, 
+                           size =0.1, aes(tooltip = round(count, 3)))+
+    geom_point_interactive(data = data_2 , size = 3, tooltip =round(data_2$count, 3))+
+    scale_color_manual(labels=c('Modeled historical trend', 'Business as usual (Scenario 1)', 'NMSP with ramping up to 80% coverage (Scenario 2)',
+                                'BPP, coverage increases at \n historical rate (Scenario 3)  ',
+                                'BPP with coverage increases at \n historical rate (Scenario 4)  ', 'GTS targets based on 2015 modeled estimate'),
+                       values = c("#5a5757", '#913058', "#F6851F", "#00A08A", "#8971B3", "#000000"),
+                       breaks = c("NGA projection scenario 0", "NGA projection scenario 1", "NGA projection scenario 2", "NGA projection scenario 3", "NGA projection scenario 4", "GTS targets based on 2015 modeled estimate"),
+                       guide = guide_legend(override.aes = list(
+                         linetype = c("solid", "solid","solid", "solid", "solid", 'blank'),
+                         shape = c(NA, NA,NA, NA, NA, 19))))+
+    scale_fill_manual(values = c("#5a5757", '#913058', "#F6851F", "#00A08A", "#8971B3", "#000000"),  breaks =
+                        c("NGA projection scenario 0", "NGA projection scenario 1", "NGA projection scenario 2", "NGA projection scenario 3", "NGA projection scenario 4", "GTS targets based on 2015 modeled estimate"), guide = FALSE)+
+    scale_shape_manual(values = c(NA, NA,NA, NA, NA, 19))+
+    theme_bw()+
+    theme(legend.direction = "vertical",
+          legend.title =element_blank(),
+          legend.background = element_rect(fill = "white", colour = 'black'),
+          legend.key = element_rect(size = 3),
+          legend.key.size = unit(0.65, "cm"),
+          legend.text = element_text(size = 8),
+          plot.title=element_text(color = "black", face = "bold", hjust=0.5),
+          panel.border = element_blank(),
+          axis.line.x = element_line(size = 0.5, linetype = "solid", colour = "black"),
+          axis.line.y = element_line(size = 0.5, linetype = "solid", colour = "black"),
+          axis.text.x = element_text(size = 12, color = "black"),
+          axis.text.y = element_text(size = 12, color = "black"),
+          strip.text.x = element_text(size = 8, colour = "black", face = "bold"))+
+    theme(axis.title.y.left = element_text(margin = margin(r = 0.1, unit ='in')),
+          axis.title.y = element_text(face ='bold'))+
+    scale_y_continuous(expand = c(0, 0), breaks = breaks, limits=limits) +
+    theme(axis.title.x=element_blank())
+}
+
 ######################################################################################
 # data 
 ######################################################################################
@@ -285,6 +324,37 @@ statesf <- sf::st_read("../../data/shapefiles/gadm36_NGA_shp/gadm36_NGA_1.shp") 
 # 
 # linetype <- c("solid", "solid","solid", "solid", "solid", 'blank')
 # 
+
+
+# repo<- "../../../"
+# inputs <- file.path(repo, 'simulation_outputs', 'indicators_withGTS_data')
+# 
+
+
+
+
+
+# df<- data.table::fread(file.path(inputs, 'indicators_withGTS_state.csv')) %>% dplyr::select(-c(death_rate_1_all_ages,death_rate_2_all_ages, death_rate_1_U5, death_rate_2_U5, V1, .id)) %>%
+#  dplyr::filter(year !=2010) %>%  tidyr::pivot_longer(cols=-c('State', 'scenario', 'year'), names_to = 'indicator', values_to='count') %>%
+#   mutate(trend = ifelse(grepl('^PfPR', indicator),'Prevalence',
+#                                             ifelse(grepl('^incidence', indicator),'Incidence per 1000',
+#                                                              ifelse(grepl('^death', indicator), 'Deaths per 1000', NA)))) %>%
+#   mutate(age =  ifelse(grepl('ages', indicator), 'all_ages',
+#                        ifelse(grepl('U5', indicator), 'U5', NA))) %>%
+#   mutate(State = stringr::str_replace_all(State, '\\_', ' ')) %>%  mutate(count = round(count, 2))
+# write.csv(df, file.path(inputs, 'indicators_withGTS_state_new.csv'), row.names = FALSE)
+# 
+# plot_df = df %>%  dplyr::filter(trend == 'Incidence per 1000' & State == 'Adamawa' & age == 'all_ages')
+# df_gts = plot_df
+# 
+# data_1 = dplyr::filter(plot_df, !(scenario %in% c('GTS targets based on 2015 modeled estimate')))
+# data_2 = dplyr::filter(plot_df, scenario %in% c('GTS targets based on 2015 modeled estimate'))
+# breaks = pretty(df_gts$count)
+# limits = range(pretty(df_gts$count))
+# plot = generateLinePT(data_1, data_2, breaks)
+
+
+
 # 
 # #incidence
 # inputs <- file.path(repo, 'simulation_outputs', 'indicators_withGTS_data')

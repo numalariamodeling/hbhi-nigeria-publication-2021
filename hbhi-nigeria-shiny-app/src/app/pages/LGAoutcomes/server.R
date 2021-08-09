@@ -4,9 +4,10 @@
 
 
 import::from('./ui_selection_data.R', admin)
-import::from('./functions.R', generateLine, statesf)
-import::from(ggplot2, theme, element_text, element_blank, element_line, element_blank, element_rect, unit, scale_y_continuous,
-             margin, labs)
+import::from('./functions.R', generateLine, generateLinePT, statesf)
+import::from(ggplot2, ggplot, theme, element_text, element_blank, element_line, element_blank, element_rect, unit, scale_y_continuous,
+             margin, labs, scale_color_manual, scale_fill_manual, scale_fill_manual, scale_shape_manual, theme_bw,aes, guide_legend)
+import::from(ggiraph, geom_ribbon_interactive, geom_line_interactive, geom_point_interactive)
 import::from(dplyr, mutate, '%>%')
 import::from(stringr, str_wrap)
 import::from(patchwork, plot_layout)
@@ -38,10 +39,25 @@ proj <- eventReactive(input$submit_proj,{
         
         }else if(input$adminInput == 'State'){
           #browser()
+          if(input$Indicator == 'Prevalence'){
           line_df =data.table::fread(file.path(inputs, 'indicators_noGTS_state_new.csv')) 
           line_df = line_df[which(line_df$trend == input$Indicator & line_df$State == input$admin_name & line_df$age == 'all_ages'), ]
           plot=generateLine(line_df, line_df$count, paste0("all age ", tolower(input$Indicator), ', ', 'annual average'), title=paste0('Projected trends in all age malaria ', tolower(input$Indicator), ", ", input$admin_name), pin = pretty(line_df$count), limits = c(range(pretty(line_df$count))))
           plot = plot + theme(legend.position = c(legend.position = c(0.25, 0.25)))
+          }else{
+            inputs <- file.path(repo, 'simulation_outputs', 'indicators_withGTS_data')
+            df_gts =data.table::fread(file.path(inputs, 'indicators_withGTS_state_new.csv')) 
+            #browser()
+            df_gts = df_gts[which(df_gts$trend == input$Indicator & df_gts$State == input$admin_name & df_gts$age == 'all_ages'), ]
+            data_1 = dplyr::filter(df_gts, !(scenario %in% c('GTS targets based on 2015 modeled estimate')))
+            data_2 = dplyr::filter(df_gts, scenario %in% c('GTS targets based on 2015 modeled estimate'))
+            breaks = pretty(df_gts$count)
+            limits = c(range(pretty(df_gts$count)))
+            plot = generateLinePT(df_gts, data_1, data_2, breaks, limits)
+            plot = plot + labs(y = paste0("all age ", tolower(input$Indicator), ', ', 'annual average'), title =paste0('Projected trends in all age malaria ', tolower(input$Indicator), ", ", input$admin_name))
+            plot = plot + theme(legend.position = c(legend.position = c(0.25, 0.30)))
+          }
+          
           map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
           map = ggplot2::ggplot(map)+
             ggiraph::geom_sf_interactive(ggplot2::aes(fill = interest, tooltip = interest), color = 'white', size = 0.2)+

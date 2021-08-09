@@ -24,7 +24,7 @@ proj <- eventReactive(input$submit_proj,{
   inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
   
   #--------------------------------------------------------  
-  ### Prevalence 
+  ### indicators 
   #--------------------------------------------------------
   
   if("Trends" %in% input$statistic) {
@@ -40,8 +40,8 @@ proj <- eventReactive(input$submit_proj,{
           #browser()
           line_df =data.table::fread(file.path(inputs, 'indicators_noGTS_state_new.csv')) 
           line_df = line_df[which(line_df$trend == input$Indicator & line_df$State == input$admin_name & line_df$age == 'all_ages'), ]
-          plot=generateLine(line_df, line_df$count, "all age PfPR by microscopy, annual average", title=paste0('Projected trends in parasite prevalence (2020 - 2030)', ", ", input$admin_name), pin = pretty(line_df$count), limits = c(range(pretty(line_df$count))))
-           plot = plot + theme(legend.position = c(legend.position = c(0.25, 0.25)))
+          plot=generateLine(line_df, line_df$count, paste0("all age ", tolower(input$Indicator), ', ', 'annual average'), title=paste0('Projected trends in all age malaria ', tolower(input$Indicator), ", ", input$admin_name), pin = pretty(line_df$count), limits = c(range(pretty(line_df$count))))
+          plot = plot + theme(legend.position = c(legend.position = c(0.25, 0.25)))
           map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
           map = ggplot2::ggplot(map)+
             ggiraph::geom_sf_interactive(ggplot2::aes(fill = interest, tooltip = interest), color = 'white', size = 0.2)+
@@ -170,7 +170,7 @@ proj_u5 <- eventReactive(input$submit_proj,{
       #browser()
       line_df =data.table::fread(file.path(inputs, 'indicators_noGTS_state_new.csv')) 
       line_df = line_df[which(line_df$trend == input$Indicator & line_df$State == input$admin_name & line_df$age == 'U5'), ]
-      plot=generateLine(line_df, line_df$count, "U5 PfPR by microscopy, annual average", title=paste0('Projected trends in parasite prevalence (2020 - 2030)', ", ", input$admin_name), pin = pretty(line_df$count), limits = c(range(pretty(line_df$count))))
+      plot=generateLine(line_df, line_df$count, paste0("U5 ", tolower(input$Indicator), ', ', 'annual average'), title=paste0('Projected trends in U5 malaria ', tolower(input$Indicator), ", ", input$admin_name), pin = pretty(line_df$count), limits = c(range(pretty(line_df$count))))
       plot = plot + theme(legend.position = c(legend.position = c(0.25, 0.25)))
       map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
       map = ggplot2::ggplot(map)+

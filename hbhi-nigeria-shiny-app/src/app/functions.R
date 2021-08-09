@@ -34,6 +34,33 @@ generateMap <-function(data, column, tooltip_name){
 }
 
 
+generateLine <- function(df, y,ylab, title, pin, limits) {
+  p<-ggplot2::ggplot(df, ggplot2::aes(x = year, y = y, color =scenario, group =scenario)) +
+    ggiraph::geom_line_interactive(size =0.7)+
+    ggiraph::geom_point_interactive(size=0.1, ggplot2::aes(tooltip =y))+
+    ggplot2::scale_color_manual(labels= c('Modeled historical trend', 'Business as usual (Scenario 1)', 'NMSP, ramping up to 80% coverage (Scenario 2)',
+                                          'BPP, coverage increases at historical rate \n (Scenario 3)',
+                                          'BPP, coverage increases at historical rate \n and expanded SMC (Scenario 4)'),
+                                values = c( "#5a5757", '#913058', "#F6851F", "#00A08A", "#8971B3"))+
+    ggplot2::theme_bw()+
+    ggplot2::theme(legend.direction = "vertical", 
+                   legend.background = element_rect(fill = "white", colour = 'black'),
+                   legend.key = element_rect(size = 3),
+                   legend.key.size = unit(0.65, "cm"),
+                   legend.text = ggplot2::element_text(size = 8),
+                   plot.title=ggplot2::element_text(size=, color = "black", face = "bold", hjust=0.5),
+                   panel.border = element_blank(),
+                   axis.line.x = element_line(size = 0.5, linetype = "solid", colour = "black"),
+                   axis.line.y = element_line(size = 0.5, linetype = "solid", colour = "black"),
+                   axis.text.x = element_text(size = 12, color = "black"),
+                   axis.text.y = element_text(size = 12, color = "black"),
+                   strip.text.x = ggplot2::element_text(size = 8, colour = "black", face = "bold")) +
+    scale_y_continuous(breaks = pin, limits = limits) +
+    theme(axis.title.y.left = ggplot2::element_text(margin = margin(r = 0.1, unit ='in')),
+          axis.title.y = ggplot2::element_text(face ='bold'))+
+    labs(x = '', y = ylab,  title =title) + #col= "INTERVENTION SCENARIOS",
+    theme(axis.title.x=element_blank(), legend.title = element_blank())
+}
 
 ######################################################################################
 # data 
@@ -84,35 +111,6 @@ statesf <- sf::st_read("../../data/shapefiles/gadm36_NGA_shp/gadm36_NGA_1.shp") 
 # values <- c( "#5a5757", '#913058', "#F6851F", "#00A08A", "#8971B3")
 
 
-
-generateLine <- function(df, y,ylab, title, pin, limits) {
-  p<-ggplot2::ggplot(df, ggplot2::aes(x = year, y = y, color =scenario, group =scenario)) +
-    ggiraph::geom_line_interactive(size =0.7)+
-    ggiraph::geom_point_interactive(size=0.1, ggplot2::aes(tooltip =y))+
-    ggplot2::scale_color_manual(labels= c('Modeled historical trend', 'Business as usual (Scenario 1)', 'NMSP, ramping up to 80% coverage (Scenario 2)',
-                                          'BPP, coverage increases at historical rate \n (Scenario 3)',
-                                          'BPP, coverage increases at historical rate \n and expanded SMC (Scenario 4)'),
-                                values = c( "#5a5757", '#913058', "#F6851F", "#00A08A", "#8971B3"))+
-    ggplot2::theme_bw()+
-    ggplot2::theme(legend.direction = "vertical", 
-                   legend.background = element_rect(fill = "white", colour = 'black'),
-                   legend.key = element_rect(size = 3),
-                   legend.key.size = unit(0.65, "cm"),
-                   legend.text = ggplot2::element_text(size = 8),
-                   plot.title=ggplot2::element_text(size=, color = "black", face = "bold", hjust=0.5),
-                   panel.border = element_blank(),
-                   axis.line.x = element_line(size = 0.5, linetype = "solid", colour = "black"),
-                   axis.line.y = element_line(size = 0.5, linetype = "solid", colour = "black"),
-                   axis.text.x = element_text(size = 12, color = "black"),
-                   axis.text.y = element_text(size = 12, color = "black"),
-                   strip.text.x = ggplot2::element_text(size = 8, colour = "black", face = "bold")) +
-    scale_y_continuous(breaks = pin, limits = limits) +
-    theme(axis.title.y.left = ggplot2::element_text(margin = margin(r = 0.1, unit ='in')),
-          axis.title.y = ggplot2::element_text(face ='bold'))+
-    labs(x = '', y = ylab,  title =title) + #col= "INTERVENTION SCENARIOS",
-    theme(axis.title.x=element_blank(), legend.title = element_blank())
-}
-
 #creating State data 
 
 # library(dplyr)
@@ -122,13 +120,13 @@ generateLine <- function(df, y,ylab, title, pin, limits) {
 # df<- data.table::fread(file.path(inputs, 'indicators_noGTS_state.csv')) %>% dplyr::select(-c(death_rate_1_all_ages,death_rate_2_all_ages, death_rate_1_U5, death_rate_2_U5, V1, .id)) %>%
 #  filter(year !=2010) %>%  pivot_longer(cols=-c('State', 'scenario', 'year'), names_to = 'indicator', values_to='count') %>%
 #   mutate(trend = ifelse(grepl('^PfPR', indicator),'Prevalence',
-#                                             ifelse(grepl('^incidence', indicator),'Incidence',
-#                                                              ifelse(grepl('^death', indicator), 'Mortality', NA)))) %>%
+#                                             ifelse(grepl('^incidence', indicator),'Incidence per 1000',
+#                                                              ifelse(grepl('^death', indicator), 'Deaths per 1000', NA)))) %>%
 #   mutate(age =  ifelse(grepl('ages', indicator), 'all_ages',
 #                        ifelse(grepl('U5', indicator), 'U5', NA))) %>%
 #   mutate(State = stringr::str_replace_all(State, '\\_', ' ')) %>%  mutate(count = round(count, 2))
-# # write.csv(df, file.path(inputs, 'indicators_noGTS_state_new.csv'), row.names = FALSE)
-# 
+# write.csv(df, file.path(inputs, 'indicators_noGTS_state_new.csv'), row.names = FALSE)
+
 # line<- data.table::fread(file.path(inputs, 'indicators_noGTS_state_new.csv')) %>%  dplyr::filter(trend == 'Prevalence' & age =='U5', State == 'Abia')
 # U5pfpr <- generateLine(line, line$count, "U5 PfPR by microscopy, annual average", title='Projected trends in parasite prevalence', pin = c(0.00, 0.10, 0.20, 0.30), limits = c(range(pretty(line$count))))
 # map <- statesf %>%  filter(NAME_1 == 'Abia')

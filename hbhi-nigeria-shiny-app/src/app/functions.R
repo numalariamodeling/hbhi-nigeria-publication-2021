@@ -56,9 +56,9 @@ LGA_list<- list(LGAsf)
 # library(ggiraph)
 # library(dplyr)
 # library(tidyr)
-# repo<- "../../../"
-# outputs <- file.path('../../data/Trends')
-# inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
+repo<- "../../../"
+outputs <- file.path('../../data/Trends')
+inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 
 
 
@@ -76,36 +76,52 @@ LGA_list<- list(LGAsf)
 # linetype <- c("solid", "solid","solid", "solid", "solid", 'blank')
 # 
 # values <- c( "#5a5757", '#913058', "#F6851F", "#00A08A", "#8971B3")
+
+
+
+generateLine <- function(df, y,ylab, title, pin, limits) {
+  p<-ggplot2::ggplot(df, ggplot2::aes(x = year, y = y, color =scenario, group =scenario)) +
+    ggiraph::geom_line_interactive(size =0.7)+
+    ggiraph::geom_point_interactive(size=0.1, ggplot2::aes(tooltip =y))+
+    ggplot2::scale_color_manual(labels= c('Modeled historical trend', 'Business as usual (Scenario 1)', 'NMSP, ramping up to 80% coverage (Scenario 2)',
+                                          'Budget-prioritized plan with coverage increases at \n historical rate and SMC in 235 LGAs (Scenario 3)',
+                                          'Budget-prioritized plan with coverage increases at \n historical rate and SMC in 310 LGAs (Scenario 4)'),
+                                values = c( "#5a5757", '#913058', "#F6851F", "#00A08A", "#8971B3"))+
+    ggplot2::theme_bw()+
+    ggplot2::theme(legend.direction = "vertical",
+                   legend.position = c(0.28, 0.25),
+                   legend.background = element_rect(fill = "white", colour = 'black'),
+                   legend.key = element_rect(size = 3),
+                   legend.key.size = unit(0.8, "cm"),
+                   legend.text = ggplot2::element_text(size = 9.5),
+                   plot.title=ggplot2::element_text(size=, color = "black", face = "bold", hjust=0.5),
+                   panel.border = element_blank(),
+                   axis.line.x = element_line(size = 0.5, linetype = "solid", colour = "black"),
+                   axis.line.y = element_line(size = 0.5, linetype = "solid", colour = "black"),
+                   axis.text.x = element_text(size = 12, color = "black"),
+                   axis.text.y = element_text(size = 12, color = "black"),
+                   strip.text.x = ggplot2::element_text(size = 8, colour = "black", face = "bold")) +
+    scale_y_continuous(breaks = pin, limits = limits) +
+    theme(axis.title.y.left = ggplot2::element_text(margin = margin(r = 0.1, unit ='in')),
+          axis.title.y = ggplot2::element_text(face ='bold'))+
+    labs(x = '', y = ylab, col= "INTERVENTION SCENARIOS", title =title) +
+    theme(axis.title.x=element_blank())
+}
+
+# line<- data.table::fread(file.path(inputs, 'indicators_noGTS_state_new.csv')) %>%  dplyr::filter(trend == 'Prevalence' & age =='U5', State == 'Abia')
 # 
-# 
-# 
-# line_plot <- function(y,ylab, title, pin, limits) {
-#   p<-ggplot(df, aes(x = year, y = y, color =scenario, group =scenario)) +
-#     geom_line_interactive(size =0.7)+
-#     geom_point_interactive(size=0.1, aes(tooltip =y))+
-#     scale_color_manual(labels= labels,
-#                        values = values)+
-#     #scale_fill_manual(values = values, guide = FALSE)+
-#     theme_bw()+
-#     theme(legend.direction = "vertical",
-#           legend.position = c(0.28, 0.25),
-#           legend.background = element_rect(fill = "white", colour = 'black'),
-#           legend.key = element_rect(size = 3),
-#           legend.key.size = unit(0.8, "cm"),
-#           legend.text = element_text(size = 9.5),
-#           plot.title=element_text(size=, color = "black", face = "bold", hjust=0.5),
-#           panel.border = element_blank(),
-#           axis.line.x = element_line(size = 0.5, linetype = "solid", colour = "black"),
-#           axis.line.y = element_line(size = 0.5, linetype = "solid", colour = "black"),
-#           axis.text.x = element_text(size = 12, color = "black"),
-#           axis.text.y = element_text(size = 12, color = "black"),
-#           strip.text.x = element_text(size = 8, colour = "black", face = "bold")) +
-#     scale_y_continuous(breaks = pin, limits = limits) +
-#     theme(axis.title.y.left = element_text(margin = margin(r = 0.1, unit ='in')),
-#           axis.title.y = element_text(face ='bold'))+
-#     labs(x = '', y = ylab, col= "INTERVENTION SCENARIOS", title =title) +
-#     theme(axis.title.x=element_blank())
-# }
+# plot=generateLine(line, line$count, "U5 PfPR by microscopy, annual average", title='Projected trends in parasite prevalence', pin = c(0.00, 0.10, 0.20, 0.30), limits = c(range(pretty(plot$count))))
+# U5pfpr <- generateLine(plot, plot$count, "U5 PfPR by microscopy, annual average", title='Projected trends in parasite prevalence', pin = c(0.00, 0.10, 0.20, 0.30), limits = c(range(pretty(plot$count))))
+# # #
+# # library(dplyr)
+# library(tidyr)
+# df<- data.table::fread(file.path(inputs, 'indicators_noGTS_state.csv')) %>% dplyr::select(-c(death_rate_1_all_ages,death_rate_2_all_ages, death_rate_1_U5, death_rate_2_U5, V1, .id)) %>%
+#  filter(year !=2010) %>%  pivot_longer(cols=-c('State', 'scenario', 'year'), names_to = 'indicator', values_to='count') %>%
+#   mutate(trend = ifelse(grepl('^PfPR', indicator),'Prevalence',
+#                                             ifelse(grepl('^incidence', indicator),'Incidence',
+#                                                              ifelse(grepl('^death', indicator), 'Mortality', NA))))
+# write.csv(df, file.path(inputs, 'indicators_noGTS_state_new.csv'))
+
 # 
 # #PfPR all ages
 # 
@@ -117,8 +133,8 @@ LGA_list<- list(LGAsf)
 # df <- tibble::tibble(PfPR_all_ages=df$PfPR_all_ages, PfPR_all_ages_min=df$PfPR_all_ages_min,
 #                      PfPR_all_ages_max=df$PfPR_all_ages_max, year = df$year, scenario=df$scenario)
 # #
-# pfpr <- line_plot(df$PfPR_all_ages, "all age PfPR by microscopy, annual average", 'Projected national yearly trends in parasite prevalence (comparison_year - 2030)', pin = c(0, 0.10, 0.20, 0.30), limits = c(0.00, 0.30))
-# 
+# pfpr <- generateLine(df$all_ages_PfPR, "all age PfPR by microscopy, annual average", 'Projected national yearly trends in parasite prevalence (2020 - 2030)', pin = c(0, 0.10, 0.20, 0.30), limits = c(0.00, 0.30))
+# # 
 # x = girafe(ggobj = pfpr, options = list(opts_tooltip(
 #     opacity = .8,
 #     css = "background-color:gray;color:white;padding:2px;border-radius:2px;"

@@ -4,7 +4,9 @@
 
 
 import::from('./ui_selection_data.R', admin)
-import::from(ggplot2, theme, element_text, element_blank)
+import::from('./functions.R', generateLine)
+import::from(ggplot2, theme, element_text, element_blank, element_line, element_blank, element_rect, unit, scale_y_continuous,
+             margin, labs)
 import::from(dplyr, mutate, '%>%')
 import::from(stringr, str_wrap)
 
@@ -17,17 +19,33 @@ updateSelectInput(session, "admin_name", choices = admin[admin$admin==input$admi
 #--------------------------------------------------------
 proj <- eventReactive(input$submit_proj,{
   data <- "../../data"
-  
+  repo<- "../../../"
+  inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
   
   #--------------------------------------------------------  
   ### Prevalence 
   #--------------------------------------------------------
   
-  if(("Trends" %in% input$statistic)) {
+  if("Trends" %in% input$statistic) {
     plot<- reactive({
+      
+      if(input$adminInput == 'National'){
       #browser()
         plot=readRDS(file = paste0(data, "/Trends/",  input$Indicator, '_', input$adminInput, ".rds"))
         plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.35)))
+        
+        }else if(input$adminInput == 'State'){
+          #browser()
+          line_df =data.table::fread(file.path(inputs, 'indicators_noGTS_state_new.csv')) 
+          line_df = line_df[which(line_df$trend == input$Indicator & line_df$State == input$admin_name & line_df$age == 'all_ages'), ]
+          plot=generateLine(line_df, line_df$count, "all age PfPR by microscopy, annual average", title=paste0('Projected trends in parasite prevalence (2020 - 2030)', ", ", input$admin_name), pin = c(0.00, 0.10, 0.20, 0.30), limits = c(range(pretty(line_df$count))))
+          plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.35)))
+          
+          
+        }else{
+          plot=readRDS(file = paste0(data, "/Trends/",  input$Indicator, '_', input$adminInput, ".rds"))
+          plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.35)))
+        }
     })
     
     return(plot())
@@ -117,6 +135,8 @@ output$downloadCSV_proj <- shiny::downloadHandler(
 #--------------------------------------------------------
 proj_u5 <- eventReactive(input$submit_proj,{
   data <- "../../data"
+  repo<- "../../../"
+  inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
   
   
   #--------------------------------------------------------  
@@ -125,9 +145,25 @@ proj_u5 <- eventReactive(input$submit_proj,{
   
   if(("Trends" %in% input$statistic)) {
     plot<- reactive({
+      if(input$adminInput == 'National'){
       #browser()
       plot=readRDS(file = paste0(data, "/Trends/",  input$Indicator, '_', input$adminInput, '_U5', ".rds"))
       plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.33))) +  theme(plot.title = element_blank())
+      
+      
+    }else if(input$adminInput == 'State'){
+      
+      #browser()
+      line_df =data.table::fread(file.path(inputs, 'indicators_noGTS_state_new.csv')) 
+      line_df = line_df[which(line_df$trend == input$Indicator & line_df$State == input$admin_name & line_df$age == 'U5'), ]
+      plot=generateLine(line_df, line_df$count, "U5 PfPR by microscopy, annual average", title=paste0('Projected trends in parasite prevalence (2020 - 2030)', ", ", input$admin_name), pin = c(0.00, 0.10, 0.20, 0.30), limits = c(range(pretty(line_df$count))))
+      plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.35)))+  theme(plot.title = element_blank())
+      
+      
+    }else{
+      plot=readRDS(file = paste0(data, "/Trends/",  input$Indicator, '_', input$adminInput, ".rds"))
+      plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.35)))+  theme(plot.title = element_blank())
+    }
       
     })
     

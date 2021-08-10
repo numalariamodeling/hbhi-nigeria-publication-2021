@@ -84,15 +84,17 @@ proj <- eventReactive(input$submit_proj,{
   
   
   
-  if(("Relative change in 2025 compared to BAU in 2020" %in% input$statistic)) {
+  if(grepl('BAU in 2020', input$statistic)) {
     plot<- reactive({
       
+      year = stringr::str_split('Relative change in 2025 compared to BAU in 2020', ' ', simplify =TRUE)[, 4]
+      
       if(input$adminInput == 'National'){
-      plot=readRDS(file = paste0(data, "/Relative_change_2025_2020_base/",  input$Indicator, '_', input$adminInput, ".rds"))
+      plot=readRDS(file = paste0(data, "/Relative_change_", year, "_2020_base/",  input$Indicator, '_', input$adminInput, ".rds"))
     
       } else if(input$adminInput == 'State') {
         inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2020_base')
-        df<- data.table::fread(file.path(inputs, 'relative_change_2020_base_state_new.csv')) %>%  dplyr::filter(year == 2025, State == input$admin_name, trend == input$Indicator, age == 'all_ages') %>% 
+        df<- data.table::fread(file.path(inputs, 'relative_change_2020_base_state_new.csv')) %>%  dplyr::filter(year == year, State == input$admin_name, trend == input$Indicator, age == 'all_ages') %>% 
           mutate(scenario = dplyr::case_when(scenario == 'NGA projection scenario 1' ~ 'Business as usual (Scenario 1)',
                                              scenario == 'NGA projection scenario 2' ~ 'NMSP with ramping up to 80% coverage (Scenario 2)',
                                              scenario =='NGA projection scenario 3' ~ 'Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)',
@@ -105,8 +107,8 @@ proj <- eventReactive(input$submit_proj,{
       
         df$scenario = str_wrap_factor(df$scenario, width=20)
         
-        plot = generateBar(df, scenario, df$count, paste0('Percent change in all age', input$Indicator,  'in ', '2025', '\n compared to ', '2020'),
-                           paste0("Projected change in ", input$Indicator, ' in 2025', ' relative to ', '2020, ', input$admin_name)) 
+        plot = generateBar(df, scenario, df$count, paste0('Percent change in all age ', tolower(input$Indicator),  'in ', year, '\n compared to ', '2020'),
+                           paste0("Projected change in ", tolower(input$Indicator), ' in ', year, ' relative to ', '2020, ', input$admin_name)) 
         map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
         map = ggplot2::ggplot(map)+
           ggiraph::geom_sf_interactive(ggplot2::aes(fill = interest, tooltip = interest), color = 'white', size = 0.2)+
@@ -129,17 +131,7 @@ proj <- eventReactive(input$submit_proj,{
     
   }
   
-  
-  if(("Relative change in 2030 compared to BAU in 2020" %in% input$statistic)) {
-    plot<- reactive({
-      #browser()
-      plot=readRDS(file = paste0(data, "/Relative_change_2030_2020_base/",  input$Indicator, '_', input$adminInput, ".rds"))
-    })
-    
-    return(plot())
-    
-  }
-  
+
   
   if(("Relative change in 2025 compared to 2015 modeled estimate" %in% input$statistic)) {
     plot<- reactive({
@@ -250,16 +242,18 @@ proj_u5 <- eventReactive(input$submit_proj,{
   }
   
   
-  if(("Relative change in 2025 compared to BAU in 2020" %in% input$statistic)) {
+  if(grepl('BAU in 2020', input$statistic)) {
+    year = stringr::str_split('Relative change in 2025 compared to BAU in 2020', ' ', simplify =TRUE)[, 4]
+    
     plot<- reactive({
       
       if(input$adminInput == 'National'){
       #browser()
-      plot=readRDS(file = paste0(data, "/Relative_change_2025_2020_base/",  input$Indicator, '_', input$adminInput, '_U5', ".rds"))
+      plot=readRDS(file = paste0(data, "/Relative_change_",  year, "_2020_base/",  input$Indicator, '_', input$adminInput, '_U5', ".rds"))
       
       }else if(input$adminInput == 'State'){
         inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2020_base')
-        df<- data.table::fread(file.path(inputs, 'relative_change_2020_base_state_new.csv')) %>%  dplyr::filter(year == 2025, State == input$admin_name, trend == input$Indicator, age == 'U5') %>% 
+        df<- data.table::fread(file.path(inputs, 'relative_change_2020_base_state_new.csv')) %>%  dplyr::filter(year == year, State == input$admin_name, trend == input$Indicator, age == 'U5') %>% 
           mutate(scenario = dplyr::case_when(scenario == 'NGA projection scenario 1' ~ 'Business as usual (Scenario 1)',
                                              scenario == 'NGA projection scenario 2' ~ 'NMSP with ramping up to 80% coverage (Scenario 2)',
                                              scenario =='NGA projection scenario 3' ~ 'Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)',
@@ -272,8 +266,8 @@ proj_u5 <- eventReactive(input$submit_proj,{
         
         df$scenario = str_wrap_factor(df$scenario, width=20)
         
-        plot = generateBar(df, scenario, df$count, paste0('Percent change in U5', input$Indicator,  'in ', '2025', '\n compared to ', '2020' ),
-                           paste0("Projected change in ", input$Indicator, ' in 2025', ' relative to ', '2020, ', input$admin_name)) 
+        plot = generateBar(df, scenario, df$count, paste0('Percent change in U5 ', tolower(input$Indicator),  'in ', year, '\n compared to ', '2020' ),
+                           paste0("Projected change in ", tolower(input$Indicator), ' in ', year, ' relative to ', '2020, ', input$admin_name)) 
         map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
         map = ggplot2::ggplot(map)+
           ggiraph::geom_sf_interactive(ggplot2::aes(fill = interest, tooltip = interest), color = 'white', size = 0.2)+
@@ -297,17 +291,7 @@ proj_u5 <- eventReactive(input$submit_proj,{
     return(plot())
     
   }
-  
-  
-  if(("Relative change in 2030 compared to BAU in 2020" %in% input$statistic)) {
-    plot<- reactive({
-      #browser()
-      plot=readRDS(file = paste0(data, "/Relative_change_2030_2020_base/",  input$Indicator, '_', input$adminInput, '_U5', ".rds"))
-    })
-    
-    return(plot())
-    
-  }
+
   
   if(("Relative change in 2025 compared to 2015 modeled estimate" %in% input$statistic)) {
     plot<- reactive({

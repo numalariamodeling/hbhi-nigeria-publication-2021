@@ -59,7 +59,8 @@ proj <- eventReactive(input$submit_proj,{
       #browser()
         plot=readRDS(file = paste0(data, "/Trends/",  input$Indicator, '_', input$adminInput, ".rds"))
         plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.35))) +
-          labs(title=paste0('Projected annual trends in all ages malaria ', tolower(input$Indicator), ', Nigeria'))
+          labs(title=paste0('Projected annual trends in all ages malaria ', tolower(input$Indicator), ', Nigeria'),
+                            y = paste('all ages annual ', tolower(input$Indicator)))
         
         }else if(input$adminInput == 'State'){
           #browser()
@@ -96,28 +97,26 @@ proj <- eventReactive(input$submit_proj,{
   
   
   
-  if(grepl('BAU in 2020', input$statistic)) {
+  if(grepl('Relative change', input$statistic)) {
     plot<- reactive({
       
-      year = stringr::str_split(input$statistic, ' ', simplify =TRUE)[, 4]
-      
-      #browser()
-      
+      year = as.numeric(stringr::str_extract_all(input$statistic, "[0-9]+")[[1]])
+
       if(input$adminInput == 'National'){
-      plot=readRDS(file = paste0(data, "/Relative_change_", year, "_2020_base/",  input$Indicator, '_', input$adminInput, ".rds"))
+      plot=readRDS(file = paste0(data, "/Relative_change_", year[[1]], "_", year[[2]], "_base/",  input$Indicator, '_', input$adminInput, ".rds"))
     
       } else if(input$adminInput == 'State') {
         #browser()
-        inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2020_base')
-        df<- data.table::fread(file.path(inputs, 'relative_change_2020_base_state_new.csv')) %>%  dplyr::filter(year == !!year, State == input$admin_name, trend == input$Indicator, age == 'all_ages') 
+        inputs <- paste0(repo, 'simulation_outputs/', 'relative_change_', year[[2]],  '_base/')
+        df<- data.table::fread(paste0(inputs, glue::glue('relative_change_{year[[2]]}_base_state_new.csv'))) %>%  dplyr::filter(year == !!year[[1]], State == input$admin_name, trend == input$Indicator, age == 'all_ages') 
         df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
                                                       "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
                                                       "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
       
         df$scenario = str_wrap_factor(df$scenario, width=20)
         
-        plot = generateBar(df, scenario, df$count, paste0('% change in all age ', tolower(input$Indicator),  'in ', year, ' compared to ', '2020'),
-                           paste0("Projected change in ", tolower(input$Indicator), ' in ', year, ' relative to ', '2020, ', input$admin_name)) 
+        plot = generateBar(df, scenario, df$count, paste0('% change in all age ', tolower(input$Indicator),  'in ', year[[1]], ' compared to ', year[[2]]),
+                           paste0("Projected change in ", tolower(input$Indicator), ' in ', year[[1]], ' relative to ', year[[2]], ', ', input$admin_name)) 
          plot = map_all() + plot +  plot_layout(widths = c(0.5, 2))
         
       }else {
@@ -132,51 +131,7 @@ proj <- eventReactive(input$submit_proj,{
   
 
   
-  if(grepl('2015 modeled estimate', input$statistic)) {
-    
-    
-    
-    plot<- reactive({
-      
-      year = stringr::str_split(input$statistic, ' ', simplify =TRUE)[, 4]
-      
-      if(input$adminInput == 'National'){
-      plot=readRDS(file = paste0(data, "/Relative_change_", year, "_2015_base/",  input$Indicator, '_', input$adminInput, ".rds"))
-    
-      
-      
-      } else if(input$adminInput == 'State') {
-        
-        inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2015_base')
-        df<- data.table::fread(file.path(inputs, 'relative_change_2015_base_state_new.csv')) %>%  dplyr::filter(year == !!year, State == input$admin_name, trend == input$Indicator, age == 'all_ages') %>% 
-          mutate(scenario = dplyr::case_when(scenario == 'NGA projection scenario 1' ~ 'Business as usual (Scenario 1)',
-                                             scenario == 'NGA projection scenario 2' ~ 'NMSP with ramping up to 80% coverage (Scenario 2)',
-                                             scenario =='NGA projection scenario 3' ~ 'Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)',
-                                             scenario =='NGA projection scenario 4' ~ 'Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)',
-                                             TRUE ~ as.character(scenario)))
-        
-        df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
-                                                      "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
-                                                      "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
-        
-        df$scenario = str_wrap_factor(df$scenario, width=20)
-        
-        plot = generateBar(df, scenario, df$count, paste0('% change in all age ', tolower(input$Indicator),  ' \n in ', year, ' compared to ', '2015'),
-                           paste0("Projected change in ", tolower(input$Indicator), ' in ', year, ' relative to ', '2015, ', input$admin_name)) 
-        plot = map_all() + plot +  plot_layout(widths = c(0.5, 2))
-        
-        
-      }else {
-        
-      plot=readRDS(file = paste0(data, "/Relative_change_", year, "_2015_base/",  input$Indicator, '_', input$adminInput, ".rds"))
-        
-      }
-      
-      })
-    
-    return(plot())
-    
-  }
+ 
   
   
 
@@ -223,18 +178,14 @@ proj_u5 <- eventReactive(input$submit_proj,{
   inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
   
   
-  
-  #--------------------------------------------------------  
-  ### Prevalence 
-  #--------------------------------------------------------
-  
   if("Trends" %in% input$statistic) {
     plot<- reactive({
       if(input$adminInput == 'National'){
       #browser()
       plot=readRDS(file = paste0(data, "/Trends/",  input$Indicator, '_', input$adminInput, '_U5', ".rds"))
-      plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.33))) + 
-        labs(title=paste0('Projected annual trends in U5 malaria ', tolower(input$Indicator), ', Nigeria'))
+      plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.33)), plot.title = element_text(size=14, color = "black", face = "bold", hjust=0.5)) + 
+        labs(title=paste0('Projected annual trends in U5 malaria ', tolower(input$Indicator), ', Nigeria'),
+             y = paste('all ages annual ', tolower(input$Indicator)))
       
       
     }else if(input$adminInput == 'State'){
@@ -260,26 +211,28 @@ proj_u5 <- eventReactive(input$submit_proj,{
   }
   
   
-  if(grepl('BAU in 2020', input$statistic)) {
-    year = stringr::str_split(input$statistic, ' ', simplify =TRUE)[, 4]
+  if(grepl('Relative change', input$statistic)) {
+    year = as.numeric(stringr::str_extract_all(input$statistic, "[0-9]+")[[1]])
     
     plot<- reactive({
       
       if(input$adminInput == 'National'){
       #browser()
-      plot=readRDS(file = paste0(data, "/Relative_change_",  year, "_2020_base/",  input$Indicator, '_', input$adminInput, '_U5', ".rds"))
+        
+      plot=readRDS(file = paste0(data, "/Relative_change_", year[[1]], "_", year[[2]], "_base/",  input$Indicator, '_', input$adminInput, '_U5', ".rds"))
       
       }else if(input$adminInput == 'State'){
-        inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2020_base')
-        df<- data.table::fread(file.path(inputs, 'relative_change_2020_base_state_new.csv')) %>%  dplyr::filter(year == !!year, State == input$admin_name, trend == input$Indicator, age == 'U5') 
+        inputs <- paste0(repo, 'simulation_outputs/', 'relative_change_', year[[2]],  '_base/')
+        
+        df<- data.table::fread(paste0(inputs, glue::glue('relative_change_{year[[2]]}_base_state_new.csv'))) %>%  dplyr::filter(year == !!year[[1]], State == input$admin_name, trend == input$Indicator, age == 'U5') 
         df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
                                                       "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
                                                       "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
         
         df$scenario = str_wrap_factor(df$scenario, width=20)
         
-        plot = generateBar(df, scenario, df$count, paste0('% change in U5 ', tolower(input$Indicator),  '\n in ', year, ' compared to ', '2020' ),
-                           paste0("Projected change in ", tolower(input$Indicator), ' in ', year, ' relative to ', '2020, ', input$admin_name)) 
+        plot = generateBar(df, scenario, df$count, paste0('% change in U5 ', tolower(input$Indicator),  '\n in ', year[[1]], ' compared to ', year[[2]] ),
+                           paste0("Projected change in ", tolower(input$Indicator), ' in ', year[[1]], ' relative to ',  year[[2]], ', ', input$admin_name)) 
         plot = map_all() + plot +  plot_layout(widths = c(0.5, 2))
         
       }else{
@@ -294,48 +247,6 @@ proj_u5 <- eventReactive(input$submit_proj,{
     
   }
 
-  
-  if(grepl('2015 modeled estimate', input$statistic)) {
-    
-    year = stringr::str_split(input$statistic, ' ', simplify =TRUE)[, 4]
-    
-    plot<- reactive({
-      
-      if(input$adminInput == 'National'){
-      #browser()
-      plot=readRDS(file = paste0(data, "/Relative_change_", year, "_2015_base/",  input$Indicator, '_', input$adminInput,  '_U5',  ".rds"))
-    
-      } else if(input$adminInput == 'State') {
-        
-        inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2015_base')
-        df<- data.table::fread(file.path(inputs, 'relative_change_2015_base_state_new.csv')) %>%  dplyr::filter(year == !!year, State == input$admin_name, trend == input$Indicator, age == 'U5') %>% 
-          mutate(scenario = dplyr::case_when(scenario == 'NGA projection scenario 1' ~ 'Business as usual (Scenario 1)',
-                                             scenario == 'NGA projection scenario 2' ~ 'NMSP with ramping up to 80% coverage (Scenario 2)',
-                                             scenario =='NGA projection scenario 3' ~ 'Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)',
-                                             scenario =='NGA projection scenario 4' ~ 'Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)',
-                                             TRUE ~ as.character(scenario)))
-        
-        df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
-                                                      "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
-                                                      "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
-        
-        df$scenario = str_wrap_factor(df$scenario, width=20)
-        
-        plot = generateBar(df, scenario, df$count, paste0('% change in U5 ', tolower(input$Indicator),  '\n in ', year, ' compared to ', '2015' ),
-                           paste0("Projected change in ", tolower(input$Indicator), ' in ', year, ' relative to ', '2015, ', input$admin_name)) 
-        plot = map_all() + plot +  plot_layout(widths = c(0.5, 2))
-        
-      }else {
-        
-        plot=readRDS(file = paste0(data, "/Relative_change_2030_2015_base/",  input$Indicator, '_', input$adminInput,   '_U5',  ".rds"))
-      }
-      
-      
-      })
-    
-    return(plot())
-    
-  }
   
   
 

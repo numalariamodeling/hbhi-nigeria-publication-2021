@@ -148,7 +148,7 @@ statesf <- sf::st_read("../../data/shapefiles/gadm36_NGA_shp/gadm36_NGA_1.shp") 
 # library(ggiraph)
 # library(dplyr)
 # library(tidyr)
-repo<- "../../../"
+# repo<- "../../../"
 # outputs <- file.path('../../data/Trends')
 # inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 
@@ -157,9 +157,23 @@ repo<- "../../../"
 #################################################
 #no GTS
 ################################################
-
-# inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2020_base')
-# df<- data.table::fread(file.path(inputs, 'relative_change_2020_base_state_new.csv')) %>% 
+# library(dplyr)
+# library(tidyr)
+# 
+# input_csv='relative_change_2015_base_state.csv'
+# inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2015_base')
+# df<- data.table::fread(file.path(inputs, input_csv)) %>% dplyr::select(-c('death_rate_mean_all_ages', 'death_rate_mean_U5')) %>%
+#   tidyr::pivot_longer(cols = -c('year', 'State', 'scenario'), names_to = 'indicator', values_to = 'count') %>%
+#   mutate(trend = ifelse(grepl('PfPR', indicator),'Prevalence', ifelse(grepl('incidence', indicator),'Incidence per 1000',
+#                                                                                      ifelse(grepl('death', indicator), 'Deaths per 1000', NA)))) %>%
+#                           mutate(age = ifelse(grepl('U5', indicator), 'U5', 'all_ages')) %>%
+# mutate(State = stringr::str_replace_all(State, '\\_', ' ')) %>%  mutate(count = round(count, 2))
+# write.csv(df, file.path(inputs, 'relative_change_2015_base_state_new.csv'), row.names = FALSE)
+# 
+# 
+# 
+# inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2015_base') 
+# df<- data.table::fread(file.path(inputs, 'relative_change_2015_base_state_new.csv')) %>% dplyr::filter(year == 2015 | year == 2025 | year == 2030) %>% 
 #   mutate(scenario = dplyr::case_when(scenario == 'NGA projection scenario 1' ~ 'Business as usual (Scenario 1)',
 #                                      scenario == 'NGA projection scenario 2' ~ 'NMSP with ramping up to 80% coverage (Scenario 2)',
 #                                      scenario =='NGA projection scenario 3' ~ 'Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)',
@@ -167,11 +181,8 @@ repo<- "../../../"
 #                                      TRUE ~ as.character(scenario)))
 # 
 # 
-# df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
-#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
-#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
 # 
-
+# write.csv(df, file.path(inputs, 'relative_change_2015_base_state_new.csv'))
 
 # labels <- c('Modeled historical trend', 'Business as usual (Scenario 1)', 'NMSP, ramping up to 80% coverage (Scenario 2)',
 # 'Budget-prioritized plan with coverage increases at \n historical rate and SMC in 235 LGAs (Scenario 3)',
@@ -539,9 +550,9 @@ repo<- "../../../"
 # #params
 # projection_year = 2030
 # comparison_year = 2015
-repo<- "../../../"
-input_csv='relative_change_2015_base_state.csv'
-inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2015_base')
+# repo<- "../../../"
+# input_csv='relative_change_2015_base_state.csv'
+# inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2015_base')
 # outputs <- file.path('../../data/Relative_change_2025_2015_base')
 # 
 

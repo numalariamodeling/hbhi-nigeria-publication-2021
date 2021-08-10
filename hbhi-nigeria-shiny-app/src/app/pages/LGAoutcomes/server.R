@@ -110,7 +110,7 @@ proj <- eventReactive(input$submit_proj,{
       
         df$scenario = str_wrap_factor(df$scenario, width=20)
         
-        plot = generateBar(df, scenario, df$count, paste0('Percent change in all age ', tolower(input$Indicator),  '\nin ', year, ' compared to ', '2020'),
+        plot = generateBar(df, scenario, df$count, paste0('% change in all age ', tolower(input$Indicator),  'in ', year, ' compared to ', '2020'),
                            paste0("Projected change in ", tolower(input$Indicator), ' in ', year, ' relative to ', '2020, ', input$admin_name)) 
         map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
         map = ggplot2::ggplot(map)+
@@ -165,7 +165,7 @@ proj <- eventReactive(input$submit_proj,{
         
         df$scenario = str_wrap_factor(df$scenario, width=20)
         
-        plot = generateBar(df, scenario, df$count, paste0('Percent change in all age ', tolower(input$Indicator),  ' \n in ', year, ' compared to ', '2015'),
+        plot = generateBar(df, scenario, df$count, paste0('% change in all age ', tolower(input$Indicator),  ' \n in ', year, ' compared to ', '2015'),
                            paste0("Projected change in ", tolower(input$Indicator), ' in ', year, ' relative to ', '2015, ', input$admin_name)) 
         map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
         map = ggplot2::ggplot(map)+
@@ -307,7 +307,7 @@ proj_u5 <- eventReactive(input$submit_proj,{
         
         df$scenario = str_wrap_factor(df$scenario, width=20)
         
-        plot = generateBar(df, scenario, df$count, paste0('Percent change in U5 ', tolower(input$Indicator),  '\n in ', year, ' compared to ', '2020' ),
+        plot = generateBar(df, scenario, df$count, paste0('% change in U5 ', tolower(input$Indicator),  '\n in ', year, ' compared to ', '2020' ),
                            paste0("Projected change in ", tolower(input$Indicator), ' in ', year, ' relative to ', '2020, ', input$admin_name)) 
         map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
         map = ggplot2::ggplot(map)+
@@ -360,7 +360,7 @@ proj_u5 <- eventReactive(input$submit_proj,{
         
         df$scenario = str_wrap_factor(df$scenario, width=20)
         
-        plot = generateBar(df, scenario, df$count, paste0('Percent change in U5 ', tolower(input$Indicator),  '\n in ', year, ' compared to ', '2015' ),
+        plot = generateBar(df, scenario, df$count, paste0('% change in U5 ', tolower(input$Indicator),  '\n in ', year, ' compared to ', '2015' ),
                            paste0("Projected change in ", tolower(input$Indicator), ' in ', year, ' relative to ', '2015, ', input$admin_name)) 
         map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
         map = ggplot2::ggplot(map)+

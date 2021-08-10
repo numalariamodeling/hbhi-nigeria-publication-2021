@@ -506,30 +506,61 @@ statesf <- sf::st_read("../../data/shapefiles/gadm36_NGA_shp/gadm36_NGA_1.shp") 
 # projection_year = 2030
 # comparison_year = 2015
 # repo<- "../../../"
-# input_csv='relative_change_2015_base.csv'
-# inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2015_base')
+# input_csv='relative_change_2020_base_state.csv'
+# inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2020_base')
 # outputs <- file.path('../../data/Relative_change_2025_2015_base')
 # 
-# values <-c('#913058', "#F6851F", "#00A08A", "#8971B3")
+
+
+
+
+generateBar<- function(df, column1, column2, ylab, title){
+plot =ggplot2::ggplot(df, aes(x = {{column1}}, y = column2, fill ={{column1}}))+
+  ggiraph::geom_bar_interactive(data=df, stat="identity", tooltip = round(column2, 1))+
+  labs(x = '', y = ylab,  title =title) +
+  theme_classic()+
+  scale_fill_manual(values = c('#913058', "#F6851F", "#00A08A", "#8971B3"))+
+  theme(legend.position = 'none',
+        axis.text.x = element_text(size = 12, color = "black"),
+        axis.text.y = element_text(size = 12, color = "black"),
+        axis.title.y = element_text(face ='bold'),
+        plot.title=element_text(color = "black", face = "bold", hjust=0.5))
+
+}
 # 
-# generateBar<- function(column1, column2, ylab, title){
-# plot =ggplot(df, aes(x = {{column1}}, y = column2, fill ={{column1}}))+
-#   ggiraph::geom_bar_interactive(data=df, stat="identity", tooltip = round(column2, 1))+
-#   labs(x = '', y = ylab,  title =title) +
-#   theme_classic()+
-#   scale_fill_manual(values = values)+
-#   theme(legend.position = 'none',
-#         axis.text.x = element_text(size = 12, color = "black"),
-#         axis.text.y = element_text(size = 12, color = "black"),
-#         axis.title.y = element_text(face ='bold'),
-#         plot.title=element_text(color = "black", face = "bold", hjust=0.5))
+str_wrap_factor <- function(x, ...) {
+  levels(x) <- str_wrap(levels(x), ...)
+  x
+}
+
+# df<- data.table::fread(file.path(inputs, input_csv)) %>% dplyr::select(-c('death_rate_mean_all_ages', 'death_rate_mean_U5')) %>% 
+#   tidyr::pivot_longer(cols = -c('year', 'State', 'scenario'), names_to = 'indicator', values_to = 'count') %>% 
+#   mutate(trend = ifelse(grepl('PfPR', indicator),'Prevalence', ifelse(grepl('incidence', indicator),'Incidence per 1000',
+#                                                                                      ifelse(grepl('death', indicator), 'Deaths per 1000', NA)))) %>%
+#                           mutate(age = ifelse(grepl('U5', indicator), 'U5', 'all_ages')) %>%
+# mutate(State = stringr::str_replace_all(State, '\\_', ' ')) %>%  mutate(count = round(count, 2))
+# write.csv(df, file.path(inputs, 'relative_change_2020_base_state_new.csv'), row.names = FALSE)
+#   
+  
+#df<- data.table::fread(file.path(inputs, input_csv) %>% dplyr::filter(year == 2025, State == 'Abia') %>%
+#   mutate(scenario = dplyr::case_when(scenario == 'NGA projection scenario 1' ~ 'Business as usual (Scenario 1)',
+#                              scenario == 'NGA projection scenario 2' ~ 'NMSP with ramping up to 80% coverage (Scenario 2)',
+#                               scenario =='NGA projection scenario 3' ~ 'Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)',
+#                               scenario =='NGA projection scenario 4' ~ 'Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)',
+#                               TRUE ~ as.character(scenario)))
 # 
-# }
 # 
-# str_wrap_factor <- function(x, ...) {
-#   levels(x) <- str_wrap(levels(x), ...)
-#   x
-# }
+# df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
+#                                                                                             "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
+#                                                                                             "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
+# df$scenario = str_wrap_factor(df$scenario, width=20)
+# 
+# plot = generateBar(df, scenario, df$PfPR_percent_change, paste0('Percent change in all age PfPR in ', '2025', '\n compared to ', '2020'),
+#                    paste0("Projected change in ", stringr::str_split(y, " ", simplify=TRUE)[, 4], ' prevalence relative to ', stringr::str_split(y, " ", simplify=TRUE)[, 9])) 
+# 
+# y = "Relative change in 2025 compared to BAU in 2020"
+
+
 # 
 # #pfpr
 # df<- data.table::fread(file.path(inputs, input_csv)) %>%  filter(year == projection_year)

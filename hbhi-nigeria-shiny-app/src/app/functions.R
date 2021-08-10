@@ -133,13 +133,26 @@ LGAsf <- sf::st_read("../../data/LGA_shape/NGA_LGAs.shp") %>%
                                 TRUE ~ as.character(LGA))) 
 
 
-LGA_list<- list(LGAsf)
+
 
 statesf <- sf::st_read("../../data/shapefiles/gadm36_NGA_shp/gadm36_NGA_1.shp") %>% 
   dplyr::mutate(NAME_1 = dplyr::case_when(NAME_1 == 'Nassarawa' ~ 'Nasarawa',
                                      TRUE ~ as.character(NAME_1)))
 
+# LGA_state = read.csv("../../../../data/other/LGA_state.csv") 
+#State = LGA_state[LGA_state$LGA == 'Aba South', 'State']
 
+# map = statesf%>% dplyr::mutate(interest = ifelse(NAME_1 == !!State, !!State, NA))
+# tooltip = paste0('Abia South LGA is in', State)
+# map = ggplot2::ggplot(map)+
+#   ggiraph::geom_sf_interactive(ggplot2::aes(fill = interest, tooltip = tooltip), color = 'white', size = 0.2)+
+#   ggplot2::theme(axis.text.x = ggplot2::element_blank(),
+#                  axis.text.y = ggplot2::element_blank(),
+#                  axis.ticks = ggplot2::element_blank(),
+#                  rect = ggplot2::element_blank(),
+#                  plot.background = ggplot2::element_rect(fill = "white", colour = NA),
+#                  legend.position = 'none')+
+#   ggplot2::scale_fill_manual(values = c('orange'),na.value = "lightgrey")
 ######################################################################################
 # intervention 
 ######################################################################################
@@ -148,9 +161,9 @@ statesf <- sf::st_read("../../data/shapefiles/gadm36_NGA_shp/gadm36_NGA_1.shp") 
 # library(ggiraph)
 # library(dplyr)
 # library(tidyr)
-# repo<- "../../../"
+#repo<- "../../../"
 # outputs <- file.path('../../data/Trends')
-# inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
+#inputs <- file.path(repo, 'simulation_outputs', 'indicators_withGTS_data')
 
 
 
@@ -160,16 +173,23 @@ statesf <- sf::st_read("../../data/shapefiles/gadm36_NGA_shp/gadm36_NGA_1.shp") 
 # library(dplyr)
 # library(tidyr)
 # 
-# input_csv='relative_change_2015_base_state.csv'
-# inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2015_base')
-# df<- data.table::fread(file.path(inputs, input_csv)) %>% dplyr::select(-c('death_rate_mean_all_ages', 'death_rate_mean_U5')) %>%
-#   tidyr::pivot_longer(cols = -c('year', 'State', 'scenario'), names_to = 'indicator', values_to = 'count') %>%
+# input_csv='indicators_withGTS_LGA.csv'
+# inputs <- file.path(repo, 'simulation_outputs', 'indicators_withGTS_data')
+# df<- data.table::fread(file.path(inputs, input_csv)) %>% dplyr::select(-c('death_rate_mean_all_ages', 'death_rate_mean_U5', '.id', 'V1')) %>%
+#   tidyr::pivot_longer(cols = -c('year', 'LGA', 'scenario'), names_to = 'indicator', values_to = 'count') %>%
 #   mutate(trend = ifelse(grepl('PfPR', indicator),'Prevalence', ifelse(grepl('incidence', indicator),'Incidence per 1000',
 #                                                                                      ifelse(grepl('death', indicator), 'Deaths per 1000', NA)))) %>%
-#                           mutate(age = ifelse(grepl('U5', indicator), 'U5', 'all_ages')) %>%
-# mutate(State = stringr::str_replace_all(State, '\\_', ' ')) %>%  mutate(count = round(count, 2))
-# write.csv(df, file.path(inputs, 'relative_change_2015_base_state_new.csv'), row.names = FALSE)
-# 
+#                           mutate(age = ifelse(grepl('U5', indicator), 'U5', 'all_ages')) %>% mutate(count = round(count, 2)) %>%  filter(year != 2010)
+# write.csv(df, file.path(inputs, 'indicators_withGTS_LGA_new.csv'), row.names = FALSE)
+
+#mutate(State = stringr::str_replace_all(State, '\\_', ' '))
+
+
+
+
+
+
+
 # 
 # 
 # inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2015_base') 
@@ -550,9 +570,9 @@ statesf <- sf::st_read("../../data/shapefiles/gadm36_NGA_shp/gadm36_NGA_1.shp") 
 # #params
 # projection_year = 2030
 # comparison_year = 2015
-# repo<- "../../../"
+#repo<- "../../../"
 # input_csv='relative_change_2015_base_state.csv'
-# inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2015_base')
+#inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2015_base')
 # outputs <- file.path('../../data/Relative_change_2025_2015_base')
 # 
 

@@ -22,11 +22,23 @@ updateSelectInput(session, "admin_name", choices = admin[admin$admin==input$admi
 #--------------------------------------------------------
 map_all <- eventReactive(input$submit_proj,{
   
-  if(input$adminInput == 'State'){
+  if(grepl('State|LGA', input$adminInput)){
     map <- reactive({
-      map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
+      
+      if(input$adminInput == 'State'){
+        map = statesf%>% dplyr::mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
+        tooltip = paste0(input$admin_name, ' State')
+      
+      
+      }else{
+        LGA_state = data.table::fread("../../data/other/LGA_state.csv")
+        #browser()
+        State = LGA_state[LGA_state$LGA == input$admin_name, 'State']
+        map = statesf%>% dplyr::mutate(interest = ifelse(NAME_1 == !!State[[1]], !!State[[1]], NA))
+        tooltip = paste0(input$admin_name, ' is in ', State[[1]], ' State')
+      }
       map = ggplot2::ggplot(map)+
-        ggiraph::geom_sf_interactive(ggplot2::aes(fill = interest, tooltip = interest), color = 'white', size = 0.2)+
+        ggiraph::geom_sf_interactive(ggplot2::aes(fill = interest, tooltip = tooltip), color = 'white', size = 0.2)+
         ggplot2::theme(axis.text.x = ggplot2::element_blank(),
                        axis.text.y = ggplot2::element_blank(),
                        axis.ticks = ggplot2::element_blank(),
@@ -37,6 +49,7 @@ map_all <- eventReactive(input$submit_proj,{
     })
     
     return(map())
+    
   }
   
 })
@@ -62,18 +75,18 @@ proj <- eventReactive(input$submit_proj,{
           labs(title=paste0('Projected annual trends in all ages malaria ', tolower(input$Indicator), ', Nigeria'),
                             y = paste('all ages annual ', tolower(input$Indicator)))
         
-        }else if(input$adminInput == 'State'){
+        }else {
           #browser()
           if(input$Indicator == 'Prevalence'){
-          line_df =data.table::fread(file.path(inputs, 'indicators_noGTS_state_new.csv')) 
-          line_df = line_df[which(line_df$trend == input$Indicator & line_df$State == input$admin_name & line_df$age == 'all_ages'), ]
+          line_df =data.table::fread(file.path(inputs, glue::glue('indicators_noGTS_{input$adminInput}_new.csv'))) 
+          line_df = line_df[which(line_df$trend == input$Indicator & line_df[[input$adminInput]] == input$admin_name & line_df$age == 'all_ages'), ]
           plot=generateLine(line_df, line_df$count, paste0("all age ", tolower(input$Indicator), ', ', 'annual average'), title=paste0('Projected trends in all age malaria ', tolower(input$Indicator), ", ", input$admin_name), pin = pretty(line_df$count), limits = c(range(pretty(line_df$count))))
           plot = plot + theme(legend.position = c(legend.position = c(0.25, 0.25)))
           }else{
             inputs <- file.path(repo, 'simulation_outputs', 'indicators_withGTS_data')
-            df_gts =data.table::fread(file.path(inputs, 'indicators_withGTS_state_new.csv')) 
+            df_gts =data.table::fread(file.path(inputs, glue::glue('indicators_withGTS_{input$adminInput}_new.csv'))) 
             #browser()
-            df_gts = df_gts[which(df_gts$trend == input$Indicator & df_gts$State == input$admin_name & df_gts$age == 'all_ages'), ]
+            df_gts = df_gts[which(df_gts$trend == input$Indicator & df_gts[[input$adminInput]] == input$admin_name & df_gts$age == 'all_ages'), ]
             data_1 = dplyr::filter(df_gts, !(scenario %in% c('GTS targets based on 2015 modeled estimate')))
             data_2 = dplyr::filter(df_gts, scenario %in% c('GTS targets based on 2015 modeled estimate'))
             breaks = pretty(df_gts$count)
@@ -84,10 +97,6 @@ proj <- eventReactive(input$submit_proj,{
           }
           plot = map_all() + plot +  plot_layout(widths = c(0.5, 2))
           
-          
-        }else{
-          plot=readRDS(file = paste0(data, "/Trends/",  input$Indicator, '_', input$adminInput, ".rds"))
-          plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.35)))
         }
     })
     
@@ -188,20 +197,15 @@ proj_u5 <- eventReactive(input$submit_proj,{
              y = paste('all ages annual ', tolower(input$Indicator)))
       
       
-    }else if(input$adminInput == 'State'){
+    }else {
       
       #browser()
-      line_df =data.table::fread(file.path(inputs, 'indicators_noGTS_state_new.csv')) 
-      line_df = line_df[which(line_df$trend == input$Indicator & line_df$State == input$admin_name & line_df$age == 'U5'), ]
+      line_df =data.table::fread(file.path(inputs, glue::glue('indicators_noGTS_{input$adminInput}_new.csv')))
+      line_df = line_df[which(line_df$trend == input$Indicator & line_df[[input$adminInput]] == input$admin_name & line_df$age == 'U5'), ]
       plot=generateLine(line_df, line_df$count, paste0("U5 ", tolower(input$Indicator), ', ', 'annual average'), title=paste0('Projected trends in U5 malaria ', tolower(input$Indicator), ", ", input$admin_name), pin = pretty(line_df$count), limits = c(range(pretty(line_df$count))))
       plot = plot + theme(legend.position = c(legend.position = c(0.25, 0.25)))
       plot = map_all() + plot +  plot_layout(widths = c(0.5, 2))
-        
-      
-      
-    }else{
-      plot=readRDS(file = paste0(data, "/Trends/",  input$Indicator, '_', input$adminInput, ".rds"))
-      plot = plot + theme(legend.position = c(legend.position = c(0.23, 0.35)))+  theme(plot.title = element_blank())
+
     }
       
     })

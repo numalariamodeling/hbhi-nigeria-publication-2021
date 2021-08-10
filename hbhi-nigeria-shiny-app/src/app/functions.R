@@ -101,6 +101,26 @@ generateLinePT <- function(df_gts, data_1, data_2, breaks, limits) {
     theme(axis.title.x=element_blank())
 }
 
+
+generateBar<- function(df, column1, column2, ylab, title){
+  plot =ggplot2::ggplot(df, aes(x = {{column1}}, y = column2, fill ={{column1}}))+
+    ggiraph::geom_bar_interactive(data=df, stat="identity", tooltip = round(column2, 1))+
+    labs(x = '', y = ylab,  title =title) +
+    theme_classic()+
+    scale_fill_manual(values = c('#913058', "#F6851F", "#00A08A", "#8971B3"))+
+    theme(legend.position = 'none',
+          axis.text.x = element_text(size = 12, color = "black"),
+          axis.text.y = element_text(size = 12, color = "black"),
+          axis.title.y = element_text(face ='bold'),
+          plot.title=element_text(color = "black", face = "bold", hjust=0.5))
+  
+}
+
+str_wrap_factor <- function(x, ...) {
+  levels(x) <- str_wrap(levels(x), ...)
+  x
+}
+
 ######################################################################################
 # data 
 ######################################################################################
@@ -505,36 +525,19 @@ statesf <- sf::st_read("../../data/shapefiles/gadm36_NGA_shp/gadm36_NGA_1.shp") 
 # #params
 # projection_year = 2030
 # comparison_year = 2015
-# repo<- "../../../"
-# input_csv='relative_change_2020_base_state.csv'
-# inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2020_base')
+repo<- "../../../"
+input_csv='relative_change_2015_base_state.csv'
+inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2015_base')
 # outputs <- file.path('../../data/Relative_change_2025_2015_base')
 # 
 
 
 
 
-generateBar<- function(df, column1, column2, ylab, title){
-plot =ggplot2::ggplot(df, aes(x = {{column1}}, y = column2, fill ={{column1}}))+
-  ggiraph::geom_bar_interactive(data=df, stat="identity", tooltip = round(column2, 1))+
-  labs(x = '', y = ylab,  title =title) +
-  theme_classic()+
-  scale_fill_manual(values = c('#913058', "#F6851F", "#00A08A", "#8971B3"))+
-  theme(legend.position = 'none',
-        axis.text.x = element_text(size = 12, color = "black"),
-        axis.text.y = element_text(size = 12, color = "black"),
-        axis.title.y = element_text(face ='bold'),
-        plot.title=element_text(color = "black", face = "bold", hjust=0.5))
 
-}
-# 
-str_wrap_factor <- function(x, ...) {
-  levels(x) <- str_wrap(levels(x), ...)
-  x
-}
 
-# df<- data.table::fread(file.path(inputs, input_csv)) %>% dplyr::select(-c('death_rate_mean_all_ages', 'death_rate_mean_U5')) %>% 
-#   tidyr::pivot_longer(cols = -c('year', 'State', 'scenario'), names_to = 'indicator', values_to = 'count') %>% 
+# df<- data.table::fread(file.path(inputs, input_csv)) %>% dplyr::select(-c('death_rate_mean_all_ages', 'death_rate_mean_U5')) %>%
+#   tidyr::pivot_longer(cols = -c('year', 'State', 'scenario'), names_to = 'indicator', values_to = 'count') %>%
 #   mutate(trend = ifelse(grepl('PfPR', indicator),'Prevalence', ifelse(grepl('incidence', indicator),'Incidence per 1000',
 #                                                                                      ifelse(grepl('death', indicator), 'Deaths per 1000', NA)))) %>%
 #                           mutate(age = ifelse(grepl('U5', indicator), 'U5', 'all_ages')) %>%

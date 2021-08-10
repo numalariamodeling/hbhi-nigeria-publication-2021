@@ -148,7 +148,7 @@ statesf <- sf::st_read("../../data/shapefiles/gadm36_NGA_shp/gadm36_NGA_1.shp") 
 # library(ggiraph)
 # library(dplyr)
 # library(tidyr)
-# repo<- "../../../"
+repo<- "../../../"
 # outputs <- file.path('../../data/Trends')
 # inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
 
@@ -157,6 +157,20 @@ statesf <- sf::st_read("../../data/shapefiles/gadm36_NGA_shp/gadm36_NGA_1.shp") 
 #################################################
 #no GTS
 ################################################
+
+# inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2020_base')
+# df<- data.table::fread(file.path(inputs, 'relative_change_2020_base_state_new.csv')) %>% 
+#   mutate(scenario = dplyr::case_when(scenario == 'NGA projection scenario 1' ~ 'Business as usual (Scenario 1)',
+#                                      scenario == 'NGA projection scenario 2' ~ 'NMSP with ramping up to 80% coverage (Scenario 2)',
+#                                      scenario =='NGA projection scenario 3' ~ 'Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)',
+#                                      scenario =='NGA projection scenario 4' ~ 'Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)',
+#                                      TRUE ~ as.character(scenario)))
+# 
+# 
+# df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
+#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
+#                                               "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
+# 
 
 
 # labels <- c('Modeled historical trend', 'Business as usual (Scenario 1)', 'NMSP, ramping up to 80% coverage (Scenario 2)',

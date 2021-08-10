@@ -20,14 +20,37 @@ updateSelectInput(session, "admin_name", choices = admin[admin$admin==input$admi
 #--------------------------------------------------------  
 ###plot generation script  
 #--------------------------------------------------------
+map_all <- eventReactive(input$submit_proj,{
+  
+  if(input$adminInput == 'State'){
+    map <- reactive({
+      map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
+      map = ggplot2::ggplot(map)+
+        ggiraph::geom_sf_interactive(ggplot2::aes(fill = interest, tooltip = interest), color = 'white', size = 0.2)+
+        ggplot2::theme(axis.text.x = ggplot2::element_blank(),
+                       axis.text.y = ggplot2::element_blank(),
+                       axis.ticks = ggplot2::element_blank(),
+                       rect = ggplot2::element_blank(),
+                       plot.background = ggplot2::element_rect(fill = "white", colour = NA),
+                       legend.position = 'none')+
+        ggplot2::scale_fill_manual(values = c('blue'),na.value = "lightgrey")
+    })
+    
+    return(map())
+  }
+  
+})
+
+
+#--------------------------------------------------------  
+### indicators all ages
+#--------------------------------------------------------
 proj <- eventReactive(input$submit_proj,{
   data <- "../../data"
   repo<- "../../../"
   inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
   
-  #--------------------------------------------------------  
-  ### indicators 
-  #--------------------------------------------------------
+
   
   if("Trends" %in% input$statistic) {
     plot<- reactive({
@@ -58,18 +81,7 @@ proj <- eventReactive(input$submit_proj,{
             plot = plot + labs(y = paste0("all age ", tolower(input$Indicator), ', ', 'annual average'), title =paste0('Projected trends in all age malaria ', tolower(input$Indicator), ", ", input$admin_name))
             plot = plot + theme(legend.position = c(legend.position = c(0.25, 0.30)))
           }
-          
-          map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
-          map = ggplot2::ggplot(map)+
-            ggiraph::geom_sf_interactive(ggplot2::aes(fill = interest, tooltip = interest), color = 'white', size = 0.2)+
-            ggplot2::theme(axis.text.x = ggplot2::element_blank(),
-                           axis.text.y = ggplot2::element_blank(),
-                           axis.ticks = ggplot2::element_blank(),
-                           rect = ggplot2::element_blank(),
-                           plot.background = ggplot2::element_rect(fill = "white", colour = NA),
-                           legend.position = 'none')+
-            ggplot2::scale_fill_manual(values = c('blue'),na.value = "lightgrey")
-          plot = map + plot +  plot_layout(widths = c(0.5, 2))
+          plot = map_all() + plot +  plot_layout(widths = c(0.5, 2))
           
           
         }else{
@@ -97,13 +109,7 @@ proj <- eventReactive(input$submit_proj,{
       } else if(input$adminInput == 'State') {
         #browser()
         inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2020_base')
-        df<- data.table::fread(file.path(inputs, 'relative_change_2020_base_state_new.csv')) %>%  dplyr::filter(year == !!year, State == input$admin_name, trend == input$Indicator, age == 'all_ages') %>% 
-          mutate(scenario = dplyr::case_when(scenario == 'NGA projection scenario 1' ~ 'Business as usual (Scenario 1)',
-                                             scenario == 'NGA projection scenario 2' ~ 'NMSP with ramping up to 80% coverage (Scenario 2)',
-                                             scenario =='NGA projection scenario 3' ~ 'Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)',
-                                             scenario =='NGA projection scenario 4' ~ 'Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)',
-                                             TRUE ~ as.character(scenario)))
-        
+        df<- data.table::fread(file.path(inputs, 'relative_change_2020_base_state_new.csv')) %>%  dplyr::filter(year == !!year, State == input$admin_name, trend == input$Indicator, age == 'all_ages') 
         df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
                                                       "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
                                                       "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
@@ -112,17 +118,7 @@ proj <- eventReactive(input$submit_proj,{
         
         plot = generateBar(df, scenario, df$count, paste0('% change in all age ', tolower(input$Indicator),  'in ', year, ' compared to ', '2020'),
                            paste0("Projected change in ", tolower(input$Indicator), ' in ', year, ' relative to ', '2020, ', input$admin_name)) 
-        map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
-        map = ggplot2::ggplot(map)+
-          ggiraph::geom_sf_interactive(ggplot2::aes(fill = interest, tooltip = interest), color = 'white', size = 0.2)+
-          ggplot2::theme(axis.text.x = ggplot2::element_blank(),
-                         axis.text.y = ggplot2::element_blank(),
-                         axis.ticks = ggplot2::element_blank(),
-                         rect = ggplot2::element_blank(),
-                         plot.background = ggplot2::element_rect(fill = "white", colour = NA),
-                         legend.position = 'none')+
-          ggplot2::scale_fill_manual(values = c('blue'),na.value = "lightgrey")
-         plot = map + plot +  plot_layout(widths = c(0.5, 2))
+         plot = map_all() + plot +  plot_layout(widths = c(0.5, 2))
         
       }else {
         plot=readRDS(file = paste0(data, "/Relative_change_2025_2020_base/",  input$Indicator, '_', input$adminInput, ".rds"))
@@ -167,17 +163,7 @@ proj <- eventReactive(input$submit_proj,{
         
         plot = generateBar(df, scenario, df$count, paste0('% change in all age ', tolower(input$Indicator),  ' \n in ', year, ' compared to ', '2015'),
                            paste0("Projected change in ", tolower(input$Indicator), ' in ', year, ' relative to ', '2015, ', input$admin_name)) 
-        map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
-        map = ggplot2::ggplot(map)+
-          ggiraph::geom_sf_interactive(ggplot2::aes(fill = interest, tooltip = interest), color = 'white', size = 0.2)+
-          ggplot2::theme(axis.text.x = ggplot2::element_blank(),
-                         axis.text.y = ggplot2::element_blank(),
-                         axis.ticks = ggplot2::element_blank(),
-                         rect = ggplot2::element_blank(),
-                         plot.background = ggplot2::element_rect(fill = "white", colour = NA),
-                         legend.position = 'none')+
-          ggplot2::scale_fill_manual(values = c('blue'),na.value = "lightgrey")
-        plot = map + plot +  plot_layout(widths = c(0.5, 2))
+        plot = map_all() + plot +  plot_layout(widths = c(0.5, 2))
         
         
       }else {
@@ -237,11 +223,12 @@ proj_u5 <- eventReactive(input$submit_proj,{
   inputs <- file.path(repo, 'simulation_outputs', 'indicators_noGTS_data')
   
   
+  
   #--------------------------------------------------------  
   ### Prevalence 
   #--------------------------------------------------------
   
-  if(("Trends" %in% input$statistic)) {
+  if("Trends" %in% input$statistic) {
     plot<- reactive({
       if(input$adminInput == 'National'){
       #browser()
@@ -257,17 +244,7 @@ proj_u5 <- eventReactive(input$submit_proj,{
       line_df = line_df[which(line_df$trend == input$Indicator & line_df$State == input$admin_name & line_df$age == 'U5'), ]
       plot=generateLine(line_df, line_df$count, paste0("U5 ", tolower(input$Indicator), ', ', 'annual average'), title=paste0('Projected trends in U5 malaria ', tolower(input$Indicator), ", ", input$admin_name), pin = pretty(line_df$count), limits = c(range(pretty(line_df$count))))
       plot = plot + theme(legend.position = c(legend.position = c(0.25, 0.25)))
-      map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
-      map = ggplot2::ggplot(map)+
-        ggiraph::geom_sf_interactive(ggplot2::aes(fill = interest, tooltip = interest), color = 'white', size = 0.2)+
-        ggplot2::theme(axis.text.x = ggplot2::element_blank(),
-                       axis.text.y = ggplot2::element_blank(),
-                       axis.ticks = ggplot2::element_blank(),
-                       rect = ggplot2::element_blank(),
-                       plot.background = ggplot2::element_rect(fill = "white", colour = NA),
-                       legend.position = 'none')+
-        ggplot2::scale_fill_manual(values = c('blue'),na.value = "lightgrey")
-      plot = map + plot +  plot_layout(widths = c(0.5, 2))
+      plot = map_all() + plot +  plot_layout(widths = c(0.5, 2))
         
       
       
@@ -294,13 +271,7 @@ proj_u5 <- eventReactive(input$submit_proj,{
       
       }else if(input$adminInput == 'State'){
         inputs <- file.path(repo, 'simulation_outputs', 'relative_change_2020_base')
-        df<- data.table::fread(file.path(inputs, 'relative_change_2020_base_state_new.csv')) %>%  dplyr::filter(year == !!year, State == input$admin_name, trend == input$Indicator, age == 'U5') %>% 
-          mutate(scenario = dplyr::case_when(scenario == 'NGA projection scenario 1' ~ 'Business as usual (Scenario 1)',
-                                             scenario == 'NGA projection scenario 2' ~ 'NMSP with ramping up to 80% coverage (Scenario 2)',
-                                             scenario =='NGA projection scenario 3' ~ 'Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)',
-                                             scenario =='NGA projection scenario 4' ~ 'Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)',
-                                             TRUE ~ as.character(scenario)))
-        
+        df<- data.table::fread(file.path(inputs, 'relative_change_2020_base_state_new.csv')) %>%  dplyr::filter(year == !!year, State == input$admin_name, trend == input$Indicator, age == 'U5') 
         df$scenario <- factor(df$scenario, levels = c("Business as usual (Scenario 1)", "NMSP with ramping up to 80% coverage (Scenario 2)",
                                                       "Budget-prioritized plan with coverage increases at  historical rate & SMC in 235 LGAs (Scenario 3)",
                                                       "Budget-prioritized plan with coverage increases at  historical rate & SMC in 310 LGAs (Scenario 4)"))
@@ -309,17 +280,7 @@ proj_u5 <- eventReactive(input$submit_proj,{
         
         plot = generateBar(df, scenario, df$count, paste0('% change in U5 ', tolower(input$Indicator),  '\n in ', year, ' compared to ', '2020' ),
                            paste0("Projected change in ", tolower(input$Indicator), ' in ', year, ' relative to ', '2020, ', input$admin_name)) 
-        map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
-        map = ggplot2::ggplot(map)+
-          ggiraph::geom_sf_interactive(ggplot2::aes(fill = interest, tooltip = interest), color = 'white', size = 0.2)+
-          ggplot2::theme(axis.text.x = ggplot2::element_blank(),
-                         axis.text.y = ggplot2::element_blank(),
-                         axis.ticks = ggplot2::element_blank(),
-                         rect = ggplot2::element_blank(),
-                         plot.background = ggplot2::element_rect(fill = "white", colour = NA),
-                         legend.position = 'none')+
-          ggplot2::scale_fill_manual(values = c('blue'),na.value = "lightgrey")
-        plot = map + plot +  plot_layout(widths = c(0.5, 2))
+        plot = map_all() + plot +  plot_layout(widths = c(0.5, 2))
         
       }else{
         
@@ -362,17 +323,7 @@ proj_u5 <- eventReactive(input$submit_proj,{
         
         plot = generateBar(df, scenario, df$count, paste0('% change in U5 ', tolower(input$Indicator),  '\n in ', year, ' compared to ', '2015' ),
                            paste0("Projected change in ", tolower(input$Indicator), ' in ', year, ' relative to ', '2015, ', input$admin_name)) 
-        map = statesf%>% mutate(interest = ifelse(NAME_1 == input$admin_name, input$admin_name, NA))
-        map = ggplot2::ggplot(map)+
-          ggiraph::geom_sf_interactive(ggplot2::aes(fill = interest, tooltip = interest), color = 'white', size = 0.2)+
-          ggplot2::theme(axis.text.x = ggplot2::element_blank(),
-                         axis.text.y = ggplot2::element_blank(),
-                         axis.ticks = ggplot2::element_blank(),
-                         rect = ggplot2::element_blank(),
-                         plot.background = ggplot2::element_rect(fill = "white", colour = NA),
-                         legend.position = 'none')+
-          ggplot2::scale_fill_manual(values = c('blue'),na.value = "lightgrey")
-        plot = map + plot +  plot_layout(widths = c(0.5, 2))
+        plot = map_all() + plot +  plot_layout(widths = c(0.5, 2))
         
       }else {
         

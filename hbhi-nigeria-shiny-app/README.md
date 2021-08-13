@@ -1,5 +1,5 @@
 
-  <h3 align="center">Malaria intervention scenarios and projections for the 2021 - 2025 Nigerian National Malaria Strategic Plan: An R Shiny Application</h3>
+  <h1 align="center">Malaria intervention scenarios and projections for the 2021 - 2025 Nigerian National Malaria Strategic Plan: An R Shiny Application</h1>
 
   
 

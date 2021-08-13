@@ -77,17 +77,17 @@ Clone this repo to the folder you would like to place the file either using the 
 
 1. Setup a password in the [server](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/src/app/server.R). 
 
-* The current username and password is set as "3" but you can change it to whatever you like 
+	* The current username and password is set as "3" but you can change it to whatever you like 
 
 2. Navigate to the local [ui folder](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/src/app/ui.R). 
 
-* Rstudio should prompt you to download all the required packages 
+	* Rstudio should prompt you to download all the required packages 
 
 
 3. Click on "Run App" and the application will launch resembling the online version [here](https://ifeomaozo.shinyapps.io/hbhi-nigeria/).
 
- * Type in the username and password that you choose in #1 
- * Make desired queries and download corresponding outputs  
+ 	* Type in the username and password that you choose in #1 
+	* Make desired queries and download corresponding outputs  
 
 
 
@@ -98,15 +98,15 @@ Sometimes issues may arise within the Shiny app that require users to troublesho
 
 _For more information on debugging shiny applications, please refer to the [Documentation](https://shiny.rstudio.com/articles/debugging.html)_
 
-information.
+
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Ifeoma Ozodiegwu [Research Assistant Professor, Northwestern University (NU)](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=52373)
-Email - ifeoma.ozodiegwu@northwestern.edu, 
+Ifeoma Ozodiegwu [Research Assistant Professor, Northwestern University (NU).](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=52373)
+ Email - ifeoma.ozodiegwu@northwestern.edu, 
 
 Project Link: [https://ifeomaozo.shinyapps.io/hbhi-nigeria/](https://ifeomaozo.shinyapps.io/hbhi-nigeria/)
 

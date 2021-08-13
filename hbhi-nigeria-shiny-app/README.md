@@ -15,16 +15,14 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#running-the-shiny-application-locally">Running The Shiny Application Locally </a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#usage">Usage</a></li>    
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -47,6 +45,8 @@ List of malaria acronynms used within the app:
 * Demographic and Health Surveys (DHS) 
 * High Burden to High Impact (HBHI) 
 * Insecticide-treated nets (ITN)
+* Intermittent Preventive Treatment in Infants (IPTi)
+* Intermittent Preventive Treatement for Pregnant women (IPTp) 
 * National Malaria Strategic Plan (NMSP)
 * Seasonal Malaria Chemoprevention (SMC) 
 
@@ -54,116 +54,73 @@ List of malaria acronynms used within the app:
 
 ### Built With
 
-The app was developed using the [R Shiny package](https://shiny.rstudio.com/). Styling was based on the [bootswatch Flatly theme](https://bootswatch.com/). A list of major R packages used in the app are listed in the [main ui page](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/src/app/ui.R). 
+The app was developed using the [R Shiny package](https://shiny.rstudio.com/). Styling was based on the [Bootswatch Flatly theme](https://bootswatch.com/). A list of major R packages used in the app are listed in the [main ui page](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/src/app/ui.R). 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Running The Shiny Application Locally 
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Download R and R studio following the instructions [here](https://rstudio-education.github.io/hopr/starting.html)
+
+Clone this repo to the folder you would like to place the file either using the terminal (mac users), SourceTree or by simply downloading the zip file in the [main page](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021).  
+
+* terminal (mac users) 
   ```sh
-  npm install npm@latest -g
+  cd Documents 
+  git clone https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-nigeria-shiny-app
   ```
 
-### Installation
+### Running the app 
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. Setup a password in the [server](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/src/app/server.R). 
+
+*The current username and password is set as "3" but you can change it to whatever you like 
+
+2. Navigate to the local [ui folder](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/src/app/ui.R). 
+
+*Rstudio should prompt you to download all the required packages 
 
 
+3. Click on "Run App" and the application will launch resembling the online version [here](https://ifeomaozo.shinyapps.io/hbhi-nigeria/).
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+ *Type in the username and password that you choose in #1 
+ * Make desired queries and download corresponding outputs  
 
 
 
-<!-- ROADMAP -->
-## Roadmap
+<!-- TROUBLESHOOT-->
+## Troubleshooting the Shiny App 
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+Sometimes issues may arise within the Shiny app that require users to troubleshoot. One way to do this is to use the ```sh browser() ``` call within between lines of code that you want to investigate and then step through the code in the console by running small snippets in the Console until the bug is identified.  
 
+_For more information on debugging shiny applications, please refer to the [Documentation](https://shiny.rstudio.com/articles/debugging.html)_
 
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+information.
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Ifeoma Ozodiegwu [Research Assistant Professor, Northwestern University (NU)](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=52373)
+Email - ifeoma.ozodiegwu@northwestern.edu, 
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://ifeomaozo.shinyapps.io/hbhi-nigeria/](https://ifeomaozo.shinyapps.io/hbhi-nigeria/)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
+* [Perpetua Uhomoibhi and Ibrahim Maikore @Nigerian Malaria Elimination Programme](https://nmcp.gov.ng/)
+* [Abdisalan Noor and Bea Galatas @World Health Organization Global Malaria Programme](https://www.who.int/teams/global-malaria-programme)
+* [Jaline Gerardin - Principal Investigator @NU Malaria Modeling Team](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=44305)
+* [Neena Parveen Dhanoa- Software Engineer Intern @ServiceNow](https://www.linkedin.com/in/neena-parveen-dhanoa-3686b11b3/)
+* [NU Malaria Modeling Team](https://choosealicense.com)
+* [Monique Ambrose and Caitlin Beaver @IDM](https://www.idmod.org/team)
 
 
 
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png

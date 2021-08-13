@@ -73,7 +73,7 @@ Clone this repo to the folder you would like to place the file in, either using 
   git clone https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-nigeria-shiny-app
   ```
 
-### Running the app 
+### Running The App 
 
 1. Setup a password in the [server](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/src/app/server.R). 
 

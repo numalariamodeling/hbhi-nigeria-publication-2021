@@ -35,7 +35,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-We developed an [R Shiny Application](https://ifeomaozo.shinyapps.io/hbhi-nigeria/) to visualize data inputs and projections associated with the manuscript entitled "Application of mathematical modeling to inform national malaria intervention planning in Nigeria". Within the manuscript, we describe our approach for developing a mathematical model of malaria transmission for each of Nigeria's 774 districts for the period of 2010 - 2020. Using this model, we simulated four intervention scenarios, of interest to the Nigerian Malaria Elimination Program, from 2020 - 2030. This Shiny application presents intervention coverage, insecticide treated net efficacy inputs, projected trends and relative difference in malaria burden for the simulation periods. This project was part of the [High Burden to High Impact response](https://www.who.int/publications/i/item/WHO-CDS-GMP-2018.25) geared towards development of targeted strategies for intervention deployment in high burden malaria countries. 
+We developed an [R Shiny Application](https://ifeomaozo.shinyapps.io/hbhi-nigeria/) to visualize data inputs and projections associated with the manuscript entitled "Application of mathematical modeling to inform national malaria intervention planning in Nigeria". Within the manuscript, we describe our approach for developing a mathematical model of malaria transmission for each of Nigeria's 774 districts for the period of 2010 - 2020. Using this model, we simulated four intervention scenarios, of interest to the Nigerian Malaria Elimination Program, from 2020 - 2030. This interactive Shiny application presents LGA-level intervention coverages and insecticide treated net efficacy inputs, and national, state and LGA-level projected trends and relative difference in malaria burden for the simulation periods. This project was part of the [High Burden to High Impact response](https://www.who.int/publications/i/item/WHO-CDS-GMP-2018.25) geared towards development of targeted strategies for intervention deployment in high burden malaria countries. 
 
 ![alt text](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/input_data.PNG)
 
@@ -52,18 +52,9 @@ List of malaria acronynms used within the app:
 
 
 
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
-
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
-
+The app was developed using the [R Shiny package](https://shiny.rstudio.com/). Styling was based on the [bootswatch Flatly theme](https://bootswatch.com/). A list of major R packages used in the app are listed in the [main ui page](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/src/app/ui.R). 
 
 
 <!-- GETTING STARTED -->

@@ -21,7 +21,7 @@
         <li><a href="#running-the-app">Running the app </a></li>
       </ul>
     </li>
-    <li><a href="#troubleshooting-the-shiny-app">Troubleshooting the Shiny App</a></li>    
+    <li><a href="#troubleshooting-the-shiny-app">Troubleshooting The Shiny App</a></li>    
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -92,7 +92,7 @@ Clone this repo to the folder you would like to place the file in, either using 
 
 
 <!-- TROUBLESHOOT-->
-## Troubleshooting the Shiny App 
+## Troubleshooting The Shiny App 
 
 Sometimes issues may arise within the Shiny app that require users to troubleshoot. One way to do this is to use the ``` browser() ``` call between the lines of code that you want to investigate and then step through the code in the console by running small snippets in the Console until the bug is identified.  
 

@@ -106,7 +106,7 @@ _For more information on debugging shiny applications, please refer to the [Docu
 ## Contact
 
 Ifeoma Ozodiegwu [Research Assistant Professor, Northwestern University (NU).](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=52373)
- Email - ifeoma.ozodiegwu@northwestern.edu, 
+ Email - ifeoma.ozodiegwu@northwestern.edu 
 
 Project Link: [https://ifeomaozo.shinyapps.io/hbhi-nigeria/](https://ifeomaozo.shinyapps.io/hbhi-nigeria/)
 

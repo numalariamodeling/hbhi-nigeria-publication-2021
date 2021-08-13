@@ -37,17 +37,21 @@
 
 We developed an [R Shiny Application](https://ifeomaozo.shinyapps.io/hbhi-nigeria/) to visualize data inputs and projections associated with the manuscript entitled "Application of mathematical modeling to inform national malaria intervention planning in Nigeria". Within the manuscript, we describe our approach for developing a mathematical model of malaria transmission for each of Nigeria's 774 districts for the period of 2010 - 2020. Using this model, we simulated four intervention scenarios, of interest to the Nigerian Malaria Elimination Program, from 2020 - 2030. This Shiny application presents intervention coverage, insecticide treated net efficacy inputs, projected trends and relative difference in malaria burden for the simulation periods. This project was part of the [High Burden to High Impact response](https://www.who.int/publications/i/item/WHO-CDS-GMP-2018.25) geared towards development of targeted strategies for intervention deployment in high burden malaria countries. 
 
-https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/input_data.PNG)
+![alt text](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/input_data.PNG)
+
+
+List of malaria acronynms used within the app:
+* Budget-prioritized plan (BPP)
+* Business as Usual (BAU) 
+* Case management (CM) 
+* Demographic and Health Surveys (DHS) 
+* High Burden to High Impact (HBHI) 
+* Insecticide-treated nets (ITN)
+* National Malaria Strategic Plan (NMSP)
+* Seasonal Malaria Chemoprevention (SMC) 
 
 
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
 

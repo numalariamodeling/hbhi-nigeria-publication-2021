@@ -59,13 +59,13 @@ The app was developed using the [R Shiny package](https://shiny.rstudio.com/). S
 <!-- GETTING STARTED -->
 ## Running The Shiny Application Locally 
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
 Download R and R studio following the instructions [here](https://rstudio-education.github.io/hopr/starting.html)
 
-Clone this repo to the folder you would like to place the file either using the terminal (mac users), SourceTree or by simply downloading the zip file in the [main page](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021).  
+Clone this repo to the folder you would like to place the file in, either using the terminal (mac users), SourceTree or by simply downloading the zip file in the [main page](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021).  
 
 * terminal (mac users) 
   ```sh

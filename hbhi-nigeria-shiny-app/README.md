@@ -18,7 +18,7 @@
       <a href="#running-the-shiny-application-locally">Running The Shiny Application Locally </a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#running-the-app">Running The app </a></li>
+        <li><a href="#running-the-app">Running The App </a></li>
       </ul>
     </li>
     <li><a href="#troubleshooting-the-shiny-app">Troubleshooting The Shiny App</a></li>    

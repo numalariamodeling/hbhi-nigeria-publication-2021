@@ -14,10 +14,13 @@ import::from(ggiraph, girafe_options)
 import::from(patchwork, plot_annotation)
 
 
-observe({
-  updateSelectInput(session, "ITN_age", choices = interventions[interventions$interventions==input$varType, "age_group"])
-  updateSelectInput(session, "SMC_access_type", choices = interventions[interventions$interventions==input$varType, "SMC_access"])
-})
+observeEvent(
+  input$varType, updateSelectInput(session, "ITN_age", choices = interventions[interventions$interventions==input$varType, "age group"])
+)
+
+observeEvent(
+  input$varType, updateSelectInput(session, "SMC_access_type", choices = interventions[interventions$interventions==input$varType, "SMC access"])
+)
 
 
 
@@ -348,7 +351,7 @@ do.call(shiny::downloadButton, list('downloadCSV', 'Download model input as CSV'
 })
 
 output$downloadCSV <- shiny::downloadHandler(
-filename = 'model_input.csv',
+filename = filename = paste0(input$scenarioInput, '_', input$yearInput, '_', input$varType,'.csv'),
 content = function(file) {
 outputData <- data()$data %>%  sf::st_drop_geometry()
 write.csv(outputData, file, row.names = FALSE)

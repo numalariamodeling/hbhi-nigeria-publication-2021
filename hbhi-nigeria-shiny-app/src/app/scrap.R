@@ -891,7 +891,9 @@ for (i in 1:length(val_year)){
 
 
 library(dplyr)
-IPTi = data.table::fread(file.path(inputs, "assumedIPTicov.csv")) %>%  dplyr::select(-c(State)) %>%
+
+repo <- 'C:/Users/ido0493/Documents/hbhi-nigeria-publication-2021/simulation_inputs/IPTi'
+IPTi = data.table::fread(file.path(repo, "assumedIPTicov.csv")) %>% filter(IPTyn == 1) %>%  dplyr::select(-c(State)) %>%
   dplyr::mutate(LGA = stringr::str_replace_all(LGA, "/", "-"),LGA = dplyr::case_when(LGA == "kiyawa"~ "Kiyawa",
                                                                                      LGA == "kaita"~ "Kaita", TRUE ~ as.character(LGA)))
 IPTi$ipti_cov_mean= round(IPTi$ipti_cov_mean* 0, 1)

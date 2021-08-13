@@ -86,7 +86,7 @@ Clone this repo to the folder you would like to place the file in, either using 
 
 3. Click on "Run App" and the application will launch resembling the online version [here](https://ifeomaozo.shinyapps.io/hbhi-nigeria/).
 
- 	* Type in the username and password that you choose in #1 
+ 	* Type in the username and password that you chose in #1 
 	* Make desired queries and download corresponding outputs  
 
 

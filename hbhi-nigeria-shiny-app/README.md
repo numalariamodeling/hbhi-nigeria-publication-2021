@@ -32,7 +32,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-We developed an [R Shiny Application](https://ifeomaozo.shinyapps.io/hbhi-nigeria/) to visualize data inputs and projections associated with the manuscript entitled "Application of mathematical modeling to inform national malaria intervention planning in Nigeria". Within the manuscript, we describe our approach for developing a mathematical model of malaria transmission for each of Nigeria's 774 districts for the period of 2010 - 2020. Using this model, we simulated four intervention scenarios, of interest to the Nigerian Malaria Elimination Program, from 2020 - 2030. This interactive Shiny application presents LGA-level intervention coverages and insecticide treated net efficacy inputs, and national, state and LGA-level projected trends and relative difference in malaria burden for the simulation periods. This project was part of the [High Burden to High Impact response](https://www.who.int/publications/i/item/WHO-CDS-GMP-2018.25) geared towards development of targeted strategies for intervention deployment in high burden malaria countries. 
+In partnership with the Nigerian Malaria Elimination Programme and the World Health Organization, we developed an [R Shiny Application](https://ifeomaozo.shinyapps.io/hbhi-nigeria/) to visualize data inputs and projections associated with the manuscript entitled "Application of mathematical modeling to inform national malaria intervention planning in Nigeria". Within the manuscript, we describe our approach for developing a mathematical model of malaria transmission for each of Nigeria's 774 districts for the period of 2010 - 2020. Using this model, we simulated four intervention scenarios, of interest to the Nigerian Malaria Elimination Program, from 2020 - 2030. This interactive Shiny application presents LGA-level intervention coverages and insecticide treated net efficacy inputs, and national, state and LGA-level projected trends and relative difference in malaria burden for the simulation period. This project was part of the WHO-initiated [High Burden to High Impact response](https://www.who.int/publications/i/item/WHO-CDS-GMP-2018.25) geared towards development of targeted strategies for intervention deployment in high burden malaria countries. 
 
 ![alt text](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/input_data.PNG)
 
@@ -94,7 +94,7 @@ Clone this repo to the folder you would like to place the file in, either using 
 <!-- TROUBLESHOOT-->
 ## Troubleshooting the Shiny App 
 
-Sometimes issues may arise within the Shiny app that require users to troubleshoot. One way to do this is to use the ```sh browser() ``` call within between lines of code that you want to investigate and then step through the code in the console by running small snippets in the Console until the bug is identified.  
+Sometimes issues may arise within the Shiny app that require users to troubleshoot. One way to do this is to use the ```sh browser() ``` call between lines of code that you want to investigate and then step through the code in the console by running small snippets in the Console until the bug is identified.  
 
 _For more information on debugging shiny applications, please refer to the [Documentation](https://shiny.rstudio.com/articles/debugging.html)_
 
@@ -114,12 +114,13 @@ Project Link: [https://ifeomaozo.shinyapps.io/hbhi-nigeria/](https://ifeomaozo.s
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Perpetua Uhomoibhi and Ibrahim Maikore @Nigerian Malaria Elimination Programme](https://nmcp.gov.ng/)
+* [Perpetua Uhomoibhi @Nigerian Malaria Elimination Programme](https://nmcp.gov.ng/)
+* [Ibrahim Maikore @ World Health Organization, Regional Office for Africa](https://www.afro.who.int/)
 * [Abdisalan Noor and Bea Galatas @World Health Organization Global Malaria Programme](https://www.who.int/teams/global-malaria-programme)
 * [Jaline Gerardin - Principal Investigator @NU Malaria Modeling Team](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=44305)
-* [Neena Parveen Dhanoa- Software Engineer Intern @ServiceNow](https://www.linkedin.com/in/neena-parveen-dhanoa-3686b11b3/)
-* [NU Malaria Modeling Team](https://www.numalariamodeling.org/team.html)
-* [Monique Ambrose and Caitlin Beaver @IDM](https://www.idmod.org/team)
+* [Neena Parveen Dhanoa- @NU Malaria modeling Team ](https://www.linkedin.com/in/neena-parveen-dhanoa-3686b11b3/)
+* [All NU Malaria Modeling Team members](https://www.numalariamodeling.org/team.html)
+* [Monique Ambrose and Caitlin Bever @IDM](https://www.idmod.org/team)
 
 
 

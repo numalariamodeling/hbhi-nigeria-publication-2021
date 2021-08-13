@@ -94,7 +94,7 @@ Clone this repo to the folder you would like to place the file in, either using 
 <!-- TROUBLESHOOT-->
 ## Troubleshooting the Shiny App 
 
-Sometimes issues may arise within the Shiny app that require users to troubleshoot. One way to do this is to use the ``` browser() ``` call between lines of code that you want to investigate and then step through the code in the console by running small snippets in the Console until the bug is identified.  
+Sometimes issues may arise within the Shiny app that require users to troubleshoot. One way to do this is to use the ``` browser() ``` call between the lines of code that you want to investigate and then step through the code in the console by running small snippets in the Console until the bug is identified.  
 
 _For more information on debugging shiny applications, please refer to the [Documentation](https://shiny.rstudio.com/articles/debugging.html)_
 

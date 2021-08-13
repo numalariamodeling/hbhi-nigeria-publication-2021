@@ -37,7 +37,7 @@ In partnership with the Nigerian Malaria Elimination Programme and the World Hea
 ![alt text](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/input_data.PNG)
 
 
-List of malaria acronynms used within the app:
+List of acronynms used within the app:
 * Budget-prioritized plan (BPP)
 * Business as Usual (BAU) 
 * Case management (CM) 
@@ -59,7 +59,7 @@ The app was developed using the [R Shiny package](https://shiny.rstudio.com/). S
 <!-- GETTING STARTED -->
 ## Running The Shiny Application Locally 
 
-To get a local copy up and running follow these simple steps.
+To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 

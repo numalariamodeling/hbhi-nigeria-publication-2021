@@ -3,6 +3,16 @@
 # ui.R - Main UI File
 # - Develops main page and links to the other two pages in the app
 #----------------------------------------------------------------------
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+library(rlang)
+library(ggiraph)
+library(patchwork)
+library(stringr)
+library(shiny)
+library(shinymanager)
+
 
 import::from('./pages/LGAinputs/ui.R', LGAModelUI)
 import::from('./pages/LGAoutcomes/ui.R', outcomesUI)
@@ -61,6 +71,11 @@ ui <- shiny::tagList(
 		mathematical modeling to inform intervention planning in Nigeria'.",
 		br(), br(),
 		
+		
+		htmltools::tags$b("READ: LGA-level projections are highly uncertain and may not be meaningful"),
+		
+		br(), br(),
+		
 	  "To download per cycle coverage and additional simulation data for SMC,",  htmltools::tags$a(href ="https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/simulation_inputs/SMC", "Click here", target ="_blank"),
 		
 		br(), br(),
@@ -70,7 +85,8 @@ ui <- shiny::tagList(
 		"To view this message again, click on the ", htmltools::tags$b("Info"), " tab.",
 		br(), br(),
 		"If you have used this tool for your work, please consider
-		citing it: [TBD - Citation]" #TODO: add citation
+		citing it: Ozodiegwu ID, Ambrose M, Galatas B, Runge M, Nandi A, Okuneye K, Dhanoa NP, Ehler T, Maikore I, 
+		Uhomoibhi P, Bever C, Noor A, Gerardin J. Malaria intervention scenarios and projections for the 2021 - 2025 Nigerian National Malaria Strategic Plan: An R Shiny Application." #TODO: add citation
 	),
 	hr(),
 	shiny::div(
@@ -80,3 +96,5 @@ ui <- shiny::tagList(
 	),
 	br()
 )
+
+ui <- secure_app(ui, choose_language = TRUE)

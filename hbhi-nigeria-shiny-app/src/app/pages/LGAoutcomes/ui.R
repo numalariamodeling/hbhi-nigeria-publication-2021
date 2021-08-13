@@ -1,7 +1,9 @@
-# Outcomes ui.R
 
-import::from('../../ui_selection_data.R', INPUT_PARAM_DESCRIPTIONS, admin)
-import::here(tidyr, '%>%')
+#--------------------------------------
+# Outcomes ui.R
+#---------------------------------------
+import::here('../../ui_selection_data.R', INPUT_PARAM_DESCRIPTIONS, admin)
+
 
 
 
@@ -11,11 +13,6 @@ outcomesUI <- function () {
 			shiny::sidebarPanel(
 				shiny::h3('Burden projections', style='margin-top: 0;'),
 				br(),
-				# shiny::selectInput(
-				#   inputId = 'scenarioInput',
-				#   label = "Scenarios",
-				#   choices = INPUT_PARAM_DESCRIPTIONS[['scenarios']]
-				#),
 				shiny::selectInput(
 				  inputId = 'adminInput',
 				  label = "Administrative Unit",

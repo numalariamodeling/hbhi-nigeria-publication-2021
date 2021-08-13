@@ -2,16 +2,11 @@
 ## LGAinputs/server.R
 ##------------------------------
 
-import::from('./functions.R', generateMap)
-import::from('./ui_selection_data.R', interventions)
+import::here('./functions.R', generateMap)
+import::here('./ui_selection_data.R', interventions)
 
 
-import::from(dplyr, rename,case_when, left_join,  '%>%' )
-import::from(cowplot, ggdraw, plot_grid)
-import::from(ggplot2, theme, margin, element_text)
-import::from(rlang, quo)
-import::from(ggiraph, girafe_options)
-import::from(patchwork, plot_annotation)
+
 
 
 observeEvent(
@@ -30,7 +25,7 @@ observeEvent(
 ###Map generation script  
 #--------------------------------------------------------
 data <- eventReactive(input$submit_loc,{
-  data <- "../../data"
+  data <- "data"
   
   #--------------------------------------------------------  
   ### Case management 
@@ -351,7 +346,7 @@ do.call(shiny::downloadButton, list('downloadCSV', 'Download model input as CSV'
 })
 
 output$downloadCSV <- shiny::downloadHandler(
-filename = filename = paste0(input$scenarioInput, '_', input$yearInput, '_', input$varType,'.csv'),
+filename = paste0(input$scenarioInput, '_', input$yearInput, '_', input$varType,'.csv'),
 content = function(file) {
 outputData <- data()$data %>%  sf::st_drop_geometry()
 write.csv(outputData, file, row.names = FALSE)

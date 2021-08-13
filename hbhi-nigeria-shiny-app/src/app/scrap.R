@@ -889,6 +889,12 @@ for (i in 1:length(val_year)){
   saveRDS(LGA_shp, paste0(outputs, '/', "SMC_", "low access children_", "Scenario 2 (National malaria strategic plan)", "_", as.character(val_year[[i]]), ".rds"), compress = FALSE)
 }
 
+LGAsf <- sf::st_read("./data/LGA_shape/NGA_LGAs.shp") %>%  
+  dplyr::mutate(LGA = stringr::str_replace_all(LGA, "/", "-"),
+                LGA = dplyr::case_when(LGA == "kiyawa"~ "Kiyawa",
+                                       LGA == "kaita"~ "Kaita",
+                                       TRUE ~ as.character(LGA))) 
+
 
 library(dplyr)
 
@@ -896,12 +902,12 @@ repo <- 'C:/Users/ido0493/Documents/hbhi-nigeria-publication-2021/simulation_inp
 IPTi = data.table::fread(file.path(repo, "assumedIPTicov.csv")) %>% filter(IPTyn == 1) %>%  dplyr::select(-c(State)) %>%
   dplyr::mutate(LGA = stringr::str_replace_all(LGA, "/", "-"),LGA = dplyr::case_when(LGA == "kiyawa"~ "Kiyawa",
                                                                                      LGA == "kaita"~ "Kaita", TRUE ~ as.character(LGA)))
-IPTi$ipti_cov_mean= round(IPTi$ipti_cov_mean* 0, 1)
-IPTi$ipti_cov_cil = round(IPTi$ipti_cov_cil *0, 1)
-IPTi$ipti_cov_ciu = round(IPTi$ipti_cov_ciu *0, 1)
+IPTi$ipti_cov_mean= round(IPTi$ipti_cov_mean* 100, 1)
+IPTi$ipti_cov_cil = round(IPTi$ipti_cov_cil *100, 1)
+IPTi$ipti_cov_ciu = round(IPTi$ipti_cov_ciu *100, 1)
 LGA_shp <- left_join(LGAsf, IPTi, by ="LGA")
 coverage_map = generateMap(LGA_shp, quo(ipti_cov_mean), "IPTi coverage")
-saveRDS(coverage_map, paste0(outputs, '/', "IPTi_", "all_scenarios", ".rds"), compress = FALSE)
+saveRDS(coverage_map, paste0('data/IPTi', '/', "IPTi_", "all_scenarios", ".rds"), compress = FALSE)
 
 # #--------------------------------------------------------  
 # ###title and footnote generation script  

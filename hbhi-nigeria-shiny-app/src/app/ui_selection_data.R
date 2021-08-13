@@ -10,8 +10,10 @@ INPUT_PARAM_DESCRIPTIONS <- list(
 
 
 
-admin<- readr::read_csv("../../data/other/admin.csv")
-interventions<-read.csv("../../data/other/Interventions.csv")
+
+admin<- vroom::vroom("./data/other/admin.csv")
+interventions<-vroom::vroom("./data/other/Interventions.csv")
+
 
 
 

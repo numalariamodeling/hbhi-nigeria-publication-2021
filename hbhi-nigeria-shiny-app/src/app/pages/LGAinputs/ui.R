@@ -47,12 +47,12 @@ LGAModelUI <- function () {
         shiny::selectInput(
           inputId = 'ITN_age',
           label = 'Select age for ITN coverage',
-          choices =  interventions$age_group,
+          choices =  interventions$`age group`,
         ),
         shiny::selectInput(
           inputId = 'SMC_access_type',
           label = 'Select access type for SMC',
-          choices =  interventions$SMC_access,
+          choices =  interventions$`SMC access`,
         ),
         
         actionButton(

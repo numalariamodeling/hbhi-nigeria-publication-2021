@@ -118,7 +118,7 @@ Project Link: [https://ifeomaozo.shinyapps.io/hbhi-nigeria/](https://ifeomaozo.s
 * [Abdisalan Noor and Bea Galatas @World Health Organization Global Malaria Programme](https://www.who.int/teams/global-malaria-programme)
 * [Jaline Gerardin - Principal Investigator @NU Malaria Modeling Team](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=44305)
 * [Neena Parveen Dhanoa- Software Engineer Intern @ServiceNow](https://www.linkedin.com/in/neena-parveen-dhanoa-3686b11b3/)
-* [NU Malaria Modeling Team](https://choosealicense.com)
+* [NU Malaria Modeling Team](https://www.numalariamodeling.org/team.html)
 * [Monique Ambrose and Caitlin Beaver @IDM](https://www.idmod.org/team)
 
 

@@ -6,12 +6,7 @@
 
 # currently, we claim that our calibration and parameterization was successful because we can see that simulated DS trajectories often visually 
 #    agree fairly well with survey/surveillance data. To look at this a bit more closely and to see how DS-specific this match is, create a 
-#    series of plots that compare simulation and data, either for the same (matched) DS or for mismatched DS.
-# main types of comparisons are:
-#    1) comparison of PfPR seasonality (plot the DHS PfPR according to month of survey, along with corresponding simulation values)
-#    2) scatter plot comparisions of PfPR between observed DHS and corresponding simulation values
-#    3) change between survey years (percent or absolute change within a DS or admin1 area in the aggregated PfPR in different survey years)
-#    4) histograms of PfPR values, differences, and likelihoods
+#    series of plots that compare simulation and data.
 
 #################################################################################################################################################
 
@@ -22,18 +17,6 @@
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 ###########################################################################
 rm(list = ls())
-# library(ggplot2)
-# library(ggpubr)
-# library(gridExtra)
-# library(data.table)
-# library(RColorBrewer)
-# library(tidyr)
-# library(tibble)
-# library(dplyr)
-# library(reshape2)
-# library(hablar)
-# library(stringr)
-# library(lubridate)
 
 list.of.packages <- c("tidyverse", "ggplot2", "purrr",  "stringr", "sp", "rgdal", "raster", "hablar", 
                       "lubridate", "RColorBrewer", "ggpubr", "gridExtra", "data.table",  "nngeo", "reshape2")
@@ -72,7 +55,7 @@ df_Svyd <- plyr::ldply(df, rbind) %>%  dplyr::select(LGA, time2, num_U5_sampled)
                          TRUE ~ as.character(LGA)))
 
 
-#get SRS estimates 
+#get simple random sample prevalence estimates 
 files <- list.files(path = SrsDir, pattern = "*_micro.csv", full.names = TRUE)
 df2 <- sapply(files, read.csv, simplify = F)
 colnames(df2[[1]])[4:7] = c('p_test_mean',  'p_test_sd', 'p_test_std.error', 'num_U5_sampled')
@@ -121,7 +104,28 @@ admin1DS = admin1DS[,c('LGA', 'State', 'Archetype')]
 #admin1DS$LGA =toupper(admin1DS$LGA)
 pfpr_matched = left_join(pfpr_case_u5_runMeans, admin1DS, by=c('LGA'))
 
+# # add columns with archetype of each DS
+# archDS = fread(DS_arch_filename)
+# archDS = archDS[,c('LGA','Archetype')]
+# # get seasonality archetype identity for each DS
+# pfpr_case_u5_runMeans$Archetype = NA
+# season_arch = unique(archDS$seasonality_archetype)
+# for (aa in 1:length(season_arch)){
+#   ds_in_arch = unique(archDS$LGA[archDS$seasonality_archetype == season_arch[aa]])
+#   pfpr_case_u5_runMeans$Archetype[pfpr_case_u5_runMeans$LGA %in% ds_in_arch] = aa
+# }
+# # get seasonality-transmission archetype identity for each DS
+# pfpr_case_u5_runMeans$archID = NA
+# season2_arch = c(unique(archDS$seasonality_archetype_2[archDS$seasonality_archetype == season_arch[1]])[c(3,1,2)],
+#                  unique(archDS$seasonality_archetype_2[archDS$seasonality_archetype == season_arch[2]]),
+#                  unique(archDS$seasonality_archetype_2[archDS$seasonality_archetype == season_arch[3]])[c(3,1,2)])
+# for (aa in 1:length(season2_arch)){
+#   ds_in_arch = unique(archDS$LGA[archDS$seasonality_archetype_2 == season2_arch[aa]])
+#   pfpr_case_u5_runMeans$archID[pfpr_case_u5_runMeans$LGA %in% ds_in_arch] = aa
+# }
+# 
 
+# need to correct name issue (kiyawa and kaita)
 
 
 ###################################################################
@@ -398,7 +402,7 @@ p_mismatch_DHS_plots = create_PfPR_scatters(pfpr_df=pfpr_mismatched, y_col_name=
 gg = grid.arrange(p_match_DHS_plots[[1]], p_match_DHS_plots[[2]], p_match_DHS_plots[[3]], p_match_DHS_plots[[4]],
                   p_mismatch_DHS_plots[[1]], p_mismatch_DHS_plots[[2]], p_mismatch_DHS_plots[[3]], p_mismatch_DHS_plots[[4]],
                   nrow = 2)
-
+# ggsave(paste0(box_hbhi_filepath, '/project_notes/figures/scatter_PfPR_sim_DHS.pdf'), gg, width=20, height=10)
 ggsave(paste0(print_path, '/', 'match_PfPR_DHS_sim_mismatch_corr_plot.pdf'), gg, width=13, height=13)
 
 
@@ -411,15 +415,28 @@ gg = grid.arrange(p_match_annual_DHS_plots[[1]], p_match_annual_DHS_plots[[2]], 
                   p_mismatch_annual_DHS_plots[[1]], p_mismatch_annual_DHS_plots[[2]], p_mismatch_annual_DHS_plots[[3]], p_mismatch_annual_DHS_plots[[4]],
                   nrow = 2)
 ggsave(paste0(print_path, '/', 'match_PfPR_annual_PfPR_sim_DHS.pdf'), gg, width=13, height=13)
-
+#ggsave(paste0(box_hbhi_filepath, '/project_notes/figures/scatter_annual_PfPR_sim_DHS.png'), gg, width=10, height=4.5)
 
 # scatter plot of DHS survey annual admin 1 estimates and simulation pfpr
 p_match_DHS_plots_admin1 = create_PfPR_scatters_admin1(pfpr_df=pfpr_matched_annual_admin1, y_col_name="pfpr_dhs_mean", x_col_name="`pfpr_sim_mean`", x_lab="simulation U5 PfPR", y_lab="DHS U5 PfPR")
 gg = grid.arrange(p_match_DHS_plots_admin1[[1]], p_match_DHS_plots_admin1[[2]], p_match_DHS_plots_admin1[[3]], p_match_DHS_plots_admin1[[4]], nrow = 1)
 ggsave(paste0(print_path, '/', 'match_PfPR_DHS_sim_annual_admin1_corr_plot.pdf'), gg, width=13, height=13)
+ggsave(paste0(print_path, '/', 'match_PfPR_DHS_sim_annual_admin1_corr_plot.eps'), gg, device=cairo_ps,  fallback_resolution = 600)
 
 
 
-
+# zoom in on 2018 and plot with DS names, colored by archetype
+pfpr_matched_annual_2018 = pfpr_matched_annual[pfpr_matched_annual$year.y == 2018,]
+pdf(file=paste0(print_path, "/", "2018_PfPR_DHS_compared_to_2015_simulation.pdf"))
+ggplot(pfpr_matched_annual_2018, aes(x = pfpr_sim_mean, y = pfpr_dhs_mean,color = Archetype, label = LGA))+
+  geom_point()+ 
+  geom_abline(slope=1, intercept=c(0,0)) +
+  geom_text(aes(label=LGA))+ 
+  theme_classic()+ 
+  xlab('simulation U5 PfPR')+ 
+  ylab('DHS U5 PfPR')+ 
+  ggtitle('Comparison of 2018 simulation and DHS (annual, weighted)')+
+  theme(plot.title = element_text(hjust = 0.5), legend.position = "bottom")
+dev.off()
 
 

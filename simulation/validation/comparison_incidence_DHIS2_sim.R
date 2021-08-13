@@ -2,13 +2,13 @@
 # comparison_incidence_DHIS2_sim.R
 # HBHI - Nigeria. Script was originall written 
 # contact: Ifeoma Nigeria 
-# October 2020
+# October 2021
 
-# currently, we claim that our calibration and parameterization was successful because we can see that simulated DS trajectories often visually 
-#    agree fairly well with survey/surveillance data. To look at this a bit more closely and to see how DS-specific this match is, create a 
-#    series of plots that compare simulation and data, either for the same (matched) DS or for mismatched DS.
-# main types of comparisons are:
-#
+# currently, we claim that our calibration and parameterization was successful because we can see that simulated DS trajectories often visually
+# agree fairly well with survey/surveillance data. To look at this a bit more closely and to see how DS-specific this match is, create a
+# series of plots that compare simulation and data
+
+
 
 #################################################################################################################################################
 

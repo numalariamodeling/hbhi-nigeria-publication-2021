@@ -94,7 +94,7 @@ Clone this repo to the folder you would like to place the file in, either using 
 <!-- TROUBLESHOOT-->
 ## Troubleshooting the Shiny App 
 
-Sometimes issues may arise within the Shiny app that require users to troubleshoot. One way to do this is to use the ```sh browser() ``` call between lines of code that you want to investigate and then step through the code in the console by running small snippets in the Console until the bug is identified.  
+Sometimes issues may arise within the Shiny app that require users to troubleshoot. One way to do this is to use the ``` browser() ``` call between lines of code that you want to investigate and then step through the code in the console by running small snippets in the Console until the bug is identified.  
 
 _For more information on debugging shiny applications, please refer to the [Documentation](https://shiny.rstudio.com/articles/debugging.html)_
 
@@ -118,9 +118,9 @@ Project Link: [https://ifeomaozo.shinyapps.io/hbhi-nigeria/](https://ifeomaozo.s
 * [Ibrahim Maikore @ World Health Organization, Regional Office for Africa](https://www.afro.who.int/)
 * [Abdisalan Noor and Bea Galatas @World Health Organization Global Malaria Programme](https://www.who.int/teams/global-malaria-programme)
 * [Jaline Gerardin - Principal Investigator @NU Malaria Modeling Team](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=44305)
-* [Neena Parveen Dhanoa- @NU Malaria modeling Team ](https://www.linkedin.com/in/neena-parveen-dhanoa-3686b11b3/)
+* [Neena Parveen Dhanoa @NU Malaria modeling Team ](https://www.linkedin.com/in/neena-parveen-dhanoa-3686b11b3/)
 * [All NU Malaria Modeling Team members](https://www.numalariamodeling.org/team.html)
-* [Monique Ambrose and Caitlin Bever @IDM](https://www.idmod.org/team)
+* [Monique Ambrose and Caitlin Bever @Institute for Disease Modeling](https://www.idmod.org/team)
 
 
 

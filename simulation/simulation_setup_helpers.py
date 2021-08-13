@@ -7,26 +7,24 @@ from dtk.interventions.outbreakindividual import recurring_outbreak
 from dtk.vector.species import update_species_param, set_species, get_species_param, set_larval_habitat
 from dtk.vector.species import set_larval_habitat
 from simtools.Utilities.Experiments import retrieve_experiment
+from simtools.Utilities.COMPSUtilities import COMPS_login
 from dtk.interventions.itn_age_season import add_ITN_age_season
 from dtk.interventions.biting_risk import change_biting_risk
 from dtk.interventions.irs import add_IRS
 from malaria.interventions.malaria_drug_campaigns import add_drug_campaign, add_diagnostic_survey
 from malaria.reports.MalariaReport import add_event_counter_report
-from simulation.load_paths import load_box_paths
-from simulation.update_drug_params import update_drugs
+from load_paths import load_box_paths
+from update_drug_params import update_drugs
 
 
-location = 'HPC'
-
-datapath, projectpath = load_box_paths(parser_default=location)
+datapath, projectpath = load_box_paths()
 
 
 def set_up_hfca(cb, hfca, archetype_hfca=None,
                 pull_from_serialization=False,
                 burnin_id='', ser_date=50*365,
                 hdf=None, lhdf=None, from_arch=True,
-                hab_multiplier=-1, run_number=-1,
-                parser_default='HPC') :
+                hab_multiplier=-1, run_number=-1) :
 
     set_input_files(cb, hfca, archetype_hfca)
     if not archetype_hfca :
@@ -34,19 +32,9 @@ def set_up_hfca(cb, hfca, archetype_hfca=None,
 
     set_habitats(cb, hfca, hdf, lhdf, archetype_hfca, abs(hab_multiplier))
 
-# run_LGA file names
-#
-# get rid of ITN killing NG churcher
-# make an input folder, add ITN files, SMC filenames, ANC files
-# Bring iPTP files
-# iPTi Adjustment scripts? Make sure they run
-# iPti scaling scripts -- run these sets of scripts
-
-
     if pull_from_serialization:
-        if parser_default == 'HPC':
-            from simtools.Utilities.COMPSUtilities import COMPS_login
-            COMPS_login('https://comps.idmod.org')
+
+        COMPS_login('https://comps.idmod.org')
         hab_scale_factor_param_name = 'Habitat_Multiplier'
 
         # serialization
@@ -83,7 +71,7 @@ def set_up_hfca(cb, hfca, archetype_hfca=None,
 
     return {'LGA' : hfca,
             'archetype' : archetype_hfca}
-# 7
+
 
 def set_habitats(cb, hfca, hdf, lhdf, archetype_hfca, hab_multiplier) :
 
@@ -114,7 +102,6 @@ def set_habitats(cb, hfca, hdf, lhdf, archetype_hfca, hab_multiplier) :
         set_larval_habitat(cb, { sp : {'LINEAR_SPLINE' : hab,
                                        'CONSTANT' : pow(10, const)*s*const_mult}})
 
-# 12
 
 def load_spline_and_scale_factors(lhdf, archetype_hfca) :
 
@@ -122,12 +109,9 @@ def load_spline_and_scale_factors(lhdf, archetype_hfca) :
     my_spline = [lhdf.at[archetype_hfca, 'Month%d' % x] for x in range(1, 13)]
     maxvalue = lhdf.at[archetype_hfca, 'MaxHab']
     const = lhdf.at[archetype_hfca, 'Constant']
-
-    # not in Guinea?
     pop_scale = lhdf.at[archetype_hfca, 'pop_scale']
 
     return my_spline, maxvalue, const, pop_scale
-
 
 
 def load_master_csv() :
@@ -138,7 +122,7 @@ def load_master_csv() :
     df = df.set_index('LGA')
     return df
 
-# not in Guinea
+
 def load_pop_scale_factor(lhdf, archetype_hfca) :
 
     df = load_master_csv()
@@ -154,7 +138,7 @@ def set_input_files(cb, hfca, archetype_hfca) :
     cb.update_params( {
         'LGA' : hfca,
         'Archeype' : archetype_hfca,
-        'Demographics_Filenames' : [os.path.join(archetype_hfca, '%s_demographics_accessIP_wSMC_risk.json' % archetype_hfca)],
+        'Demographics_Filenames' : [os.path.join(hfca, '%s_demographics_accessIP_wSMC_risk.json' % hfca)],
         "Air_Temperature_Filename": os.path.join(archetype_hfca, '%s_air_temperature_daily_2016.bin' % archetype_hfca),
         "Land_Temperature_Filename": os.path.join(archetype_hfca, '%s_air_temperature_daily_2016.bin' % archetype_hfca),
         "Rainfall_Filename": os.path.join(archetype_hfca, '%s_rainfall_daily_2016.bin' % archetype_hfca),
@@ -280,7 +264,7 @@ def add_itn_anc(cb, itn_anc_df) :
                                "class": "WaningEffectExponential"},
                            discard_times={"Expiration_Period_Distribution": "DUAL_EXPONENTIAL_DISTRIBUTION",
                                           'Expiration_Period_Proportion_1' : 0.9,
-                                     'Expiration_Period_Mean_1' :  365*1.7,
+                                     'Expiration_Period_Mean_1' :  365*2.2,
                                      'Expiration_Period_Mean_2' : 365*10},
                            birth_triggered=True,
                            duration=row['duration'],

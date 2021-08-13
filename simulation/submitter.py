@@ -7,11 +7,11 @@ datapath, projectpath = load_box_paths()
 
 
 
-wdir = os.path.join(projectpath, 'simulation_inputs', 'projection_csvs', 'projection_v3')
+wdir = os.path.join(projectpath, 'simulation_inputs', 'projection_csvs', 'projection_v4')
 
 while True :
 
-    scenario_fname = os.path.join(wdir, 'Intervention_scenarios_nigeria_v3.csv')
+    scenario_fname = os.path.join(wdir, 'Intervention_scenarios_nigeria_v4.csv')
     df = pd.read_csv(scenario_fname)
 
     if len(df[df['status'] == 'run']) == 0 :

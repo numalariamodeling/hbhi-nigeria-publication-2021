@@ -10,7 +10,6 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a> </li>
     <li><a href="#summary-of-the-modeling-framewrk">Summary Of The Modeling Framework </a></li>
-
       <li><<a href="#running-the-shiny-application-locally">Running The Shiny Application Locally </a></li>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
@@ -35,7 +34,7 @@ The Nigerian Malaria Elimination Program (NMEP) together with the World Health O
 ## Summary Of The Modeling Framework
 A three-step process was used to generate LGA-level predictions of potential national strategic plans. At the outset, the goal was to capture the intrinsic potential of each LGA to support malaria transmission in a baseline period before 2010 when most interventions were not scaled up nationwide. Data and geospatial modeled surfaces from 2010 or before were used to group LGAs into epidemiological archetypes. For each archetype, baseline malaria transmission was calibrated to 2010 data. Next, Nigeria’s intervention history from 2010-20 at the LGA level was imposed on the baseline models to generate 774 LGA-level models up through 2020. Last, various future intervention strategies were applied to the LGA models and intervention impact on prevalence, incidence, and mortality was assessed
  
-![alt text](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/input_data.PNG)
+![alt text](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/Figure_1_model_overview_210715.png)
 
 
 

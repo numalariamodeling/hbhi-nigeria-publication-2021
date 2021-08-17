@@ -114,7 +114,7 @@ Project Link: [https://ifeomaozo.shinyapps.io/hbhi-nigeria/](https://ifeomaozo.s
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Perpetua Uhomoibhi @Nigerian Malaria Elimination Programme](https://nmcp.gov.ng/)
+* [Perpetua Uhomoibhi @National Malaria Elimination Programme](https://nmcp.gov.ng/)
 * [Ibrahim Maikore @ World Health Organization, Regional Office for Africa](https://www.afro.who.int/)
 * [Abdisalan Noor and Bea Galatas @World Health Organization Global Malaria Programme](https://www.who.int/teams/global-malaria-programme)
 * [Jaline Gerardin - Principal Investigator @NU Malaria Modeling Team](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=44305)

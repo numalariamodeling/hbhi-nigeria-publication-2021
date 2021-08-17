@@ -1,0 +1,8 @@
+Scenario_no,status,ITN_filename,SMC_filename,ANC_filename,IRS_filename,CM_filename,IPTi_cov_muliplier,future_projection_flag,ScenarioName,notes 
+1,queued,itn_scenario1,smc_cc_v4,ITN_ANC_current_coverage,,HS_placeholder,0,TRUE,NGA projection scenario 1,"done (skips), hold(skips), run, queued"
+2,run,ITN_scen2_80,smc_scen2_80,,,HS_placeholder_scen2_80_v4,0.8,TRUE,NGA projection scenario 2 ,*insecure_(check with Jaline)
+3,run,ITN_scen2_10_v3,smc_scen2_80,,,cm_scen2_10_v3,1.1,TRUE,NGA projection scenario 3 ,
+4,run,ITN_scen2_20_v3,smc_scen2_80,,,cm_scen2_20_v3,1.2,TRUE,NGA projection scenario 4,
+5,run,ITN_scen2_30_v3,smc_scen2_80,,,cm_scen2_30_v3,1.3,TRUE,NGA projection scenario 5 ,
+6,run,ITN_scen3_80_v3,smc_scen3_PAAR_v3,,,cm_scen3_v4,0,TRUE,NGA projection scenario 6 ,
+7,run,ITN_scen3_80_v3,smc_scen3_no_PAAR_v4,,,cm_scen3_v4,0,TRUE,NGA projection scenario 7 ,

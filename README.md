@@ -150,16 +150,16 @@ For IPTi-specific inquiries, contact Manuela Runge, [Postdoctoral Fellow, Northw
 
 For IPTp-specific questions, contact Monique Ambrose, [Senior Research Scientist, Institute for Disease Modeling](https://www.idmod.org/team). Email - mambrose@idmod.org
 
-For all other inquiries, contact Ifeoma Ozodiegwu, [Research Assistant Professor, Northwestern University (NU).](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=52373). 
+For all other inquiries, contact Ifeoma Ozodiegwu, [Research Assistant Professor, Northwestern University (NU).](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=52373)
  Email - ifeoma.ozodiegwu@northwestern.edu 
 
-Project Link: [https://github.com/numalariamodeling/hbhi-nigeria-publication-2021https://github.com/numalariamodeling/hbhi-nigeria-publication-2021
+Project Link: [https://github.com/numalariamodeling/hbhi-nigeria-publication-2021](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Perpetua Uhomoibhi @Nigerian Malaria Elimination Programme](https://nmcp.gov.ng/)
+* [Perpetua Uhomoibhi @National Malaria Elimination Programme](https://nmcp.gov.ng/)
 * [Ibrahim Maikore @ World Health Organization, Regional Office for Africa](https://www.afro.who.int/)
 * [Abdisalan Noor and Bea Galatas @World Health Organization Global Malaria Programme](https://www.who.int/teams/global-malaria-programme)
 * [Jaline Gerardin - Principal Investigator @NU Malaria Modeling Team](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=44305)

@@ -1,0 +1,1969 @@
+LGA,State,repDS,peak,simday,year,round,duration,coverage_high_access,coverage_low_access,max_age
+Bama,Borno,Darazo,july,186,2020,1,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,216,2020,2,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,246,2020,3,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,276,2020,4,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,186,2020,1,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,216,2020,2,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,246,2020,3,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,276,2020,4,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,186,2020,1,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,216,2020,2,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,246,2020,3,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,276,2020,4,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,186,2020,1,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,216,2020,2,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,246,2020,3,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,276,2020,4,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,186,2020,1,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,216,2020,2,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,246,2020,3,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,276,2020,4,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,131,2020,1,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,161,2020,2,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,191,2020,3,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,221,2020,4,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,186,2020,1,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,216,2020,2,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,246,2020,3,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,276,2020,4,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,250,2020,1,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,280,2020,2,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,310,2020,3,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,340,2020,4,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,250,2020,1,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,280,2020,2,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,310,2020,3,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,340,2020,4,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,250,2020,1,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,280,2020,2,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,310,2020,3,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,340,2020,4,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,186,2020,1,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,216,2020,2,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,246,2020,3,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,276,2020,4,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,131,2020,1,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,161,2020,2,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,191,2020,3,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,221,2020,4,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,131,2020,1,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,161,2020,2,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,191,2020,3,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,221,2020,4,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,186,2020,1,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,216,2020,2,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,246,2020,3,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,276,2020,4,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,250,2020,1,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,280,2020,2,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,310,2020,3,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,340,2020,4,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,131,2020,1,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,161,2020,2,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,191,2020,3,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,221,2020,4,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,186,2020,1,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,216,2020,2,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,246,2020,3,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,276,2020,4,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,186,2020,1,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,216,2020,2,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,246,2020,3,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,276,2020,4,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,186,2020,1,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,216,2020,2,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,246,2020,3,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,276,2020,4,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,186,2020,1,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,216,2020,2,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,246,2020,3,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,276,2020,4,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,131,2020,1,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,161,2020,2,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,191,2020,3,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,221,2020,4,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,186,2020,1,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,216,2020,2,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,246,2020,3,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,276,2020,4,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,250,2020,1,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,280,2020,2,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,310,2020,3,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,340,2020,4,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,131,2020,1,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,161,2020,2,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,191,2020,3,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,221,2020,4,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,186,2020,1,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,216,2020,2,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,246,2020,3,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,276,2020,4,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,186,2020,1,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,216,2020,2,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,246,2020,3,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,276,2020,4,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,186,2020,1,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,216,2020,2,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,246,2020,3,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,276,2020,4,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,131,2020,1,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,161,2020,2,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,191,2020,3,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,221,2020,4,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,131,2020,1,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,161,2020,2,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,191,2020,3,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,221,2020,4,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,186,2020,1,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,216,2020,2,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,246,2020,3,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,276,2020,4,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,131,2020,1,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,161,2020,2,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,191,2020,3,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,221,2020,4,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,131,2020,1,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,161,2020,2,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,191,2020,3,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,221,2020,4,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,131,2020,1,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,161,2020,2,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,191,2020,3,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,221,2020,4,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,70,2020,1,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,100,2020,2,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,130,2020,3,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,160,2020,4,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,70,2020,1,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,100,2020,2,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,130,2020,3,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,160,2020,4,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,70,2020,1,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,100,2020,2,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,130,2020,3,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,160,2020,4,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,70,2020,1,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,100,2020,2,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,130,2020,3,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,160,2020,4,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,70,2020,1,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,100,2020,2,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,130,2020,3,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,160,2020,4,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,131,2020,1,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,161,2020,2,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,191,2020,3,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,221,2020,4,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,223,2020,1,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,253,2020,2,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,283,2020,3,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,313,2020,4,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,223,2020,1,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,253,2020,2,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,283,2020,3,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,313,2020,4,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,223,2020,1,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,253,2020,2,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,283,2020,3,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,313,2020,4,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,223,2020,1,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,253,2020,2,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,283,2020,3,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,313,2020,4,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,223,2020,1,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,253,2020,2,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,283,2020,3,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,313,2020,4,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,223,2020,1,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,253,2020,2,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,283,2020,3,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,313,2020,4,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,223,2020,1,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,253,2020,2,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,283,2020,3,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,313,2020,4,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,223,2020,1,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,253,2020,2,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,283,2020,3,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,313,2020,4,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,70,2020,1,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,100,2020,2,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,130,2020,3,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,160,2020,4,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,223,2020,1,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,253,2020,2,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,283,2020,3,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,313,2020,4,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,223,2020,1,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,253,2020,2,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,283,2020,3,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,313,2020,4,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,223,2020,1,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,253,2020,2,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,283,2020,3,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,313,2020,4,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,223,2020,1,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,253,2020,2,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,283,2020,3,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,313,2020,4,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,223,2020,1,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,253,2020,2,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,283,2020,3,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,313,2020,4,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,223,2020,1,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,253,2020,2,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,283,2020,3,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,313,2020,4,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,223,2020,1,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,253,2020,2,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,283,2020,3,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,313,2020,4,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,223,2020,1,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,253,2020,2,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,283,2020,3,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,313,2020,4,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,223,2020,1,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,253,2020,2,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,283,2020,3,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,313,2020,4,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,223,2020,1,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,253,2020,2,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,283,2020,3,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,313,2020,4,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,223,2020,1,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,253,2020,2,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,283,2020,3,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,313,2020,4,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,223,2020,1,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,253,2020,2,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,283,2020,3,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,313,2020,4,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,223,2020,1,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,253,2020,2,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,283,2020,3,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,313,2020,4,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,223,2020,1,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,253,2020,2,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,283,2020,3,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,313,2020,4,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,186,2020,1,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,216,2020,2,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,246,2020,3,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,276,2020,4,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,186,2020,1,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,216,2020,2,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,246,2020,3,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,276,2020,4,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,186,2020,1,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,216,2020,2,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,246,2020,3,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,276,2020,4,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,186,2020,1,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,216,2020,2,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,246,2020,3,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,276,2020,4,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,70,2020,1,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,100,2020,2,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,130,2020,3,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,160,2020,4,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,186,2020,1,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,216,2020,2,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,246,2020,3,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,276,2020,4,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,186,2020,1,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,216,2020,2,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,246,2020,3,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,276,2020,4,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,186,2020,1,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,216,2020,2,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,246,2020,3,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,276,2020,4,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,70,2020,1,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,100,2020,2,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,130,2020,3,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,160,2020,4,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,186,2020,1,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,216,2020,2,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,246,2020,3,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,276,2020,4,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,250,2020,1,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,280,2020,2,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,310,2020,3,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,340,2020,4,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,223,2020,1,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,253,2020,2,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,283,2020,3,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,313,2020,4,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,186,2020,1,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,216,2020,2,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,246,2020,3,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,276,2020,4,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,70,2020,1,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,100,2020,2,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,130,2020,3,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,160,2020,4,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,186,2020,1,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,216,2020,2,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,246,2020,3,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,276,2020,4,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,223,2020,1,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,253,2020,2,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,283,2020,3,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,313,2020,4,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,70,2020,1,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,100,2020,2,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,130,2020,3,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,160,2020,4,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,186,2020,1,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,216,2020,2,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,246,2020,3,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,276,2020,4,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,250,2020,1,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,280,2020,2,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,310,2020,3,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,340,2020,4,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,70,2020,1,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,100,2020,2,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,130,2020,3,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,160,2020,4,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,550,2021,1,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,580,2021,2,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,610,2021,3,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,640,2021,4,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,550,2021,1,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,580,2021,2,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,610,2021,3,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,640,2021,4,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,550,2021,1,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,580,2021,2,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,610,2021,3,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,640,2021,4,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,550,2021,1,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,580,2021,2,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,610,2021,3,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,640,2021,4,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,550,2021,1,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,580,2021,2,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,610,2021,3,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,640,2021,4,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,488,2021,1,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,518,2021,2,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,548,2021,3,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,578,2021,4,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,550,2021,1,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,580,2021,2,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,610,2021,3,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,640,2021,4,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,610,2021,1,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,640,2021,2,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,670,2021,3,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,700,2021,4,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,610,2021,1,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,640,2021,2,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,670,2021,3,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,700,2021,4,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,610,2021,1,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,640,2021,2,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,670,2021,3,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,700,2021,4,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,550,2021,1,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,580,2021,2,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,610,2021,3,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,640,2021,4,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,488,2021,1,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,518,2021,2,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,548,2021,3,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,578,2021,4,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,488,2021,1,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,518,2021,2,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,548,2021,3,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,578,2021,4,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,550,2021,1,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,580,2021,2,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,610,2021,3,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,640,2021,4,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,610,2021,1,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,640,2021,2,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,670,2021,3,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,700,2021,4,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,488,2021,1,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,518,2021,2,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,548,2021,3,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,578,2021,4,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,550,2021,1,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,580,2021,2,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,610,2021,3,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,640,2021,4,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,550,2021,1,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,580,2021,2,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,610,2021,3,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,640,2021,4,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,550,2021,1,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,580,2021,2,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,610,2021,3,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,640,2021,4,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,550,2021,1,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,580,2021,2,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,610,2021,3,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,640,2021,4,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,488,2021,1,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,518,2021,2,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,548,2021,3,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,578,2021,4,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,550,2021,1,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,580,2021,2,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,610,2021,3,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,640,2021,4,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,610,2021,1,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,640,2021,2,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,670,2021,3,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,700,2021,4,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,488,2021,1,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,518,2021,2,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,548,2021,3,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,578,2021,4,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,550,2021,1,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,580,2021,2,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,610,2021,3,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,640,2021,4,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,550,2021,1,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,580,2021,2,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,610,2021,3,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,640,2021,4,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,550,2021,1,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,580,2021,2,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,610,2021,3,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,640,2021,4,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,488,2021,1,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,518,2021,2,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,548,2021,3,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,578,2021,4,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,488,2021,1,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,518,2021,2,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,548,2021,3,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,578,2021,4,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,550,2021,1,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,580,2021,2,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,610,2021,3,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,640,2021,4,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,488,2021,1,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,518,2021,2,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,548,2021,3,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,578,2021,4,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,488,2021,1,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,518,2021,2,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,548,2021,3,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,578,2021,4,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,488,2021,1,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,518,2021,2,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,548,2021,3,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,578,2021,4,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,426,2021,1,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,456,2021,2,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,486,2021,3,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,516,2021,4,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,426,2021,1,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,456,2021,2,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,486,2021,3,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,516,2021,4,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,426,2021,1,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,456,2021,2,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,486,2021,3,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,516,2021,4,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,426,2021,1,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,456,2021,2,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,486,2021,3,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,516,2021,4,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,426,2021,1,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,456,2021,2,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,486,2021,3,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,516,2021,4,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,488,2021,1,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,518,2021,2,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,548,2021,3,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,578,2021,4,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,579,2021,1,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,609,2021,2,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,639,2021,3,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,669,2021,4,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,579,2021,1,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,609,2021,2,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,639,2021,3,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,669,2021,4,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,579,2021,1,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,609,2021,2,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,639,2021,3,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,669,2021,4,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,579,2021,1,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,609,2021,2,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,639,2021,3,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,669,2021,4,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,579,2021,1,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,609,2021,2,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,639,2021,3,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,669,2021,4,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,579,2021,1,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,609,2021,2,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,639,2021,3,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,669,2021,4,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,579,2021,1,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,609,2021,2,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,639,2021,3,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,669,2021,4,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,579,2021,1,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,609,2021,2,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,639,2021,3,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,669,2021,4,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,426,2021,1,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,456,2021,2,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,486,2021,3,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,516,2021,4,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,579,2021,1,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,609,2021,2,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,639,2021,3,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,669,2021,4,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,579,2021,1,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,609,2021,2,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,639,2021,3,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,669,2021,4,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,579,2021,1,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,609,2021,2,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,639,2021,3,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,669,2021,4,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,579,2021,1,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,609,2021,2,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,639,2021,3,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,669,2021,4,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,579,2021,1,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,609,2021,2,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,639,2021,3,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,669,2021,4,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,579,2021,1,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,609,2021,2,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,639,2021,3,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,669,2021,4,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,579,2021,1,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,609,2021,2,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,639,2021,3,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,669,2021,4,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,579,2021,1,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,609,2021,2,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,639,2021,3,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,669,2021,4,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,579,2021,1,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,609,2021,2,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,639,2021,3,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,669,2021,4,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,579,2021,1,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,609,2021,2,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,639,2021,3,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,669,2021,4,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,579,2021,1,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,609,2021,2,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,639,2021,3,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,669,2021,4,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,579,2021,1,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,609,2021,2,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,639,2021,3,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,669,2021,4,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,579,2021,1,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,609,2021,2,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,639,2021,3,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,669,2021,4,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,579,2021,1,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,609,2021,2,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,639,2021,3,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,669,2021,4,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,550,2021,1,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,580,2021,2,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,610,2021,3,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,640,2021,4,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,550,2021,1,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,580,2021,2,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,610,2021,3,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,640,2021,4,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,550,2021,1,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,580,2021,2,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,610,2021,3,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,640,2021,4,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,550,2021,1,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,580,2021,2,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,610,2021,3,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,640,2021,4,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,426,2021,1,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,456,2021,2,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,486,2021,3,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,516,2021,4,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,550,2021,1,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,580,2021,2,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,610,2021,3,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,640,2021,4,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,550,2021,1,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,580,2021,2,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,610,2021,3,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,640,2021,4,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,550,2021,1,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,580,2021,2,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,610,2021,3,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,640,2021,4,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,426,2021,1,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,456,2021,2,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,486,2021,3,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,516,2021,4,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,550,2021,1,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,580,2021,2,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,610,2021,3,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,640,2021,4,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,610,2021,1,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,640,2021,2,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,670,2021,3,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,700,2021,4,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,579,2021,1,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,609,2021,2,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,639,2021,3,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,669,2021,4,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,550,2021,1,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,580,2021,2,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,610,2021,3,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,640,2021,4,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,426,2021,1,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,456,2021,2,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,486,2021,3,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,516,2021,4,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,550,2021,1,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,580,2021,2,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,610,2021,3,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,640,2021,4,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,579,2021,1,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,609,2021,2,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,639,2021,3,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,669,2021,4,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,426,2021,1,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,456,2021,2,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,486,2021,3,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,516,2021,4,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,550,2021,1,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,580,2021,2,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,610,2021,3,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,640,2021,4,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,610,2021,1,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,640,2021,2,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,670,2021,3,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,700,2021,4,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,426,2021,1,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,456,2021,2,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,486,2021,3,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,516,2021,4,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,915,2022,1,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,945,2022,2,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,975,2022,3,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,1005,2022,4,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,915,2022,1,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,945,2022,2,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,975,2022,3,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,1005,2022,4,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,915,2022,1,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,945,2022,2,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,975,2022,3,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,1005,2022,4,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,915,2022,1,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,945,2022,2,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,975,2022,3,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,1005,2022,4,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,915,2022,1,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,945,2022,2,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,975,2022,3,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,1005,2022,4,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,852,2022,1,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,882,2022,2,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,912,2022,3,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,942,2022,4,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,915,2022,1,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,945,2022,2,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,975,2022,3,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,1005,2022,4,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,978,2022,1,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,1008,2022,2,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,1038,2022,3,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,1068,2022,4,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,978,2022,1,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,1008,2022,2,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,1038,2022,3,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,1068,2022,4,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,978,2022,1,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,1008,2022,2,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,1038,2022,3,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,1068,2022,4,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,915,2022,1,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,945,2022,2,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,975,2022,3,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,1005,2022,4,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,852,2022,1,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,882,2022,2,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,912,2022,3,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,942,2022,4,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,852,2022,1,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,882,2022,2,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,912,2022,3,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,942,2022,4,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,915,2022,1,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,945,2022,2,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,975,2022,3,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,1005,2022,4,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,978,2022,1,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,1008,2022,2,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,1038,2022,3,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,1068,2022,4,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,852,2022,1,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,882,2022,2,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,912,2022,3,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,942,2022,4,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,915,2022,1,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,945,2022,2,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,975,2022,3,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,1005,2022,4,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,915,2022,1,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,945,2022,2,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,975,2022,3,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,1005,2022,4,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,915,2022,1,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,945,2022,2,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,975,2022,3,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,1005,2022,4,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,915,2022,1,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,945,2022,2,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,975,2022,3,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,1005,2022,4,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,852,2022,1,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,882,2022,2,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,912,2022,3,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,942,2022,4,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,915,2022,1,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,945,2022,2,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,975,2022,3,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,1005,2022,4,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,978,2022,1,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,1008,2022,2,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,1038,2022,3,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,1068,2022,4,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,852,2022,1,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,882,2022,2,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,912,2022,3,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,942,2022,4,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,915,2022,1,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,945,2022,2,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,975,2022,3,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,1005,2022,4,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,915,2022,1,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,945,2022,2,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,975,2022,3,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,1005,2022,4,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,915,2022,1,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,945,2022,2,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,975,2022,3,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,1005,2022,4,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,852,2022,1,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,882,2022,2,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,912,2022,3,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,942,2022,4,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,852,2022,1,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,882,2022,2,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,912,2022,3,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,942,2022,4,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,915,2022,1,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,945,2022,2,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,975,2022,3,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,1005,2022,4,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,852,2022,1,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,882,2022,2,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,912,2022,3,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,942,2022,4,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,852,2022,1,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,882,2022,2,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,912,2022,3,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,942,2022,4,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,852,2022,1,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,882,2022,2,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,912,2022,3,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,942,2022,4,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,796,2022,1,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,826,2022,2,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,856,2022,3,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,886,2022,4,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,796,2022,1,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,826,2022,2,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,856,2022,3,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,886,2022,4,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,796,2022,1,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,826,2022,2,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,856,2022,3,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,886,2022,4,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,796,2022,1,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,826,2022,2,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,856,2022,3,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,886,2022,4,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,796,2022,1,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,826,2022,2,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,856,2022,3,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,886,2022,4,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,852,2022,1,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,882,2022,2,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,912,2022,3,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,942,2022,4,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,950,2022,1,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,980,2022,2,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,1010,2022,3,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,1040,2022,4,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,950,2022,1,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,980,2022,2,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,1010,2022,3,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,1040,2022,4,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,950,2022,1,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,980,2022,2,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,1010,2022,3,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,1040,2022,4,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,950,2022,1,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,980,2022,2,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,1010,2022,3,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,1040,2022,4,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,950,2022,1,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,980,2022,2,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,1010,2022,3,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,1040,2022,4,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,950,2022,1,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,980,2022,2,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,1010,2022,3,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,1040,2022,4,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,950,2022,1,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,980,2022,2,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,1010,2022,3,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,1040,2022,4,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,950,2022,1,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,980,2022,2,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,1010,2022,3,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,1040,2022,4,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,796,2022,1,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,826,2022,2,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,856,2022,3,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,886,2022,4,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,950,2022,1,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,980,2022,2,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,1010,2022,3,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,1040,2022,4,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,950,2022,1,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,980,2022,2,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,1010,2022,3,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,1040,2022,4,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,950,2022,1,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,980,2022,2,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,1010,2022,3,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,1040,2022,4,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,950,2022,1,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,980,2022,2,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,1010,2022,3,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,1040,2022,4,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,950,2022,1,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,980,2022,2,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,1010,2022,3,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,1040,2022,4,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,950,2022,1,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,980,2022,2,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,1010,2022,3,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,1040,2022,4,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,950,2022,1,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,980,2022,2,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,1010,2022,3,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,1040,2022,4,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,950,2022,1,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,980,2022,2,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,1010,2022,3,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,1040,2022,4,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,950,2022,1,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,980,2022,2,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,1010,2022,3,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,1040,2022,4,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,950,2022,1,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,980,2022,2,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,1010,2022,3,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,1040,2022,4,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,950,2022,1,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,980,2022,2,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,1010,2022,3,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,1040,2022,4,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,950,2022,1,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,980,2022,2,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,1010,2022,3,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,1040,2022,4,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,950,2022,1,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,980,2022,2,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,1010,2022,3,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,1040,2022,4,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,950,2022,1,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,980,2022,2,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,1010,2022,3,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,1040,2022,4,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,915,2022,1,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,945,2022,2,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,975,2022,3,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,1005,2022,4,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,915,2022,1,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,945,2022,2,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,975,2022,3,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,1005,2022,4,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,915,2022,1,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,945,2022,2,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,975,2022,3,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,1005,2022,4,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,915,2022,1,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,945,2022,2,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,975,2022,3,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,1005,2022,4,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,796,2022,1,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,826,2022,2,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,856,2022,3,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,886,2022,4,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,915,2022,1,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,945,2022,2,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,975,2022,3,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,1005,2022,4,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,915,2022,1,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,945,2022,2,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,975,2022,3,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,1005,2022,4,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,915,2022,1,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,945,2022,2,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,975,2022,3,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,1005,2022,4,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,796,2022,1,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,826,2022,2,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,856,2022,3,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,886,2022,4,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,915,2022,1,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,945,2022,2,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,975,2022,3,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,1005,2022,4,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,978,2022,1,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,1008,2022,2,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,1038,2022,3,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,1068,2022,4,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,950,2022,1,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,980,2022,2,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,1010,2022,3,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,1040,2022,4,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,915,2022,1,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,945,2022,2,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,975,2022,3,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,1005,2022,4,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,796,2022,1,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,826,2022,2,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,856,2022,3,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,886,2022,4,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,915,2022,1,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,945,2022,2,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,975,2022,3,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,1005,2022,4,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,950,2022,1,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,980,2022,2,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,1010,2022,3,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,1040,2022,4,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,796,2022,1,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,826,2022,2,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,856,2022,3,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,886,2022,4,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,915,2022,1,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,945,2022,2,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,975,2022,3,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,1005,2022,4,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,978,2022,1,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,1008,2022,2,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,1038,2022,3,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,1068,2022,4,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,796,2022,1,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,826,2022,2,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,856,2022,3,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,886,2022,4,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,1286,2023,1,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,1316,2023,2,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,1346,2023,3,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,1376,2023,4,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,1286,2023,1,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,1316,2023,2,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,1346,2023,3,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,1376,2023,4,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,1286,2023,1,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,1316,2023,2,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,1346,2023,3,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,1376,2023,4,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,1286,2023,1,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,1316,2023,2,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,1346,2023,3,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,1376,2023,4,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,1286,2023,1,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,1316,2023,2,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,1346,2023,3,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,1376,2023,4,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,1223,2023,1,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,1253,2023,2,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,1283,2023,3,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,1313,2023,4,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,1286,2023,1,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,1316,2023,2,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,1346,2023,3,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,1376,2023,4,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,1342,2023,1,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,1372,2023,2,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,1402,2023,3,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,1432,2023,4,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,1342,2023,1,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,1372,2023,2,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,1402,2023,3,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,1432,2023,4,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,1342,2023,1,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,1372,2023,2,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,1402,2023,3,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,1432,2023,4,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,1286,2023,1,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,1316,2023,2,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,1346,2023,3,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,1376,2023,4,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,1223,2023,1,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,1253,2023,2,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,1283,2023,3,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,1313,2023,4,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,1223,2023,1,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,1253,2023,2,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,1283,2023,3,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,1313,2023,4,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,1286,2023,1,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,1316,2023,2,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,1346,2023,3,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,1376,2023,4,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,1342,2023,1,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,1372,2023,2,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,1402,2023,3,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,1432,2023,4,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,1223,2023,1,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,1253,2023,2,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,1283,2023,3,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,1313,2023,4,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,1286,2023,1,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,1316,2023,2,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,1346,2023,3,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,1376,2023,4,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,1286,2023,1,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,1316,2023,2,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,1346,2023,3,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,1376,2023,4,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,1286,2023,1,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,1316,2023,2,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,1346,2023,3,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,1376,2023,4,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,1286,2023,1,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,1316,2023,2,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,1346,2023,3,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,1376,2023,4,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,1223,2023,1,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,1253,2023,2,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,1283,2023,3,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,1313,2023,4,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,1286,2023,1,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,1316,2023,2,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,1346,2023,3,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,1376,2023,4,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,1342,2023,1,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,1372,2023,2,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,1402,2023,3,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,1432,2023,4,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,1223,2023,1,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,1253,2023,2,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,1283,2023,3,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,1313,2023,4,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,1286,2023,1,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,1316,2023,2,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,1346,2023,3,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,1376,2023,4,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,1286,2023,1,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,1316,2023,2,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,1346,2023,3,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,1376,2023,4,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,1286,2023,1,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,1316,2023,2,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,1346,2023,3,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,1376,2023,4,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,1223,2023,1,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,1253,2023,2,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,1283,2023,3,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,1313,2023,4,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,1223,2023,1,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,1253,2023,2,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,1283,2023,3,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,1313,2023,4,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,1286,2023,1,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,1316,2023,2,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,1346,2023,3,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,1376,2023,4,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,1223,2023,1,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,1253,2023,2,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,1283,2023,3,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,1313,2023,4,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,1223,2023,1,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,1253,2023,2,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,1283,2023,3,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,1313,2023,4,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,1223,2023,1,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,1253,2023,2,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,1283,2023,3,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,1313,2023,4,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,1160,2023,1,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,1190,2023,2,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,1220,2023,3,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,1250,2023,4,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,1160,2023,1,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,1190,2023,2,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,1220,2023,3,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,1250,2023,4,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,1160,2023,1,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,1190,2023,2,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,1220,2023,3,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,1250,2023,4,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,1160,2023,1,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,1190,2023,2,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,1220,2023,3,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,1250,2023,4,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,1160,2023,1,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,1190,2023,2,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,1220,2023,3,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,1250,2023,4,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,1223,2023,1,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,1253,2023,2,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,1283,2023,3,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,1313,2023,4,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,1314,2023,1,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,1344,2023,2,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,1374,2023,3,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,1404,2023,4,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,1314,2023,1,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,1344,2023,2,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,1374,2023,3,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,1404,2023,4,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,1314,2023,1,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,1344,2023,2,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,1374,2023,3,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,1404,2023,4,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,1314,2023,1,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,1344,2023,2,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,1374,2023,3,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,1404,2023,4,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,1314,2023,1,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,1344,2023,2,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,1374,2023,3,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,1404,2023,4,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,1314,2023,1,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,1344,2023,2,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,1374,2023,3,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,1404,2023,4,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,1314,2023,1,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,1344,2023,2,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,1374,2023,3,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,1404,2023,4,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,1314,2023,1,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,1344,2023,2,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,1374,2023,3,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,1404,2023,4,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,1160,2023,1,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,1190,2023,2,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,1220,2023,3,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,1250,2023,4,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,1314,2023,1,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,1344,2023,2,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,1374,2023,3,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,1404,2023,4,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,1314,2023,1,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,1344,2023,2,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,1374,2023,3,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,1404,2023,4,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,1314,2023,1,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,1344,2023,2,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,1374,2023,3,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,1404,2023,4,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,1314,2023,1,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,1344,2023,2,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,1374,2023,3,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,1404,2023,4,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,1314,2023,1,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,1344,2023,2,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,1374,2023,3,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,1404,2023,4,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,1314,2023,1,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,1344,2023,2,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,1374,2023,3,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,1404,2023,4,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,1314,2023,1,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,1344,2023,2,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,1374,2023,3,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,1404,2023,4,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,1314,2023,1,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,1344,2023,2,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,1374,2023,3,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,1404,2023,4,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,1314,2023,1,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,1344,2023,2,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,1374,2023,3,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,1404,2023,4,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,1314,2023,1,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,1344,2023,2,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,1374,2023,3,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,1404,2023,4,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,1314,2023,1,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,1344,2023,2,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,1374,2023,3,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,1404,2023,4,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,1314,2023,1,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,1344,2023,2,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,1374,2023,3,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,1404,2023,4,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,1314,2023,1,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,1344,2023,2,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,1374,2023,3,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,1404,2023,4,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,1314,2023,1,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,1344,2023,2,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,1374,2023,3,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,1404,2023,4,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,1286,2023,1,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,1316,2023,2,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,1346,2023,3,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,1376,2023,4,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,1286,2023,1,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,1316,2023,2,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,1346,2023,3,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,1376,2023,4,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,1286,2023,1,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,1316,2023,2,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,1346,2023,3,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,1376,2023,4,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,1286,2023,1,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,1316,2023,2,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,1346,2023,3,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,1376,2023,4,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,1160,2023,1,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,1190,2023,2,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,1220,2023,3,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,1250,2023,4,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,1286,2023,1,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,1316,2023,2,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,1346,2023,3,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,1376,2023,4,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,1286,2023,1,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,1316,2023,2,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,1346,2023,3,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,1376,2023,4,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,1286,2023,1,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,1316,2023,2,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,1346,2023,3,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,1376,2023,4,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,1160,2023,1,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,1190,2023,2,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,1220,2023,3,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,1250,2023,4,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,1286,2023,1,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,1316,2023,2,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,1346,2023,3,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,1376,2023,4,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,1342,2023,1,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,1372,2023,2,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,1402,2023,3,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,1432,2023,4,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,1314,2023,1,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,1344,2023,2,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,1374,2023,3,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,1404,2023,4,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,1286,2023,1,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,1316,2023,2,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,1346,2023,3,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,1376,2023,4,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,1160,2023,1,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,1190,2023,2,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,1220,2023,3,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,1250,2023,4,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,1286,2023,1,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,1316,2023,2,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,1346,2023,3,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,1376,2023,4,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,1314,2023,1,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,1344,2023,2,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,1374,2023,3,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,1404,2023,4,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,1160,2023,1,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,1190,2023,2,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,1220,2023,3,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,1250,2023,4,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,1286,2023,1,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,1316,2023,2,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,1346,2023,3,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,1376,2023,4,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,1342,2023,1,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,1372,2023,2,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,1402,2023,3,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,1432,2023,4,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,1160,2023,1,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,1190,2023,2,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,1220,2023,3,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,1250,2023,4,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,1646,2024,1,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,1676,2024,2,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,1706,2024,3,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,1736,2024,4,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,1646,2024,1,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,1676,2024,2,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,1706,2024,3,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,1736,2024,4,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,1646,2024,1,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,1676,2024,2,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,1706,2024,3,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,1736,2024,4,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,1646,2024,1,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,1676,2024,2,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,1706,2024,3,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,1736,2024,4,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,1646,2024,1,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,1676,2024,2,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,1706,2024,3,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,1736,2024,4,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,1587,2024,1,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,1617,2024,2,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,1647,2024,3,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,1677,2024,4,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,1646,2024,1,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,1676,2024,2,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,1706,2024,3,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,1736,2024,4,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,1713,2024,1,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,1743,2024,2,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,1773,2024,3,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,1803,2024,4,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,1713,2024,1,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,1743,2024,2,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,1773,2024,3,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,1803,2024,4,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,1713,2024,1,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,1743,2024,2,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,1773,2024,3,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,1803,2024,4,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,1646,2024,1,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,1676,2024,2,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,1706,2024,3,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,1736,2024,4,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,1587,2024,1,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,1617,2024,2,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,1647,2024,3,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,1677,2024,4,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,1587,2024,1,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,1617,2024,2,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,1647,2024,3,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,1677,2024,4,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,1646,2024,1,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,1676,2024,2,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,1706,2024,3,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,1736,2024,4,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,1713,2024,1,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,1743,2024,2,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,1773,2024,3,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,1803,2024,4,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,1587,2024,1,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,1617,2024,2,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,1647,2024,3,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,1677,2024,4,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,1646,2024,1,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,1676,2024,2,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,1706,2024,3,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,1736,2024,4,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,1646,2024,1,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,1676,2024,2,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,1706,2024,3,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,1736,2024,4,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,1646,2024,1,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,1676,2024,2,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,1706,2024,3,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,1736,2024,4,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,1646,2024,1,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,1676,2024,2,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,1706,2024,3,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,1736,2024,4,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,1587,2024,1,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,1617,2024,2,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,1647,2024,3,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,1677,2024,4,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,1646,2024,1,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,1676,2024,2,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,1706,2024,3,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,1736,2024,4,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,1713,2024,1,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,1743,2024,2,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,1773,2024,3,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,1803,2024,4,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,1587,2024,1,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,1617,2024,2,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,1647,2024,3,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,1677,2024,4,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,1646,2024,1,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,1676,2024,2,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,1706,2024,3,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,1736,2024,4,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,1646,2024,1,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,1676,2024,2,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,1706,2024,3,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,1736,2024,4,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,1646,2024,1,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,1676,2024,2,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,1706,2024,3,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,1736,2024,4,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,1587,2024,1,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,1617,2024,2,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,1647,2024,3,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,1677,2024,4,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,1587,2024,1,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,1617,2024,2,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,1647,2024,3,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,1677,2024,4,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,1646,2024,1,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,1676,2024,2,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,1706,2024,3,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,1736,2024,4,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,1587,2024,1,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,1617,2024,2,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,1647,2024,3,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,1677,2024,4,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,1587,2024,1,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,1617,2024,2,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,1647,2024,3,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,1677,2024,4,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,1587,2024,1,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,1617,2024,2,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,1647,2024,3,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,1677,2024,4,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,1531,2024,1,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,1561,2024,2,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,1591,2024,3,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,1621,2024,4,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,1531,2024,1,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,1561,2024,2,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,1591,2024,3,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,1621,2024,4,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,1531,2024,1,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,1561,2024,2,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,1591,2024,3,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,1621,2024,4,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,1531,2024,1,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,1561,2024,2,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,1591,2024,3,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,1621,2024,4,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,1531,2024,1,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,1561,2024,2,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,1591,2024,3,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,1621,2024,4,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,1587,2024,1,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,1617,2024,2,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,1647,2024,3,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,1677,2024,4,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,1678,2024,1,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,1708,2024,2,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,1738,2024,3,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,1768,2024,4,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,1678,2024,1,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,1708,2024,2,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,1738,2024,3,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,1768,2024,4,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,1678,2024,1,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,1708,2024,2,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,1738,2024,3,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,1768,2024,4,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,1678,2024,1,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,1708,2024,2,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,1738,2024,3,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,1768,2024,4,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,1678,2024,1,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,1708,2024,2,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,1738,2024,3,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,1768,2024,4,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,1678,2024,1,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,1708,2024,2,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,1738,2024,3,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,1768,2024,4,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,1678,2024,1,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,1708,2024,2,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,1738,2024,3,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,1768,2024,4,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,1678,2024,1,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,1708,2024,2,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,1738,2024,3,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,1768,2024,4,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,1531,2024,1,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,1561,2024,2,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,1591,2024,3,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,1621,2024,4,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,1678,2024,1,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,1708,2024,2,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,1738,2024,3,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,1768,2024,4,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,1678,2024,1,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,1708,2024,2,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,1738,2024,3,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,1768,2024,4,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,1678,2024,1,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,1708,2024,2,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,1738,2024,3,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,1768,2024,4,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,1678,2024,1,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,1708,2024,2,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,1738,2024,3,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,1768,2024,4,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,1678,2024,1,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,1708,2024,2,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,1738,2024,3,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,1768,2024,4,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,1678,2024,1,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,1708,2024,2,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,1738,2024,3,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,1768,2024,4,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,1678,2024,1,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,1708,2024,2,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,1738,2024,3,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,1768,2024,4,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,1678,2024,1,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,1708,2024,2,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,1738,2024,3,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,1768,2024,4,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,1678,2024,1,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,1708,2024,2,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,1738,2024,3,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,1768,2024,4,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,1678,2024,1,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,1708,2024,2,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,1738,2024,3,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,1768,2024,4,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,1678,2024,1,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,1708,2024,2,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,1738,2024,3,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,1768,2024,4,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,1678,2024,1,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,1708,2024,2,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,1738,2024,3,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,1768,2024,4,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,1678,2024,1,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,1708,2024,2,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,1738,2024,3,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,1768,2024,4,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,1678,2024,1,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,1708,2024,2,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,1738,2024,3,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,1768,2024,4,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,1646,2024,1,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,1676,2024,2,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,1706,2024,3,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,1736,2024,4,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,1646,2024,1,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,1676,2024,2,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,1706,2024,3,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,1736,2024,4,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,1646,2024,1,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,1676,2024,2,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,1706,2024,3,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,1736,2024,4,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,1646,2024,1,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,1676,2024,2,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,1706,2024,3,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,1736,2024,4,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,1531,2024,1,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,1561,2024,2,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,1591,2024,3,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,1621,2024,4,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,1646,2024,1,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,1676,2024,2,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,1706,2024,3,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,1736,2024,4,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,1646,2024,1,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,1676,2024,2,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,1706,2024,3,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,1736,2024,4,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,1646,2024,1,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,1676,2024,2,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,1706,2024,3,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,1736,2024,4,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,1531,2024,1,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,1561,2024,2,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,1591,2024,3,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,1621,2024,4,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,1646,2024,1,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,1676,2024,2,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,1706,2024,3,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,1736,2024,4,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,1713,2024,1,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,1743,2024,2,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,1773,2024,3,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,1803,2024,4,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,1678,2024,1,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,1708,2024,2,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,1738,2024,3,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,1768,2024,4,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,1646,2024,1,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,1676,2024,2,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,1706,2024,3,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,1736,2024,4,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,1531,2024,1,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,1561,2024,2,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,1591,2024,3,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,1621,2024,4,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,1646,2024,1,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,1676,2024,2,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,1706,2024,3,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,1736,2024,4,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,1678,2024,1,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,1708,2024,2,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,1738,2024,3,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,1768,2024,4,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,1531,2024,1,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,1561,2024,2,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,1591,2024,3,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,1621,2024,4,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,1646,2024,1,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,1676,2024,2,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,1706,2024,3,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,1736,2024,4,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,1713,2024,1,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,1743,2024,2,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,1773,2024,3,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,1803,2024,4,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,1531,2024,1,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,1561,2024,2,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,1591,2024,3,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,1621,2024,4,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,2014,2025,1,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,2044,2025,2,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,2074,2025,3,-1,0.8,0.2,5
+Bama,Borno,Darazo,july,2104,2025,4,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,2014,2025,1,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,2044,2025,2,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,2074,2025,3,-1,0.8,0.2,5
+Kala-Balge,Borno,Darazo,july,2104,2025,4,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,2014,2025,1,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,2044,2025,2,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,2074,2025,3,-1,0.8,0.2,5
+Gwoza,Borno,Darazo,july,2104,2025,4,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,2014,2025,1,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,2044,2025,2,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,2074,2025,3,-1,0.8,0.2,5
+Mafa,Borno,Darazo,july,2104,2025,4,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,2014,2025,1,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,2044,2025,2,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,2074,2025,3,-1,0.8,0.2,5
+Auyo,Jigawa,Taura,july,2104,2025,4,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,1951,2025,1,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,1981,2025,2,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,2011,2025,3,-1,0.8,0.2,5
+Babura,Jigawa,Babura,may,2041,2025,4,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,2014,2025,1,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,2044,2025,2,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,2074,2025,3,-1,0.8,0.2,5
+Biriniwa,Jigawa,Taura,july,2104,2025,4,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,2079,2025,1,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,2109,2025,2,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,2139,2025,3,-1,0.8,0.2,5
+Birni Kudu,Jigawa,Takali,september,2169,2025,4,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,2079,2025,1,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,2109,2025,2,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,2139,2025,3,-1,0.8,0.2,5
+Buji,Jigawa,Takali,september,2169,2025,4,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,2079,2025,1,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,2109,2025,2,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,2139,2025,3,-1,0.8,0.2,5
+Dutse,Jigawa,Takali,september,2169,2025,4,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,2014,2025,1,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,2044,2025,2,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,2074,2025,3,-1,0.8,0.2,5
+Gagarawa,Jigawa,Taura,july,2104,2025,4,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,1951,2025,1,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,1981,2025,2,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,2011,2025,3,-1,0.8,0.2,5
+Garki,Jigawa,Babura,may,2041,2025,4,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,1951,2025,1,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,1981,2025,2,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,2011,2025,3,-1,0.8,0.2,5
+Gumel,Jigawa,Babura,may,2041,2025,4,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,2014,2025,1,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,2044,2025,2,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,2074,2025,3,-1,0.8,0.2,5
+Guri,Jigawa,Taura,july,2104,2025,4,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,2079,2025,1,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,2109,2025,2,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,2139,2025,3,-1,0.8,0.2,5
+Gwaram,Jigawa,Takali,september,2169,2025,4,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,1951,2025,1,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,1981,2025,2,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,2011,2025,3,-1,0.8,0.2,5
+Gwiwa,Jigawa,Babura,may,2041,2025,4,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,2014,2025,1,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,2044,2025,2,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,2074,2025,3,-1,0.8,0.2,5
+Hadejia,Jigawa,Taura,july,2104,2025,4,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,2014,2025,1,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,2044,2025,2,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,2074,2025,3,-1,0.8,0.2,5
+Jahun,Jigawa,Taura,july,2104,2025,4,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,2014,2025,1,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,2044,2025,2,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,2074,2025,3,-1,0.8,0.2,5
+Kafin Hausa,Jigawa,Taura,july,2104,2025,4,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,2014,2025,1,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,2044,2025,2,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,2074,2025,3,-1,0.8,0.2,5
+Kaugama,Jigawa,Taura,july,2104,2025,4,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,1951,2025,1,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,1981,2025,2,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,2011,2025,3,-1,0.8,0.2,5
+Kazaure,Jigawa,Babura,may,2041,2025,4,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,2014,2025,1,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,2044,2025,2,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,2074,2025,3,-1,0.8,0.2,5
+Kiri Kasamma,Jigawa,Taura,july,2104,2025,4,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,2079,2025,1,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,2109,2025,2,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,2139,2025,3,-1,0.8,0.2,5
+kiyawa,Jigawa,Takali,september,2169,2025,4,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,1951,2025,1,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,1981,2025,2,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,2011,2025,3,-1,0.8,0.2,5
+Maigatari,Jigawa,Babura,may,2041,2025,4,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,2014,2025,1,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,2044,2025,2,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,2074,2025,3,-1,0.8,0.2,5
+Malam Madori,Jigawa,Taura,july,2104,2025,4,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,2014,2025,1,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,2044,2025,2,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,2074,2025,3,-1,0.8,0.2,5
+Miga,Jigawa,Taura,july,2104,2025,4,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,2014,2025,1,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,2044,2025,2,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,2074,2025,3,-1,0.8,0.2,5
+Ringim,Jigawa,Taura,july,2104,2025,4,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,1951,2025,1,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,1981,2025,2,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,2011,2025,3,-1,0.8,0.2,5
+Roni,Jigawa,Babura,may,2041,2025,4,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,1951,2025,1,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,1981,2025,2,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,2011,2025,3,-1,0.8,0.2,5
+Sule-Tankarkar,Jigawa,Babura,may,2041,2025,4,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,2014,2025,1,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,2044,2025,2,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,2074,2025,3,-1,0.8,0.2,5
+Taura,Jigawa,Taura,july,2104,2025,4,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,1951,2025,1,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,1981,2025,2,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,2011,2025,3,-1,0.8,0.2,5
+Yankwashi,Jigawa,Babura,may,2041,2025,4,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,1951,2025,1,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,1981,2025,2,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,2011,2025,3,-1,0.8,0.2,5
+Baure,Katsina,Babura,may,2041,2025,4,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,1951,2025,1,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,1981,2025,2,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,2011,2025,3,-1,0.8,0.2,5
+Daura,Katsina,Babura,may,2041,2025,4,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,1895,2025,1,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,1925,2025,2,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,1955,2025,3,-1,0.8,0.2,5
+Dutsi,Katsina,Rimi,march,1985,2025,4,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,1895,2025,1,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,1925,2025,2,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,1955,2025,3,-1,0.8,0.2,5
+Jibia,Katsina,Rimi,march,1985,2025,4,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,1895,2025,1,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,1925,2025,2,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,1955,2025,3,-1,0.8,0.2,5
+kaita,Katsina,Rimi,march,1985,2025,4,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,1895,2025,1,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,1925,2025,2,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,1955,2025,3,-1,0.8,0.2,5
+Mai'Adua,Katsina,Rimi,march,1985,2025,4,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,1895,2025,1,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,1925,2025,2,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,1955,2025,3,-1,0.8,0.2,5
+Mashi,Katsina,Rimi,march,1985,2025,4,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,1951,2025,1,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,1981,2025,2,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,2011,2025,3,-1,0.8,0.2,5
+Zango,Katsina,Babura,may,2041,2025,4,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,2049,2025,1,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,2079,2025,2,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,2109,2025,3,-1,0.8,0.2,5
+Binji,Sokoto,Gawabawa,august,2139,2025,4,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,2049,2025,1,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,2079,2025,2,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,2109,2025,3,-1,0.8,0.2,5
+Bodinga,Sokoto,Gawabawa,august,2139,2025,4,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,2049,2025,1,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,2079,2025,2,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,2109,2025,3,-1,0.8,0.2,5
+Dange-Shnsi,Sokoto,Gawabawa,august,2139,2025,4,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,2049,2025,1,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,2079,2025,2,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,2109,2025,3,-1,0.8,0.2,5
+Gada,Sokoto,Gawabawa,august,2139,2025,4,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,2049,2025,1,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,2079,2025,2,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,2109,2025,3,-1,0.8,0.2,5
+Goronyo,Sokoto,Gawabawa,august,2139,2025,4,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,2049,2025,1,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,2079,2025,2,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,2109,2025,3,-1,0.8,0.2,5
+Gudu,Sokoto,Gawabawa,august,2139,2025,4,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,2049,2025,1,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,2079,2025,2,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,2109,2025,3,-1,0.8,0.2,5
+Gawabawa,Sokoto,Gawabawa,august,2139,2025,4,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,2049,2025,1,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,2079,2025,2,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,2109,2025,3,-1,0.8,0.2,5
+Illela,Sokoto,Gawabawa,august,2139,2025,4,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,1895,2025,1,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,1925,2025,2,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,1955,2025,3,-1,0.8,0.2,5
+Isa,Sokoto,Rimi,march,1985,2025,4,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,2049,2025,1,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,2079,2025,2,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,2109,2025,3,-1,0.8,0.2,5
+Kebbe,Sokoto,Birnin Kebbi,august,2139,2025,4,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,2049,2025,1,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,2079,2025,2,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,2109,2025,3,-1,0.8,0.2,5
+Kware,Sokoto,Gawabawa,august,2139,2025,4,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,2049,2025,1,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,2079,2025,2,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,2109,2025,3,-1,0.8,0.2,5
+Rabah,Sokoto,Gawabawa,august,2139,2025,4,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,2049,2025,1,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,2079,2025,2,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,2109,2025,3,-1,0.8,0.2,5
+Sabon Birni,Sokoto,Gawabawa,august,2139,2025,4,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,2049,2025,1,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,2079,2025,2,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,2109,2025,3,-1,0.8,0.2,5
+Shagari,Sokoto,Birnin Kebbi,august,2139,2025,4,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,2049,2025,1,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,2079,2025,2,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,2109,2025,3,-1,0.8,0.2,5
+Silame,Sokoto,Gawabawa,august,2139,2025,4,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,2049,2025,1,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,2079,2025,2,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,2109,2025,3,-1,0.8,0.2,5
+Sokoto North,Sokoto,Gawabawa,august,2139,2025,4,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,2049,2025,1,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,2079,2025,2,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,2109,2025,3,-1,0.8,0.2,5
+Sokoto South,Sokoto,Birnin Kebbi,august,2139,2025,4,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,2049,2025,1,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,2079,2025,2,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,2109,2025,3,-1,0.8,0.2,5
+Tambuwal,Sokoto,Birnin Kebbi,august,2139,2025,4,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,2049,2025,1,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,2079,2025,2,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,2109,2025,3,-1,0.8,0.2,5
+Tangaza,Sokoto,Gawabawa,august,2139,2025,4,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,2049,2025,1,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,2079,2025,2,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,2109,2025,3,-1,0.8,0.2,5
+Tureta,Sokoto,Birnin Kebbi,august,2139,2025,4,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,2049,2025,1,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,2079,2025,2,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,2109,2025,3,-1,0.8,0.2,5
+Wamako,Sokoto,Gawabawa,august,2139,2025,4,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,2049,2025,1,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,2079,2025,2,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,2109,2025,3,-1,0.8,0.2,5
+Wurno,Sokoto,Gawabawa,august,2139,2025,4,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,2049,2025,1,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,2079,2025,2,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,2109,2025,3,-1,0.8,0.2,5
+Yabo,Sokoto,Gawabawa,august,2139,2025,4,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,2014,2025,1,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,2044,2025,2,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,2074,2025,3,-1,0.8,0.2,5
+Bade,Yobe,Taura,july,2104,2025,4,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,2014,2025,1,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,2044,2025,2,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,2074,2025,3,-1,0.8,0.2,5
+Karasuwa,Yobe,Taura,july,2104,2025,4,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,2014,2025,1,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,2044,2025,2,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,2074,2025,3,-1,0.8,0.2,5
+Machina,Yobe,Taura,july,2104,2025,4,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,2014,2025,1,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,2044,2025,2,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,2074,2025,3,-1,0.8,0.2,5
+Nguru,Yobe,Taura,july,2104,2025,4,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,1895,2025,1,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,1925,2025,2,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,1955,2025,3,-1,0.8,0.2,5
+Tarmua,Yobe,Rimi,march,1985,2025,4,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,2014,2025,1,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,2044,2025,2,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,2074,2025,3,-1,0.8,0.2,5
+Yusufari,Yobe,Taura,july,2104,2025,4,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,2014,2025,1,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,2044,2025,2,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,2074,2025,3,-1,0.8,0.2,5
+Anka,Zamfara,Darazo,july,2104,2025,4,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,2014,2025,1,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,2044,2025,2,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,2074,2025,3,-1,0.8,0.2,5
+Bakura,Zamfara,Darazo,july,2104,2025,4,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,1895,2025,1,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,1925,2025,2,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,1955,2025,3,-1,0.8,0.2,5
+Birnin Magaji,Zamfara,Rimi,march,1985,2025,4,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,2014,2025,1,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,2044,2025,2,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,2074,2025,3,-1,0.8,0.2,5
+Bukkuyum,Zamfara,Alkaleri,july,2104,2025,4,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,2079,2025,1,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,2109,2025,2,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,2139,2025,3,-1,0.8,0.2,5
+Bungudu,Zamfara,Takali,september,2169,2025,4,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,2049,2025,1,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,2079,2025,2,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,2109,2025,3,-1,0.8,0.2,5
+Gummi,Zamfara,Birnin Kebbi,august,2139,2025,4,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,2014,2025,1,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,2044,2025,2,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,2074,2025,3,-1,0.8,0.2,5
+Gusau,Zamfara,Darazo,july,2104,2025,4,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,1895,2025,1,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,1925,2025,2,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,1955,2025,3,-1,0.8,0.2,5
+Kaura-Namoda,Zamfara,Rimi,march,1985,2025,4,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,2014,2025,1,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,2044,2025,2,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,2074,2025,3,-1,0.8,0.2,5
+Maradun,Zamfara,Darazo,july,2104,2025,4,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,2049,2025,1,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,2079,2025,2,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,2109,2025,3,-1,0.8,0.2,5
+Maru,Zamfara,Giwa,august,2139,2025,4,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,1895,2025,1,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,1925,2025,2,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,1955,2025,3,-1,0.8,0.2,5
+Shinkafi,Zamfara,Rimi,march,1985,2025,4,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,2014,2025,1,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,2044,2025,2,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,2074,2025,3,-1,0.8,0.2,5
+Talata Mafara,Zamfara,Darazo,july,2104,2025,4,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,2079,2025,1,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,2109,2025,2,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,2139,2025,3,-1,0.8,0.2,5
+Tsafe,Zamfara,Takali,september,2169,2025,4,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,1895,2025,1,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,1925,2025,2,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,1955,2025,3,-1,0.8,0.2,5
+Zurmi,Zamfara,Rimi,march,1985,2025,4,-1,0.8,0.2,5

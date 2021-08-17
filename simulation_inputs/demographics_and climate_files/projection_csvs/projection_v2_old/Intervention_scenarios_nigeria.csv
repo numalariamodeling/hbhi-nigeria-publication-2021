@@ -1,0 +1,8 @@
+Scenario_no,status,ITN_filename,SMC_filename,ANC_filename,IRS_filename,CM_filename,notes 
+1,queued,itn_scenario1,smc_cc_v3,ITN_ANC_current_coverage,,HS_placeholder,"done (skips), hold(skips), run, queued"
+2,run,ITN_scen2_80,smc_scen2_80,,,HS_placeholder_scen2_80,*insecure_(check with Jaline)
+3,queued,ITN_scen2_10,smc_scen2_10,,,cm_scen2_10,
+4,run,ITN_scen2_20,smc_scen2_20,,,cm_scen2_20,
+5,run,ITN_scen2_30,smc_scen2_30,,,cm_scen2_30,
+6,run,ITN_scen3_80,smc_scen3_PAAR,,,cm_scen3,
+7,run,ITN_scen3_80,smc_scen3_no_PAAR,,,cm_scen3,

@@ -64,7 +64,7 @@ DTK-tools malaria package is also required as it contains module specific for mo
 
 Four scripts are provided for replicating archetype-level seasonality calibrations 
 
-1. [SeasonalityCalibSite.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/SeasonalityCalibSite.py): Python module with class for getting reference incidence data per LGA and importing the [analyzer]() for comparing simulation and incidence data.  
+1. [SeasonalityCalibSite.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/SeasonalityCalibSite.py): Python module with class for getting reference incidence data per LGA and importing the [analyzer](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/ChannelByMultiYearSeasonCohortInsetAnalyzer.py) for comparing simulation and incidence data.  
 
 1. [Helper.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/Helpers.py): Includes a function for setting priors on monthly habitats and another function for importing and processing facility-level incidence data from the Rapid Impact Assessment (RIA) study conducted by the NMEP. Incidence data is used to compare simulated incidence 
 

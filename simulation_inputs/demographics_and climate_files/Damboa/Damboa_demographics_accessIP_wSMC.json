@@ -1,0 +1,514 @@
+{
+    "Defaults": {
+        "IndividualAttributes": {
+            "ImmunityDistribution1": 1,
+            "ImmunityDistribution2": 0,
+            "ImmunityDistributionFlag": 0,
+            "MigrationHeterogeneityDistribution1": 1,
+            "MigrationHeterogeneityDistribution2": 0,
+            "MigrationHeterogeneityDistributionFlag": 0,
+            "MortalityDistribution": {
+                "AxisNames": [
+                    "gender",
+                    "age"
+                ],
+                "AxisScaleFactors": [
+                    1,
+                    365
+                ],
+                "AxisUnits": [
+                    "male=0,female=1",
+                    "years"
+                ],
+                "NumDistributionAxes": 2,
+                "NumPopulationGroups": [
+                    2,
+                    1
+                ],
+                "PopulationGroups": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0
+                    ]
+                ],
+                "ResultScaleFactor": 2.74e-06,
+                "ResultUnits": "annual deaths per 1000 individuals",
+                "ResultValues": [
+                    [
+                        38.887
+                    ],
+                    [
+                        38.887
+                    ]
+                ]
+            },
+            "PrevalenceDistribution1": 0.13,
+            "PrevalenceDistribution2": 0.15,
+            "PrevalenceDistributionFlag": 1,
+            "RiskDistribution1": 1,
+            "RiskDistribution2": 0,
+            "RiskDistributionFlag": 0
+        },
+        "IndividualProperties": [
+            {
+                "Initial_Distribution": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Property": "AccessToCare",
+                "Transitions": [],
+                "Values": [
+                    "HFWithin0.5InpatientWithin0.5",
+                    "HFWithin0.5InpatientWithin1.0",
+                    "HFWithin0.5InpatientWithin2.0",
+                    "HFWithin0.5InpatientWithin4.0",
+                    "HFWithin0.5InpatientWithin7.0",
+                    "HFWithin0.5InpatientWithin10.0",
+                    "HFWithin0.5InpatientWithin15.0",
+                    "HFWithin0.5InpatientWithin20.0",
+                    "HFWithin0.5InpatientWithin50.0",
+                    "HFWithin1.0InpatientWithin0.5",
+                    "HFWithin1.0InpatientWithin1.0",
+                    "HFWithin1.0InpatientWithin2.0",
+                    "HFWithin1.0InpatientWithin4.0",
+                    "HFWithin1.0InpatientWithin7.0",
+                    "HFWithin1.0InpatientWithin10.0",
+                    "HFWithin1.0InpatientWithin15.0",
+                    "HFWithin1.0InpatientWithin20.0",
+                    "HFWithin1.0InpatientWithin50.0",
+                    "HFWithin2.0InpatientWithin0.5",
+                    "HFWithin2.0InpatientWithin1.0",
+                    "HFWithin2.0InpatientWithin2.0",
+                    "HFWithin2.0InpatientWithin4.0",
+                    "HFWithin2.0InpatientWithin7.0",
+                    "HFWithin2.0InpatientWithin10.0",
+                    "HFWithin2.0InpatientWithin15.0",
+                    "HFWithin2.0InpatientWithin20.0",
+                    "HFWithin2.0InpatientWithin50.0",
+                    "HFWithin4.0InpatientWithin0.5",
+                    "HFWithin4.0InpatientWithin1.0",
+                    "HFWithin4.0InpatientWithin2.0",
+                    "HFWithin4.0InpatientWithin4.0",
+                    "HFWithin4.0InpatientWithin7.0",
+                    "HFWithin4.0InpatientWithin10.0",
+                    "HFWithin4.0InpatientWithin15.0",
+                    "HFWithin4.0InpatientWithin20.0",
+                    "HFWithin4.0InpatientWithin50.0",
+                    "HFWithin7.0InpatientWithin0.5",
+                    "HFWithin7.0InpatientWithin1.0",
+                    "HFWithin7.0InpatientWithin2.0",
+                    "HFWithin7.0InpatientWithin4.0",
+                    "HFWithin7.0InpatientWithin7.0",
+                    "HFWithin7.0InpatientWithin10.0",
+                    "HFWithin7.0InpatientWithin15.0",
+                    "HFWithin7.0InpatientWithin20.0",
+                    "HFWithin7.0InpatientWithin50.0",
+                    "HFWithin50.0InpatientWithin0.5",
+                    "HFWithin50.0InpatientWithin1.0",
+                    "HFWithin50.0InpatientWithin2.0",
+                    "HFWithin50.0InpatientWithin4.0",
+                    "HFWithin50.0InpatientWithin7.0",
+                    "HFWithin50.0InpatientWithin10.0",
+                    "HFWithin50.0InpatientWithin15.0",
+                    "HFWithin50.0InpatientWithin20.0",
+                    "HFWithin50.0InpatientWithin50.0"
+                ]
+            },
+            {
+                "Initial_Distribution": [
+                    1,
+                    0
+                ],
+                "Property": "DrugStatus",
+                "Transitions": [],
+                "Values": [
+                    "None",
+                    "RecentDrug"
+                ]
+            },
+            {
+                "Initial_Distribution": [
+                    0.5,
+                    0.5
+                ],
+                "Property": "SMCAccess",
+                "Transitions": [],
+                "Values": [
+                    "Low",
+                    "High"
+                ]
+            },
+            {
+                "Initial_Distribution": [
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "Property": "AgeGroup",
+                "Transitions": [],
+                "Values": [
+                    "Under15",
+                    "15to30",
+                    "30to50",
+                    "50plus"
+                ]
+            }
+        ],
+        "NodeAttributes": {
+            "AbovePoverty": 0.5,
+            "Airport": 0,
+            "Altitude": 0,
+            "BirthRateSource": "World Bank",
+            "CountryBirthRate": 38.887,
+            "Region": 1,
+            "Seaport": 0,
+            "Urban": 0,
+            "World Bank Year": "2016"
+        }
+    },
+    "Metadata": {
+        "Author": "idm",
+        "DateCreated": "2019-10-24 19:10:15.216284",
+        "IdReference": "Custom user",
+        "NodeCount": 1,
+        "Resolution": 30,
+        "Tool": "dtk-tools"
+    },
+    "Nodes": [
+        {
+            "IndividualAttributes": {
+                "AgeDistribution": {
+                    "DistributionValues": [
+                        [
+                            0.0,
+                            0.0927626506333018,
+                            0.1770968853134376,
+                            0.25376847824883747,
+                            0.3234736312072957,
+                            0.3867776237672504,
+                            0.4443962516976787,
+                            0.4967796465289869,
+                            0.5444034622055631,
+                            0.587700138328784,
+                            0.6270626919837751,
+                            0.6628481046400866,
+                            0.6953820518670195,
+                            0.7249284292298035,
+                            0.7518217371448894,
+                            0.7762713182913101,
+                            0.7984990827991274,
+                            0.818707229465083,
+                            0.8370792534359618,
+                            0.8537819788565785,
+                            0.868966969926742,
+                            0.8827573200094389,
+                            0.8953094147221111,
+                            0.9067210188060658,
+                            0.9170957536083243,
+                            0.9265277297610645,
+                            0.9351026217198586,
+                            0.9428983972377422,
+                            0.9499858440562923,
+                            0.9564224578705899,
+                            0.9622810173375169,
+                            0.967607228790633,
+                            0.9724494992447225,
+                            0.9768517978840824,
+                            0.9808540991748295,
+                            0.9844926961984979,
+                            0.9878006658879994,
+                            0.9908048666007538,
+                            0.9935393115403001,
+                            0.9960253018497202,
+                            0.99828537295942,
+                            1.0000000000000009,
+                            1.0000000000000009,
+                            1.0000000000000009,
+                            1.0000000000000009,
+                            1.0000000000000009,
+                            1.0000000000000009,
+                            1.0000000000000009,
+                            1.0000000000000009,
+                            1.0000000000000009
+                        ]
+                    ],
+                    "ResultScaleFactor": 1,
+                    "ResultValues": [
+                        [
+                            0.0,
+                            894.0,
+                            1788.0,
+                            2682.0,
+                            3576.0,
+                            4469.0,
+                            5363.0,
+                            6257.0,
+                            7151.0,
+                            8045.0,
+                            8939.0,
+                            9833.0,
+                            10727.0,
+                            11620.0,
+                            12514.0,
+                            13408.0,
+                            14302.0,
+                            15196.0,
+                            16090.0,
+                            16984.0,
+                            17878.0,
+                            18771.0,
+                            19665.0,
+                            20559.0,
+                            21453.0,
+                            22347.0,
+                            23241.0,
+                            24135.0,
+                            25029.0,
+                            25922.0,
+                            26816.0,
+                            27710.0,
+                            28604.0,
+                            29498.0,
+                            30392.0,
+                            31286.0,
+                            32180.0,
+                            33073.0,
+                            33967.0,
+                            34861.0,
+                            35755.0,
+                            36649.0,
+                            37543.0,
+                            38437.0,
+                            39331.0,
+                            40224.0,
+                            41118.0,
+                            42012.0,
+                            42906.0,
+                            43800.0
+                        ]
+                    ]
+                }
+            },
+            "IndividualProperties": [
+                {
+                    "Initial_Distribution": [
+                        0.18786074221134186,
+                        0.0,
+                        0.0,
+                        0.054958775639534004,
+                        0.055792897939682014,
+                        0.029957294464111325,
+                        0.00407785177230835,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.07747982442378998,
+                        0.0022242963314056396,
+                        0.0390179306268692,
+                        0.02118954062461853,
+                        0.01531475782394409,
+                        0.004541337490081787,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.028637856245040894,
+                        0.06438490748405458,
+                        0.13354390859603882,
+                        0.054196774959564216,
+                        0.0023168325424194336,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.017045646905899048,
+                        0.057644695043563836,
+                        0.11966180801391603,
+                        0.01955699920654297,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0015755295753479006,
+                        0.007961094379425049,
+                        0.0010586977005004883,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Property": "AccessToCare",
+                    "Values": [
+                        "HFWithin0.5InpatientWithin0.5",
+                        "HFWithin0.5InpatientWithin1.0",
+                        "HFWithin0.5InpatientWithin2.0",
+                        "HFWithin0.5InpatientWithin4.0",
+                        "HFWithin0.5InpatientWithin7.0",
+                        "HFWithin0.5InpatientWithin10.0",
+                        "HFWithin0.5InpatientWithin15.0",
+                        "HFWithin0.5InpatientWithin20.0",
+                        "HFWithin0.5InpatientWithin50.0",
+                        "HFWithin1.0InpatientWithin0.5",
+                        "HFWithin1.0InpatientWithin1.0",
+                        "HFWithin1.0InpatientWithin2.0",
+                        "HFWithin1.0InpatientWithin4.0",
+                        "HFWithin1.0InpatientWithin7.0",
+                        "HFWithin1.0InpatientWithin10.0",
+                        "HFWithin1.0InpatientWithin15.0",
+                        "HFWithin1.0InpatientWithin20.0",
+                        "HFWithin1.0InpatientWithin50.0",
+                        "HFWithin2.0InpatientWithin0.5",
+                        "HFWithin2.0InpatientWithin1.0",
+                        "HFWithin2.0InpatientWithin2.0",
+                        "HFWithin2.0InpatientWithin4.0",
+                        "HFWithin2.0InpatientWithin7.0",
+                        "HFWithin2.0InpatientWithin10.0",
+                        "HFWithin2.0InpatientWithin15.0",
+                        "HFWithin2.0InpatientWithin20.0",
+                        "HFWithin2.0InpatientWithin50.0",
+                        "HFWithin4.0InpatientWithin0.5",
+                        "HFWithin4.0InpatientWithin1.0",
+                        "HFWithin4.0InpatientWithin2.0",
+                        "HFWithin4.0InpatientWithin4.0",
+                        "HFWithin4.0InpatientWithin7.0",
+                        "HFWithin4.0InpatientWithin10.0",
+                        "HFWithin4.0InpatientWithin15.0",
+                        "HFWithin4.0InpatientWithin20.0",
+                        "HFWithin4.0InpatientWithin50.0",
+                        "HFWithin7.0InpatientWithin0.5",
+                        "HFWithin7.0InpatientWithin1.0",
+                        "HFWithin7.0InpatientWithin2.0",
+                        "HFWithin7.0InpatientWithin4.0",
+                        "HFWithin7.0InpatientWithin7.0",
+                        "HFWithin7.0InpatientWithin10.0",
+                        "HFWithin7.0InpatientWithin15.0",
+                        "HFWithin7.0InpatientWithin20.0",
+                        "HFWithin7.0InpatientWithin50.0",
+                        "HFWithin50.0InpatientWithin0.5",
+                        "HFWithin50.0InpatientWithin1.0",
+                        "HFWithin50.0InpatientWithin2.0",
+                        "HFWithin50.0InpatientWithin4.0",
+                        "HFWithin50.0InpatientWithin7.0",
+                        "HFWithin50.0InpatientWithin10.0",
+                        "HFWithin50.0InpatientWithin15.0",
+                        "HFWithin50.0InpatientWithin20.0",
+                        "HFWithin50.0InpatientWithin50.0"
+                    ]
+                },
+                {
+                    "Initial_Distribution": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Property": "AgeGroup",
+                    "Values": [
+                        "Under15",
+                        "15to30",
+                        "30to50",
+                        "50plus"
+                    ]
+                },
+                {
+                    "Initial_Distribution": [
+                        1.0,
+                        0.0
+                    ],
+                    "Property": "DrugStatus",
+                    "Values": [
+                        "None",
+                        "RecentDrug"
+                    ]
+                },
+                {
+                    "Initial_Distribution": [
+                        0.5,
+                        0.5
+                    ],
+                    "Property": "SMCAccess",
+                    "Values": [
+                        "Low",
+                        "High"
+                    ]
+                }
+            ],
+            "NodeAttributes": {
+                "BirthRate": 0.10653972602739727,
+                "District_Code": "NGA148",
+                "InitialPopulation": 1000,
+                "LGA": "Damboa",
+                "Latitude": 11.11976744,
+                "Longitude": 12.76256479,
+                "State": "Borno"
+            },
+            "NodeID": 1
+        }
+    ]
+}

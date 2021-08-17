@@ -18,7 +18,8 @@
       <a href="#getting-started-with-the-modeling-framework">Getting Started With The Simulation Modeling Framework</a></li>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#running-the-app">Running The App </a></li>
+        <li><a href="#seasonality-calibration">Seasonality Calibration</a></li>
+        <li><a href="#baseline-calibration">Baseline Calibration</a></li>
       </ul>
     </li>
     <li><a href="#troubleshooting-the-shiny-app">Troubleshooting The Shiny App</a></li>    
@@ -54,7 +55,7 @@ Models were developed within EMOD v2.20, [an agent-based model of *Plasmodium fa
 
 ### Prerequisites
 
-Install Python 3.6 and dtk-tools following the instructions [here](http://institutefordiseasemodeling.github.io/dtk-tools/gettingstarted.html. DTK-tools are a set of generic modules created for configuring disease and vector-related simulations, and intervention campaigns. 
+Install Python 3.6 and dtk-tools following the instructions [here](http://institutefordiseasemodeling.github.io/dtk-tools/gettingstarted.html. DTK-tools are a set of generic modules created for configuring disease and vector-related simulations, and intervention campaigns in EMOD. 
 
 DTK-tools malaria package is also required as it contains module specific for modeling malaria. Installation instructions can be found [here](https://github.com/aouedraogo/dtk-tools-malaria). 
 
@@ -63,7 +64,7 @@ DTK-tools malaria package is also required as it contains module specific for mo
 
 Four scripts are provided for replicating archetype-level seasonality calibrations 
 
-1. [Helper.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/Helpers.py): Include a function for setting priors on monthly habitats and another function for importing and processing facility-level incidence data from the Rapid Impact Assessment (RIA) study conducted by the NMEP. Incidence data is used to compare simulated incidence 
+1. [Helper.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/Helpers.py): Includes a function for setting priors on monthly habitats and another function for importing and processing facility-level incidence data from the Rapid Impact Assessment (RIA) study conducted by the NMEP. Incidence data is used to compare simulated incidence 
 
 
 2. [seasonality_calib.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/seasonality_calib.py): Contains a functions and scripts for calibrating seasonality 
@@ -72,15 +73,16 @@ Four scripts are provided for replicating archetype-level seasonality calibratio
 
 4. [replot_seasonality_best_fit.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/replot_seasonality_best_fit.py): Classes and functions for plotting the best archetype seasonality fits, their corresponding incidence values, and 95% confidence intervals.  
 
-Data inputs to the calibration - demographics and air temperature per LGA are provided [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/simulation_inputs/demographics_and%20climate_files). RIA and LGA population data is available from the NMEP on request. 
+Data inputs to the seasonality calibration - demographics and air temperature per LGA are provided [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/simulation_inputs/demographics_and%20climate_files). RIA and LGA population data is available from the NMEP on request. 
 
 
-3. Click on "Run App" and the application will launch resembling the online version [here](https://ifeomaozo.shinyapps.io/hbhi-nigeria/).
+### Baseline Calibration
 
- 	* Type in the username and password that you chose in #1 
-	* Make desired queries and download corresponding outputs  
+Two scripts are provided for setting baseline transmission intensity 
 
+1. [sweep_seasonal_archetypes.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/sweep_seasonal_archetypes.py): Comprises dtk related configuration builders and scripts are running 50 year burn-ins to establish population immunity (in the absence of ITN use) using larval habitat values, estimated from seasonality calibrations, and archtype-level case management estimates in 2010 from the Nigerian Malaria Indicator Survey (MIS). 
 
+2. [sweep_2010_PfPR_with_ITN.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/sweep_2010_PfPR_with_ITN.py): Similar script as #1 but includes archetype-level ITN use values estimated from the 2010 MIS. 
 
 <!-- TROUBLESHOOT-->
 ## Troubleshooting The Shiny App 

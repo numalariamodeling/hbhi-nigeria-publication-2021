@@ -27,7 +27,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The Nigerian Malaria Elimination Program (NMEP) together with the World Health Organization developed a targeted response to intervention deployment at the local government-level to inform the development of the 2021 - 2025 National Malaria Strategic Plan, as part of the [High Burden to High Impact response](https://www.who.int/publications/i/item/WHO-CDS-GMP-2018.25). The [Northwestern University Malaria Modeling Team](https://www.numalariamodeling.org/team.html) were recruited to create a mathematical modeling framework for predicting the impact of four NMEP proposed strategies on malaria morbidity and mortality in each of Nigeria's 774 local government areas (LGA). This repo contains scripts for replicating the LGA-level models described in the associated manuscript entitled "Application of mathematical modeling to inform national malaria intervention planning in Nigeria" and the modeling outputs also present in the manuscript and related R Shiny Application. 
+The Nigerian Malaria Elimination Program (NMEP) together with the World Health Organization developed a targeted response to intervention deployment at the local government-level to inform the development of the 2021-2025 National Malaria Strategic Plan, as part of the [High Burden to High Impact response](https://www.who.int/publications/i/item/WHO-CDS-GMP-2018.25). The [Northwestern University Malaria Modeling Team](https://www.numalariamodeling.org/team.html) were recruited to create a mathematical modeling framework for predicting the impact of four NMEP proposed strategies on malaria morbidity and mortality in each of Nigeria's 774 local government areas (LGA). This repository contains scripts for replicating the LGA-level models described in the associated manuscript entitled "Application of mathematical modeling to inform national malaria intervention planning in Nigeria" and the modeling outputs also present in the manuscript and related R Shiny Application. 
 
 
 
@@ -39,7 +39,9 @@ A three-step process was used to generate LGA-level predictions of potential nat
 
 ### Built With
 
-Models were developed within EMOD v2.20, [an agent-based model of Plasmodium falciparum Transmission](https://malariajournal.biomedcentral.com/articles/10.1186/1475-2875-10-303), which is a coupling of models of temperature-dependent vector lifecycle and vector population dynamics, human disease and immunity, and intervention effects.  
+Models were developed within EMOD v2.20, [an agent-based model of *Plasmodium falciparum* Transmission](https://malariajournal.biomedcentral.com/articles/10.1186/1475-2875-10-303), a coupling of models of temperature-dependent vector lifecycle and vector population dynamics, human disease and immunity, and intervention effects. 
+
+![alt text](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/EMOD.png) 
 
 
 <!-- GETTING STARTED -->

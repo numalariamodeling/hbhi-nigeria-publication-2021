@@ -30,7 +30,7 @@
         <li><a href="#IPTi">IPTi</a></li>
 		<li><a href="#IPTp">IPTp</a></li>
 	</ul>
-	<li><a href="#Analysers">Analyzers</a></li>
+	<li><a href="#analyzers">Analyzers</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>

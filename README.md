@@ -8,9 +8,14 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-the-project">About The Project</a> </li>
+    <li><a href="#about-the-project">About The Project</a> 
     <li><a href="#summary-of-the-modeling-framework">Summary Of The Modeling Framework </a></li>
-      <li><<a href="#running-the-shiny-application-locally">Running The Shiny Application Locally </a></li>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <<a href="#running-the-shiny-application-locally">Running The Shiny Application Locally </a></li>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#running-the-app">Running The App </a></li>

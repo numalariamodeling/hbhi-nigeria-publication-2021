@@ -20,6 +20,7 @@
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#seasonality-calibration">Seasonality Calibration</a></li>
         <li><a href="#baseline-calibration">Baseline Calibration</a></li>
+<li><a href="#historical-simulations">Historical Simulations</a></li>
       </ul>
     </li>
     <li><a href="#troubleshooting-the-shiny-app">Troubleshooting The Shiny App</a></li>    
@@ -93,9 +94,21 @@ Five scripts are provided for setting baseline transmission intensity
 5. [analyze_pfpr_itn_2010.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/analyze_pfpr_itn_2010.py): Plots the output of sweeps showcasing the larval habitat scale factors and simulated U5 *Pf*PR match to the 2010 MIS  U5 *Pf*PR. 
 
 
-Data inputs to the baseline calibration - 2010 MIS  archetype case management data is linked [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/archetype/arch_med_10_v2.csv), 2010 MIS archetype ITN data is linked [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/archetype/ITN_archetype_10_v4.csv), 2010 MIS archetype *Pf*PR data is linked[here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/archetype/PfPr_archetype_10_v2.csv) and relative vector abundance input files are [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/DS_vector_rel_abundance.csv)
+Data inputs to the baseline calibration - 2010 MIS  archetype case management data is linked [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/archetype/arch_med_10_v2.csv), 2010 MIS archetype ITN data is linked [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/archetype/ITN_archetype_10_v4.csv), 2010 MIS archetype *Pf*PR data is linked [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/archetype/PfPr_archetype_10_v2.csv) and relative vector abundance input files are [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/DS_vector_rel_abundance.csv)
 
-### Historical projections 
+### Historical Simulations
+
+1. [run_LGA_to_present.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/run_LGA_to_present.py): Used for running 11 year historical simulations from 2010-2020. 
+
+Intervention inputs files required for running the simulation - case management, insecticide treated net use and seasonal malaria chemoprevention (SMC) - can be found [here]()
+
+
+### Future Projections 
+
+1. [run_LGA_2020_forward.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/run_LGA_2020_forward.py): Used for running 11 year historical simulations from 2020-2030. 
+
+Sccenario files required for running the simulation - case management, insecticide treated net use, SMC, Intermittent preventive treatment in pregnancy (IPTp), intemittent preventive treatment in infants (IPTp) - can be found [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/simulation_inputs/future%20projections)
+
 
 <!-- TROUBLESHOOT-->
 ## Troubleshooting The Shiny App 

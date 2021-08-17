@@ -93,6 +93,8 @@ Five scripts are provided for setting baseline transmission intensity
 5. [analyze_pfpr_itn_2010.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/analyze_pfpr_itn_2010.py): Plots the output of sweeps showcasing the larval habitat scale factors and simulated U5 *Pf*PR match to the 2010 MIS  U5 *Pf*PR. 
 
 
+Data inputs to the baseline calibration - 2010 MIS  archetype case management daya is linked [here](), 2010 MIS archetype ITN data is linked [here](), and 2010 MI archetype *Pf*PR data is linked ][here](). Relative vector abundance input files are [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/DS_vector_rel_abundance.csv)
+
 <!-- TROUBLESHOOT-->
 ## Troubleshooting The Shiny App 
 

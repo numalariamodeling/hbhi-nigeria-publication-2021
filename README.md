@@ -64,29 +64,34 @@ DTK-tools malaria package is also required as it contains module specific for mo
 
 Four scripts are provided for replicating archetype-level seasonality calibrations 
 
-1. [SeasonalityCalibSite.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/SeasonalityCalibSite.py): Python module with class for getting reference incidence data per LGA and importing the [analyzer](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/ChannelByMultiYearSeasonCohortInsetAnalyzer.py) for comparing simulation and incidence data.  
+1. [SeasonalityCalibSite.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/SeasonalityCalibSite.py): Python module with class for getting reference incidence data per LGA and importing the [analyzer](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/ChannelByMultiYearSeasonCohortInsetAnalyzer.py) script for comparing simulation and incidence data.  
 
-1. [Helper.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/Helpers.py): Includes a function for setting priors on monthly habitats and another function for importing and processing facility-level incidence data from the Rapid Impact Assessment (RIA) study conducted by the NMEP. Incidence data is used to compare simulated incidence 
+2. [Helper.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/Helpers.py): Includes a function for setting priors on monthly habitats and another function for importing and processing facility-level incidence data from the Rapid Impact Assessment (RIA) study conducted by the NMEP. Incidence data is used to compare simulated incidence 
 
 
-2. [seasonality_calib.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/seasonality_calib.py): Contains a functions and scripts for calibrating seasonality 
+3. [seasonality_calib.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/seasonality_calib.py): Contains a functions and scripts for calibrating seasonality 
 
-3. [grab_best_plots.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/grab_best_plots.py): Function and script for obtaining the best fitting archetypal seasonality plots and their values. 
+4. [grab_best_plots.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/grab_best_plots.py): Function and script for obtaining the best fitting archetypal seasonality plots and their values. 
 
-4. [replot_seasonality_best_fit.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/replot_seasonality_best_fit.py): Classes and functions for plotting the best archetype seasonality fits, their corresponding incidence values, and 95% confidence intervals.  
+5. [replot_seasonality_best_fit.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/replot_seasonality_best_fit.py): Classes and functions for plotting the best archetype seasonality fits, their corresponding incidence values, and 95% confidence intervals.  
 
 Data inputs to the seasonality calibration - demographics and air temperature per LGA are provided [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/simulation_inputs/demographics_and%20climate_files). RIA and LGA population data is available from the NMEP on request. 
 
 
 ### Baseline Calibration
 
-Two scripts are provided for setting baseline transmission intensity 
+Five scripts are provided for setting baseline transmission intensity 
 
-1. [sweep_seasonal_archetypes.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/sweep_seasonal_archetypes.py): Comprises dtk related configuration builders and scripts are running 50 year burn-ins to establish population immunity (in the absence of ITN use) using larval habitat values, estimated from seasonality calibrations, and archetype-level case management estimates in 2010 from the Nigerian Malaria Indicator Survey (MIS). 
+1. [sweep_biting_rates.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/sweep_biting_rates.py): For running a sweep of simulations to sample monthly larval habitats using vector relative abundance values.  
 
-2. [sweep_2010_PfPR_with_ITN.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/sweep_2010_PfPR_with_ITN.py): Script for applying a scaling factor on the monthly vector larval habitat availability to reproduce the 2010 MIS P in U5, in the presence of the observed 2010 ITN usage and case management (CM) coverage Similar script as #1 and includes archetype-level ITN use values estimated from the 2010 MIS. 
+2. [analyze_daily_bites_per_human.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/analyze_daily_bites_per_human.py): Analyzer simulation results from #1 for daily mosquito bites between 1 and 200 to produce associated minimum and maximum larval habitats scale factors to sample when matching *Pf*PR in the simulation to the 2010 MIS. 
 
-3. [analyze_pfpr_itn_2010.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/analyze_pfpr_itn_2010.py): Plots the output of sweeps showcasing the larval habitat scale factors used to match 2010 . 
+3. [sweep_seasonal_archetypes.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/sweep_seasonal_archetypes.py): Comprises dtk related configuration builders and scripts for running 50 year burn-ins to establish population immunity (in the absence of ITN use) using larval habitat values, estimated from seasonality calibrations, and 2010 archetype-level case management estimates from the Nigerian Malaria Indicator Survey (MIS). 
+
+4. [sweep_2010_PfPR_with_ITN.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/sweep_2010_PfPR_with_ITN.py): Script for applying a scaling factor on the monthly vector larval habitat availability to reproduce the 2010 MIS U5 *Pf*PR, in the presence of the observed 2010 ITN usage and case management (CM) coverage. 
+
+5. [analyze_pfpr_itn_2010.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/analyze_pfpr_itn_2010.py): Plots the output of sweeps showcasing the larval habitat scale factors and simulated U5 *Pf*PR match to the 2010 MIS  U5 *Pf*PR. 
+
 
 <!-- TROUBLESHOOT-->
 ## Troubleshooting The Shiny App 

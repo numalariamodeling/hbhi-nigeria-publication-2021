@@ -15,7 +15,7 @@
       </ul>
     </li>
     <li>
-      <<a href="#running-the-shiny-application-locally">Running The Shiny Application Locally </a></li>
+      <a href="#getting-started-with-the-modeling-framework">Getting Started With The Simulation Modeling Framework</a></li>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#running-the-app">Running The App </a></li>
@@ -32,7 +32,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The Nigerian Malaria Elimination Program (NMEP) together with the World Health Organization developed a targeted response to intervention deployment at the local government-level to inform the development of the 2021-2025 National Malaria Strategic Plan, as part of the [High Burden to High Impact response](https://www.who.int/publications/i/item/WHO-CDS-GMP-2018.25). The [Northwestern University Malaria Modeling Team](https://www.numalariamodeling.org/team.html) were recruited to create a mathematical modeling framework for predicting the impact of four NMEP proposed strategies on malaria morbidity and mortality in each of Nigeria's 774 local government areas (LGA). This repository contains scripts for replicating the LGA-level models described in the associated manuscript entitled "Application of mathematical modeling to inform national malaria intervention planning in Nigeria" and the modeling outputs also present in the manuscript and related R Shiny Application. 
+The Nigerian Malaria Elimination Program (NMEP) together with the World Health Organization developed a targeted response to intervention deployment at the local government-level to inform the development of the 2021-2025 National Malaria Strategic Plan, as part of the [High Burden to High Impact response](https://www.who.int/publications/i/item/WHO-CDS-GMP-2018.25). The [Northwestern University Malaria Modeling Team](https://www.numalariamodeling.org/team.html) were recruited to create a mathematical modeling framework for predicting the impact of four NMEP proposed strategies on malaria morbidity and mortality in each of Nigeria's 774 local government areas (LGA). This repository contains scripts and data for replicating the LGA-level models described in the associated manuscript entitled "Application of mathematical modeling to inform national malaria intervention planning in Nigeria" and the modeling outputs also present in the manuscript and related R Shiny Application. 
 
 
 
@@ -50,31 +50,29 @@ Models were developed within EMOD v2.20, [an agent-based model of *Plasmodium fa
 
 
 <!-- GETTING STARTED -->
-## Running The Shiny Application Locally 
-
-To get a local copy up and running, follow these simple steps.
+## Getting Started With The Simulation Modeling Framework
 
 ### Prerequisites
 
-Download R and R studio following the instructions [here](https://rstudio-education.github.io/hopr/starting.html)
+Install Python 3.6 and dtk-tools following the instructions [here](http://institutefordiseasemodeling.github.io/dtk-tools/gettingstarted.html. DTK-tools are a set of generic modules created for configuring disease and vector-related simulations, and intervention campaigns. 
 
-Clone this repo to the folder you would like to place the file in, either using the terminal (mac users), SourceTree or by simply downloading the zip file in the [main page](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021).  
+DTK-tools malaria package is also required as it contains module specific for modeling malaria. Installation instructions can be found [here](https://github.com/aouedraogo/dtk-tools-malaria). 
 
-* terminal (mac users) 
-  ```sh
-  cd Documents 
-  git clone https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-nigeria-shiny-app
-  ```
 
-### Running The App 
+### Seasonality Calibration
 
-1. Setup a password in the [server](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/src/app/server.R). 
+Four scripts are provided for replicating archetype-level seasonality calibrations 
 
-	* The current username and password is set as "3" but you can change it to whatever you like 
+1. [Helper.py] (https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/Helpers.py): Include a function for setting priors on monthly habitats and another function for importing and processing facility-level incidence data from the Rapid Impact Assessment (RIA) study conducted by the NMEP. Incidence data is used to compare simulated incidence 
 
-2. Navigate to the local [ui folder](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/src/app/ui.R). 
 
-	* Rstudio should prompt you to download all the required packages 
+2.[seasonality_calib.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/seasonality_calib.py): Contains a functions and scripts for calibrating seasonality 
+
+3. [grab_best_plots.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/grab_best_plots.py): Function and script for obtaining the best fitting archetypal seasonality plots and their values. 
+
+4. [replot_seasonality_best_fit.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/replot_seasonality_best_fit.py): Classes and functions for plotting the best archetype seasonality fits, their corresponding incidence values, and 95% confidence intervals.  
+
+Data inputs to the calibration - demographics and air temperature per LGA are provided here. RIA and LGA population data is available from the NMEP on request. 
 
 
 3. Click on "Run App" and the application will launch resembling the online version [here](https://ifeomaozo.shinyapps.io/hbhi-nigeria/).

@@ -10,12 +10,16 @@ library(rlang)
 library(ggiraph)
 library(patchwork)
 library(stringr)
+library(thematic)
+library(showtext)
 library(shiny)
 library(shinymanager)
 
 
-import::from('./pages/LGAinputs/ui.R', LGAModelUI)
-import::from('./pages/LGAoutcomes/ui.R', outcomesUI)
+thematic_shiny(font= "lato")
+
+import::from('pages/LGAinputs/ui.R', LGAModelUI)
+import::from('pages/LGAoutcomes/ui.R', outcomesUI)
 
 navbarPageWithInputs <- function(..., inputs) {
 	navbar <- navbarPage(...)
@@ -26,10 +30,10 @@ navbarPageWithInputs <- function(..., inputs) {
 }
 
 ui <- shiny::tagList(
-	shinyjs::useShinyjs(),
+  shinyjs::useShinyjs(),
 	navbarPageWithInputs(
 		id='navbar',
-		theme='flatly.min.css',
+		theme= 'flatly.min.css',
 		'Malaria intervention scenarios and projections: Nigeria impact modeling',
 		shiny::tabPanel(
 			value='Scenarios',
@@ -53,7 +57,7 @@ ui <- shiny::tagList(
 					'codeButton',
 					icon=shiny::icon('github'),
 					'Code',
-					onclick='window.open(\'https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-nigeria-shiny-app/src/app\', \'_blank\')'
+					onclick='window.open(\'https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-nigeria-shiny-app\', \'_blank\')'
 				)
 			)
 			
@@ -63,14 +67,13 @@ ui <- shiny::tagList(
 		title='Malaria intervention scenarios and projections',
 		trigger='infoButton',
 		size='large',
-		"This tool visualizes intervention packages and projections for four scenarios considered for funding 
+		"This tool visualizes intervention packages and projections for four scenarios considered for funding by
 		the Nigerian Malaria Elimination Program as part of the 
 		World Health Organization's ", htmltools::tags$a(href ="https://www.who.int/publications/i/item/WHO-CDS-GMP-2018.25", "High Burden to High Impact Initiative (HBHI)", target ="_blank"),
-		"to develop targeted interventions for high-burden countries.", "LGA-level intervention packages were used 
+		"to develop targeted interventions for high-burden countries.", "LGA-level intervention packages were used as
 		inputs in an agent-based model of malaria transmission as described in the manuscript entitled 'Application of 
 		mathematical modeling to inform intervention planning in Nigeria'.",
 		br(), br(),
-		
 		
 		htmltools::tags$b("READ: LGA-level projections are highly uncertain and may not be meaningful"),
 		

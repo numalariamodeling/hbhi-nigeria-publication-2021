@@ -93,7 +93,9 @@ Five scripts are provided for setting baseline transmission intensity
 5. [analyze_pfpr_itn_2010.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/analyze_pfpr_itn_2010.py): Plots the output of sweeps showcasing the larval habitat scale factors and simulated U5 *Pf*PR match to the 2010 MIS  U5 *Pf*PR. 
 
 
-Data inputs to the baseline calibration - 2010 MIS  archetype case management daya is linked [here](), 2010 MIS archetype ITN data is linked [here](), and 2010 MI archetype *Pf*PR data is linked ][here](). Relative vector abundance input files are [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/DS_vector_rel_abundance.csv)
+Data inputs to the baseline calibration - 2010 MIS  archetype case management data is linked [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/archetype/arch_med_10_v2.csv), 2010 MIS archetype ITN data is linked [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/archetype/ITN_archetype_10_v4.csv), 2010 MIS archetype *Pf*PR data is linked[here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/archetype/PfPr_archetype_10_v2.csv) and relative vector abundance input files are [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/DS_vector_rel_abundance.csv)
+
+### Historical projections 
 
 <!-- TROUBLESHOOT-->
 ## Troubleshooting The Shiny App 

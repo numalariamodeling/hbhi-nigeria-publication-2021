@@ -63,16 +63,16 @@ DTK-tools malaria package is also required as it contains module specific for mo
 
 Four scripts are provided for replicating archetype-level seasonality calibrations 
 
-1. [Helper.py] (https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/Helpers.py): Include a function for setting priors on monthly habitats and another function for importing and processing facility-level incidence data from the Rapid Impact Assessment (RIA) study conducted by the NMEP. Incidence data is used to compare simulated incidence 
+1. [Helper.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/Helpers.py): Include a function for setting priors on monthly habitats and another function for importing and processing facility-level incidence data from the Rapid Impact Assessment (RIA) study conducted by the NMEP. Incidence data is used to compare simulated incidence 
 
 
-2.[seasonality_calib.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/seasonality_calib.py): Contains a functions and scripts for calibrating seasonality 
+2. [seasonality_calib.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/seasonality_calib.py): Contains a functions and scripts for calibrating seasonality 
 
 3. [grab_best_plots.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/grab_best_plots.py): Function and script for obtaining the best fitting archetypal seasonality plots and their values. 
 
 4. [replot_seasonality_best_fit.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/replot_seasonality_best_fit.py): Classes and functions for plotting the best archetype seasonality fits, their corresponding incidence values, and 95% confidence intervals.  
 
-Data inputs to the calibration - demographics and air temperature per LGA are provided here. RIA and LGA population data is available from the NMEP on request. 
+Data inputs to the calibration - demographics and air temperature per LGA are provided [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/simulation_inputs/demographics_and%20climate_files). RIA and LGA population data is available from the NMEP on request. 
 
 
 3. Click on "Run App" and the application will launch resembling the online version [here](https://ifeomaozo.shinyapps.io/hbhi-nigeria/).

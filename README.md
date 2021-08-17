@@ -161,7 +161,7 @@ Project Link: [https://github.com/numalariamodeling/hbhi-nigeria-publication-202
 ## Acknowledgements
 * [Perpetua Uhomoibhi @National Malaria Elimination Programme](https://nmcp.gov.ng/)
 * [Ibrahim Maikore @ World Health Organization, Regional Office for Africa](https://www.afro.who.int/)
-* [Abdisalan Noor and Bea Galatas @World Health Organization Global Malaria Programme](https://www.who.int/teams/global-malaria-programme)
+* [Abdisalan Noor, Bea Galatas and Tamara Ehler @World Health Organization Global Malaria Programme](https://www.who.int/teams/global-malaria-programme)
 * [Jaline Gerardin - Principal Investigator @NU Malaria Modeling Team](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=44305)
 * [All NU Malaria Modeling Team members](https://www.numalariamodeling.org/team.html)
 * [Monique Ambrose and Caitlin Bever @Institute for Disease Modeling](https://www.idmod.org/team)

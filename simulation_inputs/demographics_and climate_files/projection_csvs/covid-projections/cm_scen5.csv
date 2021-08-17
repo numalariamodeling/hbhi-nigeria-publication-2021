@@ -1,0 +1,1549 @@
+LGA,Rep_DS,U5_coverage,adult_coverage,simday,duration,year,round,severe_cases
+Aba North,Ngor-Okpala,0,0,71,365,2020,1,0
+Aba North,Ngor-Okpala,0,0,436,295,2021,2,0
+Aba South,Ngor-Okpala,0,0,71,365,2020,1,0
+Aba South,Ngor-Okpala,0,0,436,295,2021,2,0
+Abadam,Babura,0,0,71,365,2020,1,0
+Abadam,Babura,0,0,436,295,2021,2,0
+Abaji,Keana,0,0,71,365,2020,1,0
+Abaji,Keana,0,0,436,295,2021,2,0
+Abak,Nsit Ubium,0,0,71,365,2020,1,0
+Abak,Nsit Ubium,0,0,436,295,2021,2,0
+Abakaliki,Owan East,0,0,71,365,2020,1,0
+Abakaliki,Owan East,0,0,436,295,2021,2,0
+Abeokuta North,Owan East,0,0,71,365,2020,1,0
+Abeokuta North,Owan East,0,0,436,295,2021,2,0
+Abeokuta South,Uzo-Uwani,0,0,71,365,2020,1,0
+Abeokuta South,Uzo-Uwani,0,0,436,295,2021,2,0
+Abi,Obubra,0,0,71,365,2020,1,0
+Abi,Obubra,0,0,436,295,2021,2,0
+Aboh-Mbaise,Ngor-Okpala,0,0,71,365,2020,1,0
+Aboh-Mbaise,Ngor-Okpala,0,0,436,295,2021,2,0
+Abua-Odual,Ahoada West,0,0,71,365,2020,1,0
+Abua-Odual,Ahoada West,0,0,436,295,2021,2,0
+Abuja Municipal,Keana,0,0,71,365,2020,1,0
+Abuja Municipal,Keana,0,0,436,295,2021,2,0
+Adavi,Owan East,0,0,71,365,2020,1,0
+Adavi,Owan East,0,0,436,295,2021,2,0
+Ado,Akinyele,0,0,71,365,2020,1,0
+Ado,Akinyele,0,0,436,295,2021,2,0
+Ado Ekiti,Owan East,0,0,71,365,2020,1,0
+Ado Ekiti,Owan East,0,0,436,295,2021,2,0
+Ado-Odo-Ota,Uzo-Uwani,0,0,71,365,2020,1,0
+Ado-Odo-Ota,Uzo-Uwani,0,0,436,295,2021,2,0
+Afijio,Akinyele,0,0,71,365,2020,1,0
+Afijio,Akinyele,0,0,436,295,2021,2,0
+Afikpo North,Oru West,0,0,71,365,2020,1,0
+Afikpo North,Oru West,0,0,436,295,2021,2,0
+Afikpo South,Ngor-Okpala,0,0,71,365,2020,1,0
+Afikpo South,Ngor-Okpala,0,0,436,295,2021,2,0
+Agaie,Oke-Ero,0,0,71,365,2020,1,0
+Agaie,Oke-Ero,0,0,436,295,2021,2,0
+Agatu,Keana,0,0,71,365,2020,1,0
+Agatu,Keana,0,0,436,295,2021,2,0
+Agege,Uzo-Uwani,0,0,71,365,2020,1,0
+Agege,Uzo-Uwani,0,0,436,295,2021,2,0
+Aguata,Oru West,0,0,71,365,2020,1,0
+Aguata,Oru West,0,0,436,295,2021,2,0
+Agwara,Birnin Kebbi,0,0,71,365,2020,1,0
+Agwara,Birnin Kebbi,0,0,436,295,2021,2,0
+Ahiazu-Mbaise,Ngor-Okpala,0,0,71,365,2020,1,0
+Ahiazu-Mbaise,Ngor-Okpala,0,0,436,295,2021,2,0
+Ahoada East,Ahoada West,0,0,71,365,2020,1,0
+Ahoada East,Ahoada West,0,0,436,295,2021,2,0
+Ahoada West,Ahoada West,0,0,71,365,2020,1,0
+Ahoada West,Ahoada West,0,0,436,295,2021,2,0
+Aiyedade,Akinyele,0,0,71,365,2020,1,0
+Aiyedade,Akinyele,0,0,436,295,2021,2,0
+Aiyedire,Akinyele,0,0,71,365,2020,1,0
+Aiyedire,Akinyele,0,0,436,295,2021,2,0
+Ajaokuta,Owan East,0,0,71,365,2020,1,0
+Ajaokuta,Owan East,0,0,436,295,2021,2,0
+Ajeromi-Ifelodun,Uzo-Uwani,0,0,71,365,2020,1,0
+Ajeromi-Ifelodun,Uzo-Uwani,0,0,436,295,2021,2,0
+Ajingi,Taura,0,0,71,365,2020,1,0
+Ajingi,Taura,0,0,436,295,2021,2,0
+Akamkpa,Ngor-Okpala,0,0,71,365,2020,1,0
+Akamkpa,Ngor-Okpala,0,0,436,295,2021,2,0
+Akinyele,Akinyele,0,0,71,365,2020,1,0
+Akinyele,Akinyele,0,0,436,295,2021,2,0
+Akko,Alkaleri,0,0,71,365,2020,1,0
+Akko,Alkaleri,0,0,436,295,2021,2,0
+Akoko North East,Oke-Ero,0,0,71,365,2020,1,0
+Akoko North East,Oke-Ero,0,0,436,295,2021,2,0
+Akoko North West,Oke-Ero,0,0,71,365,2020,1,0
+Akoko North West,Oke-Ero,0,0,436,295,2021,2,0
+Akoko South East,Oke-Ero,0,0,71,365,2020,1,0
+Akoko South East,Oke-Ero,0,0,436,295,2021,2,0
+Akoko South West,Oke-Ero,0,0,71,365,2020,1,0
+Akoko South West,Oke-Ero,0,0,436,295,2021,2,0
+Akoko-Edo,Owan East,0,0,71,365,2020,1,0
+Akoko-Edo,Owan East,0,0,436,295,2021,2,0
+Akpabuyo,Nsit Ubium,0,0,71,365,2020,1,0
+Akpabuyo,Nsit Ubium,0,0,436,295,2021,2,0
+Akuku Toru,Ahoada West,0,0,71,365,2020,1,0
+Akuku Toru,Ahoada West,0,0,436,295,2021,2,0
+Akure North,Owan East,0,0,71,365,2020,1,0
+Akure North,Owan East,0,0,436,295,2021,2,0
+Akure South,Owan East,0,0,71,365,2020,1,0
+Akure South,Owan East,0,0,436,295,2021,2,0
+Akwanga,Oke-Ero,0,0,71,365,2020,1,0
+Akwanga,Oke-Ero,0,0,436,295,2021,2,0
+Albasu,Takali,0,0,71,365,2020,1,0
+Albasu,Takali,0,0,436,295,2021,2,0
+Aleiro,Birnin Kebbi,0,0,71,365,2020,1,0
+Aleiro,Birnin Kebbi,0,0,436,295,2021,2,0
+Alimosho,Uzo-Uwani,0,0,71,365,2020,1,0
+Alimosho,Uzo-Uwani,0,0,436,295,2021,2,0
+Alkaleri,Alkaleri,0,0,71,365,2020,1,0
+Alkaleri,Alkaleri,0,0,436,295,2021,2,0
+Amuwo-Odofin,Isoko South,0,0,71,365,2020,1,0
+Amuwo-Odofin,Isoko South,0,0,436,295,2021,2,0
+Anambra East,Uzo-Uwani,0,0,71,365,2020,1,0
+Anambra East,Uzo-Uwani,0,0,436,295,2021,2,0
+Anambra West,Uzo-Uwani,0,0,71,365,2020,1,0
+Anambra West,Uzo-Uwani,0,0,436,295,2021,2,0
+Anaocha,Oru West,0,0,71,365,2020,1,0
+Anaocha,Oru West,0,0,436,295,2021,2,0
+Andoni,Nsit Ubium,0,0,71,365,2020,1,0
+Andoni,Nsit Ubium,0,0,436,295,2021,2,0
+Aninri,Oru West,0,0,71,365,2020,1,0
+Aninri,Oru West,0,0,436,295,2021,2,0
+Aniocha North,Uzo-Uwani,0,0,71,365,2020,1,0
+Aniocha North,Uzo-Uwani,0,0,436,295,2021,2,0
+Aniocha South,Uzo-Uwani,0,0,71,365,2020,1,0
+Aniocha South,Uzo-Uwani,0,0,436,295,2021,2,0
+Anka,Darazo,0,0,71,365,2020,1,0
+Anka,Darazo,0,0,436,295,2021,2,0
+Ankpa,Owan East,0,0,71,365,2020,1,0
+Ankpa,Owan East,0,0,436,295,2021,2,0
+Apa,Keana,0,0,71,365,2020,1,0
+Apa,Keana,0,0,436,295,2021,2,0
+Apapa,Isoko South,0,0,71,365,2020,1,0
+Apapa,Isoko South,0,0,436,295,2021,2,0
+Ardo-Kola,Keana,0,0,71,365,2020,1,0
+Ardo-Kola,Keana,0,0,436,295,2021,2,0
+Arewa-Dandi,Birnin Kebbi,0,0,71,365,2020,1,0
+Arewa-Dandi,Birnin Kebbi,0,0,436,295,2021,2,0
+Argungu,Birnin Kebbi,0,0,71,365,2020,1,0
+Argungu,Birnin Kebbi,0,0,436,295,2021,2,0
+Arochukwu,Ngor-Okpala,0,0,71,365,2020,1,0
+Arochukwu,Ngor-Okpala,0,0,436,295,2021,2,0
+Asa,Oke-Ero,0,0,71,365,2020,1,0
+Asa,Oke-Ero,0,0,436,295,2021,2,0
+Asari-Toru,Ahoada West,0,0,71,365,2020,1,0
+Asari-Toru,Ahoada West,0,0,436,295,2021,2,0
+Askira-Uba,Darazo,0,0,71,365,2020,1,0
+Askira-Uba,Darazo,0,0,436,295,2021,2,0
+Atakumosa East,Oke-Ero,0,0,71,365,2020,1,0
+Atakumosa East,Oke-Ero,0,0,436,295,2021,2,0
+Atakumosa West,Akinyele,0,0,71,365,2020,1,0
+Atakumosa West,Akinyele,0,0,436,295,2021,2,0
+Atiba,Akinyele,0,0,71,365,2020,1,0
+Atiba,Akinyele,0,0,436,295,2021,2,0
+Atigbo,Oke-Ero,0,0,71,365,2020,1,0
+Atigbo,Oke-Ero,0,0,436,295,2021,2,0
+Augie,Birnin Kebbi,0,0,71,365,2020,1,0
+Augie,Birnin Kebbi,0,0,436,295,2021,2,0
+Auyo,Taura,0,0,71,365,2020,1,0
+Auyo,Taura,0,0,436,295,2021,2,0
+Awe,Keana,0,0,71,365,2020,1,0
+Awe,Keana,0,0,436,295,2021,2,0
+Awgu,Oru West,0,0,71,365,2020,1,0
+Awgu,Oru West,0,0,436,295,2021,2,0
+Awka North,Uzo-Uwani,0,0,71,365,2020,1,0
+Awka North,Uzo-Uwani,0,0,436,295,2021,2,0
+Awka South,Uzo-Uwani,0,0,71,365,2020,1,0
+Awka South,Uzo-Uwani,0,0,436,295,2021,2,0
+Ayamelum,Uzo-Uwani,0,0,71,365,2020,1,0
+Ayamelum,Uzo-Uwani,0,0,436,295,2021,2,0
+Babura,Babura,0,0,71,365,2020,1,0
+Babura,Babura,0,0,436,295,2021,2,0
+Badagry,Uzo-Uwani,0,0,71,365,2020,1,0
+Badagry,Uzo-Uwani,0,0,436,295,2021,2,0
+Bade,Taura,0,0,71,365,2020,1,0
+Bade,Taura,0,0,436,295,2021,2,0
+Bagudo,Birnin Kebbi,0,0,71,365,2020,1,0
+Bagudo,Birnin Kebbi,0,0,436,295,2021,2,0
+Bagwai,Babura,0,0,71,365,2020,1,0
+Bagwai,Babura,0,0,436,295,2021,2,0
+Bakassi,Obubra,0,0,71,365,2020,1,0
+Bakassi,Obubra,0,0,436,295,2021,2,0
+Bakori,Gwarzo,0,0,71,365,2020,1,0
+Bakori,Gwarzo,0,0,436,295,2021,2,0
+Bakura,Darazo,0,0,71,365,2020,1,0
+Bakura,Darazo,0,0,436,295,2021,2,0
+Balanga,Alkaleri,0,0,71,365,2020,1,0
+Balanga,Alkaleri,0,0,436,295,2021,2,0
+Bali,Keana,0,0,71,365,2020,1,0
+Bali,Keana,0,0,436,295,2021,2,0
+Bama,Darazo,0,0,71,365,2020,1,0
+Bama,Darazo,0,0,436,295,2021,2,0
+Barikin Ladi,Soba,0,0,71,365,2020,1,0
+Barikin Ladi,Soba,0,0,436,295,2021,2,0
+Baruten,Oke-Ero,0,0,71,365,2020,1,0
+Baruten,Oke-Ero,0,0,436,295,2021,2,0
+Bassa1,Keana,0,0,71,365,2020,1,0
+Bassa1,Keana,0,0,436,295,2021,2,0
+Bassa2,Soba,0,0,71,365,2020,1,0
+Bassa2,Soba,0,0,436,295,2021,2,0
+Batagarawa,Rimi,0,0,71,365,2020,1,0
+Batagarawa,Rimi,0,0,436,295,2021,2,0
+Batsari,Rimi,0,0,71,365,2020,1,0
+Batsari,Rimi,0,0,436,295,2021,2,0
+Bauchi,Alkaleri,0,0,71,365,2020,1,0
+Bauchi,Alkaleri,0,0,436,295,2021,2,0
+Baure,Babura,0,0,71,365,2020,1,0
+Baure,Babura,0,0,436,295,2021,2,0
+Bayo,Alkaleri,0,0,71,365,2020,1,0
+Bayo,Alkaleri,0,0,436,295,2021,2,0
+Bebeji,Gwarzo,0,0,71,365,2020,1,0
+Bebeji,Gwarzo,0,0,436,295,2021,2,0
+Bekwara,Oke-Ero,0,0,71,365,2020,1,0
+Bekwara,Oke-Ero,0,0,436,295,2021,2,0
+Bende,Ngor-Okpala,0,0,71,365,2020,1,0
+Bende,Ngor-Okpala,0,0,436,295,2021,2,0
+Biase,Ngor-Okpala,0,0,71,365,2020,1,0
+Biase,Ngor-Okpala,0,0,436,295,2021,2,0
+Bichi,Gwarzo,0,0,71,365,2020,1,0
+Bichi,Gwarzo,0,0,436,295,2021,2,0
+Bida,Oke-Ero,0,0,71,365,2020,1,0
+Bida,Oke-Ero,0,0,436,295,2021,2,0
+Billiri,Alkaleri,0,0,71,365,2020,1,0
+Billiri,Alkaleri,0,0,436,295,2021,2,0
+Bindawa,Rimi,0,0,71,365,2020,1,0
+Bindawa,Rimi,0,0,436,295,2021,2,0
+Binji,Gawabawa,0,0,71,365,2020,1,0
+Binji,Gawabawa,0,0,436,295,2021,2,0
+Biriniwa,Taura,0,0,71,365,2020,1,0
+Biriniwa,Taura,0,0,436,295,2021,2,0
+Birni Kudu,Takali,0,0,71,365,2020,1,0
+Birni Kudu,Takali,0,0,436,295,2021,2,0
+Birnin Kebbi,Birnin Kebbi,0,0,71,365,2020,1,0
+Birnin Kebbi,Birnin Kebbi,0,0,436,295,2021,2,0
+Birnin Magaji,Rimi,0,0,71,365,2020,1,0
+Birnin Magaji,Rimi,0,0,436,295,2021,2,0
+Birnin-Gwari,Giwa,0,0,71,365,2020,1,0
+Birnin-Gwari,Giwa,0,0,436,295,2021,2,0
+Biu,Darazo,0,0,71,365,2020,1,0
+Biu,Darazo,0,0,436,295,2021,2,0
+Bodinga,Gawabawa,0,0,71,365,2020,1,0
+Bodinga,Gawabawa,0,0,436,295,2021,2,0
+Bogoro,Alkaleri,0,0,71,365,2020,1,0
+Bogoro,Alkaleri,0,0,436,295,2021,2,0
+Boki,Obubra,0,0,71,365,2020,1,0
+Boki,Obubra,0,0,436,295,2021,2,0
+Bokkos,Giwa,0,0,71,365,2020,1,0
+Bokkos,Giwa,0,0,436,295,2021,2,0
+Boluwaduro,Akinyele,0,0,71,365,2020,1,0
+Boluwaduro,Akinyele,0,0,436,295,2021,2,0
+Bomadi,Isoko South,0,0,71,365,2020,1,0
+Bomadi,Isoko South,0,0,436,295,2021,2,0
+Bonny,Nsit Ubium,0,0,71,365,2020,1,0
+Bonny,Nsit Ubium,0,0,436,295,2021,2,0
+Borgu,Oke-Ero,0,0,71,365,2020,1,0
+Borgu,Oke-Ero,0,0,436,295,2021,2,0
+Boripe,Akinyele,0,0,71,365,2020,1,0
+Boripe,Akinyele,0,0,436,295,2021,2,0
+Bosso,Keana,0,0,71,365,2020,1,0
+Bosso,Keana,0,0,436,295,2021,2,0
+Brass,Ahoada West,0,0,71,365,2020,1,0
+Brass,Ahoada West,0,0,436,295,2021,2,0
+Buji,Takali,0,0,71,365,2020,1,0
+Buji,Takali,0,0,436,295,2021,2,0
+Bukkuyum,Alkaleri,0,0,71,365,2020,1,0
+Bukkuyum,Alkaleri,0,0,436,295,2021,2,0
+Bungudu,Takali,0,0,71,365,2020,1,0
+Bungudu,Takali,0,0,436,295,2021,2,0
+Bunkure,Gwarzo,0,0,71,365,2020,1,0
+Bunkure,Gwarzo,0,0,436,295,2021,2,0
+Bunza,Birnin Kebbi,0,0,71,365,2020,1,0
+Bunza,Birnin Kebbi,0,0,436,295,2021,2,0
+Bursari,Taura,0,0,71,365,2020,1,0
+Bursari,Taura,0,0,436,295,2021,2,0
+Buruku,Keana,0,0,71,365,2020,1,0
+Buruku,Keana,0,0,436,295,2021,2,0
+Burutu,Isoko South,0,0,71,365,2020,1,0
+Burutu,Isoko South,0,0,436,295,2021,2,0
+Bwari,Giwa,0,0,71,365,2020,1,0
+Bwari,Giwa,0,0,436,295,2021,2,0
+Calabar South,Nsit Ubium,0,0,71,365,2020,1,0
+Calabar South,Nsit Ubium,0,0,436,295,2021,2,0
+Calabar-Municipal,Nsit Ubium,0,0,71,365,2020,1,0
+Calabar-Municipal,Nsit Ubium,0,0,436,295,2021,2,0
+Chanchaga,Keana,0,0,71,365,2020,1,0
+Chanchaga,Keana,0,0,436,295,2021,2,0
+Charanchi,Rimi,0,0,71,365,2020,1,0
+Charanchi,Rimi,0,0,436,295,2021,2,0
+Chibok,Darazo,0,0,71,365,2020,1,0
+Chibok,Darazo,0,0,436,295,2021,2,0
+Chikun,Soba,0,0,71,365,2020,1,0
+Chikun,Soba,0,0,436,295,2021,2,0
+Dala,Alkaleri,0,0,71,365,2020,1,0
+Dala,Alkaleri,0,0,436,295,2021,2,0
+Damaturu,Darazo,0,0,71,365,2020,1,0
+Damaturu,Darazo,0,0,436,295,2021,2,0
+Damban,Darazo,0,0,71,365,2020,1,0
+Damban,Darazo,0,0,436,295,2021,2,0
+Dambatta,Babura,0,0,71,365,2020,1,0
+Dambatta,Babura,0,0,436,295,2021,2,0
+Damboa,Darazo,0,0,71,365,2020,1,0
+Damboa,Darazo,0,0,436,295,2021,2,0
+Dan Musa,Rimi,0,0,71,365,2020,1,0
+Dan Musa,Rimi,0,0,436,295,2021,2,0
+Dandi,Birnin Kebbi,0,0,71,365,2020,1,0
+Dandi,Birnin Kebbi,0,0,436,295,2021,2,0
+Dandume,Giwa,0,0,71,365,2020,1,0
+Dandume,Giwa,0,0,436,295,2021,2,0
+Dange-Shnsi,Gawabawa,0,0,71,365,2020,1,0
+Dange-Shnsi,Gawabawa,0,0,436,295,2021,2,0
+Danja,Giwa,0,0,71,365,2020,1,0
+Danja,Giwa,0,0,436,295,2021,2,0
+Darazo,Darazo,0,0,71,365,2020,1,0
+Darazo,Darazo,0,0,436,295,2021,2,0
+Dass,Alkaleri,0,0,71,365,2020,1,0
+Dass,Alkaleri,0,0,436,295,2021,2,0
+Daura,Babura,0,0,71,365,2020,1,0
+Daura,Babura,0,0,436,295,2021,2,0
+Dawakin Kudu,Gwarzo,0,0,71,365,2020,1,0
+Dawakin Kudu,Gwarzo,0,0,436,295,2021,2,0
+Dawakin Tofa,Taura,0,0,71,365,2020,1,0
+Dawakin Tofa,Taura,0,0,436,295,2021,2,0
+Degema,Ahoada West,0,0,71,365,2020,1,0
+Degema,Ahoada West,0,0,436,295,2021,2,0
+Dekina,Owan East,0,0,71,365,2020,1,0
+Dekina,Owan East,0,0,436,295,2021,2,0
+Demsa,Alkaleri,0,0,71,365,2020,1,0
+Demsa,Alkaleri,0,0,436,295,2021,2,0
+Dikwa,Darazo,0,0,71,365,2020,1,0
+Dikwa,Darazo,0,0,436,295,2021,2,0
+Doguwa,Giwa,0,0,71,365,2020,1,0
+Doguwa,Giwa,0,0,436,295,2021,2,0
+Doma,Keana,0,0,71,365,2020,1,0
+Doma,Keana,0,0,436,295,2021,2,0
+Donga,Keana,0,0,71,365,2020,1,0
+Donga,Keana,0,0,436,295,2021,2,0
+Dukku,Darazo,0,0,71,365,2020,1,0
+Dukku,Darazo,0,0,436,295,2021,2,0
+Dunukofia,Uzo-Uwani,0,0,71,365,2020,1,0
+Dunukofia,Uzo-Uwani,0,0,436,295,2021,2,0
+Dutse,Takali,0,0,71,365,2020,1,0
+Dutse,Takali,0,0,436,295,2021,2,0
+Dutsi,Rimi,0,0,71,365,2020,1,0
+Dutsi,Rimi,0,0,436,295,2021,2,0
+Dutsin-Ma,Rimi,0,0,71,365,2020,1,0
+Dutsin-Ma,Rimi,0,0,436,295,2021,2,0
+Eastern Obolo,Nsit Ubium,0,0,71,365,2020,1,0
+Eastern Obolo,Nsit Ubium,0,0,436,295,2021,2,0
+Ebonyi,Owan East,0,0,71,365,2020,1,0
+Ebonyi,Owan East,0,0,436,295,2021,2,0
+Edati,Oke-Ero,0,0,71,365,2020,1,0
+Edati,Oke-Ero,0,0,436,295,2021,2,0
+Ede North,Akinyele,0,0,71,365,2020,1,0
+Ede North,Akinyele,0,0,436,295,2021,2,0
+Ede South,Akinyele,0,0,71,365,2020,1,0
+Ede South,Akinyele,0,0,436,295,2021,2,0
+Edu,Oke-Ero,0,0,71,365,2020,1,0
+Edu,Oke-Ero,0,0,436,295,2021,2,0
+Efon-Alayee,Oke-Ero,0,0,71,365,2020,1,0
+Efon-Alayee,Oke-Ero,0,0,436,295,2021,2,0
+Egbado North,Owan East,0,0,71,365,2020,1,0
+Egbado North,Owan East,0,0,436,295,2021,2,0
+Egbado South,Uzo-Uwani,0,0,71,365,2020,1,0
+Egbado South,Uzo-Uwani,0,0,436,295,2021,2,0
+Egbeda,Akinyele,0,0,71,365,2020,1,0
+Egbeda,Akinyele,0,0,436,295,2021,2,0
+Egbedore,Akinyele,0,0,71,365,2020,1,0
+Egbedore,Akinyele,0,0,436,295,2021,2,0
+Egor,Uzo-Uwani,0,0,71,365,2020,1,0
+Egor,Uzo-Uwani,0,0,436,295,2021,2,0
+Ehime-Mbano,Ngor-Okpala,0,0,71,365,2020,1,0
+Ehime-Mbano,Ngor-Okpala,0,0,436,295,2021,2,0
+Ejigbo,Akinyele,0,0,71,365,2020,1,0
+Ejigbo,Akinyele,0,0,436,295,2021,2,0
+Ekeremor,Ahoada West,0,0,71,365,2020,1,0
+Ekeremor,Ahoada West,0,0,436,295,2021,2,0
+Eket,Nsit Ubium,0,0,71,365,2020,1,0
+Eket,Nsit Ubium,0,0,436,295,2021,2,0
+Ekiti,Oke-Ero,0,0,71,365,2020,1,0
+Ekiti,Oke-Ero,0,0,436,295,2021,2,0
+Ekiti East,Oke-Ero,0,0,71,365,2020,1,0
+Ekiti East,Oke-Ero,0,0,436,295,2021,2,0
+Ekiti South West,Oke-Ero,0,0,71,365,2020,1,0
+Ekiti South West,Oke-Ero,0,0,436,295,2021,2,0
+Ekiti West,Oke-Ero,0,0,71,365,2020,1,0
+Ekiti West,Oke-Ero,0,0,436,295,2021,2,0
+Ekwusigo,Oru West,0,0,71,365,2020,1,0
+Ekwusigo,Oru West,0,0,436,295,2021,2,0
+Eleme,Ahoada West,0,0,71,365,2020,1,0
+Eleme,Ahoada West,0,0,436,295,2021,2,0
+Emohua,Ahoada West,0,0,71,365,2020,1,0
+Emohua,Ahoada West,0,0,436,295,2021,2,0
+Emure,Oke-Ero,0,0,71,365,2020,1,0
+Emure,Oke-Ero,0,0,436,295,2021,2,0
+Enugu East,Uzo-Uwani,0,0,71,365,2020,1,0
+Enugu East,Uzo-Uwani,0,0,436,295,2021,2,0
+Enugu North,Uzo-Uwani,0,0,71,365,2020,1,0
+Enugu North,Uzo-Uwani,0,0,436,295,2021,2,0
+Enugu South,Uzo-Uwani,0,0,71,365,2020,1,0
+Enugu South,Uzo-Uwani,0,0,436,295,2021,2,0
+Epe,Uzo-Uwani,0,0,71,365,2020,1,0
+Epe,Uzo-Uwani,0,0,436,295,2021,2,0
+Esan Central,Owan East,0,0,71,365,2020,1,0
+Esan Central,Owan East,0,0,436,295,2021,2,0
+Esan North East,Uzo-Uwani,0,0,71,365,2020,1,0
+Esan North East,Uzo-Uwani,0,0,436,295,2021,2,0
+Esan South East,Uzo-Uwani,0,0,71,365,2020,1,0
+Esan South East,Uzo-Uwani,0,0,436,295,2021,2,0
+Esan West,Uzo-Uwani,0,0,71,365,2020,1,0
+Esan West,Uzo-Uwani,0,0,436,295,2021,2,0
+Ese-Odo,Owan East,0,0,71,365,2020,1,0
+Ese-Odo,Owan East,0,0,436,295,2021,2,0
+Esit Eket,Nsit Ubium,0,0,71,365,2020,1,0
+Esit Eket,Nsit Ubium,0,0,436,295,2021,2,0
+Essien Udim,Ngor-Okpala,0,0,71,365,2020,1,0
+Essien Udim,Ngor-Okpala,0,0,436,295,2021,2,0
+Etche,Ngor-Okpala,0,0,71,365,2020,1,0
+Etche,Ngor-Okpala,0,0,436,295,2021,2,0
+Ethiope East,Isoko South,0,0,71,365,2020,1,0
+Ethiope East,Isoko South,0,0,436,295,2021,2,0
+Ethiope West,Isoko South,0,0,71,365,2020,1,0
+Ethiope West,Isoko South,0,0,436,295,2021,2,0
+Etim Ekpo,Isoko South,0,0,71,365,2020,1,0
+Etim Ekpo,Isoko South,0,0,436,295,2021,2,0
+Etinan,Ngor-Okpala,0,0,71,365,2020,1,0
+Etinan,Ngor-Okpala,0,0,436,295,2021,2,0
+Eti-Osa,Nsit Ubium,0,0,71,365,2020,1,0
+Eti-Osa,Nsit Ubium,0,0,436,295,2021,2,0
+Etsako Central,Owan East,0,0,71,365,2020,1,0
+Etsako Central,Owan East,0,0,436,295,2021,2,0
+Etsako East,Owan East,0,0,71,365,2020,1,0
+Etsako East,Owan East,0,0,436,295,2021,2,0
+Etsako West,Owan East,0,0,71,365,2020,1,0
+Etsako West,Owan East,0,0,436,295,2021,2,0
+Etung,Obubra,0,0,71,365,2020,1,0
+Etung,Obubra,0,0,436,295,2021,2,0
+Ewekoro,Uzo-Uwani,0,0,71,365,2020,1,0
+Ewekoro,Uzo-Uwani,0,0,436,295,2021,2,0
+Ezeagu,Uzo-Uwani,0,0,71,365,2020,1,0
+Ezeagu,Uzo-Uwani,0,0,436,295,2021,2,0
+Ezinihitte,Ngor-Okpala,0,0,71,365,2020,1,0
+Ezinihitte,Ngor-Okpala,0,0,436,295,2021,2,0
+Ezza North,Owan East,0,0,71,365,2020,1,0
+Ezza North,Owan East,0,0,436,295,2021,2,0
+Ezza South,Obubra,0,0,71,365,2020,1,0
+Ezza South,Obubra,0,0,436,295,2021,2,0
+Fagge,Alkaleri,0,0,71,365,2020,1,0
+Fagge,Alkaleri,0,0,436,295,2021,2,0
+Fakai,Birnin Kebbi,0,0,71,365,2020,1,0
+Fakai,Birnin Kebbi,0,0,436,295,2021,2,0
+Faskari,Giwa,0,0,71,365,2020,1,0
+Faskari,Giwa,0,0,436,295,2021,2,0
+Fika,Darazo,0,0,71,365,2020,1,0
+Fika,Darazo,0,0,436,295,2021,2,0
+Fufore,Alkaleri,0,0,71,365,2020,1,0
+Fufore,Alkaleri,0,0,436,295,2021,2,0
+Funakaye,Alkaleri,0,0,71,365,2020,1,0
+Funakaye,Alkaleri,0,0,436,295,2021,2,0
+Fune,Darazo,0,0,71,365,2020,1,0
+Fune,Darazo,0,0,436,295,2021,2,0
+Funtua,Gwarzo,0,0,71,365,2020,1,0
+Funtua,Gwarzo,0,0,436,295,2021,2,0
+Gabasawa,Taura,0,0,71,365,2020,1,0
+Gabasawa,Taura,0,0,436,295,2021,2,0
+Gada,Gawabawa,0,0,71,365,2020,1,0
+Gada,Gawabawa,0,0,436,295,2021,2,0
+Gagarawa,Taura,0,0,71,365,2020,1,0
+Gagarawa,Taura,0,0,436,295,2021,2,0
+Gamawa,Gwarzo,0,0,71,365,2020,1,0
+Gamawa,Gwarzo,0,0,436,295,2021,2,0
+Ganaye,Alkaleri,0,0,71,365,2020,1,0
+Ganaye,Alkaleri,0,0,436,295,2021,2,0
+Ganjuwa,Darazo,0,0,71,365,2020,1,0
+Ganjuwa,Darazo,0,0,436,295,2021,2,0
+Garki,Babura,0,0,71,365,2020,1,0
+Garki,Babura,0,0,436,295,2021,2,0
+Garko,Gwarzo,0,0,71,365,2020,1,0
+Garko,Gwarzo,0,0,436,295,2021,2,0
+Garum Mallam,Gwarzo,0,0,71,365,2020,1,0
+Garum Mallam,Gwarzo,0,0,436,295,2021,2,0
+Gashaka,Oru West,0,0,71,365,2020,1,0
+Gashaka,Oru West,0,0,436,295,2021,2,0
+Gassol,Keana,0,0,71,365,2020,1,0
+Gassol,Keana,0,0,436,295,2021,2,0
+Gawabawa,Gawabawa,0,0,71,365,2020,1,0
+Gawabawa,Gawabawa,0,0,436,295,2021,2,0
+Gaya,Gwarzo,0,0,71,365,2020,1,0
+Gaya,Gwarzo,0,0,436,295,2021,2,0
+Gbako,Oke-Ero,0,0,71,365,2020,1,0
+Gbako,Oke-Ero,0,0,436,295,2021,2,0
+Gboko,Keana,0,0,71,365,2020,1,0
+Gboko,Keana,0,0,436,295,2021,2,0
+Gboyin,Obubra,0,0,71,365,2020,1,0
+Gboyin,Obubra,0,0,436,295,2021,2,0
+Geidam,Babura,0,0,71,365,2020,1,0
+Geidam,Babura,0,0,436,295,2021,2,0
+Gezawa,Gwarzo,0,0,71,365,2020,1,0
+Gezawa,Gwarzo,0,0,436,295,2021,2,0
+Giade,Darazo,0,0,71,365,2020,1,0
+Giade,Darazo,0,0,436,295,2021,2,0
+Gireri,Darazo,0,0,71,365,2020,1,0
+Gireri,Darazo,0,0,436,295,2021,2,0
+Giwa,Giwa,0,0,71,365,2020,1,0
+Giwa,Giwa,0,0,436,295,2021,2,0
+Gokana,Nsit Ubium,0,0,71,365,2020,1,0
+Gokana,Nsit Ubium,0,0,436,295,2021,2,0
+Gombe,Alkaleri,0,0,71,365,2020,1,0
+Gombe,Alkaleri,0,0,436,295,2021,2,0
+Gombi,Alkaleri,0,0,71,365,2020,1,0
+Gombi,Alkaleri,0,0,436,295,2021,2,0
+Goronyo,Gawabawa,0,0,71,365,2020,1,0
+Goronyo,Gawabawa,0,0,436,295,2021,2,0
+Gubio,Gawabawa,0,0,71,365,2020,1,0
+Gubio,Gawabawa,0,0,436,295,2021,2,0
+Gudu,Gawabawa,0,0,71,365,2020,1,0
+Gudu,Gawabawa,0,0,436,295,2021,2,0
+Gujba,Darazo,0,0,71,365,2020,1,0
+Gujba,Darazo,0,0,436,295,2021,2,0
+Gulani,Alkaleri,0,0,71,365,2020,1,0
+Gulani,Alkaleri,0,0,436,295,2021,2,0
+Guma,Keana,0,0,71,365,2020,1,0
+Guma,Keana,0,0,436,295,2021,2,0
+Gumel,Babura,0,0,71,365,2020,1,0
+Gumel,Babura,0,0,436,295,2021,2,0
+Gummi,Birnin Kebbi,0,0,71,365,2020,1,0
+Gummi,Birnin Kebbi,0,0,436,295,2021,2,0
+Gurara,Oke-Ero,0,0,71,365,2020,1,0
+Gurara,Oke-Ero,0,0,436,295,2021,2,0
+Guri,Taura,0,0,71,365,2020,1,0
+Guri,Taura,0,0,436,295,2021,2,0
+Gusau,Darazo,0,0,71,365,2020,1,0
+Gusau,Darazo,0,0,436,295,2021,2,0
+Guyuk,Alkaleri,0,0,71,365,2020,1,0
+Guyuk,Alkaleri,0,0,436,295,2021,2,0
+Guzamala,Babura,0,0,71,365,2020,1,0
+Guzamala,Babura,0,0,436,295,2021,2,0
+Gwagwalada,Keana,0,0,71,365,2020,1,0
+Gwagwalada,Keana,0,0,436,295,2021,2,0
+Gwale,Alkaleri,0,0,71,365,2020,1,0
+Gwale,Alkaleri,0,0,436,295,2021,2,0
+Gwandu,Birnin Kebbi,0,0,71,365,2020,1,0
+Gwandu,Birnin Kebbi,0,0,436,295,2021,2,0
+Gwaram,Takali,0,0,71,365,2020,1,0
+Gwaram,Takali,0,0,436,295,2021,2,0
+Gwarzo,Gwarzo,0,0,71,365,2020,1,0
+Gwarzo,Gwarzo,0,0,436,295,2021,2,0
+Gwer East,Oke-Ero,0,0,71,365,2020,1,0
+Gwer East,Oke-Ero,0,0,436,295,2021,2,0
+Gwer West,Keana,0,0,71,365,2020,1,0
+Gwer West,Keana,0,0,436,295,2021,2,0
+Gwiwa,Babura,0,0,71,365,2020,1,0
+Gwiwa,Babura,0,0,436,295,2021,2,0
+Gwoza,Darazo,0,0,71,365,2020,1,0
+Gwoza,Darazo,0,0,436,295,2021,2,0
+Hadejia,Taura,0,0,71,365,2020,1,0
+Hadejia,Taura,0,0,436,295,2021,2,0
+Hawul,Darazo,0,0,71,365,2020,1,0
+Hawul,Darazo,0,0,436,295,2021,2,0
+Hong,Darazo,0,0,71,365,2020,1,0
+Hong,Darazo,0,0,436,295,2021,2,0
+Ibadan North,Owan East,0,0,71,365,2020,1,0
+Ibadan North,Owan East,0,0,436,295,2021,2,0
+Ibadan North East,Owan East,0,0,71,365,2020,1,0
+Ibadan North East,Owan East,0,0,436,295,2021,2,0
+Ibadan North West,Owan East,0,0,71,365,2020,1,0
+Ibadan North West,Owan East,0,0,436,295,2021,2,0
+Ibadan South East,Akinyele,0,0,71,365,2020,1,0
+Ibadan South East,Akinyele,0,0,436,295,2021,2,0
+Ibadan South West,Owan East,0,0,71,365,2020,1,0
+Ibadan South West,Owan East,0,0,436,295,2021,2,0
+Ibaji,Uzo-Uwani,0,0,71,365,2020,1,0
+Ibaji,Uzo-Uwani,0,0,436,295,2021,2,0
+Ibarapa Central,Akinyele,0,0,71,365,2020,1,0
+Ibarapa Central,Akinyele,0,0,436,295,2021,2,0
+Ibarapa East,Oke-Ero,0,0,71,365,2020,1,0
+Ibarapa East,Oke-Ero,0,0,436,295,2021,2,0
+Ibarapa North,Oke-Ero,0,0,71,365,2020,1,0
+Ibarapa North,Oke-Ero,0,0,436,295,2021,2,0
+Ibeju-Lekki,Uzo-Uwani,0,0,71,365,2020,1,0
+Ibeju-Lekki,Uzo-Uwani,0,0,436,295,2021,2,0
+Ibeno,Nsit Ubium,0,0,71,365,2020,1,0
+Ibeno,Nsit Ubium,0,0,436,295,2021,2,0
+Ibesikpo Asutan,Nsit Ubium,0,0,71,365,2020,1,0
+Ibesikpo Asutan,Nsit Ubium,0,0,436,295,2021,2,0
+Ibi,Keana,0,0,71,365,2020,1,0
+Ibi,Keana,0,0,436,295,2021,2,0
+Ibiono Ibom,Ngor-Okpala,0,0,71,365,2020,1,0
+Ibiono Ibom,Ngor-Okpala,0,0,436,295,2021,2,0
+Idah,Uzo-Uwani,0,0,71,365,2020,1,0
+Idah,Uzo-Uwani,0,0,436,295,2021,2,0
+Idanre,Akinyele,0,0,71,365,2020,1,0
+Idanre,Akinyele,0,0,436,295,2021,2,0
+Ideato North,Oru West,0,0,71,365,2020,1,0
+Ideato North,Oru West,0,0,436,295,2021,2,0
+Ideato South,Ngor-Okpala,0,0,71,365,2020,1,0
+Ideato South,Ngor-Okpala,0,0,436,295,2021,2,0
+Idemili North,Uzo-Uwani,0,0,71,365,2020,1,0
+Idemili North,Uzo-Uwani,0,0,436,295,2021,2,0
+Idemili South,Oru West,0,0,71,365,2020,1,0
+Idemili South,Oru West,0,0,436,295,2021,2,0
+Ido,Akinyele,0,0,71,365,2020,1,0
+Ido,Akinyele,0,0,436,295,2021,2,0
+Idosi-Osi,Oke-Ero,0,0,71,365,2020,1,0
+Idosi-Osi,Oke-Ero,0,0,436,295,2021,2,0
+Ifako-Ijaye,Uzo-Uwani,0,0,71,365,2020,1,0
+Ifako-Ijaye,Uzo-Uwani,0,0,436,295,2021,2,0
+Ife Central,Akinyele,0,0,71,365,2020,1,0
+Ife Central,Akinyele,0,0,436,295,2021,2,0
+Ife East,Akinyele,0,0,71,365,2020,1,0
+Ife East,Akinyele,0,0,436,295,2021,2,0
+Ife North,Akinyele,0,0,71,365,2020,1,0
+Ife North,Akinyele,0,0,436,295,2021,2,0
+Ife South,Akinyele,0,0,71,365,2020,1,0
+Ife South,Akinyele,0,0,436,295,2021,2,0
+Ifedayo,Oke-Ero,0,0,71,365,2020,1,0
+Ifedayo,Oke-Ero,0,0,436,295,2021,2,0
+Ifedore,Oke-Ero,0,0,71,365,2020,1,0
+Ifedore,Oke-Ero,0,0,436,295,2021,2,0
+Ifelodun1,Oke-Ero,0,0,71,365,2020,1,0
+Ifelodun1,Oke-Ero,0,0,436,295,2021,2,0
+Ifelodun2,Akinyele,0,0,71,365,2020,1,0
+Ifelodun2,Akinyele,0,0,436,295,2021,2,0
+Ifo,Uzo-Uwani,0,0,71,365,2020,1,0
+Ifo,Uzo-Uwani,0,0,436,295,2021,2,0
+Igabi,Soba,0,0,71,365,2020,1,0
+Igabi,Soba,0,0,436,295,2021,2,0
+Igalamela-Odolu,Uzo-Uwani,0,0,71,365,2020,1,0
+Igalamela-Odolu,Uzo-Uwani,0,0,436,295,2021,2,0
+Igbo-Etiti,Uzo-Uwani,0,0,71,365,2020,1,0
+Igbo-Etiti,Uzo-Uwani,0,0,436,295,2021,2,0
+Igbo-Eze North,Uzo-Uwani,0,0,71,365,2020,1,0
+Igbo-Eze North,Uzo-Uwani,0,0,436,295,2021,2,0
+Igbo-Eze South,Uzo-Uwani,0,0,71,365,2020,1,0
+Igbo-Eze South,Uzo-Uwani,0,0,436,295,2021,2,0
+Igueben,Uzo-Uwani,0,0,71,365,2020,1,0
+Igueben,Uzo-Uwani,0,0,436,295,2021,2,0
+Ihiala,Oru West,0,0,71,365,2020,1,0
+Ihiala,Oru West,0,0,436,295,2021,2,0
+Ihitte-Uboma,Ngor-Okpala,0,0,71,365,2020,1,0
+Ihitte-Uboma,Ngor-Okpala,0,0,436,295,2021,2,0
+Ijebu East,Oke-Ero,0,0,71,365,2020,1,0
+Ijebu East,Oke-Ero,0,0,436,295,2021,2,0
+Ijebu North,Owan East,0,0,71,365,2020,1,0
+Ijebu North,Owan East,0,0,436,295,2021,2,0
+Ijebu North East,Oke-Ero,0,0,71,365,2020,1,0
+Ijebu North East,Oke-Ero,0,0,436,295,2021,2,0
+Ijebu ode,Owan East,0,0,71,365,2020,1,0
+Ijebu ode,Owan East,0,0,436,295,2021,2,0
+Ijero,Oke-Ero,0,0,71,365,2020,1,0
+Ijero,Oke-Ero,0,0,436,295,2021,2,0
+Ijumu,Oke-Ero,0,0,71,365,2020,1,0
+Ijumu,Oke-Ero,0,0,436,295,2021,2,0
+Ika,Ngor-Okpala,0,0,71,365,2020,1,0
+Ika,Ngor-Okpala,0,0,436,295,2021,2,0
+Ika North East,Uzo-Uwani,0,0,71,365,2020,1,0
+Ika North East,Uzo-Uwani,0,0,436,295,2021,2,0
+Ika South,Uzo-Uwani,0,0,71,365,2020,1,0
+Ika South,Uzo-Uwani,0,0,436,295,2021,2,0
+Ikara,Soba,0,0,71,365,2020,1,0
+Ikara,Soba,0,0,436,295,2021,2,0
+Ikeduru,Ngor-Okpala,0,0,71,365,2020,1,0
+Ikeduru,Ngor-Okpala,0,0,436,295,2021,2,0
+Ikeja,Uzo-Uwani,0,0,71,365,2020,1,0
+Ikeja,Uzo-Uwani,0,0,436,295,2021,2,0
+Ikenne,Owan East,0,0,71,365,2020,1,0
+Ikenne,Owan East,0,0,436,295,2021,2,0
+Ikere,Owan East,0,0,71,365,2020,1,0
+Ikere,Owan East,0,0,436,295,2021,2,0
+Ikole,Oke-Ero,0,0,71,365,2020,1,0
+Ikole,Oke-Ero,0,0,436,295,2021,2,0
+Ikom,Obubra,0,0,71,365,2020,1,0
+Ikom,Obubra,0,0,436,295,2021,2,0
+Ikono,Ngor-Okpala,0,0,71,365,2020,1,0
+Ikono,Ngor-Okpala,0,0,436,295,2021,2,0
+Ikorodu,Uzo-Uwani,0,0,71,365,2020,1,0
+Ikorodu,Uzo-Uwani,0,0,436,295,2021,2,0
+Ikot Abasi,Nsit Ubium,0,0,71,365,2020,1,0
+Ikot Abasi,Nsit Ubium,0,0,436,295,2021,2,0
+Ikot Ekpene,Ngor-Okpala,0,0,71,365,2020,1,0
+Ikot Ekpene,Ngor-Okpala,0,0,436,295,2021,2,0
+Ikpoba-Okha,Uzo-Uwani,0,0,71,365,2020,1,0
+Ikpoba-Okha,Uzo-Uwani,0,0,436,295,2021,2,0
+Ikwerre,Oru West,0,0,71,365,2020,1,0
+Ikwerre,Oru West,0,0,436,295,2021,2,0
+Ikwo,Obubra,0,0,71,365,2020,1,0
+Ikwo,Obubra,0,0,436,295,2021,2,0
+Ikwuano,Ngor-Okpala,0,0,71,365,2020,1,0
+Ikwuano,Ngor-Okpala,0,0,436,295,2021,2,0
+Ila,Oke-Ero,0,0,71,365,2020,1,0
+Ila,Oke-Ero,0,0,436,295,2021,2,0
+Ilaje,Owan East,0,0,71,365,2020,1,0
+Ilaje,Owan East,0,0,436,295,2021,2,0
+Ilemeji,Akinyele,0,0,71,365,2020,1,0
+Ilemeji,Akinyele,0,0,436,295,2021,2,0
+Ile-Oluji-Okeigbo,Oke-Ero,0,0,71,365,2020,1,0
+Ile-Oluji-Okeigbo,Oke-Ero,0,0,436,295,2021,2,0
+Ilesha East,Owan East,0,0,71,365,2020,1,0
+Ilesha East,Owan East,0,0,436,295,2021,2,0
+Ilesha West,Akinyele,0,0,71,365,2020,1,0
+Ilesha West,Akinyele,0,0,436,295,2021,2,0
+Illela,Gawabawa,0,0,71,365,2020,1,0
+Illela,Gawabawa,0,0,436,295,2021,2,0
+Ilorin East,Oke-Ero,0,0,71,365,2020,1,0
+Ilorin East,Oke-Ero,0,0,436,295,2021,2,0
+Ilorin South,Oke-Ero,0,0,71,365,2020,1,0
+Ilorin South,Oke-Ero,0,0,436,295,2021,2,0
+Ilorin West,Owan East,0,0,71,365,2020,1,0
+Ilorin West,Owan East,0,0,436,295,2021,2,0
+Imeko-Afon,Oke-Ero,0,0,71,365,2020,1,0
+Imeko-Afon,Oke-Ero,0,0,436,295,2021,2,0
+Ingawa,Rimi,0,0,71,365,2020,1,0
+Ingawa,Rimi,0,0,436,295,2021,2,0
+Ini,Ngor-Okpala,0,0,71,365,2020,1,0
+Ini,Ngor-Okpala,0,0,436,295,2021,2,0
+Ipokia,Uzo-Uwani,0,0,71,365,2020,1,0
+Ipokia,Uzo-Uwani,0,0,436,295,2021,2,0
+Irele,Akinyele,0,0,71,365,2020,1,0
+Irele,Akinyele,0,0,436,295,2021,2,0
+Irepo,Oke-Ero,0,0,71,365,2020,1,0
+Irepo,Oke-Ero,0,0,436,295,2021,2,0
+Irepodun1,Oke-Ero,0,0,71,365,2020,1,0
+Irepodun1,Oke-Ero,0,0,436,295,2021,2,0
+Irepodun2,Owan East,0,0,71,365,2020,1,0
+Irepodun2,Owan East,0,0,436,295,2021,2,0
+Irepodun-Ifelodun,Akinyele,0,0,71,365,2020,1,0
+Irepodun-Ifelodun,Akinyele,0,0,436,295,2021,2,0
+Irewole,Akinyele,0,0,71,365,2020,1,0
+Irewole,Akinyele,0,0,436,295,2021,2,0
+Isa,Rimi,0,0,71,365,2020,1,0
+Isa,Rimi,0,0,436,295,2021,2,0
+Ise-Orun,Oke-Ero,0,0,71,365,2020,1,0
+Ise-Orun,Oke-Ero,0,0,436,295,2021,2,0
+Iseyin,Akinyele,0,0,71,365,2020,1,0
+Iseyin,Akinyele,0,0,436,295,2021,2,0
+Ishielu,Owan East,0,0,71,365,2020,1,0
+Ishielu,Owan East,0,0,436,295,2021,2,0
+Isiala Mbano,Owan East,0,0,71,365,2020,1,0
+Isiala Mbano,Owan East,0,0,436,295,2021,2,0
+Isiala-Ngwa North,Ngor-Okpala,0,0,71,365,2020,1,0
+Isiala-Ngwa North,Ngor-Okpala,0,0,436,295,2021,2,0
+Isiala-Ngwa South,Ngor-Okpala,0,0,71,365,2020,1,0
+Isiala-Ngwa South,Ngor-Okpala,0,0,436,295,2021,2,0
+Isin,Ngor-Okpala,0,0,71,365,2020,1,0
+Isin,Ngor-Okpala,0,0,436,295,2021,2,0
+Isi-Uzo,Oke-Ero,0,0,71,365,2020,1,0
+Isi-Uzo,Oke-Ero,0,0,436,295,2021,2,0
+Isokan,Akinyele,0,0,71,365,2020,1,0
+Isokan,Akinyele,0,0,436,295,2021,2,0
+Isoko North,Isoko South,0,0,71,365,2020,1,0
+Isoko North,Isoko South,0,0,436,295,2021,2,0
+Isoko South,Isoko South,0,0,71,365,2020,1,0
+Isoko South,Isoko South,0,0,436,295,2021,2,0
+Isu,Ngor-Okpala,0,0,71,365,2020,1,0
+Isu,Ngor-Okpala,0,0,436,295,2021,2,0
+Isuikwato,Ngor-Okpala,0,0,71,365,2020,1,0
+Isuikwato,Ngor-Okpala,0,0,436,295,2021,2,0
+Itas-Gadau,Taura,0,0,71,365,2020,1,0
+Itas-Gadau,Taura,0,0,436,295,2021,2,0
+Itesiwaju,Akinyele,0,0,71,365,2020,1,0
+Itesiwaju,Akinyele,0,0,436,295,2021,2,0
+Itu,Ngor-Okpala,0,0,71,365,2020,1,0
+Itu,Ngor-Okpala,0,0,436,295,2021,2,0
+Ivo,Ngor-Okpala,0,0,71,365,2020,1,0
+Ivo,Ngor-Okpala,0,0,436,295,2021,2,0
+Iwajowa,Oke-Ero,0,0,71,365,2020,1,0
+Iwajowa,Oke-Ero,0,0,436,295,2021,2,0
+Iwo,Akinyele,0,0,71,365,2020,1,0
+Iwo,Akinyele,0,0,436,295,2021,2,0
+Izzi,Owan East,0,0,71,365,2020,1,0
+Izzi,Owan East,0,0,436,295,2021,2,0
+Jaba,Oke-Ero,0,0,71,365,2020,1,0
+Jaba,Oke-Ero,0,0,436,295,2021,2,0
+Jada,Alkaleri,0,0,71,365,2020,1,0
+Jada,Alkaleri,0,0,436,295,2021,2,0
+Jahun,Taura,0,0,71,365,2020,1,0
+Jahun,Taura,0,0,436,295,2021,2,0
+Jakusko,Taura,0,0,71,365,2020,1,0
+Jakusko,Taura,0,0,436,295,2021,2,0
+Jalingo,Keana,0,0,71,365,2020,1,0
+Jalingo,Keana,0,0,436,295,2021,2,0
+Jama'are,Taura,0,0,71,365,2020,1,0
+Jama'are,Taura,0,0,436,295,2021,2,0
+Jega,Birnin Kebbi,0,0,71,365,2020,1,0
+Jega,Birnin Kebbi,0,0,436,295,2021,2,0
+Jema'a,Soba,0,0,71,365,2020,1,0
+Jema'a,Soba,0,0,436,295,2021,2,0
+Jere,Gawabawa,0,0,71,365,2020,1,0
+Jere,Gawabawa,0,0,436,295,2021,2,0
+Jibia,Rimi,0,0,71,365,2020,1,0
+Jibia,Rimi,0,0,436,295,2021,2,0
+Jos East,Soba,0,0,71,365,2020,1,0
+Jos East,Soba,0,0,436,295,2021,2,0
+Jos North,Soba,0,0,71,365,2020,1,0
+Jos North,Soba,0,0,436,295,2021,2,0
+Jos South,Soba,0,0,71,365,2020,1,0
+Jos South,Soba,0,0,436,295,2021,2,0
+Kabba-Bunu,Oke-Ero,0,0,71,365,2020,1,0
+Kabba-Bunu,Oke-Ero,0,0,436,295,2021,2,0
+Kabo,Gwarzo,0,0,71,365,2020,1,0
+Kabo,Gwarzo,0,0,436,295,2021,2,0
+Kachia,Ngor-Okpala,0,0,71,365,2020,1,0
+Kachia,Ngor-Okpala,0,0,436,295,2021,2,0
+Kaduna North,Soba,0,0,71,365,2020,1,0
+Kaduna North,Soba,0,0,436,295,2021,2,0
+Kaduna South,Soba,0,0,71,365,2020,1,0
+Kaduna South,Soba,0,0,436,295,2021,2,0
+Kafin Hausa,Taura,0,0,71,365,2020,1,0
+Kafin Hausa,Taura,0,0,436,295,2021,2,0
+Kafur,Gwarzo,0,0,71,365,2020,1,0
+Kafur,Gwarzo,0,0,436,295,2021,2,0
+Kaga,Darazo,0,0,71,365,2020,1,0
+Kaga,Darazo,0,0,436,295,2021,2,0
+Kagarko,Oke-Ero,0,0,71,365,2020,1,0
+Kagarko,Oke-Ero,0,0,436,295,2021,2,0
+Kaiama,Oke-Ero,0,0,71,365,2020,1,0
+Kaiama,Oke-Ero,0,0,436,295,2021,2,0
+Kaita,Rimi,0,0,71,365,2020,1,0
+Kaita,Rimi,0,0,436,295,2021,2,0
+Kajola,Akinyele,0,0,71,365,2020,1,0
+Kajola,Akinyele,0,0,436,295,2021,2,0
+Kajuru,Soba,0,0,71,365,2020,1,0
+Kajuru,Soba,0,0,436,295,2021,2,0
+Kala-Balge,Darazo,0,0,71,365,2020,1,0
+Kala-Balge,Darazo,0,0,436,295,2021,2,0
+Kalgo,Birnin Kebbi,0,0,71,365,2020,1,0
+Kalgo,Birnin Kebbi,0,0,436,295,2021,2,0
+Kaltungo,Alkaleri,0,0,71,365,2020,1,0
+Kaltungo,Alkaleri,0,0,436,295,2021,2,0
+Kanam,Alkaleri,0,0,71,365,2020,1,0
+Kanam,Alkaleri,0,0,436,295,2021,2,0
+Kankara,Rimi,0,0,71,365,2020,1,0
+Kankara,Rimi,0,0,436,295,2021,2,0
+Kanke,Alkaleri,0,0,71,365,2020,1,0
+Kanke,Alkaleri,0,0,436,295,2021,2,0
+Kankia,Rimi,0,0,71,365,2020,1,0
+Kankia,Rimi,0,0,436,295,2021,2,0
+Kano Municipal,Alkaleri,0,0,71,365,2020,1,0
+Kano Municipal,Alkaleri,0,0,436,295,2021,2,0
+Karasuwa,Taura,0,0,71,365,2020,1,0
+Karasuwa,Taura,0,0,436,295,2021,2,0
+Karaye,Gwarzo,0,0,71,365,2020,1,0
+Karaye,Gwarzo,0,0,436,295,2021,2,0
+Karin-Lamido,Alkaleri,0,0,71,365,2020,1,0
+Karin-Lamido,Alkaleri,0,0,436,295,2021,2,0
+Karu,Oke-Ero,0,0,71,365,2020,1,0
+Karu,Oke-Ero,0,0,436,295,2021,2,0
+Katagum,Gwarzo,0,0,71,365,2020,1,0
+Katagum,Gwarzo,0,0,436,295,2021,2,0
+Katcha,Oke-Ero,0,0,71,365,2020,1,0
+Katcha,Oke-Ero,0,0,436,295,2021,2,0
+Katsina,Rimi,0,0,71,365,2020,1,0
+Katsina,Rimi,0,0,436,295,2021,2,0
+Katsina-Ala,Keana,0,0,71,365,2020,1,0
+Katsina-Ala,Keana,0,0,436,295,2021,2,0
+Kaugama,Taura,0,0,71,365,2020,1,0
+Kaugama,Taura,0,0,436,295,2021,2,0
+Kaura,Soba,0,0,71,365,2020,1,0
+Kaura,Soba,0,0,436,295,2021,2,0
+Kaura-Namoda,Rimi,0,0,71,365,2020,1,0
+Kaura-Namoda,Rimi,0,0,436,295,2021,2,0
+Kauru,Soba,0,0,71,365,2020,1,0
+Kauru,Soba,0,0,436,295,2021,2,0
+Kazaure,Babura,0,0,71,365,2020,1,0
+Kazaure,Babura,0,0,436,295,2021,2,0
+Keana,Keana,0,0,71,365,2020,1,0
+Keana,Keana,0,0,436,295,2021,2,0
+Kebbe,Birnin Kebbi,0,0,71,365,2020,1,0
+Kebbe,Birnin Kebbi,0,0,436,295,2021,2,0
+Keffi,Oke-Ero,0,0,71,365,2020,1,0
+Keffi,Oke-Ero,0,0,436,295,2021,2,0
+Khana,Nsit Ubium,0,0,71,365,2020,1,0
+Khana,Nsit Ubium,0,0,436,295,2021,2,0
+Kibiya,Gwarzo,0,0,71,365,2020,1,0
+Kibiya,Gwarzo,0,0,436,295,2021,2,0
+Kirfi,Alkaleri,0,0,71,365,2020,1,0
+Kirfi,Alkaleri,0,0,436,295,2021,2,0
+Kiri Kasamma,Taura,0,0,71,365,2020,1,0
+Kiri Kasamma,Taura,0,0,436,295,2021,2,0
+Kiru,Gwarzo,0,0,71,365,2020,1,0
+Kiru,Gwarzo,0,0,436,295,2021,2,0
+Kiyawa,Takali,0,0,71,365,2020,1,0
+Kiyawa,Takali,0,0,436,295,2021,2,0
+Kogi,Keana,0,0,71,365,2020,1,0
+Kogi,Keana,0,0,436,295,2021,2,0
+Koko-Besse,Birnin Kebbi,0,0,71,365,2020,1,0
+Koko-Besse,Birnin Kebbi,0,0,436,295,2021,2,0
+Kokona,Oke-Ero,0,0,71,365,2020,1,0
+Kokona,Oke-Ero,0,0,436,295,2021,2,0
+Kolokuma-Opokuma,Ahoada West,0,0,71,365,2020,1,0
+Kolokuma-Opokuma,Ahoada West,0,0,436,295,2021,2,0
+Konduga,Darazo,0,0,71,365,2020,1,0
+Konduga,Darazo,0,0,436,295,2021,2,0
+Konshisha,Oke-Ero,0,0,71,365,2020,1,0
+Konshisha,Oke-Ero,0,0,436,295,2021,2,0
+Kontagora,Oke-Ero,0,0,71,365,2020,1,0
+Kontagora,Oke-Ero,0,0,436,295,2021,2,0
+Kosofe,Isoko South,0,0,71,365,2020,1,0
+Kosofe,Isoko South,0,0,436,295,2021,2,0
+Kubau,Soba,0,0,71,365,2020,1,0
+Kubau,Soba,0,0,436,295,2021,2,0
+Kudan,Giwa,0,0,71,365,2020,1,0
+Kudan,Giwa,0,0,436,295,2021,2,0
+Kuje,Keana,0,0,71,365,2020,1,0
+Kuje,Keana,0,0,436,295,2021,2,0
+Kukawa,Babura,0,0,71,365,2020,1,0
+Kukawa,Babura,0,0,436,295,2021,2,0
+Kumbotso,Taura,0,0,71,365,2020,1,0
+Kumbotso,Taura,0,0,436,295,2021,2,0
+Kunchi,Babura,0,0,71,365,2020,1,0
+Kunchi,Babura,0,0,436,295,2021,2,0
+Kura,Gwarzo,0,0,71,365,2020,1,0
+Kura,Gwarzo,0,0,436,295,2021,2,0
+Kurfi,Rimi,0,0,71,365,2020,1,0
+Kurfi,Rimi,0,0,436,295,2021,2,0
+Kurmi,Oru West,0,0,71,365,2020,1,0
+Kurmi,Oru West,0,0,436,295,2021,2,0
+Kusada,Rimi,0,0,71,365,2020,1,0
+Kusada,Rimi,0,0,436,295,2021,2,0
+Kwali,Keana,0,0,71,365,2020,1,0
+Kwali,Keana,0,0,436,295,2021,2,0
+Kwami,Alkaleri,0,0,71,365,2020,1,0
+Kwami,Alkaleri,0,0,436,295,2021,2,0
+Kwande,Oke-Ero,0,0,71,365,2020,1,0
+Kwande,Oke-Ero,0,0,436,295,2021,2,0
+Kware,Gawabawa,0,0,71,365,2020,1,0
+Kware,Gawabawa,0,0,436,295,2021,2,0
+Kwaya Kusar,Alkaleri,0,0,71,365,2020,1,0
+Kwaya Kusar,Alkaleri,0,0,436,295,2021,2,0
+Lafia,Alkaleri,0,0,71,365,2020,1,0
+Lafia,Alkaleri,0,0,436,295,2021,2,0
+Lagelu,Akinyele,0,0,71,365,2020,1,0
+Lagelu,Akinyele,0,0,436,295,2021,2,0
+Lagos Island,Isoko South,0,0,71,365,2020,1,0
+Lagos Island,Isoko South,0,0,436,295,2021,2,0
+Lagos Mainland,Isoko South,0,0,71,365,2020,1,0
+Lagos Mainland,Isoko South,0,0,436,295,2021,2,0
+Lamurde,Alkaleri,0,0,71,365,2020,1,0
+Lamurde,Alkaleri,0,0,436,295,2021,2,0
+Langtang North,Alkaleri,0,0,71,365,2020,1,0
+Langtang North,Alkaleri,0,0,436,295,2021,2,0
+Langtang South,Keana,0,0,71,365,2020,1,0
+Langtang South,Keana,0,0,436,295,2021,2,0
+Lapai,Oke-Ero,0,0,71,365,2020,1,0
+Lapai,Oke-Ero,0,0,436,295,2021,2,0
+Lau,Alkaleri,0,0,71,365,2020,1,0
+Lau,Alkaleri,0,0,436,295,2021,2,0
+Lavun,Oke-Ero,0,0,71,365,2020,1,0
+Lavun,Oke-Ero,0,0,436,295,2021,2,0
+Lere,Soba,0,0,71,365,2020,1,0
+Lere,Soba,0,0,436,295,2021,2,0
+Logo,Keana,0,0,71,365,2020,1,0
+Logo,Keana,0,0,436,295,2021,2,0
+Lokoja,Keana,0,0,71,365,2020,1,0
+Lokoja,Keana,0,0,436,295,2021,2,0
+Machina,Taura,0,0,71,365,2020,1,0
+Machina,Taura,0,0,436,295,2021,2,0
+Madagali,Darazo,0,0,71,365,2020,1,0
+Madagali,Darazo,0,0,436,295,2021,2,0
+Madobi,Taura,0,0,71,365,2020,1,0
+Madobi,Taura,0,0,436,295,2021,2,0
+Mafa,Darazo,0,0,71,365,2020,1,0
+Mafa,Darazo,0,0,436,295,2021,2,0
+Magama,Oke-Ero,0,0,71,365,2020,1,0
+Magama,Oke-Ero,0,0,436,295,2021,2,0
+Magumeri,Gawabawa,0,0,71,365,2020,1,0
+Magumeri,Gawabawa,0,0,436,295,2021,2,0
+Mai'Adua,Rimi,0,0,71,365,2020,1,0
+Mai'Adua,Rimi,0,0,436,295,2021,2,0
+Maiduguri,Darazo,0,0,71,365,2020,1,0
+Maiduguri,Darazo,0,0,436,295,2021,2,0
+Maigatari,Babura,0,0,71,365,2020,1,0
+Maigatari,Babura,0,0,436,295,2021,2,0
+Maiha,Alkaleri,0,0,71,365,2020,1,0
+Maiha,Alkaleri,0,0,436,295,2021,2,0
+Maiyama,Birnin Kebbi,0,0,71,365,2020,1,0
+Maiyama,Birnin Kebbi,0,0,436,295,2021,2,0
+Makoda,Babura,0,0,71,365,2020,1,0
+Makoda,Babura,0,0,436,295,2021,2,0
+Makurdi,Keana,0,0,71,365,2020,1,0
+Makurdi,Keana,0,0,436,295,2021,2,0
+Malam Madori,Taura,0,0,71,365,2020,1,0
+Malam Madori,Taura,0,0,436,295,2021,2,0
+Malumfashi,Gwarzo,0,0,71,365,2020,1,0
+Malumfashi,Gwarzo,0,0,436,295,2021,2,0
+Mangu,Darazo,0,0,71,365,2020,1,0
+Mangu,Darazo,0,0,436,295,2021,2,0
+Mani,Rimi,0,0,71,365,2020,1,0
+Mani,Rimi,0,0,436,295,2021,2,0
+Maradun,Darazo,0,0,71,365,2020,1,0
+Maradun,Darazo,0,0,436,295,2021,2,0
+Mariga,Oke-Ero,0,0,71,365,2020,1,0
+Mariga,Oke-Ero,0,0,436,295,2021,2,0
+Markafi,Gwarzo,0,0,71,365,2020,1,0
+Markafi,Gwarzo,0,0,436,295,2021,2,0
+Marte,Babura,0,0,71,365,2020,1,0
+Marte,Babura,0,0,436,295,2021,2,0
+Maru,Giwa,0,0,71,365,2020,1,0
+Maru,Giwa,0,0,436,295,2021,2,0
+Mashegu,Oke-Ero,0,0,71,365,2020,1,0
+Mashegu,Oke-Ero,0,0,436,295,2021,2,0
+Mashi,Rimi,0,0,71,365,2020,1,0
+Mashi,Rimi,0,0,436,295,2021,2,0
+Matazuu,Rimi,0,0,71,365,2020,1,0
+Matazuu,Rimi,0,0,436,295,2021,2,0
+Mayo-Belwa,Alkaleri,0,0,71,365,2020,1,0
+Mayo-Belwa,Alkaleri,0,0,436,295,2021,2,0
+Mbaitoli,Ngor-Okpala,0,0,71,365,2020,1,0
+Mbaitoli,Ngor-Okpala,0,0,436,295,2021,2,0
+Mbo,Nsit Ubium,0,0,71,365,2020,1,0
+Mbo,Nsit Ubium,0,0,436,295,2021,2,0
+Michika,Darazo,0,0,71,365,2020,1,0
+Michika,Darazo,0,0,436,295,2021,2,0
+Miga,Taura,0,0,71,365,2020,1,0
+Miga,Taura,0,0,436,295,2021,2,0
+Mikang,Alkaleri,0,0,71,365,2020,1,0
+Mikang,Alkaleri,0,0,436,295,2021,2,0
+Minjibir,Taura,0,0,71,365,2020,1,0
+Minjibir,Taura,0,0,436,295,2021,2,0
+Misau,Darazo,0,0,71,365,2020,1,0
+Misau,Darazo,0,0,436,295,2021,2,0
+Mkpat Enin,Nsit Ubium,0,0,71,365,2020,1,0
+Mkpat Enin,Nsit Ubium,0,0,436,295,2021,2,0
+Moba,Oke-Ero,0,0,71,365,2020,1,0
+Moba,Oke-Ero,0,0,436,295,2021,2,0
+Mobbar,Babura,0,0,71,365,2020,1,0
+Mobbar,Babura,0,0,436,295,2021,2,0
+Mokwa,Oke-Ero,0,0,71,365,2020,1,0
+Mokwa,Oke-Ero,0,0,436,295,2021,2,0
+Monguno,Babura,0,0,71,365,2020,1,0
+Monguno,Babura,0,0,436,295,2021,2,0
+Mopa-Muro,Oke-Ero,0,0,71,365,2020,1,0
+Mopa-Muro,Oke-Ero,0,0,436,295,2021,2,0
+Moro,Oke-Ero,0,0,71,365,2020,1,0
+Moro,Oke-Ero,0,0,436,295,2021,2,0
+Mubi North,Darazo,0,0,71,365,2020,1,0
+Mubi North,Darazo,0,0,436,295,2021,2,0
+Mubi South,Darazo,0,0,71,365,2020,1,0
+Mubi South,Darazo,0,0,436,295,2021,2,0
+Musawa,Gwarzo,0,0,71,365,2020,1,0
+Musawa,Gwarzo,0,0,436,295,2021,2,0
+Mushin,Isoko South,0,0,71,365,2020,1,0
+Mushin,Isoko South,0,0,436,295,2021,2,0
+Muya,Giwa,0,0,71,365,2020,1,0
+Muya,Giwa,0,0,436,295,2021,2,0
+Nafada,Alkaleri,0,0,71,365,2020,1,0
+Nafada,Alkaleri,0,0,436,295,2021,2,0
+Nangere,Darazo,0,0,71,365,2020,1,0
+Nangere,Darazo,0,0,436,295,2021,2,0
+Nasarawa1,Alkaleri,0,0,71,365,2020,1,0
+Nasarawa1,Alkaleri,0,0,436,295,2021,2,0
+Nasarawa2,Alkaleri,0,0,71,365,2020,1,0
+Nasarawa2,Alkaleri,0,0,436,295,2021,2,0
+Nasarawa-Eggon,Keana,0,0,71,365,2020,1,0
+Nasarawa-Eggon,Keana,0,0,436,295,2021,2,0
+Ndokwa East,Ahoada West,0,0,71,365,2020,1,0
+Ndokwa East,Ahoada West,0,0,436,295,2021,2,0
+Ndokwa West,Isoko South,0,0,71,365,2020,1,0
+Ndokwa West,Isoko South,0,0,436,295,2021,2,0
+Nembe,Ahoada West,0,0,71,365,2020,1,0
+Nembe,Ahoada West,0,0,436,295,2021,2,0
+Ngala,Taura,0,0,71,365,2020,1,0
+Ngala,Taura,0,0,436,295,2021,2,0
+Nganzai,Gawabawa,0,0,71,365,2020,1,0
+Nganzai,Gawabawa,0,0,436,295,2021,2,0
+Ngaski,Owan East,0,0,71,365,2020,1,0
+Ngaski,Owan East,0,0,436,295,2021,2,0
+Ngor-Okpala,Ngor-Okpala,0,0,71,365,2020,1,0
+Ngor-Okpala,Ngor-Okpala,0,0,436,295,2021,2,0
+Nguru,Taura,0,0,71,365,2020,1,0
+Nguru,Taura,0,0,436,295,2021,2,0
+Ningi,Takali,0,0,71,365,2020,1,0
+Ningi,Takali,0,0,436,295,2021,2,0
+Njaba,Ngor-Okpala,0,0,71,365,2020,1,0
+Njaba,Ngor-Okpala,0,0,436,295,2021,2,0
+Njikoka,Uzo-Uwani,0,0,71,365,2020,1,0
+Njikoka,Uzo-Uwani,0,0,436,295,2021,2,0
+Nkanu East,Owan East,0,0,71,365,2020,1,0
+Nkanu East,Owan East,0,0,436,295,2021,2,0
+Nkanu West,Uzo-Uwani,0,0,71,365,2020,1,0
+Nkanu West,Uzo-Uwani,0,0,436,295,2021,2,0
+Nkwerre,Ngor-Okpala,0,0,71,365,2020,1,0
+Nkwerre,Ngor-Okpala,0,0,436,295,2021,2,0
+Nnewi North,Oru West,0,0,71,365,2020,1,0
+Nnewi North,Oru West,0,0,436,295,2021,2,0
+Nnewi South,Oru West,0,0,71,365,2020,1,0
+Nnewi South,Oru West,0,0,436,295,2021,2,0
+Nsit Atai,Nsit Ubium,0,0,71,365,2020,1,0
+Nsit Atai,Nsit Ubium,0,0,436,295,2021,2,0
+Nsit Ibom,Nsit Ubium,0,0,71,365,2020,1,0
+Nsit Ibom,Nsit Ubium,0,0,436,295,2021,2,0
+Nsit Ubium,Nsit Ubium,0,0,71,365,2020,1,0
+Nsit Ubium,Nsit Ubium,0,0,436,295,2021,2,0
+Nsukka,Uzo-Uwani,0,0,71,365,2020,1,0
+Nsukka,Uzo-Uwani,0,0,436,295,2021,2,0
+Numan,Alkaleri,0,0,71,365,2020,1,0
+Numan,Alkaleri,0,0,436,295,2021,2,0
+Nwangele,Ngor-Okpala,0,0,71,365,2020,1,0
+Nwangele,Ngor-Okpala,0,0,436,295,2021,2,0
+Obafemi-Owode,Owan East,0,0,71,365,2020,1,0
+Obafemi-Owode,Owan East,0,0,436,295,2021,2,0
+Obanliku,Obubra,0,0,71,365,2020,1,0
+Obanliku,Obubra,0,0,436,295,2021,2,0
+Obi Nwa,Ngor-Okpala,0,0,71,365,2020,1,0
+Obi Nwa,Ngor-Okpala,0,0,436,295,2021,2,0
+Obi1,Keana,0,0,71,365,2020,1,0
+Obi1,Keana,0,0,436,295,2021,2,0
+Obi2,Keana,0,0,71,365,2020,1,0
+Obi2,Keana,0,0,436,295,2021,2,0
+Obia-Akpor,Ahoada West,0,0,71,365,2020,1,0
+Obia-Akpor,Ahoada West,0,0,436,295,2021,2,0
+Obokun,Akinyele,0,0,71,365,2020,1,0
+Obokun,Akinyele,0,0,436,295,2021,2,0
+Obot Akara,Ngor-Okpala,0,0,71,365,2020,1,0
+Obot Akara,Ngor-Okpala,0,0,436,295,2021,2,0
+Obowo,Ngor-Okpala,0,0,71,365,2020,1,0
+Obowo,Ngor-Okpala,0,0,436,295,2021,2,0
+Obubra,Obubra,0,0,71,365,2020,1,0
+Obubra,Obubra,0,0,436,295,2021,2,0
+Obudu,Obubra,0,0,71,365,2020,1,0
+Obudu,Obubra,0,0,436,295,2021,2,0
+Odeda,Oke-Ero,0,0,71,365,2020,1,0
+Odeda,Oke-Ero,0,0,436,295,2021,2,0
+Odigbo,Akinyele,0,0,71,365,2020,1,0
+Odigbo,Akinyele,0,0,436,295,2021,2,0
+Odogbolu,Oke-Ero,0,0,71,365,2020,1,0
+Odogbolu,Oke-Ero,0,0,436,295,2021,2,0
+Odo-Otin,Owan East,0,0,71,365,2020,1,0
+Odo-Otin,Owan East,0,0,436,295,2021,2,0
+Odukpani,Ngor-Okpala,0,0,71,365,2020,1,0
+Odukpani,Ngor-Okpala,0,0,436,295,2021,2,0
+Offa,Akinyele,0,0,71,365,2020,1,0
+Offa,Akinyele,0,0,436,295,2021,2,0
+Ofu,Owan East,0,0,71,365,2020,1,0
+Ofu,Owan East,0,0,436,295,2021,2,0
+Ogbadibo,Ahoada West,0,0,71,365,2020,1,0
+Ogbadibo,Ahoada West,0,0,436,295,2021,2,0
+Ogba-Egbema-Ndoni,Owan East,0,0,71,365,2020,1,0
+Ogba-Egbema-Ndoni,Owan East,0,0,436,295,2021,2,0
+Ogbaru,Ahoada West,0,0,71,365,2020,1,0
+Ogbaru,Ahoada West,0,0,436,295,2021,2,0
+Ogbia,Ahoada West,0,0,71,365,2020,1,0
+Ogbia,Ahoada West,0,0,436,295,2021,2,0
+Ogbomosho North,Akinyele,0,0,71,365,2020,1,0
+Ogbomosho North,Akinyele,0,0,436,295,2021,2,0
+Ogbomosho South,Akinyele,0,0,71,365,2020,1,0
+Ogbomosho South,Akinyele,0,0,436,295,2021,2,0
+Ogo Oluwa,Oke-Ero,0,0,71,365,2020,1,0
+Ogo Oluwa,Oke-Ero,0,0,436,295,2021,2,0
+Ogoja,Obubra,0,0,71,365,2020,1,0
+Ogoja,Obubra,0,0,436,295,2021,2,0
+Ogori-Mangongo,Owan East,0,0,71,365,2020,1,0
+Ogori-Mangongo,Owan East,0,0,436,295,2021,2,0
+Ogu-Bolo,Nsit Ubium,0,0,71,365,2020,1,0
+Ogu-Bolo,Nsit Ubium,0,0,436,295,2021,2,0
+Ogun waterside,Owan East,0,0,71,365,2020,1,0
+Ogun waterside,Owan East,0,0,436,295,2021,2,0
+Oguta,Oru West,0,0,71,365,2020,1,0
+Oguta,Oru West,0,0,436,295,2021,2,0
+Ohafia,Ngor-Okpala,0,0,71,365,2020,1,0
+Ohafia,Ngor-Okpala,0,0,436,295,2021,2,0
+Ohaji-Egbema,Oru West,0,0,71,365,2020,1,0
+Ohaji-Egbema,Oru West,0,0,436,295,2021,2,0
+Ohaozara,Obubra,0,0,71,365,2020,1,0
+Ohaozara,Obubra,0,0,436,295,2021,2,0
+Ohaukwu,Owan East,0,0,71,365,2020,1,0
+Ohaukwu,Owan East,0,0,436,295,2021,2,0
+Ohimini,Akinyele,0,0,71,365,2020,1,0
+Ohimini,Akinyele,0,0,436,295,2021,2,0
+Oji-River,Oru West,0,0,71,365,2020,1,0
+Oji-River,Oru West,0,0,436,295,2021,2,0
+Ojo,Isoko South,0,0,71,365,2020,1,0
+Ojo,Isoko South,0,0,436,295,2021,2,0
+Oju,Oke-Ero,0,0,71,365,2020,1,0
+Oju,Oke-Ero,0,0,436,295,2021,2,0
+Oke-Ero,Oke-Ero,0,0,71,365,2020,1,0
+Oke-Ero,Oke-Ero,0,0,436,295,2021,2,0
+Okehi,Owan East,0,0,71,365,2020,1,0
+Okehi,Owan East,0,0,436,295,2021,2,0
+Okene,Owan East,0,0,71,365,2020,1,0
+Okene,Owan East,0,0,436,295,2021,2,0
+Okigwe,Ngor-Okpala,0,0,71,365,2020,1,0
+Okigwe,Ngor-Okpala,0,0,436,295,2021,2,0
+Okitipupa,Owan East,0,0,71,365,2020,1,0
+Okitipupa,Owan East,0,0,436,295,2021,2,0
+Okobo,Nsit Ubium,0,0,71,365,2020,1,0
+Okobo,Nsit Ubium,0,0,436,295,2021,2,0
+Okpe,Isoko South,0,0,71,365,2020,1,0
+Okpe,Isoko South,0,0,436,295,2021,2,0
+Okpokwu,Akinyele,0,0,71,365,2020,1,0
+Okpokwu,Akinyele,0,0,436,295,2021,2,0
+Okrika,Nsit Ubium,0,0,71,365,2020,1,0
+Okrika,Nsit Ubium,0,0,436,295,2021,2,0
+Olamabolo,Akinyele,0,0,71,365,2020,1,0
+Olamabolo,Akinyele,0,0,436,295,2021,2,0
+Ola-oluwa,Owan East,0,0,71,365,2020,1,0
+Ola-oluwa,Owan East,0,0,436,295,2021,2,0
+Olorunda,Akinyele,0,0,71,365,2020,1,0
+Olorunda,Akinyele,0,0,436,295,2021,2,0
+Olorunsogo,Oke-Ero,0,0,71,365,2020,1,0
+Olorunsogo,Oke-Ero,0,0,436,295,2021,2,0
+Oluyole,Oke-Ero,0,0,71,365,2020,1,0
+Oluyole,Oke-Ero,0,0,436,295,2021,2,0
+Omala,Keana,0,0,71,365,2020,1,0
+Omala,Keana,0,0,436,295,2021,2,0
+Omumma,Ngor-Okpala,0,0,71,365,2020,1,0
+Omumma,Ngor-Okpala,0,0,436,295,2021,2,0
+Ona-Ara,Akinyele,0,0,71,365,2020,1,0
+Ona-Ara,Akinyele,0,0,436,295,2021,2,0
+Ondo East,Akinyele,0,0,71,365,2020,1,0
+Ondo East,Akinyele,0,0,436,295,2021,2,0
+Ondo West,Akinyele,0,0,71,365,2020,1,0
+Ondo West,Akinyele,0,0,436,295,2021,2,0
+Onicha,Obubra,0,0,71,365,2020,1,0
+Onicha,Obubra,0,0,436,295,2021,2,0
+Onitsha North,Uzo-Uwani,0,0,71,365,2020,1,0
+Onitsha North,Uzo-Uwani,0,0,436,295,2021,2,0
+Onitsha South,Uzo-Uwani,0,0,71,365,2020,1,0
+Onitsha South,Uzo-Uwani,0,0,436,295,2021,2,0
+Onna,Nsit Ubium,0,0,71,365,2020,1,0
+Onna,Nsit Ubium,0,0,436,295,2021,2,0
+Opobo-Nkoro,Nsit Ubium,0,0,71,365,2020,1,0
+Opobo-Nkoro,Nsit Ubium,0,0,436,295,2021,2,0
+Oredo,Uzo-Uwani,0,0,71,365,2020,1,0
+Oredo,Uzo-Uwani,0,0,436,295,2021,2,0
+Orelope,Oke-Ero,0,0,71,365,2020,1,0
+Orelope,Oke-Ero,0,0,436,295,2021,2,0
+Orhionmwon,Uzo-Uwani,0,0,71,365,2020,1,0
+Orhionmwon,Uzo-Uwani,0,0,436,295,2021,2,0
+Ori Ire,Oke-Ero,0,0,71,365,2020,1,0
+Ori Ire,Oke-Ero,0,0,436,295,2021,2,0
+Oriade,Oke-Ero,0,0,71,365,2020,1,0
+Oriade,Oke-Ero,0,0,436,295,2021,2,0
+Orlu,Oru West,0,0,71,365,2020,1,0
+Orlu,Oru West,0,0,436,295,2021,2,0
+Orolu,Oke-Ero,0,0,71,365,2020,1,0
+Orolu,Oke-Ero,0,0,436,295,2021,2,0
+Oron,Nsit Ubium,0,0,71,365,2020,1,0
+Oron,Nsit Ubium,0,0,436,295,2021,2,0
+Orsu,Oru West,0,0,71,365,2020,1,0
+Orsu,Oru West,0,0,436,295,2021,2,0
+Oru East,Oru West,0,0,71,365,2020,1,0
+Oru East,Oru West,0,0,436,295,2021,2,0
+Oru West,Oru West,0,0,71,365,2020,1,0
+Oru West,Oru West,0,0,436,295,2021,2,0
+Oruk Anam,Nsit Ubium,0,0,71,365,2020,1,0
+Oruk Anam,Nsit Ubium,0,0,436,295,2021,2,0
+Orumba North,Oru West,0,0,71,365,2020,1,0
+Orumba North,Oru West,0,0,436,295,2021,2,0
+Orumba South,Oru West,0,0,71,365,2020,1,0
+Orumba South,Oru West,0,0,436,295,2021,2,0
+Ose,Owan East,0,0,71,365,2020,1,0
+Ose,Owan East,0,0,436,295,2021,2,0
+Oshimili North,Uzo-Uwani,0,0,71,365,2020,1,0
+Oshimili North,Uzo-Uwani,0,0,436,295,2021,2,0
+Oshimili South,Uzo-Uwani,0,0,71,365,2020,1,0
+Oshimili South,Uzo-Uwani,0,0,436,295,2021,2,0
+Oshodi-Isolo,Uzo-Uwani,0,0,71,365,2020,1,0
+Oshodi-Isolo,Uzo-Uwani,0,0,436,295,2021,2,0
+Osisioma Ngwa,Ngor-Okpala,0,0,71,365,2020,1,0
+Osisioma Ngwa,Ngor-Okpala,0,0,436,295,2021,2,0
+Osogbo,Owan East,0,0,71,365,2020,1,0
+Osogbo,Owan East,0,0,436,295,2021,2,0
+Oturkpo,Owan East,0,0,71,365,2020,1,0
+Oturkpo,Owan East,0,0,436,295,2021,2,0
+Ovia North East,Owan East,0,0,71,365,2020,1,0
+Ovia North East,Owan East,0,0,436,295,2021,2,0
+Ovia South West,Akinyele,0,0,71,365,2020,1,0
+Ovia South West,Akinyele,0,0,436,295,2021,2,0
+Owan East,Owan East,0,0,71,365,2020,1,0
+Owan East,Owan East,0,0,436,295,2021,2,0
+Owan West,Owan East,0,0,71,365,2020,1,0
+Owan West,Owan East,0,0,436,295,2021,2,0
+Owerri North,Ngor-Okpala,0,0,71,365,2020,1,0
+Owerri North,Ngor-Okpala,0,0,436,295,2021,2,0
+Owerri West,Ngor-Okpala,0,0,71,365,2020,1,0
+Owerri West,Ngor-Okpala,0,0,436,295,2021,2,0
+Owerri-Municipal,Oru West,0,0,71,365,2020,1,0
+Owerri-Municipal,Oru West,0,0,436,295,2021,2,0
+Owo,Owan East,0,0,71,365,2020,1,0
+Owo,Owan East,0,0,436,295,2021,2,0
+Oye,Oke-Ero,0,0,71,365,2020,1,0
+Oye,Oke-Ero,0,0,436,295,2021,2,0
+Oyi,Uzo-Uwani,0,0,71,365,2020,1,0
+Oyi,Uzo-Uwani,0,0,436,295,2021,2,0
+Oyigbo,Nsit Ubium,0,0,71,365,2020,1,0
+Oyigbo,Nsit Ubium,0,0,436,295,2021,2,0
+Oyo East,Akinyele,0,0,71,365,2020,1,0
+Oyo East,Akinyele,0,0,436,295,2021,2,0
+Oyo West,Akinyele,0,0,71,365,2020,1,0
+Oyo West,Akinyele,0,0,436,295,2021,2,0
+Oyun,Oke-Ero,0,0,71,365,2020,1,0
+Oyun,Oke-Ero,0,0,436,295,2021,2,0
+Pailoro,Oke-Ero,0,0,71,365,2020,1,0
+Pailoro,Oke-Ero,0,0,436,295,2021,2,0
+Pankshin,Alkaleri,0,0,71,365,2020,1,0
+Pankshin,Alkaleri,0,0,436,295,2021,2,0
+Patani,Isoko South,0,0,71,365,2020,1,0
+Patani,Isoko South,0,0,436,295,2021,2,0
+Pategi,Oke-Ero,0,0,71,365,2020,1,0
+Pategi,Oke-Ero,0,0,436,295,2021,2,0
+Port-Harcourt,Ahoada West,0,0,71,365,2020,1,0
+Port-Harcourt,Ahoada West,0,0,436,295,2021,2,0
+Potiskum,Darazo,0,0,71,365,2020,1,0
+Potiskum,Darazo,0,0,436,295,2021,2,0
+Qua'an Pan,Keana,0,0,71,365,2020,1,0
+Qua'an Pan,Keana,0,0,436,295,2021,2,0
+Rabah,Gawabawa,0,0,71,365,2020,1,0
+Rabah,Gawabawa,0,0,436,295,2021,2,0
+Rafi,Oke-Ero,0,0,71,365,2020,1,0
+Rafi,Oke-Ero,0,0,436,295,2021,2,0
+Rano,Gwarzo,0,0,71,365,2020,1,0
+Rano,Gwarzo,0,0,436,295,2021,2,0
+Remo North,Owan East,0,0,71,365,2020,1,0
+Remo North,Owan East,0,0,436,295,2021,2,0
+Rijau,Alkaleri,0,0,71,365,2020,1,0
+Rijau,Alkaleri,0,0,436,295,2021,2,0
+Rimi,Rimi,0,0,71,365,2020,1,0
+Rimi,Rimi,0,0,436,295,2021,2,0
+Rimin Gado,Gwarzo,0,0,71,365,2020,1,0
+Rimin Gado,Gwarzo,0,0,436,295,2021,2,0
+Ringim,Taura,0,0,71,365,2020,1,0
+Ringim,Taura,0,0,436,295,2021,2,0
+Riyom,Soba,0,0,71,365,2020,1,0
+Riyom,Soba,0,0,436,295,2021,2,0
+Rogo,Gwarzo,0,0,71,365,2020,1,0
+Rogo,Gwarzo,0,0,436,295,2021,2,0
+Roni,Babura,0,0,71,365,2020,1,0
+Roni,Babura,0,0,436,295,2021,2,0
+Sabon Birni,Gawabawa,0,0,71,365,2020,1,0
+Sabon Birni,Gawabawa,0,0,436,295,2021,2,0
+Sabon-Gari,Soba,0,0,71,365,2020,1,0
+Sabon-Gari,Soba,0,0,436,295,2021,2,0
+Sabuwa,Giwa,0,0,71,365,2020,1,0
+Sabuwa,Giwa,0,0,436,295,2021,2,0
+Safana,Babura,0,0,71,365,2020,1,0
+Safana,Babura,0,0,436,295,2021,2,0
+Sagbama,Ahoada West,0,0,71,365,2020,1,0
+Sagbama,Ahoada West,0,0,436,295,2021,2,0
+Sakaba,Alkaleri,0,0,71,365,2020,1,0
+Sakaba,Alkaleri,0,0,436,295,2021,2,0
+Saki East,Oke-Ero,0,0,71,365,2020,1,0
+Saki East,Oke-Ero,0,0,436,295,2021,2,0
+Saki West,Akinyele,0,0,71,365,2020,1,0
+Saki West,Akinyele,0,0,436,295,2021,2,0
+Sandamu,Rimi,0,0,71,365,2020,1,0
+Sandamu,Rimi,0,0,436,295,2021,2,0
+Sanga,Soba,0,0,71,365,2020,1,0
+Sanga,Soba,0,0,436,295,2021,2,0
+Sapele,Isoko South,0,0,71,365,2020,1,0
+Sapele,Isoko South,0,0,436,295,2021,2,0
+Sardauna,Oru West,0,0,71,365,2020,1,0
+Sardauna,Oru West,0,0,436,295,2021,2,0
+Shagamu,Uzo-Uwani,0,0,71,365,2020,1,0
+Shagamu,Uzo-Uwani,0,0,436,295,2021,2,0
+Shagari,Birnin Kebbi,0,0,71,365,2020,1,0
+Shagari,Birnin Kebbi,0,0,436,295,2021,2,0
+Shanga,Birnin Kebbi,0,0,71,365,2020,1,0
+Shanga,Birnin Kebbi,0,0,436,295,2021,2,0
+Shani,Alkaleri,0,0,71,365,2020,1,0
+Shani,Alkaleri,0,0,436,295,2021,2,0
+Shanono,Gwarzo,0,0,71,365,2020,1,0
+Shanono,Gwarzo,0,0,436,295,2021,2,0
+Shelleng,Darazo,0,0,71,365,2020,1,0
+Shelleng,Darazo,0,0,436,295,2021,2,0
+Shendam,Keana,0,0,71,365,2020,1,0
+Shendam,Keana,0,0,436,295,2021,2,0
+Shinkafi,Rimi,0,0,71,365,2020,1,0
+Shinkafi,Rimi,0,0,436,295,2021,2,0
+Shira,Takali,0,0,71,365,2020,1,0
+Shira,Takali,0,0,436,295,2021,2,0
+Shiroro,Oke-Ero,0,0,71,365,2020,1,0
+Shiroro,Oke-Ero,0,0,436,295,2021,2,0
+Shomgom,Alkaleri,0,0,71,365,2020,1,0
+Shomgom,Alkaleri,0,0,436,295,2021,2,0
+Shomolu,Isoko South,0,0,71,365,2020,1,0
+Shomolu,Isoko South,0,0,436,295,2021,2,0
+Silame,Gawabawa,0,0,71,365,2020,1,0
+Silame,Gawabawa,0,0,436,295,2021,2,0
+Soba,Soba,0,0,71,365,2020,1,0
+Soba,Soba,0,0,436,295,2021,2,0
+Sokoto North,Gawabawa,0,0,71,365,2020,1,0
+Sokoto North,Gawabawa,0,0,436,295,2021,2,0
+Sokoto South,Birnin Kebbi,0,0,71,365,2020,1,0
+Sokoto South,Birnin Kebbi,0,0,436,295,2021,2,0
+Song,Darazo,0,0,71,365,2020,1,0
+Song,Darazo,0,0,436,295,2021,2,0
+Southern Ijaw,Ahoada West,0,0,71,365,2020,1,0
+Southern Ijaw,Ahoada West,0,0,436,295,2021,2,0
+Suleja,Babura,0,0,71,365,2020,1,0
+Suleja,Babura,0,0,436,295,2021,2,0
+Sule-Tankarkar,Giwa,0,0,71,365,2020,1,0
+Sule-Tankarkar,Giwa,0,0,436,295,2021,2,0
+Sumaila,Takali,0,0,71,365,2020,1,0
+Sumaila,Takali,0,0,436,295,2021,2,0
+Suru,Birnin Kebbi,0,0,71,365,2020,1,0
+Suru,Birnin Kebbi,0,0,436,295,2021,2,0
+Surulere1,Oke-Ero,0,0,71,365,2020,1,0
+Surulere1,Oke-Ero,0,0,436,295,2021,2,0
+Surulere2,Oke-Ero,0,0,71,365,2020,1,0
+Surulere2,Oke-Ero,0,0,436,295,2021,2,0
+Tafa,Oke-Ero,0,0,71,365,2020,1,0
+Tafa,Oke-Ero,0,0,436,295,2021,2,0
+Tafawa-Balewa,Alkaleri,0,0,71,365,2020,1,0
+Tafawa-Balewa,Alkaleri,0,0,436,295,2021,2,0
+Tai,Nsit Ubium,0,0,71,365,2020,1,0
+Tai,Nsit Ubium,0,0,436,295,2021,2,0
+Takali,Takali,0,0,71,365,2020,1,0
+Takali,Takali,0,0,436,295,2021,2,0
+Takum,Keana,0,0,71,365,2020,1,0
+Takum,Keana,0,0,436,295,2021,2,0
+Talata Mafara,Darazo,0,0,71,365,2020,1,0
+Talata Mafara,Darazo,0,0,436,295,2021,2,0
+Tambuwal,Birnin Kebbi,0,0,71,365,2020,1,0
+Tambuwal,Birnin Kebbi,0,0,436,295,2021,2,0
+Tangaza,Gawabawa,0,0,71,365,2020,1,0
+Tangaza,Gawabawa,0,0,436,295,2021,2,0
+Tarauni,Alkaleri,0,0,71,365,2020,1,0
+Tarauni,Alkaleri,0,0,436,295,2021,2,0
+Tarka,Keana,0,0,71,365,2020,1,0
+Tarka,Keana,0,0,436,295,2021,2,0
+Tarmua,Rimi,0,0,71,365,2020,1,0
+Tarmua,Rimi,0,0,436,295,2021,2,0
+Taura,Taura,0,0,71,365,2020,1,0
+Taura,Taura,0,0,436,295,2021,2,0
+Tofa,Taura,0,0,71,365,2020,1,0
+Tofa,Taura,0,0,436,295,2021,2,0
+Toro,Giwa,0,0,71,365,2020,1,0
+Toro,Giwa,0,0,436,295,2021,2,0
+Toto,Keana,0,0,71,365,2020,1,0
+Toto,Keana,0,0,436,295,2021,2,0
+Toungo,Keana,0,0,71,365,2020,1,0
+Toungo,Keana,0,0,436,295,2021,2,0
+Tsafe,Takali,0,0,71,365,2020,1,0
+Tsafe,Takali,0,0,436,295,2021,2,0
+Tsanyawa,Gwarzo,0,0,71,365,2020,1,0
+Tsanyawa,Gwarzo,0,0,436,295,2021,2,0
+Tudun Wada,Gwarzo,0,0,71,365,2020,1,0
+Tudun Wada,Gwarzo,0,0,436,295,2021,2,0
+Tureta,Birnin Kebbi,0,0,71,365,2020,1,0
+Tureta,Birnin Kebbi,0,0,436,295,2021,2,0
+Udenu,Uzo-Uwani,0,0,71,365,2020,1,0
+Udenu,Uzo-Uwani,0,0,436,295,2021,2,0
+Udi,Uzo-Uwani,0,0,71,365,2020,1,0
+Udi,Uzo-Uwani,0,0,436,295,2021,2,0
+Udu,Isoko South,0,0,71,365,2020,1,0
+Udu,Isoko South,0,0,436,295,2021,2,0
+Udung Uko,Nsit Ubium,0,0,71,365,2020,1,0
+Udung Uko,Nsit Ubium,0,0,436,295,2021,2,0
+Ughelli North,Isoko South,0,0,71,365,2020,1,0
+Ughelli North,Isoko South,0,0,436,295,2021,2,0
+Ughelli South,Isoko South,0,0,71,365,2020,1,0
+Ughelli South,Isoko South,0,0,436,295,2021,2,0
+Ugwunagbo,Ngor-Okpala,0,0,71,365,2020,1,0
+Ugwunagbo,Ngor-Okpala,0,0,436,295,2021,2,0
+Uhunmwonde,Owan East,0,0,71,365,2020,1,0
+Uhunmwonde,Owan East,0,0,436,295,2021,2,0
+Ukanafun,Nsit Ubium,0,0,71,365,2020,1,0
+Ukanafun,Nsit Ubium,0,0,436,295,2021,2,0
+Ukum,Keana,0,0,71,365,2020,1,0
+Ukum,Keana,0,0,436,295,2021,2,0
+Ukwa East,Nsit Ubium,0,0,71,365,2020,1,0
+Ukwa East,Nsit Ubium,0,0,436,295,2021,2,0
+Ukwa West,Nsit Ubium,0,0,71,365,2020,1,0
+Ukwa West,Nsit Ubium,0,0,436,295,2021,2,0
+Ukwuani,Uzo-Uwani,0,0,71,365,2020,1,0
+Ukwuani,Uzo-Uwani,0,0,436,295,2021,2,0
+Umuahia North,Oru West,0,0,71,365,2020,1,0
+Umuahia North,Oru West,0,0,436,295,2021,2,0
+Umuahia South,Ngor-Okpala,0,0,71,365,2020,1,0
+Umuahia South,Ngor-Okpala,0,0,436,295,2021,2,0
+Umu-Neochi,Ngor-Okpala,0,0,71,365,2020,1,0
+Umu-Neochi,Ngor-Okpala,0,0,436,295,2021,2,0
+Ungogo,Taura,0,0,71,365,2020,1,0
+Ungogo,Taura,0,0,436,295,2021,2,0
+Unuimo,Ngor-Okpala,0,0,71,365,2020,1,0
+Unuimo,Ngor-Okpala,0,0,436,295,2021,2,0
+Uruan,Nsit Ubium,0,0,71,365,2020,1,0
+Uruan,Nsit Ubium,0,0,436,295,2021,2,0
+Urue-Offong-Oruko,Nsit Ubium,0,0,71,365,2020,1,0
+Urue-Offong-Oruko,Nsit Ubium,0,0,436,295,2021,2,0
+Ushongo,Oke-Ero,0,0,71,365,2020,1,0
+Ushongo,Oke-Ero,0,0,436,295,2021,2,0
+Ussa,Oru West,0,0,71,365,2020,1,0
+Ussa,Oru West,0,0,436,295,2021,2,0
+Uvwie,Isoko South,0,0,71,365,2020,1,0
+Uvwie,Isoko South,0,0,436,295,2021,2,0
+Uyo,Nsit Ubium,0,0,71,365,2020,1,0
+Uyo,Nsit Ubium,0,0,436,295,2021,2,0
+Uzo-Uwani,Uzo-Uwani,0,0,71,365,2020,1,0
+Uzo-Uwani,Uzo-Uwani,0,0,436,295,2021,2,0
+Vandeikya,Oke-Ero,0,0,71,365,2020,1,0
+Vandeikya,Oke-Ero,0,0,436,295,2021,2,0
+Wamako,Gawabawa,0,0,71,365,2020,1,0
+Wamako,Gawabawa,0,0,436,295,2021,2,0
+Wamba,Alkaleri,0,0,71,365,2020,1,0
+Wamba,Alkaleri,0,0,436,295,2021,2,0
+Warawa,Gwarzo,0,0,71,365,2020,1,0
+Warawa,Gwarzo,0,0,436,295,2021,2,0
+Warji,Takali,0,0,71,365,2020,1,0
+Warji,Takali,0,0,436,295,2021,2,0
+Warri North,Owan East,0,0,71,365,2020,1,0
+Warri North,Owan East,0,0,436,295,2021,2,0
+Warri South,Isoko South,0,0,71,365,2020,1,0
+Warri South,Isoko South,0,0,436,295,2021,2,0
+Warri South West,Isoko South,0,0,71,365,2020,1,0
+Warri South West,Isoko South,0,0,436,295,2021,2,0
+Wasagu-Danko,Alkaleri,0,0,71,365,2020,1,0
+Wasagu-Danko,Alkaleri,0,0,436,295,2021,2,0
+Wase,Alkaleri,0,0,71,365,2020,1,0
+Wase,Alkaleri,0,0,436,295,2021,2,0
+Wudil,Gwarzo,0,0,71,365,2020,1,0
+Wudil,Gwarzo,0,0,436,295,2021,2,0
+Wukari,Keana,0,0,71,365,2020,1,0
+Wukari,Keana,0,0,436,295,2021,2,0
+Wurno,Gawabawa,0,0,71,365,2020,1,0
+Wurno,Gawabawa,0,0,436,295,2021,2,0
+Wushishi,Oke-Ero,0,0,71,365,2020,1,0
+Wushishi,Oke-Ero,0,0,436,295,2021,2,0
+Yabo,Gawabawa,0,0,71,365,2020,1,0
+Yabo,Gawabawa,0,0,436,295,2021,2,0
+Yagba East,Oke-Ero,0,0,71,365,2020,1,0
+Yagba East,Oke-Ero,0,0,436,295,2021,2,0
+Yagba West,Oke-Ero,0,0,71,365,2020,1,0
+Yagba West,Oke-Ero,0,0,436,295,2021,2,0
+Yakurr,Obubra,0,0,71,365,2020,1,0
+Yakurr,Obubra,0,0,436,295,2021,2,0
+Yala,Oke-Ero,0,0,71,365,2020,1,0
+Yala,Oke-Ero,0,0,436,295,2021,2,0
+Yamaltu-Deba,Alkaleri,0,0,71,365,2020,1,0
+Yamaltu-Deba,Alkaleri,0,0,436,295,2021,2,0
+Yankwashi,Babura,0,0,71,365,2020,1,0
+Yankwashi,Babura,0,0,436,295,2021,2,0
+Yauri,Birnin Kebbi,0,0,71,365,2020,1,0
+Yauri,Birnin Kebbi,0,0,436,295,2021,2,0
+Yenegoa,Isoko South,0,0,71,365,2020,1,0
+Yenegoa,Isoko South,0,0,436,295,2021,2,0
+Yola North,Alkaleri,0,0,71,365,2020,1,0
+Yola North,Alkaleri,0,0,436,295,2021,2,0
+Yola South,Alkaleri,0,0,71,365,2020,1,0
+Yola South,Alkaleri,0,0,436,295,2021,2,0
+Yorro,Alkaleri,0,0,71,365,2020,1,0
+Yorro,Alkaleri,0,0,436,295,2021,2,0
+Yunusari,Babura,0,0,71,365,2020,1,0
+Yunusari,Babura,0,0,436,295,2021,2,0
+Yusufari,Taura,0,0,71,365,2020,1,0
+Yusufari,Taura,0,0,436,295,2021,2,0
+Zaki,Taura,0,0,71,365,2020,1,0
+Zaki,Taura,0,0,436,295,2021,2,0
+Zango,Babura,0,0,71,365,2020,1,0
+Zango,Babura,0,0,436,295,2021,2,0
+Zango-Kataf,Soba,0,0,71,365,2020,1,0
+Zango-Kataf,Soba,0,0,436,295,2021,2,0
+Zaria,Soba,0,0,71,365,2020,1,0
+Zaria,Soba,0,0,436,295,2021,2,0
+Zing,Alkaleri,0,0,71,365,2020,1,0
+Zing,Alkaleri,0,0,436,295,2021,2,0
+Zurmi,Rimi,0,0,71,365,2020,1,0
+Zurmi,Rimi,0,0,436,295,2021,2,0
+Zuru,Alkaleri,0,0,71,365,2020,1,0
+Zuru,Alkaleri,0,0,436,295,2021,2,0

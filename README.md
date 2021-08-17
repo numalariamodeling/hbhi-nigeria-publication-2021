@@ -30,6 +30,7 @@
         <li><a href="#IPTi">IPTi</a></li>
 		<li><a href="#IPTp">IPTp</a></li>
 	</ul>
+	<li><a href="#Analysers">Analyzers</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -121,28 +122,38 @@ Scenario files required for running the simulation - case management, insecticid
 
 Adjustment for the impact of IPTp and IPTi on burden projections are done outside the simulation. IPTi adjustment is done first to generate relative reduction tables per LGA, which are then used to adjust simulation outputs during the IPTp adjustment.The following scripts are used for post-postprocessing:
 
-###IPTi
+### IPTi
 
 1. [master.R](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/IPTi_scaling/master.R): This master script sources and runs associated adjustment scripts for specified scenarios. Included in the scripts are description of assumptions, experiment steps, and pre-requisites.   
 
-Since IPTi is only applied in scenario 2, only the case management coverages for scenario 2 is required and it can be found [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/future%20projections/CM/cm_scenario2_increase80_2020_2030.csv). Since IPTi has never been historically implemented in Nigeria, Expanded Programme on Immunization coverages for the [first, second and third doses of pentavalent diphtheria, tetanus and pertussis vaccine](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/future%20projections/IPTi/assumedIPTicov.csv) were extracted from the 2018 DHS and used to substitute for historical coverages and both interventions are expected to be rolled out simultaneously. 
+Since IPTi is only applied in scenario 2, only the case management coverages for scenario 2 is required and it is available[here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/future%20projections/CM/cm_scenario2_increase80_2020_2030.csv). Since IPTi has never been historically implemented in Nigeria, Expanded Programme on Immunization coverages for the [first, second and third doses of pentavalent diphtheria, tetanus and pertussis vaccine](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/future%20projections/IPTi/assumedIPTicov.csv) were extracted from the 2018 DHS and used to substitute for historical coverages and both interventions are expected to be rolled out simultaneously. 
 
 
-###IPTp 
+### IPTp 
 
-_For more information on debugging shiny applications, please refer to the [Documentation](https://shiny.rstudio.com/articles/debugging.html)_
+1. [simAdjustments_mortality_MiP_IPTp_IPTi.R](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/IPTp_mortality_postprocessing/simAdjustments_mortality_MiP_IPTp_IPTi.R): This master script connects to functions and additional scripts for adjusting the simulation output for the impact of IPTp on malaria burden. A description is included on how to use the script as well as prerequisites. 
+
+IPTp scenario coverages is located [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/simulation_inputs/future%20projections/IPTp). Scenario adjustment information for IPTp is available [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/IPTp_mortality_postprocessing/scenario_adjustment_info.csv). 
 
 
 
+<!-- Analyzers-->
+## Analyzers
+
+Several simulation output analyzers, plotting scripts, and related functions for plotting projected trends, relative reductions and replicating the tables in the manuscript are included in this repository [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/simulation/analyzer). Additional plotting functions are available within the [R shiny Application](https://ifeomaozo.shinyapps.io/hbhi-nigeria/) used to visualize manuscript outputs[here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/src/app/functions.R).
 
 
 <!-- CONTACT -->
 ## Contact
 
-Ifeoma Ozodiegwu [Research Assistant Professor, Northwestern University (NU).](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=52373)
+For IPTi-specific inquiries, contact Manuela Runge, [Postdoctoral Fellow, Northwestern University](https://www.numalariamodeling.org/team.html). Email - manuela.runge@northwestern.edu
+
+For IPTp-specific questions, contact Monique Ambrose, [Senior Research Scientist, Institute for Disease Modeling](https://www.idmod.org/team). Email - mambrose@idmod.org
+
+For all other inquiries, contact Ifeoma Ozodiegwu, [Research Assistant Professor, Northwestern University (NU).](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=52373). 
  Email - ifeoma.ozodiegwu@northwestern.edu 
 
-Project Link: [https://ifeomaozo.shinyapps.io/hbhi-nigeria/](https://ifeomaozo.shinyapps.io/hbhi-nigeria/)
+Project Link: [https://github.com/numalariamodeling/hbhi-nigeria-publication-2021https://github.com/numalariamodeling/hbhi-nigeria-publication-2021
 
 
 
@@ -152,7 +163,6 @@ Project Link: [https://ifeomaozo.shinyapps.io/hbhi-nigeria/](https://ifeomaozo.s
 * [Ibrahim Maikore @ World Health Organization, Regional Office for Africa](https://www.afro.who.int/)
 * [Abdisalan Noor and Bea Galatas @World Health Organization Global Malaria Programme](https://www.who.int/teams/global-malaria-programme)
 * [Jaline Gerardin - Principal Investigator @NU Malaria Modeling Team](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=44305)
-* [Neena Parveen Dhanoa @NU Malaria modeling Team ](https://www.linkedin.com/in/neena-parveen-dhanoa-3686b11b3/)
 * [All NU Malaria Modeling Team members](https://www.numalariamodeling.org/team.html)
 * [Monique Ambrose and Caitlin Bever @Institute for Disease Modeling](https://www.idmod.org/team)
 

@@ -40,6 +40,8 @@
 ### R requirements
 # - R version >= 4.0.2
 # - `data.table`, `dplyr`, `plyr`
+
+#contact: Manuela Runge: manuela.runge@northwestern.edu
 ### ==========================================================================================
 
 ### Load Packages

@@ -1,0 +1,1729 @@
+,adm1,LGA,smc_plan1,repDS,peak,simday,year,round,duration,coverage_high_access,coverage_low_access,max_age
+1,Borno,Abadam,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+2,Borno,Abadam,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+3,Borno,Abadam,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+4,Borno,Abadam,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+5,Borno,Askira-Uba,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+6,Borno,Askira-Uba,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+7,Borno,Askira-Uba,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+8,Borno,Askira-Uba,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+9,Borno,Bama,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+10,Borno,Bama,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+11,Borno,Bama,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+12,Borno,Bama,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+13,Borno,Bayo,SMC,Alkaleri,july,186,2020,1,-1,1,0.6,5
+14,Borno,Bayo,SMC,Alkaleri,july,216,2020,2,-1,1,0.6,5
+15,Borno,Bayo,SMC,Alkaleri,july,246,2020,3,-1,1,0.6,5
+16,Borno,Bayo,SMC,Alkaleri,july,276,2020,4,-1,1,0.6,5
+17,Borno,Biu,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+18,Borno,Biu,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+19,Borno,Biu,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+20,Borno,Biu,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+21,Borno,Chibok,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+22,Borno,Chibok,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+23,Borno,Chibok,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+24,Borno,Chibok,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+25,Borno,Damboa,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+26,Borno,Damboa,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+27,Borno,Damboa,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+28,Borno,Damboa,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+29,Borno,Dikwa,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+30,Borno,Dikwa,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+31,Borno,Dikwa,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+32,Borno,Dikwa,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+33,Borno,Gubio,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+34,Borno,Gubio,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+35,Borno,Gubio,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+36,Borno,Gubio,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+37,Borno,Guzamala,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+38,Borno,Guzamala,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+39,Borno,Guzamala,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+40,Borno,Guzamala,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+41,Borno,Gwoza,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+42,Borno,Gwoza,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+43,Borno,Gwoza,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+44,Borno,Gwoza,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+45,Borno,Hawul,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+46,Borno,Hawul,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+47,Borno,Hawul,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+48,Borno,Hawul,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+49,Borno,Jere,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+50,Borno,Jere,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+51,Borno,Jere,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+52,Borno,Jere,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+53,Borno,Kaga,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+54,Borno,Kaga,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+55,Borno,Kaga,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+56,Borno,Kaga,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+57,Borno,Kala-Balge,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+58,Borno,Kala-Balge,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+59,Borno,Kala-Balge,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+60,Borno,Kala-Balge,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+61,Borno,Konduga,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+62,Borno,Konduga,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+63,Borno,Konduga,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+64,Borno,Konduga,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+65,Borno,Kukawa,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+66,Borno,Kukawa,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+67,Borno,Kukawa,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+68,Borno,Kukawa,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+69,Borno,Kwaya Kusar,SMC,Alkaleri,july,186,2020,1,-1,1,0.6,5
+70,Borno,Kwaya Kusar,SMC,Alkaleri,july,216,2020,2,-1,1,0.6,5
+71,Borno,Kwaya Kusar,SMC,Alkaleri,july,246,2020,3,-1,1,0.6,5
+72,Borno,Kwaya Kusar,SMC,Alkaleri,july,276,2020,4,-1,1,0.6,5
+73,Borno,Mafa,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+74,Borno,Mafa,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+75,Borno,Mafa,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+76,Borno,Mafa,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+77,Borno,Magumeri,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+78,Borno,Magumeri,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+79,Borno,Magumeri,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+80,Borno,Magumeri,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+81,Borno,Maiduguri,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+82,Borno,Maiduguri,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+83,Borno,Maiduguri,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+84,Borno,Maiduguri,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+85,Borno,Marte,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+86,Borno,Marte,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+87,Borno,Marte,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+88,Borno,Marte,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+89,Borno,Mobbar,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+90,Borno,Mobbar,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+91,Borno,Mobbar,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+92,Borno,Mobbar,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+93,Borno,Monguno,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+94,Borno,Monguno,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+95,Borno,Monguno,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+96,Borno,Monguno,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+97,Borno,Ngala,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+98,Borno,Ngala,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+99,Borno,Ngala,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+100,Borno,Ngala,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+101,Borno,Nganzai,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+102,Borno,Nganzai,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+103,Borno,Nganzai,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+104,Borno,Nganzai,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+105,Borno,Shani,SMC,Alkaleri,july,186,2020,1,-1,1,0.6,5
+106,Borno,Shani,SMC,Alkaleri,july,216,2020,2,-1,1,0.6,5
+107,Borno,Shani,SMC,Alkaleri,july,246,2020,3,-1,1,0.6,5
+108,Borno,Shani,SMC,Alkaleri,july,276,2020,4,-1,1,0.6,5
+109,Jigawa,Auyo,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+110,Jigawa,Auyo,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+111,Jigawa,Auyo,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+112,Jigawa,Auyo,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+113,Jigawa,Babura,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+114,Jigawa,Babura,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+115,Jigawa,Babura,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+116,Jigawa,Babura,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+117,Jigawa,Biriniwa,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+118,Jigawa,Biriniwa,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+119,Jigawa,Biriniwa,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+120,Jigawa,Biriniwa,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+121,Jigawa,Birni Kudu,SMC,Takali,september,250,2020,1,-1,1,0.6,5
+122,Jigawa,Birni Kudu,SMC,Takali,september,280,2020,2,-1,1,0.6,5
+123,Jigawa,Birni Kudu,SMC,Takali,september,310,2020,3,-1,1,0.6,5
+124,Jigawa,Birni Kudu,SMC,Takali,september,340,2020,4,-1,1,0.6,5
+125,Jigawa,Buji,SMC,Takali,september,250,2020,1,-1,1,0.6,5
+126,Jigawa,Buji,SMC,Takali,september,280,2020,2,-1,1,0.6,5
+127,Jigawa,Buji,SMC,Takali,september,310,2020,3,-1,1,0.6,5
+128,Jigawa,Buji,SMC,Takali,september,340,2020,4,-1,1,0.6,5
+129,Jigawa,Dutse,SMC,Takali,september,250,2020,1,-1,1,0.6,5
+130,Jigawa,Dutse,SMC,Takali,september,280,2020,2,-1,1,0.6,5
+131,Jigawa,Dutse,SMC,Takali,september,310,2020,3,-1,1,0.6,5
+132,Jigawa,Dutse,SMC,Takali,september,340,2020,4,-1,1,0.6,5
+133,Jigawa,Gagarawa,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+134,Jigawa,Gagarawa,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+135,Jigawa,Gagarawa,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+136,Jigawa,Gagarawa,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+137,Jigawa,Garki,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+138,Jigawa,Garki,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+139,Jigawa,Garki,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+140,Jigawa,Garki,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+141,Jigawa,Gumel,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+142,Jigawa,Gumel,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+143,Jigawa,Gumel,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+144,Jigawa,Gumel,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+145,Jigawa,Guri,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+146,Jigawa,Guri,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+147,Jigawa,Guri,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+148,Jigawa,Guri,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+149,Jigawa,Gwaram,SMC,Takali,september,250,2020,1,-1,1,0.6,5
+150,Jigawa,Gwaram,SMC,Takali,september,280,2020,2,-1,1,0.6,5
+151,Jigawa,Gwaram,SMC,Takali,september,310,2020,3,-1,1,0.6,5
+152,Jigawa,Gwaram,SMC,Takali,september,340,2020,4,-1,1,0.6,5
+153,Jigawa,Gwiwa,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+154,Jigawa,Gwiwa,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+155,Jigawa,Gwiwa,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+156,Jigawa,Gwiwa,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+157,Jigawa,Hadejia,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+158,Jigawa,Hadejia,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+159,Jigawa,Hadejia,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+160,Jigawa,Hadejia,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+161,Jigawa,Jahun,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+162,Jigawa,Jahun,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+163,Jigawa,Jahun,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+164,Jigawa,Jahun,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+165,Jigawa,Kafin Hausa,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+166,Jigawa,Kafin Hausa,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+167,Jigawa,Kafin Hausa,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+168,Jigawa,Kafin Hausa,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+169,Jigawa,Kaugama,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+170,Jigawa,Kaugama,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+171,Jigawa,Kaugama,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+172,Jigawa,Kaugama,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+173,Jigawa,Kazaure,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+174,Jigawa,Kazaure,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+175,Jigawa,Kazaure,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+176,Jigawa,Kazaure,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+177,Jigawa,Kiri Kasamma,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+178,Jigawa,Kiri Kasamma,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+179,Jigawa,Kiri Kasamma,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+180,Jigawa,Kiri Kasamma,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+181,Jigawa,Maigatari,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+182,Jigawa,Maigatari,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+183,Jigawa,Maigatari,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+184,Jigawa,Maigatari,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+185,Jigawa,Malam Madori,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+186,Jigawa,Malam Madori,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+187,Jigawa,Malam Madori,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+188,Jigawa,Malam Madori,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+189,Jigawa,Miga,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+190,Jigawa,Miga,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+191,Jigawa,Miga,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+192,Jigawa,Miga,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+193,Jigawa,Ringim,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+194,Jigawa,Ringim,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+195,Jigawa,Ringim,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+196,Jigawa,Ringim,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+197,Jigawa,Roni,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+198,Jigawa,Roni,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+199,Jigawa,Roni,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+200,Jigawa,Roni,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+201,Jigawa,Sule-Tankarkar,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+202,Jigawa,Sule-Tankarkar,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+203,Jigawa,Sule-Tankarkar,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+204,Jigawa,Sule-Tankarkar,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+205,Jigawa,Taura,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+206,Jigawa,Taura,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+207,Jigawa,Taura,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+208,Jigawa,Taura,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+209,Jigawa,Yankwashi,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+210,Jigawa,Yankwashi,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+211,Jigawa,Yankwashi,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+212,Jigawa,Yankwashi,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+213,Jigawa,Kiyawa,SMC,Takali,september,250,2020,1,-1,1,0.6,5
+214,Jigawa,Kiyawa,SMC,Takali,september,280,2020,2,-1,1,0.6,5
+215,Jigawa,Kiyawa,SMC,Takali,september,310,2020,3,-1,1,0.6,5
+216,Jigawa,Kiyawa,SMC,Takali,september,340,2020,4,-1,1,0.6,5
+217,Kano,Ajingi,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+218,Kano,Ajingi,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+219,Kano,Ajingi,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+220,Kano,Ajingi,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+221,Kano,Albasu,SMC,Takali,september,250,2020,1,-1,1,0.6,5
+222,Kano,Albasu,SMC,Takali,september,280,2020,2,-1,1,0.6,5
+223,Kano,Albasu,SMC,Takali,september,310,2020,3,-1,1,0.6,5
+224,Kano,Albasu,SMC,Takali,september,340,2020,4,-1,1,0.6,5
+225,Kano,Bagwai,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+226,Kano,Bagwai,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+227,Kano,Bagwai,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+228,Kano,Bagwai,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+229,Kano,Bebeji,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+230,Kano,Bebeji,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+231,Kano,Bebeji,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+232,Kano,Bebeji,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+233,Kano,Bichi,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+234,Kano,Bichi,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+235,Kano,Bichi,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+236,Kano,Bichi,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+237,Kano,Bunkure,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+238,Kano,Bunkure,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+239,Kano,Bunkure,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+240,Kano,Bunkure,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+241,Kano,Dala,SMC,Alkaleri,july,186,2020,1,-1,1,0.6,5
+242,Kano,Dala,SMC,Alkaleri,july,216,2020,2,-1,1,0.6,5
+243,Kano,Dala,SMC,Alkaleri,july,246,2020,3,-1,1,0.6,5
+244,Kano,Dala,SMC,Alkaleri,july,276,2020,4,-1,1,0.6,5
+245,Kano,Dambatta,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+246,Kano,Dambatta,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+247,Kano,Dambatta,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+248,Kano,Dambatta,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+249,Kano,Dawakin Kudu,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+250,Kano,Dawakin Kudu,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+251,Kano,Dawakin Kudu,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+252,Kano,Dawakin Kudu,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+253,Kano,Dawakin Tofa,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+254,Kano,Dawakin Tofa,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+255,Kano,Dawakin Tofa,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+256,Kano,Dawakin Tofa,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+257,Kano,Doguwa,SMC,Giwa,august,223,2020,1,-1,1,0.6,5
+258,Kano,Doguwa,SMC,Giwa,august,253,2020,2,-1,1,0.6,5
+259,Kano,Doguwa,SMC,Giwa,august,283,2020,3,-1,1,0.6,5
+260,Kano,Doguwa,SMC,Giwa,august,313,2020,4,-1,1,0.6,5
+261,Kano,Fagge,SMC,Alkaleri,july,186,2020,1,-1,1,0.6,5
+262,Kano,Fagge,SMC,Alkaleri,july,216,2020,2,-1,1,0.6,5
+263,Kano,Fagge,SMC,Alkaleri,july,246,2020,3,-1,1,0.6,5
+264,Kano,Fagge,SMC,Alkaleri,july,276,2020,4,-1,1,0.6,5
+265,Kano,Gabasawa,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+266,Kano,Gabasawa,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+267,Kano,Gabasawa,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+268,Kano,Gabasawa,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+269,Kano,Garko,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+270,Kano,Garko,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+271,Kano,Garko,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+272,Kano,Garko,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+273,Kano,Garum Mallam,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+274,Kano,Garum Mallam,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+275,Kano,Garum Mallam,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+276,Kano,Garum Mallam,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+277,Kano,Gaya,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+278,Kano,Gaya,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+279,Kano,Gaya,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+280,Kano,Gaya,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+281,Kano,Gezawa,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+282,Kano,Gezawa,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+283,Kano,Gezawa,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+284,Kano,Gezawa,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+285,Kano,Gwale,SMC,Alkaleri,july,186,2020,1,-1,1,0.6,5
+286,Kano,Gwale,SMC,Alkaleri,july,216,2020,2,-1,1,0.6,5
+287,Kano,Gwale,SMC,Alkaleri,july,246,2020,3,-1,1,0.6,5
+288,Kano,Gwale,SMC,Alkaleri,july,276,2020,4,-1,1,0.6,5
+289,Kano,Gwarzo,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+290,Kano,Gwarzo,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+291,Kano,Gwarzo,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+292,Kano,Gwarzo,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+293,Kano,Kabo,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+294,Kano,Kabo,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+295,Kano,Kabo,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+296,Kano,Kabo,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+297,Kano,Kano Municipal,SMC,Alkaleri,july,186,2020,1,-1,1,0.6,5
+298,Kano,Kano Municipal,SMC,Alkaleri,july,216,2020,2,-1,1,0.6,5
+299,Kano,Kano Municipal,SMC,Alkaleri,july,246,2020,3,-1,1,0.6,5
+300,Kano,Kano Municipal,SMC,Alkaleri,july,276,2020,4,-1,1,0.6,5
+301,Kano,Karaye,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+302,Kano,Karaye,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+303,Kano,Karaye,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+304,Kano,Karaye,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+305,Kano,Kibiya,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+306,Kano,Kibiya,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+307,Kano,Kibiya,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+308,Kano,Kibiya,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+309,Kano,Kiru,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+310,Kano,Kiru,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+311,Kano,Kiru,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+312,Kano,Kiru,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+313,Kano,Kumbotso,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+314,Kano,Kumbotso,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+315,Kano,Kumbotso,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+316,Kano,Kumbotso,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+317,Kano,Kunchi,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+318,Kano,Kunchi,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+319,Kano,Kunchi,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+320,Kano,Kunchi,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+321,Kano,Kura,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+322,Kano,Kura,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+323,Kano,Kura,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+324,Kano,Kura,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+325,Kano,Madobi,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+326,Kano,Madobi,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+327,Kano,Madobi,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+328,Kano,Madobi,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+329,Kano,Makoda,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+330,Kano,Makoda,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+331,Kano,Makoda,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+332,Kano,Makoda,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+333,Kano,Minjibir,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+334,Kano,Minjibir,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+335,Kano,Minjibir,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+336,Kano,Minjibir,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+337,Kano,Nasarawa1,SMC,Alkaleri,july,186,2020,1,-1,1,0.6,5
+338,Kano,Nasarawa1,SMC,Alkaleri,july,216,2020,2,-1,1,0.6,5
+339,Kano,Nasarawa1,SMC,Alkaleri,july,246,2020,3,-1,1,0.6,5
+340,Kano,Nasarawa1,SMC,Alkaleri,july,276,2020,4,-1,1,0.6,5
+341,Kano,Rano,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+342,Kano,Rano,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+343,Kano,Rano,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+344,Kano,Rano,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+345,Kano,Rimin Gado,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+346,Kano,Rimin Gado,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+347,Kano,Rimin Gado,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+348,Kano,Rimin Gado,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+349,Kano,Rogo,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+350,Kano,Rogo,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+351,Kano,Rogo,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+352,Kano,Rogo,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+353,Kano,Shanono,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+354,Kano,Shanono,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+355,Kano,Shanono,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+356,Kano,Shanono,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+357,Kano,Sumaila,SMC,Takali,september,250,2020,1,-1,1,0.6,5
+358,Kano,Sumaila,SMC,Takali,september,280,2020,2,-1,1,0.6,5
+359,Kano,Sumaila,SMC,Takali,september,310,2020,3,-1,1,0.6,5
+360,Kano,Sumaila,SMC,Takali,september,340,2020,4,-1,1,0.6,5
+361,Kano,Takali,SMC,Takali,september,250,2020,1,-1,1,0.6,5
+362,Kano,Takali,SMC,Takali,september,280,2020,2,-1,1,0.6,5
+363,Kano,Takali,SMC,Takali,september,310,2020,3,-1,1,0.6,5
+364,Kano,Takali,SMC,Takali,september,340,2020,4,-1,1,0.6,5
+365,Kano,Tarauni,SMC,Alkaleri,july,186,2020,1,-1,1,0.6,5
+366,Kano,Tarauni,SMC,Alkaleri,july,216,2020,2,-1,1,0.6,5
+367,Kano,Tarauni,SMC,Alkaleri,july,246,2020,3,-1,1,0.6,5
+368,Kano,Tarauni,SMC,Alkaleri,july,276,2020,4,-1,1,0.6,5
+369,Kano,Tofa,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+370,Kano,Tofa,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+371,Kano,Tofa,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+372,Kano,Tofa,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+373,Kano,Tsanyawa,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+374,Kano,Tsanyawa,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+375,Kano,Tsanyawa,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+376,Kano,Tsanyawa,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+377,Kano,Tudun Wada,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+378,Kano,Tudun Wada,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+379,Kano,Tudun Wada,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+380,Kano,Tudun Wada,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+381,Kano,Ungogo,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+382,Kano,Ungogo,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+383,Kano,Ungogo,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+384,Kano,Ungogo,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+385,Kano,Warawa,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+386,Kano,Warawa,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+387,Kano,Warawa,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+388,Kano,Warawa,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+389,Kano,Wudil,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+390,Kano,Wudil,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+391,Kano,Wudil,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+392,Kano,Wudil,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+393,Katsina,Bakori,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+394,Katsina,Bakori,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+395,Katsina,Bakori,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+396,Katsina,Bakori,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+397,Katsina,Batagarawa,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+398,Katsina,Batagarawa,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+399,Katsina,Batagarawa,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+400,Katsina,Batagarawa,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+401,Katsina,Batsari,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+402,Katsina,Batsari,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+403,Katsina,Batsari,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+404,Katsina,Batsari,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+405,Katsina,Baure,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+406,Katsina,Baure,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+407,Katsina,Baure,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+408,Katsina,Baure,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+409,Katsina,Bindawa,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+410,Katsina,Bindawa,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+411,Katsina,Bindawa,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+412,Katsina,Bindawa,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+413,Katsina,Charanchi,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+414,Katsina,Charanchi,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+415,Katsina,Charanchi,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+416,Katsina,Charanchi,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+417,Katsina,Dan Musa,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+418,Katsina,Dan Musa,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+419,Katsina,Dan Musa,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+420,Katsina,Dan Musa,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+421,Katsina,Dandume,SMC,Giwa,august,223,2020,1,-1,1,0.6,5
+422,Katsina,Dandume,SMC,Giwa,august,253,2020,2,-1,1,0.6,5
+423,Katsina,Dandume,SMC,Giwa,august,283,2020,3,-1,1,0.6,5
+424,Katsina,Dandume,SMC,Giwa,august,313,2020,4,-1,1,0.6,5
+425,Katsina,Danja,SMC,Giwa,august,223,2020,1,-1,1,0.6,5
+426,Katsina,Danja,SMC,Giwa,august,253,2020,2,-1,1,0.6,5
+427,Katsina,Danja,SMC,Giwa,august,283,2020,3,-1,1,0.6,5
+428,Katsina,Danja,SMC,Giwa,august,313,2020,4,-1,1,0.6,5
+429,Katsina,Daura,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+430,Katsina,Daura,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+431,Katsina,Daura,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+432,Katsina,Daura,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+433,Katsina,Dutsi,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+434,Katsina,Dutsi,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+435,Katsina,Dutsi,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+436,Katsina,Dutsi,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+437,Katsina,Dutsin-Ma,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+438,Katsina,Dutsin-Ma,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+439,Katsina,Dutsin-Ma,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+440,Katsina,Dutsin-Ma,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+441,Katsina,Faskari,SMC,Giwa,august,223,2020,1,-1,1,0.6,5
+442,Katsina,Faskari,SMC,Giwa,august,253,2020,2,-1,1,0.6,5
+443,Katsina,Faskari,SMC,Giwa,august,283,2020,3,-1,1,0.6,5
+444,Katsina,Faskari,SMC,Giwa,august,313,2020,4,-1,1,0.6,5
+445,Katsina,Funtua,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+446,Katsina,Funtua,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+447,Katsina,Funtua,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+448,Katsina,Funtua,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+449,Katsina,Ingawa,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+450,Katsina,Ingawa,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+451,Katsina,Ingawa,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+452,Katsina,Ingawa,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+453,Katsina,Jibia,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+454,Katsina,Jibia,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+455,Katsina,Jibia,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+456,Katsina,Jibia,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+457,Katsina,Kafur,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+458,Katsina,Kafur,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+459,Katsina,Kafur,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+460,Katsina,Kafur,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+461,Katsina,Kankara,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+462,Katsina,Kankara,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+463,Katsina,Kankara,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+464,Katsina,Kankara,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+465,Katsina,Kankia,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+466,Katsina,Kankia,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+467,Katsina,Kankia,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+468,Katsina,Kankia,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+469,Katsina,Katsina,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+470,Katsina,Katsina,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+471,Katsina,Katsina,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+472,Katsina,Katsina,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+473,Katsina,Kurfi,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+474,Katsina,Kurfi,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+475,Katsina,Kurfi,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+476,Katsina,Kurfi,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+477,Katsina,Kusada,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+478,Katsina,Kusada,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+479,Katsina,Kusada,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+480,Katsina,Kusada,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+481,Katsina,Mai'Adua,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+482,Katsina,Mai'Adua,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+483,Katsina,Mai'Adua,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+484,Katsina,Mai'Adua,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+485,Katsina,Malumfashi,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+486,Katsina,Malumfashi,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+487,Katsina,Malumfashi,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+488,Katsina,Malumfashi,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+489,Katsina,Mani,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+490,Katsina,Mani,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+491,Katsina,Mani,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+492,Katsina,Mani,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+493,Katsina,Mashi,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+494,Katsina,Mashi,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+495,Katsina,Mashi,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+496,Katsina,Mashi,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+497,Katsina,Matazuu,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+498,Katsina,Matazuu,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+499,Katsina,Matazuu,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+500,Katsina,Matazuu,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+501,Katsina,Musawa,SMC,Gwarzo,august,223,2020,1,-1,1,0.6,5
+502,Katsina,Musawa,SMC,Gwarzo,august,253,2020,2,-1,1,0.6,5
+503,Katsina,Musawa,SMC,Gwarzo,august,283,2020,3,-1,1,0.6,5
+504,Katsina,Musawa,SMC,Gwarzo,august,313,2020,4,-1,1,0.6,5
+505,Katsina,Rimi,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+506,Katsina,Rimi,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+507,Katsina,Rimi,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+508,Katsina,Rimi,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+509,Katsina,Sabuwa,SMC,Giwa,august,223,2020,1,-1,1,0.6,5
+510,Katsina,Sabuwa,SMC,Giwa,august,253,2020,2,-1,1,0.6,5
+511,Katsina,Sabuwa,SMC,Giwa,august,283,2020,3,-1,1,0.6,5
+512,Katsina,Sabuwa,SMC,Giwa,august,313,2020,4,-1,1,0.6,5
+513,Katsina,Safana,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+514,Katsina,Safana,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+515,Katsina,Safana,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+516,Katsina,Safana,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+517,Katsina,Sandamu,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+518,Katsina,Sandamu,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+519,Katsina,Sandamu,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+520,Katsina,Sandamu,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+521,Katsina,Zango,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+522,Katsina,Zango,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+523,Katsina,Zango,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+524,Katsina,Zango,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+525,Katsina,Kaita,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+526,Katsina,Kaita,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+527,Katsina,Kaita,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+528,Katsina,Kaita,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+529,Kebbi,Aleiro,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+530,Kebbi,Aleiro,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+531,Kebbi,Aleiro,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+532,Kebbi,Aleiro,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+533,Kebbi,Arewa-Dandi,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+534,Kebbi,Arewa-Dandi,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+535,Kebbi,Arewa-Dandi,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+536,Kebbi,Arewa-Dandi,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+537,Kebbi,Argungu,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+538,Kebbi,Argungu,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+539,Kebbi,Argungu,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+540,Kebbi,Argungu,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+541,Kebbi,Augie,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+542,Kebbi,Augie,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+543,Kebbi,Augie,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+544,Kebbi,Augie,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+545,Kebbi,Bagudo,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+546,Kebbi,Bagudo,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+547,Kebbi,Bagudo,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+548,Kebbi,Bagudo,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+549,Kebbi,Birnin Kebbi,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+550,Kebbi,Birnin Kebbi,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+551,Kebbi,Birnin Kebbi,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+552,Kebbi,Birnin Kebbi,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+553,Kebbi,Bunza,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+554,Kebbi,Bunza,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+555,Kebbi,Bunza,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+556,Kebbi,Bunza,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+557,Kebbi,Dandi,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+558,Kebbi,Dandi,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+559,Kebbi,Dandi,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+560,Kebbi,Dandi,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+561,Kebbi,Fakai,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+562,Kebbi,Fakai,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+563,Kebbi,Fakai,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+564,Kebbi,Fakai,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+565,Kebbi,Gwandu,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+566,Kebbi,Gwandu,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+567,Kebbi,Gwandu,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+568,Kebbi,Gwandu,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+569,Kebbi,Jega,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+570,Kebbi,Jega,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+571,Kebbi,Jega,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+572,Kebbi,Jega,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+573,Kebbi,Kalgo,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+574,Kebbi,Kalgo,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+575,Kebbi,Kalgo,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+576,Kebbi,Kalgo,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+577,Kebbi,Koko-Besse,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+578,Kebbi,Koko-Besse,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+579,Kebbi,Koko-Besse,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+580,Kebbi,Koko-Besse,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+581,Kebbi,Maiyama,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+582,Kebbi,Maiyama,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+583,Kebbi,Maiyama,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+584,Kebbi,Maiyama,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+585,Kebbi,Ngaski,SMC,Owan East,march,131,2020,1,-1,1,0.6,5
+586,Kebbi,Ngaski,SMC,Owan East,march,161,2020,2,-1,1,0.6,5
+587,Kebbi,Ngaski,SMC,Owan East,march,191,2020,3,-1,1,0.6,5
+588,Kebbi,Ngaski,SMC,Owan East,march,221,2020,4,-1,1,0.6,5
+589,Kebbi,Sakaba,SMC,Alkaleri,july,186,2020,1,-1,1,0.6,5
+590,Kebbi,Sakaba,SMC,Alkaleri,july,216,2020,2,-1,1,0.6,5
+591,Kebbi,Sakaba,SMC,Alkaleri,july,246,2020,3,-1,1,0.6,5
+592,Kebbi,Sakaba,SMC,Alkaleri,july,276,2020,4,-1,1,0.6,5
+593,Kebbi,Shanga,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+594,Kebbi,Shanga,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+595,Kebbi,Shanga,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+596,Kebbi,Shanga,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+597,Kebbi,Suru,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+598,Kebbi,Suru,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+599,Kebbi,Suru,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+600,Kebbi,Suru,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+601,Kebbi,Wasagu-Danko,SMC,Alkaleri,july,186,2020,1,-1,1,0.6,5
+602,Kebbi,Wasagu-Danko,SMC,Alkaleri,july,216,2020,2,-1,1,0.6,5
+603,Kebbi,Wasagu-Danko,SMC,Alkaleri,july,246,2020,3,-1,1,0.6,5
+604,Kebbi,Wasagu-Danko,SMC,Alkaleri,july,276,2020,4,-1,1,0.6,5
+605,Kebbi,Yauri,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+606,Kebbi,Yauri,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+607,Kebbi,Yauri,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+608,Kebbi,Yauri,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+609,Kebbi,Zuru,SMC,Alkaleri,july,186,2020,1,-1,1,0.6,5
+610,Kebbi,Zuru,SMC,Alkaleri,july,216,2020,2,-1,1,0.6,5
+611,Kebbi,Zuru,SMC,Alkaleri,july,246,2020,3,-1,1,0.6,5
+612,Kebbi,Zuru,SMC,Alkaleri,july,276,2020,4,-1,1,0.6,5
+613,Sokoto,Binji,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+614,Sokoto,Binji,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+615,Sokoto,Binji,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+616,Sokoto,Binji,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+617,Sokoto,Bodinga,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+618,Sokoto,Bodinga,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+619,Sokoto,Bodinga,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+620,Sokoto,Bodinga,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+621,Sokoto,Dange-Shnsi,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+622,Sokoto,Dange-Shnsi,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+623,Sokoto,Dange-Shnsi,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+624,Sokoto,Dange-Shnsi,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+625,Sokoto,Gada,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+626,Sokoto,Gada,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+627,Sokoto,Gada,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+628,Sokoto,Gada,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+629,Sokoto,Gawabawa,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+630,Sokoto,Gawabawa,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+631,Sokoto,Gawabawa,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+632,Sokoto,Gawabawa,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+633,Sokoto,Goronyo,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+634,Sokoto,Goronyo,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+635,Sokoto,Goronyo,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+636,Sokoto,Goronyo,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+637,Sokoto,Gudu,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+638,Sokoto,Gudu,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+639,Sokoto,Gudu,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+640,Sokoto,Gudu,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+641,Sokoto,Illela,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+642,Sokoto,Illela,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+643,Sokoto,Illela,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+644,Sokoto,Illela,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+645,Sokoto,Isa,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+646,Sokoto,Isa,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+647,Sokoto,Isa,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+648,Sokoto,Isa,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+649,Sokoto,Kebbe,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+650,Sokoto,Kebbe,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+651,Sokoto,Kebbe,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+652,Sokoto,Kebbe,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+653,Sokoto,Kware,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+654,Sokoto,Kware,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+655,Sokoto,Kware,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+656,Sokoto,Kware,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+657,Sokoto,Rabah,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+658,Sokoto,Rabah,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+659,Sokoto,Rabah,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+660,Sokoto,Rabah,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+661,Sokoto,Sabon Birni,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+662,Sokoto,Sabon Birni,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+663,Sokoto,Sabon Birni,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+664,Sokoto,Sabon Birni,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+665,Sokoto,Shagari,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+666,Sokoto,Shagari,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+667,Sokoto,Shagari,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+668,Sokoto,Shagari,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+669,Sokoto,Silame,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+670,Sokoto,Silame,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+671,Sokoto,Silame,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+672,Sokoto,Silame,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+673,Sokoto,Sokoto North,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+674,Sokoto,Sokoto North,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+675,Sokoto,Sokoto North,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+676,Sokoto,Sokoto North,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+677,Sokoto,Sokoto South,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+678,Sokoto,Sokoto South,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+679,Sokoto,Sokoto South,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+680,Sokoto,Sokoto South,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+681,Sokoto,Tambuwal,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+682,Sokoto,Tambuwal,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+683,Sokoto,Tambuwal,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+684,Sokoto,Tambuwal,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+685,Sokoto,Tangaza,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+686,Sokoto,Tangaza,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+687,Sokoto,Tangaza,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+688,Sokoto,Tangaza,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+689,Sokoto,Tureta,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+690,Sokoto,Tureta,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+691,Sokoto,Tureta,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+692,Sokoto,Tureta,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+693,Sokoto,Wamako,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+694,Sokoto,Wamako,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+695,Sokoto,Wamako,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+696,Sokoto,Wamako,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+697,Sokoto,Wurno,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+698,Sokoto,Wurno,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+699,Sokoto,Wurno,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+700,Sokoto,Wurno,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+701,Sokoto,Yabo,SMC,Gawabawa,august,223,2020,1,-1,1,0.6,5
+702,Sokoto,Yabo,SMC,Gawabawa,august,253,2020,2,-1,1,0.6,5
+703,Sokoto,Yabo,SMC,Gawabawa,august,283,2020,3,-1,1,0.6,5
+704,Sokoto,Yabo,SMC,Gawabawa,august,313,2020,4,-1,1,0.6,5
+705,Taraba,Ardo-Kola,SMC,Keana,august,223,2020,1,-1,1,0.6,5
+706,Taraba,Ardo-Kola,SMC,Keana,august,253,2020,2,-1,1,0.6,5
+707,Taraba,Ardo-Kola,SMC,Keana,august,283,2020,3,-1,1,0.6,5
+708,Taraba,Ardo-Kola,SMC,Keana,august,313,2020,4,-1,1,0.6,5
+709,Taraba,Gassol,SMC,Keana,august,223,2020,1,-1,1,0.6,5
+710,Taraba,Gassol,SMC,Keana,august,253,2020,2,-1,1,0.6,5
+711,Taraba,Gassol,SMC,Keana,august,283,2020,3,-1,1,0.6,5
+712,Taraba,Gassol,SMC,Keana,august,313,2020,4,-1,1,0.6,5
+713,Taraba,Ibi,SMC,Keana,august,223,2020,1,-1,1,0.6,5
+714,Taraba,Ibi,SMC,Keana,august,253,2020,2,-1,1,0.6,5
+715,Taraba,Ibi,SMC,Keana,august,283,2020,3,-1,1,0.6,5
+716,Taraba,Ibi,SMC,Keana,august,313,2020,4,-1,1,0.6,5
+717,Taraba,Jalingo,SMC,Keana,august,223,2020,1,-1,1,0.6,5
+718,Taraba,Jalingo,SMC,Keana,august,253,2020,2,-1,1,0.6,5
+719,Taraba,Jalingo,SMC,Keana,august,283,2020,3,-1,1,0.6,5
+720,Taraba,Jalingo,SMC,Keana,august,313,2020,4,-1,1,0.6,5
+721,Taraba,Karin-Lamido,SMC,Alkaleri,july,186,2020,1,-1,1,0.6,5
+722,Taraba,Karin-Lamido,SMC,Alkaleri,july,216,2020,2,-1,1,0.6,5
+723,Taraba,Karin-Lamido,SMC,Alkaleri,july,246,2020,3,-1,1,0.6,5
+724,Taraba,Karin-Lamido,SMC,Alkaleri,july,276,2020,4,-1,1,0.6,5
+725,Taraba,Lau,SMC,Alkaleri,july,186,2020,1,-1,1,0.6,5
+726,Taraba,Lau,SMC,Alkaleri,july,216,2020,2,-1,1,0.6,5
+727,Taraba,Lau,SMC,Alkaleri,july,246,2020,3,-1,1,0.6,5
+728,Taraba,Lau,SMC,Alkaleri,july,276,2020,4,-1,1,0.6,5
+729,Taraba,Wukari,SMC,Keana,august,223,2020,1,-1,1,0.6,5
+730,Taraba,Wukari,SMC,Keana,august,253,2020,2,-1,1,0.6,5
+731,Taraba,Wukari,SMC,Keana,august,283,2020,3,-1,1,0.6,5
+732,Taraba,Wukari,SMC,Keana,august,313,2020,4,-1,1,0.6,5
+733,Taraba,Yorro,SMC,Alkaleri,july,186,2020,1,-1,1,0.6,5
+734,Taraba,Yorro,SMC,Alkaleri,july,216,2020,2,-1,1,0.6,5
+735,Taraba,Yorro,SMC,Alkaleri,july,246,2020,3,-1,1,0.6,5
+736,Taraba,Yorro,SMC,Alkaleri,july,276,2020,4,-1,1,0.6,5
+737,Taraba,Zing,SMC,Alkaleri,july,186,2020,1,-1,1,0.6,5
+738,Taraba,Zing,SMC,Alkaleri,july,216,2020,2,-1,1,0.6,5
+739,Taraba,Zing,SMC,Alkaleri,july,246,2020,3,-1,1,0.6,5
+740,Taraba,Zing,SMC,Alkaleri,july,276,2020,4,-1,1,0.6,5
+741,Yobe,Bade,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+742,Yobe,Bade,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+743,Yobe,Bade,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+744,Yobe,Bade,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+745,Yobe,Bursari,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+746,Yobe,Bursari,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+747,Yobe,Bursari,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+748,Yobe,Bursari,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+749,Yobe,Damaturu,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+750,Yobe,Damaturu,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+751,Yobe,Damaturu,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+752,Yobe,Damaturu,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+753,Yobe,Fika,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+754,Yobe,Fika,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+755,Yobe,Fika,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+756,Yobe,Fika,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+757,Yobe,Fune,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+758,Yobe,Fune,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+759,Yobe,Fune,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+760,Yobe,Fune,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+761,Yobe,Geidam,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+762,Yobe,Geidam,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+763,Yobe,Geidam,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+764,Yobe,Geidam,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+765,Yobe,Gujba,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+766,Yobe,Gujba,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+767,Yobe,Gujba,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+768,Yobe,Gujba,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+769,Yobe,Gulani,SMC,Alkaleri,july,186,2020,1,-1,1,0.6,5
+770,Yobe,Gulani,SMC,Alkaleri,july,216,2020,2,-1,1,0.6,5
+771,Yobe,Gulani,SMC,Alkaleri,july,246,2020,3,-1,1,0.6,5
+772,Yobe,Gulani,SMC,Alkaleri,july,276,2020,4,-1,1,0.6,5
+773,Yobe,Jakusko,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+774,Yobe,Jakusko,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+775,Yobe,Jakusko,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+776,Yobe,Jakusko,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+777,Yobe,Karasuwa,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+778,Yobe,Karasuwa,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+779,Yobe,Karasuwa,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+780,Yobe,Karasuwa,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+781,Yobe,Machina,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+782,Yobe,Machina,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+783,Yobe,Machina,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+784,Yobe,Machina,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+785,Yobe,Nangere,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+786,Yobe,Nangere,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+787,Yobe,Nangere,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+788,Yobe,Nangere,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+789,Yobe,Nguru,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+790,Yobe,Nguru,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+791,Yobe,Nguru,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+792,Yobe,Nguru,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+793,Yobe,Potiskum,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+794,Yobe,Potiskum,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+795,Yobe,Potiskum,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+796,Yobe,Potiskum,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+797,Yobe,Tarmua,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+798,Yobe,Tarmua,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+799,Yobe,Tarmua,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+800,Yobe,Tarmua,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+801,Yobe,Yunusari,SMC,Babura,may,131,2020,1,-1,1,0.6,5
+802,Yobe,Yunusari,SMC,Babura,may,161,2020,2,-1,1,0.6,5
+803,Yobe,Yunusari,SMC,Babura,may,191,2020,3,-1,1,0.6,5
+804,Yobe,Yunusari,SMC,Babura,may,221,2020,4,-1,1,0.6,5
+805,Yobe,Yusufari,SMC,Taura,july,186,2020,1,-1,1,0.6,5
+806,Yobe,Yusufari,SMC,Taura,july,216,2020,2,-1,1,0.6,5
+807,Yobe,Yusufari,SMC,Taura,july,246,2020,3,-1,1,0.6,5
+808,Yobe,Yusufari,SMC,Taura,july,276,2020,4,-1,1,0.6,5
+809,Zamfara,Anka,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+810,Zamfara,Anka,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+811,Zamfara,Anka,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+812,Zamfara,Anka,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+813,Zamfara,Bakura,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+814,Zamfara,Bakura,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+815,Zamfara,Bakura,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+816,Zamfara,Bakura,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+817,Zamfara,Birnin Magaji,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+818,Zamfara,Birnin Magaji,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+819,Zamfara,Birnin Magaji,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+820,Zamfara,Birnin Magaji,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+821,Zamfara,Bukkuyum,SMC,Alkaleri,july,186,2020,1,-1,1,0.6,5
+822,Zamfara,Bukkuyum,SMC,Alkaleri,july,216,2020,2,-1,1,0.6,5
+823,Zamfara,Bukkuyum,SMC,Alkaleri,july,246,2020,3,-1,1,0.6,5
+824,Zamfara,Bukkuyum,SMC,Alkaleri,july,276,2020,4,-1,1,0.6,5
+825,Zamfara,Bungudu,SMC,Takali,september,250,2020,1,-1,1,0.6,5
+826,Zamfara,Bungudu,SMC,Takali,september,280,2020,2,-1,1,0.6,5
+827,Zamfara,Bungudu,SMC,Takali,september,310,2020,3,-1,1,0.6,5
+828,Zamfara,Bungudu,SMC,Takali,september,340,2020,4,-1,1,0.6,5
+829,Zamfara,Gummi,SMC,Birnin Kebbi,august,223,2020,1,-1,1,0.6,5
+830,Zamfara,Gummi,SMC,Birnin Kebbi,august,253,2020,2,-1,1,0.6,5
+831,Zamfara,Gummi,SMC,Birnin Kebbi,august,283,2020,3,-1,1,0.6,5
+832,Zamfara,Gummi,SMC,Birnin Kebbi,august,313,2020,4,-1,1,0.6,5
+833,Zamfara,Gusau,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+834,Zamfara,Gusau,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+835,Zamfara,Gusau,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+836,Zamfara,Gusau,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+837,Zamfara,Kaura-Namoda,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+838,Zamfara,Kaura-Namoda,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+839,Zamfara,Kaura-Namoda,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+840,Zamfara,Kaura-Namoda,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+841,Zamfara,Maradun,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+842,Zamfara,Maradun,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+843,Zamfara,Maradun,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+844,Zamfara,Maradun,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+845,Zamfara,Maru,SMC,Giwa,august,223,2020,1,-1,1,0.6,5
+846,Zamfara,Maru,SMC,Giwa,august,253,2020,2,-1,1,0.6,5
+847,Zamfara,Maru,SMC,Giwa,august,283,2020,3,-1,1,0.6,5
+848,Zamfara,Maru,SMC,Giwa,august,313,2020,4,-1,1,0.6,5
+849,Zamfara,Shinkafi,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+850,Zamfara,Shinkafi,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+851,Zamfara,Shinkafi,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+852,Zamfara,Shinkafi,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+853,Zamfara,Talata Mafara,SMC,Darazo,july,186,2020,1,-1,1,0.6,5
+854,Zamfara,Talata Mafara,SMC,Darazo,july,216,2020,2,-1,1,0.6,5
+855,Zamfara,Talata Mafara,SMC,Darazo,july,246,2020,3,-1,1,0.6,5
+856,Zamfara,Talata Mafara,SMC,Darazo,july,276,2020,4,-1,1,0.6,5
+857,Zamfara,Tsafe,SMC,Takali,september,250,2020,1,-1,1,0.6,5
+858,Zamfara,Tsafe,SMC,Takali,september,280,2020,2,-1,1,0.6,5
+859,Zamfara,Tsafe,SMC,Takali,september,310,2020,3,-1,1,0.6,5
+860,Zamfara,Tsafe,SMC,Takali,september,340,2020,4,-1,1,0.6,5
+861,Zamfara,Zurmi,SMC,Rimi,march,131,2020,1,-1,1,0.6,5
+862,Zamfara,Zurmi,SMC,Rimi,march,161,2020,2,-1,1,0.6,5
+863,Zamfara,Zurmi,SMC,Rimi,march,191,2020,3,-1,1,0.6,5
+864,Zamfara,Zurmi,SMC,Rimi,march,221,2020,4,-1,1,0.6,5
+865,Borno,Abadam,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+866,Borno,Abadam,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+867,Borno,Abadam,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+868,Borno,Abadam,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+869,Borno,Askira-Uba,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+870,Borno,Askira-Uba,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+871,Borno,Askira-Uba,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+872,Borno,Askira-Uba,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+873,Borno,Bama,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+874,Borno,Bama,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+875,Borno,Bama,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+876,Borno,Bama,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+877,Borno,Bayo,SMC,Alkaleri,july,550,2021,1,-1,1,0.6,5
+878,Borno,Bayo,SMC,Alkaleri,july,580,2021,2,-1,1,0.6,5
+879,Borno,Bayo,SMC,Alkaleri,july,610,2021,3,-1,1,0.6,5
+880,Borno,Bayo,SMC,Alkaleri,july,640,2021,4,-1,1,0.6,5
+881,Borno,Biu,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+882,Borno,Biu,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+883,Borno,Biu,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+884,Borno,Biu,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+885,Borno,Chibok,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+886,Borno,Chibok,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+887,Borno,Chibok,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+888,Borno,Chibok,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+889,Borno,Damboa,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+890,Borno,Damboa,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+891,Borno,Damboa,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+892,Borno,Damboa,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+893,Borno,Dikwa,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+894,Borno,Dikwa,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+895,Borno,Dikwa,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+896,Borno,Dikwa,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+897,Borno,Gubio,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+898,Borno,Gubio,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+899,Borno,Gubio,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+900,Borno,Gubio,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+901,Borno,Guzamala,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+902,Borno,Guzamala,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+903,Borno,Guzamala,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+904,Borno,Guzamala,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+905,Borno,Gwoza,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+906,Borno,Gwoza,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+907,Borno,Gwoza,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+908,Borno,Gwoza,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+909,Borno,Hawul,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+910,Borno,Hawul,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+911,Borno,Hawul,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+912,Borno,Hawul,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+913,Borno,Jere,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+914,Borno,Jere,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+915,Borno,Jere,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+916,Borno,Jere,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+917,Borno,Kaga,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+918,Borno,Kaga,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+919,Borno,Kaga,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+920,Borno,Kaga,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+921,Borno,Kala-Balge,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+922,Borno,Kala-Balge,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+923,Borno,Kala-Balge,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+924,Borno,Kala-Balge,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+925,Borno,Konduga,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+926,Borno,Konduga,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+927,Borno,Konduga,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+928,Borno,Konduga,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+929,Borno,Kukawa,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+930,Borno,Kukawa,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+931,Borno,Kukawa,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+932,Borno,Kukawa,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+933,Borno,Kwaya Kusar,SMC,Alkaleri,july,550,2021,1,-1,1,0.6,5
+934,Borno,Kwaya Kusar,SMC,Alkaleri,july,580,2021,2,-1,1,0.6,5
+935,Borno,Kwaya Kusar,SMC,Alkaleri,july,610,2021,3,-1,1,0.6,5
+936,Borno,Kwaya Kusar,SMC,Alkaleri,july,640,2021,4,-1,1,0.6,5
+937,Borno,Mafa,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+938,Borno,Mafa,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+939,Borno,Mafa,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+940,Borno,Mafa,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+941,Borno,Magumeri,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+942,Borno,Magumeri,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+943,Borno,Magumeri,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+944,Borno,Magumeri,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+945,Borno,Maiduguri,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+946,Borno,Maiduguri,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+947,Borno,Maiduguri,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+948,Borno,Maiduguri,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+949,Borno,Marte,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+950,Borno,Marte,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+951,Borno,Marte,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+952,Borno,Marte,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+953,Borno,Mobbar,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+954,Borno,Mobbar,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+955,Borno,Mobbar,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+956,Borno,Mobbar,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+957,Borno,Monguno,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+958,Borno,Monguno,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+959,Borno,Monguno,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+960,Borno,Monguno,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+961,Borno,Ngala,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+962,Borno,Ngala,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+963,Borno,Ngala,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+964,Borno,Ngala,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+965,Borno,Nganzai,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+966,Borno,Nganzai,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+967,Borno,Nganzai,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+968,Borno,Nganzai,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+969,Borno,Shani,SMC,Alkaleri,july,550,2021,1,-1,1,0.6,5
+970,Borno,Shani,SMC,Alkaleri,july,580,2021,2,-1,1,0.6,5
+971,Borno,Shani,SMC,Alkaleri,july,610,2021,3,-1,1,0.6,5
+972,Borno,Shani,SMC,Alkaleri,july,640,2021,4,-1,1,0.6,5
+973,Jigawa,Auyo,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+974,Jigawa,Auyo,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+975,Jigawa,Auyo,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+976,Jigawa,Auyo,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+977,Jigawa,Babura,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+978,Jigawa,Babura,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+979,Jigawa,Babura,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+980,Jigawa,Babura,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+981,Jigawa,Biriniwa,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+982,Jigawa,Biriniwa,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+983,Jigawa,Biriniwa,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+984,Jigawa,Biriniwa,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+985,Jigawa,Birni Kudu,SMC,Takali,september,610,2021,1,-1,1,0.6,5
+986,Jigawa,Birni Kudu,SMC,Takali,september,640,2021,2,-1,1,0.6,5
+987,Jigawa,Birni Kudu,SMC,Takali,september,670,2021,3,-1,1,0.6,5
+988,Jigawa,Birni Kudu,SMC,Takali,september,700,2021,4,-1,1,0.6,5
+989,Jigawa,Buji,SMC,Takali,september,610,2021,1,-1,1,0.6,5
+990,Jigawa,Buji,SMC,Takali,september,640,2021,2,-1,1,0.6,5
+991,Jigawa,Buji,SMC,Takali,september,670,2021,3,-1,1,0.6,5
+992,Jigawa,Buji,SMC,Takali,september,700,2021,4,-1,1,0.6,5
+993,Jigawa,Dutse,SMC,Takali,september,610,2021,1,-1,1,0.6,5
+994,Jigawa,Dutse,SMC,Takali,september,640,2021,2,-1,1,0.6,5
+995,Jigawa,Dutse,SMC,Takali,september,670,2021,3,-1,1,0.6,5
+996,Jigawa,Dutse,SMC,Takali,september,700,2021,4,-1,1,0.6,5
+997,Jigawa,Gagarawa,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+998,Jigawa,Gagarawa,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+999,Jigawa,Gagarawa,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1000,Jigawa,Gagarawa,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1001,Jigawa,Garki,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+1002,Jigawa,Garki,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+1003,Jigawa,Garki,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+1004,Jigawa,Garki,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+1005,Jigawa,Gumel,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+1006,Jigawa,Gumel,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+1007,Jigawa,Gumel,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+1008,Jigawa,Gumel,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+1009,Jigawa,Guri,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1010,Jigawa,Guri,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1011,Jigawa,Guri,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1012,Jigawa,Guri,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1013,Jigawa,Gwaram,SMC,Takali,september,610,2021,1,-1,1,0.6,5
+1014,Jigawa,Gwaram,SMC,Takali,september,640,2021,2,-1,1,0.6,5
+1015,Jigawa,Gwaram,SMC,Takali,september,670,2021,3,-1,1,0.6,5
+1016,Jigawa,Gwaram,SMC,Takali,september,700,2021,4,-1,1,0.6,5
+1017,Jigawa,Gwiwa,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+1018,Jigawa,Gwiwa,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+1019,Jigawa,Gwiwa,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+1020,Jigawa,Gwiwa,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+1021,Jigawa,Hadejia,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1022,Jigawa,Hadejia,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1023,Jigawa,Hadejia,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1024,Jigawa,Hadejia,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1025,Jigawa,Jahun,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1026,Jigawa,Jahun,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1027,Jigawa,Jahun,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1028,Jigawa,Jahun,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1029,Jigawa,Kafin Hausa,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1030,Jigawa,Kafin Hausa,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1031,Jigawa,Kafin Hausa,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1032,Jigawa,Kafin Hausa,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1033,Jigawa,Kaugama,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1034,Jigawa,Kaugama,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1035,Jigawa,Kaugama,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1036,Jigawa,Kaugama,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1037,Jigawa,Kazaure,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+1038,Jigawa,Kazaure,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+1039,Jigawa,Kazaure,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+1040,Jigawa,Kazaure,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+1041,Jigawa,Kiri Kasamma,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1042,Jigawa,Kiri Kasamma,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1043,Jigawa,Kiri Kasamma,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1044,Jigawa,Kiri Kasamma,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1045,Jigawa,Maigatari,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+1046,Jigawa,Maigatari,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+1047,Jigawa,Maigatari,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+1048,Jigawa,Maigatari,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+1049,Jigawa,Malam Madori,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1050,Jigawa,Malam Madori,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1051,Jigawa,Malam Madori,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1052,Jigawa,Malam Madori,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1053,Jigawa,Miga,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1054,Jigawa,Miga,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1055,Jigawa,Miga,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1056,Jigawa,Miga,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1057,Jigawa,Ringim,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1058,Jigawa,Ringim,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1059,Jigawa,Ringim,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1060,Jigawa,Ringim,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1061,Jigawa,Roni,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+1062,Jigawa,Roni,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+1063,Jigawa,Roni,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+1064,Jigawa,Roni,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+1065,Jigawa,Sule-Tankarkar,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+1066,Jigawa,Sule-Tankarkar,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+1067,Jigawa,Sule-Tankarkar,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+1068,Jigawa,Sule-Tankarkar,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+1069,Jigawa,Taura,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1070,Jigawa,Taura,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1071,Jigawa,Taura,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1072,Jigawa,Taura,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1073,Jigawa,Yankwashi,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+1074,Jigawa,Yankwashi,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+1075,Jigawa,Yankwashi,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+1076,Jigawa,Yankwashi,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+1077,Jigawa,Kiyawa,SMC,Takali,september,610,2021,1,-1,1,0.6,5
+1078,Jigawa,Kiyawa,SMC,Takali,september,640,2021,2,-1,1,0.6,5
+1079,Jigawa,Kiyawa,SMC,Takali,september,670,2021,3,-1,1,0.6,5
+1080,Jigawa,Kiyawa,SMC,Takali,september,700,2021,4,-1,1,0.6,5
+1081,Kano,Ajingi,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1082,Kano,Ajingi,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1083,Kano,Ajingi,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1084,Kano,Ajingi,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1085,Kano,Albasu,SMC,Takali,september,610,2021,1,-1,1,0.6,5
+1086,Kano,Albasu,SMC,Takali,september,640,2021,2,-1,1,0.6,5
+1087,Kano,Albasu,SMC,Takali,september,670,2021,3,-1,1,0.6,5
+1088,Kano,Albasu,SMC,Takali,september,700,2021,4,-1,1,0.6,5
+1089,Kano,Bagwai,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+1090,Kano,Bagwai,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+1091,Kano,Bagwai,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+1092,Kano,Bagwai,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+1093,Kano,Bebeji,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1094,Kano,Bebeji,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1095,Kano,Bebeji,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1096,Kano,Bebeji,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1097,Kano,Bichi,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1098,Kano,Bichi,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1099,Kano,Bichi,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1100,Kano,Bichi,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1101,Kano,Bunkure,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1102,Kano,Bunkure,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1103,Kano,Bunkure,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1104,Kano,Bunkure,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1105,Kano,Dala,SMC,Alkaleri,july,550,2021,1,-1,1,0.6,5
+1106,Kano,Dala,SMC,Alkaleri,july,580,2021,2,-1,1,0.6,5
+1107,Kano,Dala,SMC,Alkaleri,july,610,2021,3,-1,1,0.6,5
+1108,Kano,Dala,SMC,Alkaleri,july,640,2021,4,-1,1,0.6,5
+1109,Kano,Dambatta,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+1110,Kano,Dambatta,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+1111,Kano,Dambatta,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+1112,Kano,Dambatta,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+1113,Kano,Dawakin Kudu,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1114,Kano,Dawakin Kudu,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1115,Kano,Dawakin Kudu,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1116,Kano,Dawakin Kudu,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1117,Kano,Dawakin Tofa,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1118,Kano,Dawakin Tofa,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1119,Kano,Dawakin Tofa,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1120,Kano,Dawakin Tofa,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1121,Kano,Doguwa,SMC,Giwa,august,579,2021,1,-1,1,0.6,5
+1122,Kano,Doguwa,SMC,Giwa,august,609,2021,2,-1,1,0.6,5
+1123,Kano,Doguwa,SMC,Giwa,august,639,2021,3,-1,1,0.6,5
+1124,Kano,Doguwa,SMC,Giwa,august,669,2021,4,-1,1,0.6,5
+1125,Kano,Fagge,SMC,Alkaleri,july,550,2021,1,-1,1,0.6,5
+1126,Kano,Fagge,SMC,Alkaleri,july,580,2021,2,-1,1,0.6,5
+1127,Kano,Fagge,SMC,Alkaleri,july,610,2021,3,-1,1,0.6,5
+1128,Kano,Fagge,SMC,Alkaleri,july,640,2021,4,-1,1,0.6,5
+1129,Kano,Gabasawa,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1130,Kano,Gabasawa,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1131,Kano,Gabasawa,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1132,Kano,Gabasawa,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1133,Kano,Garko,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1134,Kano,Garko,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1135,Kano,Garko,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1136,Kano,Garko,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1137,Kano,Garum Mallam,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1138,Kano,Garum Mallam,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1139,Kano,Garum Mallam,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1140,Kano,Garum Mallam,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1141,Kano,Gaya,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1142,Kano,Gaya,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1143,Kano,Gaya,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1144,Kano,Gaya,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1145,Kano,Gezawa,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1146,Kano,Gezawa,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1147,Kano,Gezawa,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1148,Kano,Gezawa,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1149,Kano,Gwale,SMC,Alkaleri,july,550,2021,1,-1,1,0.6,5
+1150,Kano,Gwale,SMC,Alkaleri,july,580,2021,2,-1,1,0.6,5
+1151,Kano,Gwale,SMC,Alkaleri,july,610,2021,3,-1,1,0.6,5
+1152,Kano,Gwale,SMC,Alkaleri,july,640,2021,4,-1,1,0.6,5
+1153,Kano,Gwarzo,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1154,Kano,Gwarzo,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1155,Kano,Gwarzo,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1156,Kano,Gwarzo,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1157,Kano,Kabo,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1158,Kano,Kabo,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1159,Kano,Kabo,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1160,Kano,Kabo,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1161,Kano,Kano Municipal,SMC,Alkaleri,july,550,2021,1,-1,1,0.6,5
+1162,Kano,Kano Municipal,SMC,Alkaleri,july,580,2021,2,-1,1,0.6,5
+1163,Kano,Kano Municipal,SMC,Alkaleri,july,610,2021,3,-1,1,0.6,5
+1164,Kano,Kano Municipal,SMC,Alkaleri,july,640,2021,4,-1,1,0.6,5
+1165,Kano,Karaye,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1166,Kano,Karaye,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1167,Kano,Karaye,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1168,Kano,Karaye,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1169,Kano,Kibiya,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1170,Kano,Kibiya,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1171,Kano,Kibiya,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1172,Kano,Kibiya,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1173,Kano,Kiru,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1174,Kano,Kiru,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1175,Kano,Kiru,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1176,Kano,Kiru,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1177,Kano,Kumbotso,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1178,Kano,Kumbotso,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1179,Kano,Kumbotso,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1180,Kano,Kumbotso,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1181,Kano,Kunchi,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+1182,Kano,Kunchi,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+1183,Kano,Kunchi,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+1184,Kano,Kunchi,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+1185,Kano,Kura,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1186,Kano,Kura,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1187,Kano,Kura,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1188,Kano,Kura,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1189,Kano,Madobi,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1190,Kano,Madobi,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1191,Kano,Madobi,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1192,Kano,Madobi,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1193,Kano,Makoda,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+1194,Kano,Makoda,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+1195,Kano,Makoda,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+1196,Kano,Makoda,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+1197,Kano,Minjibir,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1198,Kano,Minjibir,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1199,Kano,Minjibir,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1200,Kano,Minjibir,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1201,Kano,Nasarawa1,SMC,Alkaleri,july,550,2021,1,-1,1,0.6,5
+1202,Kano,Nasarawa1,SMC,Alkaleri,july,580,2021,2,-1,1,0.6,5
+1203,Kano,Nasarawa1,SMC,Alkaleri,july,610,2021,3,-1,1,0.6,5
+1204,Kano,Nasarawa1,SMC,Alkaleri,july,640,2021,4,-1,1,0.6,5
+1205,Kano,Rano,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1206,Kano,Rano,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1207,Kano,Rano,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1208,Kano,Rano,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1209,Kano,Rimin Gado,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1210,Kano,Rimin Gado,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1211,Kano,Rimin Gado,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1212,Kano,Rimin Gado,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1213,Kano,Rogo,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1214,Kano,Rogo,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1215,Kano,Rogo,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1216,Kano,Rogo,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1217,Kano,Shanono,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1218,Kano,Shanono,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1219,Kano,Shanono,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1220,Kano,Shanono,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1221,Kano,Sumaila,SMC,Takali,september,610,2021,1,-1,1,0.6,5
+1222,Kano,Sumaila,SMC,Takali,september,640,2021,2,-1,1,0.6,5
+1223,Kano,Sumaila,SMC,Takali,september,670,2021,3,-1,1,0.6,5
+1224,Kano,Sumaila,SMC,Takali,september,700,2021,4,-1,1,0.6,5
+1225,Kano,Takali,SMC,Takali,september,610,2021,1,-1,1,0.6,5
+1226,Kano,Takali,SMC,Takali,september,640,2021,2,-1,1,0.6,5
+1227,Kano,Takali,SMC,Takali,september,670,2021,3,-1,1,0.6,5
+1228,Kano,Takali,SMC,Takali,september,700,2021,4,-1,1,0.6,5
+1229,Kano,Tarauni,SMC,Alkaleri,july,550,2021,1,-1,1,0.6,5
+1230,Kano,Tarauni,SMC,Alkaleri,july,580,2021,2,-1,1,0.6,5
+1231,Kano,Tarauni,SMC,Alkaleri,july,610,2021,3,-1,1,0.6,5
+1232,Kano,Tarauni,SMC,Alkaleri,july,640,2021,4,-1,1,0.6,5
+1233,Kano,Tofa,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1234,Kano,Tofa,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1235,Kano,Tofa,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1236,Kano,Tofa,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1237,Kano,Tsanyawa,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1238,Kano,Tsanyawa,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1239,Kano,Tsanyawa,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1240,Kano,Tsanyawa,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1241,Kano,Tudun Wada,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1242,Kano,Tudun Wada,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1243,Kano,Tudun Wada,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1244,Kano,Tudun Wada,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1245,Kano,Ungogo,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1246,Kano,Ungogo,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1247,Kano,Ungogo,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1248,Kano,Ungogo,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1249,Kano,Warawa,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1250,Kano,Warawa,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1251,Kano,Warawa,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1252,Kano,Warawa,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1253,Kano,Wudil,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1254,Kano,Wudil,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1255,Kano,Wudil,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1256,Kano,Wudil,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1257,Katsina,Bakori,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1258,Katsina,Bakori,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1259,Katsina,Bakori,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1260,Katsina,Bakori,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1261,Katsina,Batagarawa,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1262,Katsina,Batagarawa,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1263,Katsina,Batagarawa,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1264,Katsina,Batagarawa,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1265,Katsina,Batsari,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1266,Katsina,Batsari,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1267,Katsina,Batsari,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1268,Katsina,Batsari,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1269,Katsina,Baure,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+1270,Katsina,Baure,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+1271,Katsina,Baure,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+1272,Katsina,Baure,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+1273,Katsina,Bindawa,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1274,Katsina,Bindawa,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1275,Katsina,Bindawa,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1276,Katsina,Bindawa,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1277,Katsina,Charanchi,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1278,Katsina,Charanchi,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1279,Katsina,Charanchi,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1280,Katsina,Charanchi,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1281,Katsina,Dan Musa,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1282,Katsina,Dan Musa,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1283,Katsina,Dan Musa,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1284,Katsina,Dan Musa,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1285,Katsina,Dandume,SMC,Giwa,august,579,2021,1,-1,1,0.6,5
+1286,Katsina,Dandume,SMC,Giwa,august,609,2021,2,-1,1,0.6,5
+1287,Katsina,Dandume,SMC,Giwa,august,639,2021,3,-1,1,0.6,5
+1288,Katsina,Dandume,SMC,Giwa,august,669,2021,4,-1,1,0.6,5
+1289,Katsina,Danja,SMC,Giwa,august,579,2021,1,-1,1,0.6,5
+1290,Katsina,Danja,SMC,Giwa,august,609,2021,2,-1,1,0.6,5
+1291,Katsina,Danja,SMC,Giwa,august,639,2021,3,-1,1,0.6,5
+1292,Katsina,Danja,SMC,Giwa,august,669,2021,4,-1,1,0.6,5
+1293,Katsina,Daura,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+1294,Katsina,Daura,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+1295,Katsina,Daura,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+1296,Katsina,Daura,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+1297,Katsina,Dutsi,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1298,Katsina,Dutsi,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1299,Katsina,Dutsi,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1300,Katsina,Dutsi,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1301,Katsina,Dutsin-Ma,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1302,Katsina,Dutsin-Ma,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1303,Katsina,Dutsin-Ma,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1304,Katsina,Dutsin-Ma,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1305,Katsina,Faskari,SMC,Giwa,august,579,2021,1,-1,1,0.6,5
+1306,Katsina,Faskari,SMC,Giwa,august,609,2021,2,-1,1,0.6,5
+1307,Katsina,Faskari,SMC,Giwa,august,639,2021,3,-1,1,0.6,5
+1308,Katsina,Faskari,SMC,Giwa,august,669,2021,4,-1,1,0.6,5
+1309,Katsina,Funtua,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1310,Katsina,Funtua,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1311,Katsina,Funtua,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1312,Katsina,Funtua,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1313,Katsina,Ingawa,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1314,Katsina,Ingawa,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1315,Katsina,Ingawa,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1316,Katsina,Ingawa,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1317,Katsina,Jibia,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1318,Katsina,Jibia,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1319,Katsina,Jibia,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1320,Katsina,Jibia,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1321,Katsina,Kafur,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1322,Katsina,Kafur,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1323,Katsina,Kafur,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1324,Katsina,Kafur,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1325,Katsina,Kankara,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1326,Katsina,Kankara,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1327,Katsina,Kankara,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1328,Katsina,Kankara,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1329,Katsina,Kankia,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1330,Katsina,Kankia,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1331,Katsina,Kankia,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1332,Katsina,Kankia,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1333,Katsina,Katsina,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1334,Katsina,Katsina,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1335,Katsina,Katsina,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1336,Katsina,Katsina,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1337,Katsina,Kurfi,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1338,Katsina,Kurfi,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1339,Katsina,Kurfi,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1340,Katsina,Kurfi,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1341,Katsina,Kusada,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1342,Katsina,Kusada,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1343,Katsina,Kusada,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1344,Katsina,Kusada,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1345,Katsina,Mai'Adua,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1346,Katsina,Mai'Adua,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1347,Katsina,Mai'Adua,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1348,Katsina,Mai'Adua,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1349,Katsina,Malumfashi,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1350,Katsina,Malumfashi,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1351,Katsina,Malumfashi,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1352,Katsina,Malumfashi,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1353,Katsina,Mani,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1354,Katsina,Mani,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1355,Katsina,Mani,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1356,Katsina,Mani,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1357,Katsina,Mashi,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1358,Katsina,Mashi,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1359,Katsina,Mashi,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1360,Katsina,Mashi,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1361,Katsina,Matazuu,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1362,Katsina,Matazuu,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1363,Katsina,Matazuu,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1364,Katsina,Matazuu,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1365,Katsina,Musawa,SMC,Gwarzo,august,579,2021,1,-1,1,0.6,5
+1366,Katsina,Musawa,SMC,Gwarzo,august,609,2021,2,-1,1,0.6,5
+1367,Katsina,Musawa,SMC,Gwarzo,august,639,2021,3,-1,1,0.6,5
+1368,Katsina,Musawa,SMC,Gwarzo,august,669,2021,4,-1,1,0.6,5
+1369,Katsina,Rimi,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1370,Katsina,Rimi,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1371,Katsina,Rimi,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1372,Katsina,Rimi,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1373,Katsina,Sabuwa,SMC,Giwa,august,579,2021,1,-1,1,0.6,5
+1374,Katsina,Sabuwa,SMC,Giwa,august,609,2021,2,-1,1,0.6,5
+1375,Katsina,Sabuwa,SMC,Giwa,august,639,2021,3,-1,1,0.6,5
+1376,Katsina,Sabuwa,SMC,Giwa,august,669,2021,4,-1,1,0.6,5
+1377,Katsina,Safana,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+1378,Katsina,Safana,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+1379,Katsina,Safana,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+1380,Katsina,Safana,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+1381,Katsina,Sandamu,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1382,Katsina,Sandamu,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1383,Katsina,Sandamu,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1384,Katsina,Sandamu,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1385,Katsina,Zango,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+1386,Katsina,Zango,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+1387,Katsina,Zango,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+1388,Katsina,Zango,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+1389,Katsina,Kaita,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1390,Katsina,Kaita,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1391,Katsina,Kaita,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1392,Katsina,Kaita,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1393,Kebbi,Aleiro,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1394,Kebbi,Aleiro,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1395,Kebbi,Aleiro,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1396,Kebbi,Aleiro,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1397,Kebbi,Arewa-Dandi,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1398,Kebbi,Arewa-Dandi,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1399,Kebbi,Arewa-Dandi,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1400,Kebbi,Arewa-Dandi,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1401,Kebbi,Argungu,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1402,Kebbi,Argungu,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1403,Kebbi,Argungu,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1404,Kebbi,Argungu,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1405,Kebbi,Augie,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1406,Kebbi,Augie,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1407,Kebbi,Augie,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1408,Kebbi,Augie,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1409,Kebbi,Bagudo,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1410,Kebbi,Bagudo,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1411,Kebbi,Bagudo,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1412,Kebbi,Bagudo,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1413,Kebbi,Birnin Kebbi,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1414,Kebbi,Birnin Kebbi,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1415,Kebbi,Birnin Kebbi,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1416,Kebbi,Birnin Kebbi,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1417,Kebbi,Bunza,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1418,Kebbi,Bunza,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1419,Kebbi,Bunza,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1420,Kebbi,Bunza,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1421,Kebbi,Dandi,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1422,Kebbi,Dandi,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1423,Kebbi,Dandi,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1424,Kebbi,Dandi,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1425,Kebbi,Fakai,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1426,Kebbi,Fakai,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1427,Kebbi,Fakai,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1428,Kebbi,Fakai,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1429,Kebbi,Gwandu,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1430,Kebbi,Gwandu,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1431,Kebbi,Gwandu,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1432,Kebbi,Gwandu,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1433,Kebbi,Jega,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1434,Kebbi,Jega,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1435,Kebbi,Jega,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1436,Kebbi,Jega,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1437,Kebbi,Kalgo,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1438,Kebbi,Kalgo,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1439,Kebbi,Kalgo,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1440,Kebbi,Kalgo,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1441,Kebbi,Koko-Besse,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1442,Kebbi,Koko-Besse,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1443,Kebbi,Koko-Besse,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1444,Kebbi,Koko-Besse,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1445,Kebbi,Maiyama,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1446,Kebbi,Maiyama,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1447,Kebbi,Maiyama,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1448,Kebbi,Maiyama,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1449,Kebbi,Ngaski,SMC,Owan East,march,426,2021,1,-1,1,0.6,5
+1450,Kebbi,Ngaski,SMC,Owan East,march,456,2021,2,-1,1,0.6,5
+1451,Kebbi,Ngaski,SMC,Owan East,march,486,2021,3,-1,1,0.6,5
+1452,Kebbi,Ngaski,SMC,Owan East,march,516,2021,4,-1,1,0.6,5
+1453,Kebbi,Sakaba,SMC,Alkaleri,july,550,2021,1,-1,1,0.6,5
+1454,Kebbi,Sakaba,SMC,Alkaleri,july,580,2021,2,-1,1,0.6,5
+1455,Kebbi,Sakaba,SMC,Alkaleri,july,610,2021,3,-1,1,0.6,5
+1456,Kebbi,Sakaba,SMC,Alkaleri,july,640,2021,4,-1,1,0.6,5
+1457,Kebbi,Shanga,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1458,Kebbi,Shanga,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1459,Kebbi,Shanga,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1460,Kebbi,Shanga,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1461,Kebbi,Suru,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1462,Kebbi,Suru,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1463,Kebbi,Suru,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1464,Kebbi,Suru,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1465,Kebbi,Wasagu-Danko,SMC,Alkaleri,july,550,2021,1,-1,1,0.6,5
+1466,Kebbi,Wasagu-Danko,SMC,Alkaleri,july,580,2021,2,-1,1,0.6,5
+1467,Kebbi,Wasagu-Danko,SMC,Alkaleri,july,610,2021,3,-1,1,0.6,5
+1468,Kebbi,Wasagu-Danko,SMC,Alkaleri,july,640,2021,4,-1,1,0.6,5
+1469,Kebbi,Yauri,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1470,Kebbi,Yauri,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1471,Kebbi,Yauri,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1472,Kebbi,Yauri,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1473,Kebbi,Zuru,SMC,Alkaleri,july,550,2021,1,-1,1,0.6,5
+1474,Kebbi,Zuru,SMC,Alkaleri,july,580,2021,2,-1,1,0.6,5
+1475,Kebbi,Zuru,SMC,Alkaleri,july,610,2021,3,-1,1,0.6,5
+1476,Kebbi,Zuru,SMC,Alkaleri,july,640,2021,4,-1,1,0.6,5
+1477,Sokoto,Binji,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+1478,Sokoto,Binji,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+1479,Sokoto,Binji,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+1480,Sokoto,Binji,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+1481,Sokoto,Bodinga,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+1482,Sokoto,Bodinga,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+1483,Sokoto,Bodinga,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+1484,Sokoto,Bodinga,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+1485,Sokoto,Dange-Shnsi,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+1486,Sokoto,Dange-Shnsi,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+1487,Sokoto,Dange-Shnsi,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+1488,Sokoto,Dange-Shnsi,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+1489,Sokoto,Gada,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+1490,Sokoto,Gada,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+1491,Sokoto,Gada,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+1492,Sokoto,Gada,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+1493,Sokoto,Gawabawa,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+1494,Sokoto,Gawabawa,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+1495,Sokoto,Gawabawa,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+1496,Sokoto,Gawabawa,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+1497,Sokoto,Goronyo,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+1498,Sokoto,Goronyo,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+1499,Sokoto,Goronyo,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+1500,Sokoto,Goronyo,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+1501,Sokoto,Gudu,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+1502,Sokoto,Gudu,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+1503,Sokoto,Gudu,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+1504,Sokoto,Gudu,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+1505,Sokoto,Illela,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+1506,Sokoto,Illela,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+1507,Sokoto,Illela,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+1508,Sokoto,Illela,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+1509,Sokoto,Isa,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1510,Sokoto,Isa,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1511,Sokoto,Isa,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1512,Sokoto,Isa,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1513,Sokoto,Kebbe,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1514,Sokoto,Kebbe,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1515,Sokoto,Kebbe,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1516,Sokoto,Kebbe,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1517,Sokoto,Kware,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+1518,Sokoto,Kware,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+1519,Sokoto,Kware,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+1520,Sokoto,Kware,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+1521,Sokoto,Rabah,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+1522,Sokoto,Rabah,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+1523,Sokoto,Rabah,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+1524,Sokoto,Rabah,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+1525,Sokoto,Sabon Birni,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+1526,Sokoto,Sabon Birni,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+1527,Sokoto,Sabon Birni,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+1528,Sokoto,Sabon Birni,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+1529,Sokoto,Shagari,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1530,Sokoto,Shagari,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1531,Sokoto,Shagari,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1532,Sokoto,Shagari,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1533,Sokoto,Silame,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+1534,Sokoto,Silame,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+1535,Sokoto,Silame,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+1536,Sokoto,Silame,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+1537,Sokoto,Sokoto North,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+1538,Sokoto,Sokoto North,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+1539,Sokoto,Sokoto North,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+1540,Sokoto,Sokoto North,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+1541,Sokoto,Sokoto South,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1542,Sokoto,Sokoto South,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1543,Sokoto,Sokoto South,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1544,Sokoto,Sokoto South,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1545,Sokoto,Tambuwal,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1546,Sokoto,Tambuwal,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1547,Sokoto,Tambuwal,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1548,Sokoto,Tambuwal,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1549,Sokoto,Tangaza,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+1550,Sokoto,Tangaza,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+1551,Sokoto,Tangaza,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+1552,Sokoto,Tangaza,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+1553,Sokoto,Tureta,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1554,Sokoto,Tureta,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1555,Sokoto,Tureta,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1556,Sokoto,Tureta,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1557,Sokoto,Wamako,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+1558,Sokoto,Wamako,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+1559,Sokoto,Wamako,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+1560,Sokoto,Wamako,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+1561,Sokoto,Wurno,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+1562,Sokoto,Wurno,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+1563,Sokoto,Wurno,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+1564,Sokoto,Wurno,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+1565,Sokoto,Yabo,SMC,Gawabawa,august,579,2021,1,-1,1,0.6,5
+1566,Sokoto,Yabo,SMC,Gawabawa,august,609,2021,2,-1,1,0.6,5
+1567,Sokoto,Yabo,SMC,Gawabawa,august,639,2021,3,-1,1,0.6,5
+1568,Sokoto,Yabo,SMC,Gawabawa,august,669,2021,4,-1,1,0.6,5
+1569,Taraba,Ardo-Kola,SMC,Keana,august,579,2021,1,-1,1,0.6,5
+1570,Taraba,Ardo-Kola,SMC,Keana,august,609,2021,2,-1,1,0.6,5
+1571,Taraba,Ardo-Kola,SMC,Keana,august,639,2021,3,-1,1,0.6,5
+1572,Taraba,Ardo-Kola,SMC,Keana,august,669,2021,4,-1,1,0.6,5
+1573,Taraba,Gassol,SMC,Keana,august,579,2021,1,-1,1,0.6,5
+1574,Taraba,Gassol,SMC,Keana,august,609,2021,2,-1,1,0.6,5
+1575,Taraba,Gassol,SMC,Keana,august,639,2021,3,-1,1,0.6,5
+1576,Taraba,Gassol,SMC,Keana,august,669,2021,4,-1,1,0.6,5
+1577,Taraba,Ibi,SMC,Keana,august,579,2021,1,-1,1,0.6,5
+1578,Taraba,Ibi,SMC,Keana,august,609,2021,2,-1,1,0.6,5
+1579,Taraba,Ibi,SMC,Keana,august,639,2021,3,-1,1,0.6,5
+1580,Taraba,Ibi,SMC,Keana,august,669,2021,4,-1,1,0.6,5
+1581,Taraba,Jalingo,SMC,Keana,august,579,2021,1,-1,1,0.6,5
+1582,Taraba,Jalingo,SMC,Keana,august,609,2021,2,-1,1,0.6,5
+1583,Taraba,Jalingo,SMC,Keana,august,639,2021,3,-1,1,0.6,5
+1584,Taraba,Jalingo,SMC,Keana,august,669,2021,4,-1,1,0.6,5
+1585,Taraba,Karin-Lamido,SMC,Alkaleri,july,550,2021,1,-1,1,0.6,5
+1586,Taraba,Karin-Lamido,SMC,Alkaleri,july,580,2021,2,-1,1,0.6,5
+1587,Taraba,Karin-Lamido,SMC,Alkaleri,july,610,2021,3,-1,1,0.6,5
+1588,Taraba,Karin-Lamido,SMC,Alkaleri,july,640,2021,4,-1,1,0.6,5
+1589,Taraba,Lau,SMC,Alkaleri,july,550,2021,1,-1,1,0.6,5
+1590,Taraba,Lau,SMC,Alkaleri,july,580,2021,2,-1,1,0.6,5
+1591,Taraba,Lau,SMC,Alkaleri,july,610,2021,3,-1,1,0.6,5
+1592,Taraba,Lau,SMC,Alkaleri,july,640,2021,4,-1,1,0.6,5
+1593,Taraba,Wukari,SMC,Keana,august,579,2021,1,-1,1,0.6,5
+1594,Taraba,Wukari,SMC,Keana,august,609,2021,2,-1,1,0.6,5
+1595,Taraba,Wukari,SMC,Keana,august,639,2021,3,-1,1,0.6,5
+1596,Taraba,Wukari,SMC,Keana,august,669,2021,4,-1,1,0.6,5
+1597,Taraba,Yorro,SMC,Alkaleri,july,550,2021,1,-1,1,0.6,5
+1598,Taraba,Yorro,SMC,Alkaleri,july,580,2021,2,-1,1,0.6,5
+1599,Taraba,Yorro,SMC,Alkaleri,july,610,2021,3,-1,1,0.6,5
+1600,Taraba,Yorro,SMC,Alkaleri,july,640,2021,4,-1,1,0.6,5
+1601,Taraba,Zing,SMC,Alkaleri,july,550,2021,1,-1,1,0.6,5
+1602,Taraba,Zing,SMC,Alkaleri,july,580,2021,2,-1,1,0.6,5
+1603,Taraba,Zing,SMC,Alkaleri,july,610,2021,3,-1,1,0.6,5
+1604,Taraba,Zing,SMC,Alkaleri,july,640,2021,4,-1,1,0.6,5
+1605,Yobe,Bade,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1606,Yobe,Bade,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1607,Yobe,Bade,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1608,Yobe,Bade,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1609,Yobe,Bursari,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1610,Yobe,Bursari,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1611,Yobe,Bursari,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1612,Yobe,Bursari,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1613,Yobe,Damaturu,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+1614,Yobe,Damaturu,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+1615,Yobe,Damaturu,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+1616,Yobe,Damaturu,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+1617,Yobe,Fika,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+1618,Yobe,Fika,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+1619,Yobe,Fika,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+1620,Yobe,Fika,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+1621,Yobe,Fune,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+1622,Yobe,Fune,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+1623,Yobe,Fune,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+1624,Yobe,Fune,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+1625,Yobe,Geidam,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+1626,Yobe,Geidam,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+1627,Yobe,Geidam,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+1628,Yobe,Geidam,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+1629,Yobe,Gujba,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+1630,Yobe,Gujba,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+1631,Yobe,Gujba,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+1632,Yobe,Gujba,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+1633,Yobe,Gulani,SMC,Alkaleri,july,550,2021,1,-1,1,0.6,5
+1634,Yobe,Gulani,SMC,Alkaleri,july,580,2021,2,-1,1,0.6,5
+1635,Yobe,Gulani,SMC,Alkaleri,july,610,2021,3,-1,1,0.6,5
+1636,Yobe,Gulani,SMC,Alkaleri,july,640,2021,4,-1,1,0.6,5
+1637,Yobe,Jakusko,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1638,Yobe,Jakusko,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1639,Yobe,Jakusko,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1640,Yobe,Jakusko,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1641,Yobe,Karasuwa,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1642,Yobe,Karasuwa,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1643,Yobe,Karasuwa,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1644,Yobe,Karasuwa,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1645,Yobe,Machina,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1646,Yobe,Machina,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1647,Yobe,Machina,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1648,Yobe,Machina,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1649,Yobe,Nangere,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+1650,Yobe,Nangere,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+1651,Yobe,Nangere,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+1652,Yobe,Nangere,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+1653,Yobe,Nguru,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1654,Yobe,Nguru,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1655,Yobe,Nguru,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1656,Yobe,Nguru,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1657,Yobe,Potiskum,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+1658,Yobe,Potiskum,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+1659,Yobe,Potiskum,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+1660,Yobe,Potiskum,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+1661,Yobe,Tarmua,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1662,Yobe,Tarmua,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1663,Yobe,Tarmua,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1664,Yobe,Tarmua,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1665,Yobe,Yunusari,SMC,Babura,may,488,2021,1,-1,1,0.6,5
+1666,Yobe,Yunusari,SMC,Babura,may,518,2021,2,-1,1,0.6,5
+1667,Yobe,Yunusari,SMC,Babura,may,548,2021,3,-1,1,0.6,5
+1668,Yobe,Yunusari,SMC,Babura,may,578,2021,4,-1,1,0.6,5
+1669,Yobe,Yusufari,SMC,Taura,july,550,2021,1,-1,1,0.6,5
+1670,Yobe,Yusufari,SMC,Taura,july,580,2021,2,-1,1,0.6,5
+1671,Yobe,Yusufari,SMC,Taura,july,610,2021,3,-1,1,0.6,5
+1672,Yobe,Yusufari,SMC,Taura,july,640,2021,4,-1,1,0.6,5
+1673,Zamfara,Anka,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+1674,Zamfara,Anka,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+1675,Zamfara,Anka,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+1676,Zamfara,Anka,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+1677,Zamfara,Bakura,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+1678,Zamfara,Bakura,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+1679,Zamfara,Bakura,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+1680,Zamfara,Bakura,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+1681,Zamfara,Birnin Magaji,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1682,Zamfara,Birnin Magaji,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1683,Zamfara,Birnin Magaji,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1684,Zamfara,Birnin Magaji,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1685,Zamfara,Bukkuyum,SMC,Alkaleri,july,550,2021,1,-1,1,0.6,5
+1686,Zamfara,Bukkuyum,SMC,Alkaleri,july,580,2021,2,-1,1,0.6,5
+1687,Zamfara,Bukkuyum,SMC,Alkaleri,july,610,2021,3,-1,1,0.6,5
+1688,Zamfara,Bukkuyum,SMC,Alkaleri,july,640,2021,4,-1,1,0.6,5
+1689,Zamfara,Bungudu,SMC,Takali,september,610,2021,1,-1,1,0.6,5
+1690,Zamfara,Bungudu,SMC,Takali,september,640,2021,2,-1,1,0.6,5
+1691,Zamfara,Bungudu,SMC,Takali,september,670,2021,3,-1,1,0.6,5
+1692,Zamfara,Bungudu,SMC,Takali,september,700,2021,4,-1,1,0.6,5
+1693,Zamfara,Gummi,SMC,Birnin Kebbi,august,579,2021,1,-1,1,0.6,5
+1694,Zamfara,Gummi,SMC,Birnin Kebbi,august,609,2021,2,-1,1,0.6,5
+1695,Zamfara,Gummi,SMC,Birnin Kebbi,august,639,2021,3,-1,1,0.6,5
+1696,Zamfara,Gummi,SMC,Birnin Kebbi,august,669,2021,4,-1,1,0.6,5
+1697,Zamfara,Gusau,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+1698,Zamfara,Gusau,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+1699,Zamfara,Gusau,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+1700,Zamfara,Gusau,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+1701,Zamfara,Kaura-Namoda,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1702,Zamfara,Kaura-Namoda,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1703,Zamfara,Kaura-Namoda,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1704,Zamfara,Kaura-Namoda,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1705,Zamfara,Maradun,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+1706,Zamfara,Maradun,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+1707,Zamfara,Maradun,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+1708,Zamfara,Maradun,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+1709,Zamfara,Maru,SMC,Giwa,august,579,2021,1,-1,1,0.6,5
+1710,Zamfara,Maru,SMC,Giwa,august,609,2021,2,-1,1,0.6,5
+1711,Zamfara,Maru,SMC,Giwa,august,639,2021,3,-1,1,0.6,5
+1712,Zamfara,Maru,SMC,Giwa,august,669,2021,4,-1,1,0.6,5
+1713,Zamfara,Shinkafi,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1714,Zamfara,Shinkafi,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1715,Zamfara,Shinkafi,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1716,Zamfara,Shinkafi,SMC,Rimi,march,516,2021,4,-1,1,0.6,5
+1717,Zamfara,Talata Mafara,SMC,Darazo,july,550,2021,1,-1,1,0.6,5
+1718,Zamfara,Talata Mafara,SMC,Darazo,july,580,2021,2,-1,1,0.6,5
+1719,Zamfara,Talata Mafara,SMC,Darazo,july,610,2021,3,-1,1,0.6,5
+1720,Zamfara,Talata Mafara,SMC,Darazo,july,640,2021,4,-1,1,0.6,5
+1721,Zamfara,Tsafe,SMC,Takali,september,610,2021,1,-1,1,0.6,5
+1722,Zamfara,Tsafe,SMC,Takali,september,640,2021,2,-1,1,0.6,5
+1723,Zamfara,Tsafe,SMC,Takali,september,670,2021,3,-1,1,0.6,5
+1724,Zamfara,Tsafe,SMC,Takali,september,700,2021,4,-1,1,0.6,5
+1725,Zamfara,Zurmi,SMC,Rimi,march,426,2021,1,-1,1,0.6,5
+1726,Zamfara,Zurmi,SMC,Rimi,march,456,2021,2,-1,1,0.6,5
+1727,Zamfara,Zurmi,SMC,Rimi,march,486,2021,3,-1,1,0.6,5
+1728,Zamfara,Zurmi,SMC,Rimi,march,516,2021,4,-1,1,0.6,5

@@ -1,7 +1,7 @@
 #################################################################################################
 # High burden, high impact 
 # simAdjustments_mortality_MiP_IPTp_IPTi.R
-# Monique Ambrose
+# Contact: Monique Ambrose - mambrose@idmod.org
 # February 2020
 #
 # 

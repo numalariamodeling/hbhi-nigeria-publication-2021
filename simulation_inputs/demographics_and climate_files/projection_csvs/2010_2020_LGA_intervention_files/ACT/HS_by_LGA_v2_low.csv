@@ -1,0 +1,3097 @@
+,LGA,Rep_DS,State,simday,duration,year,U5_coverage,adult_coverage
+1,Aba North,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+2,Aba South,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+3,Abadam,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+4,Abaji,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+5,Abak,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+6,Abakaliki,Owan East,Edo,0,1095,2010,0.040692,0.040692
+7,Abeokuta North,Owan East,Edo,0,1095,2010,0.040692,0.040692
+8,Abeokuta South,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+9,Abi,Obubra,Cross River,0,1095,2010,0,0
+10,Aboh-Mbaise,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+11,Abua-Odual,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+12,Abuja Municipal,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+13,Adavi,Owan East,Edo,0,1095,2010,0.040692,0.040692
+14,Ado,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+15,Ado Ekiti,Owan East,Edo,0,1095,2010,0.040692,0.040692
+16,Ado-Odo-Ota,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+17,Afijio,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+18,Afikpo North,Oru West,Imo,0,1095,2010,0.101985,0.101985
+19,Afikpo South,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+20,Agaie,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+21,Agatu,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+22,Agege,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+23,Aguata,Oru West,Imo,0,1095,2010,0.101985,0.101985
+24,Agwara,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+25,Ahiazu-Mbaise,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+26,Ahoada East,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+27,Ahoada West,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+28,Aiyedade,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+29,Aiyedire,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+30,Ajaokuta,Owan East,Edo,0,1095,2010,0.040692,0.040692
+31,Ajeromi-Ifelodun,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+32,Ajingi,Taura,Jigawa,0,1095,2010,0.029,0.029
+33,Akamkpa,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+34,Akinyele,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+35,Akko,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+36,Akoko North East,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+37,Akoko North West,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+38,Akoko South East,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+39,Akoko South West,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+40,Akoko-Edo,Owan East,Edo,0,1095,2010,0.040692,0.040692
+41,Akpabuyo,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+42,Akuku Toru,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+43,Akure North,Owan East,Edo,0,1095,2010,0.040692,0.040692
+44,Akure South,Owan East,Edo,0,1095,2010,0.040692,0.040692
+45,Akwanga,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+46,Albasu,Takali,Kano,0,1095,2010,0.017351,0.017351
+47,Aleiro,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+48,Alimosho,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+49,Alkaleri,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+50,Amuwo-Odofin,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+51,Anambra East,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+52,Anambra West,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+53,Anaocha,Oru West,Imo,0,1095,2010,0.101985,0.101985
+54,Andoni,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+55,Aninri,Oru West,Imo,0,1095,2010,0.101985,0.101985
+56,Aniocha North,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+57,Aniocha South,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+58,Anka,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+59,Ankpa,Owan East,Edo,0,1095,2010,0.040692,0.040692
+60,Apa,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+61,Apapa,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+62,Ardo-Kola,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+63,Arewa-Dandi,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+64,Argungu,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+65,Arochukwu,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+66,Asa,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+67,Asari-Toru,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+68,Askira-Uba,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+69,Atakumosa East,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+70,Atakumosa West,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+71,Atiba,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+72,Atigbo,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+73,Augie,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+74,Auyo,Taura,Jigawa,0,1095,2010,0.029,0.029
+75,Awe,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+76,Awgu,Oru West,Imo,0,1095,2010,0.101985,0.101985
+77,Awka North,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+78,Awka South,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+79,Ayamelum,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+80,Babura,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+81,Badagry,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+82,Bade,Taura,Jigawa,0,1095,2010,0.029,0.029
+83,Bagudo,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+84,Bagwai,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+85,Bakassi,Obubra,Cross River,0,1095,2010,0,0
+86,Bakori,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+87,Bakura,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+88,Balanga,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+89,Bali,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+90,Bama,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+91,Barikin Ladi,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+92,Baruten,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+93,Bassa1,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+94,Bassa2,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+95,Batagarawa,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+96,Batsari,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+97,Bauchi,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+98,Baure,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+99,Bayo,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+100,Bebeji,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+101,Bekwara,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+102,Bende,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+103,Biase,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+104,Bichi,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+105,Bida,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+106,Billiri,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+107,Bindawa,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+108,Binji,Gawabawa,Sokoto,0,1095,2010,0,0
+109,Biriniwa,Taura,Jigawa,0,1095,2010,0.029,0.029
+110,Birni Kudu,Takali,Kano,0,1095,2010,0.017351,0.017351
+111,Birnin Kebbi,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+112,Birnin Magaji,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+113,Birnin-Gwari,Giwa,Kaduna,0,1095,2010,0.002239,0.002239
+114,Biu,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+115,Bodinga,Gawabawa,Sokoto,0,1095,2010,0,0
+116,Bogoro,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+117,Boki,Obubra,Cross River,0,1095,2010,0,0
+118,Bokkos,Giwa,Kaduna,0,1095,2010,0.002239,0.002239
+119,Boluwaduro,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+120,Bomadi,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+121,Bonny,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+122,Borgu,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+123,Boripe,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+124,Bosso,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+125,Brass,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+126,Buji,Takali,Kano,0,1095,2010,0.017351,0.017351
+127,Bukkuyum,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+128,Bungudu,Takali,Kano,0,1095,2010,0.017351,0.017351
+129,Bunkure,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+130,Bunza,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+131,Bursari,Taura,Jigawa,0,1095,2010,0.029,0.029
+132,Buruku,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+133,Burutu,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+134,Bwari,Giwa,Kaduna,0,1095,2010,0.002239,0.002239
+135,Calabar South,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+136,Calabar-Municipal,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+137,Chanchaga,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+138,Charanchi,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+139,Chibok,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+140,Chikun,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+141,Dala,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+142,Damaturu,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+143,Damban,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+144,Dambatta,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+145,Damboa,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+146,Dan Musa,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+147,Dandi,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+148,Dandume,Giwa,Kaduna,0,1095,2010,0.002239,0.002239
+149,Dange-Shnsi,Gawabawa,Sokoto,0,1095,2010,0,0
+150,Danja,Giwa,Kaduna,0,1095,2010,0.002239,0.002239
+151,Darazo,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+152,Dass,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+153,Daura,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+154,Dawakin Kudu,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+155,Dawakin Tofa,Taura,Jigawa,0,1095,2010,0.029,0.029
+156,Degema,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+157,Dekina,Owan East,Edo,0,1095,2010,0.040692,0.040692
+158,Demsa,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+159,Dikwa,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+160,Doguwa,Giwa,Kaduna,0,1095,2010,0.002239,0.002239
+161,Doma,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+162,Donga,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+163,Dukku,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+164,Dunukofia,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+165,Dutse,Takali,Kano,0,1095,2010,0.017351,0.017351
+166,Dutsi,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+167,Dutsin-Ma,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+168,Eastern Obolo,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+169,Ebonyi,Owan East,Edo,0,1095,2010,0.040692,0.040692
+170,Edati,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+171,Ede North,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+172,Ede South,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+173,Edu,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+174,Efon-Alayee,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+175,Egbado North,Owan East,Edo,0,1095,2010,0.040692,0.040692
+176,Egbado South,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+177,Egbeda,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+178,Egbedore,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+179,Egor,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+180,Ehime-Mbano,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+181,Ejigbo,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+182,Ekeremor,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+183,Eket,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+184,Ekiti,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+185,Ekiti East,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+186,Ekiti South West,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+187,Ekiti West,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+188,Ekwusigo,Oru West,Imo,0,1095,2010,0.101985,0.101985
+189,Eleme,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+190,Emohua,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+191,Emure,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+192,Enugu East,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+193,Enugu North,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+194,Enugu South,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+195,Epe,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+196,Esan Central,Owan East,Edo,0,1095,2010,0.040692,0.040692
+197,Esan North East,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+198,Esan South East,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+199,Esan West,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+200,Ese-Odo,Owan East,Edo,0,1095,2010,0.040692,0.040692
+201,Esit Eket,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+202,Essien Udim,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+203,Etche,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+204,Ethiope East,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+205,Ethiope West,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+206,Eti-Osa,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+207,Etim Ekpo,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+208,Etinan,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+209,Etsako Central,Owan East,Edo,0,1095,2010,0.040692,0.040692
+210,Etsako East,Owan East,Edo,0,1095,2010,0.040692,0.040692
+211,Etsako West,Owan East,Edo,0,1095,2010,0.040692,0.040692
+212,Etung,Obubra,Cross River,0,1095,2010,0,0
+213,Ewekoro,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+214,Ezeagu,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+215,Ezinihitte,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+216,Ezza North,Owan East,Edo,0,1095,2010,0.040692,0.040692
+217,Ezza South,Obubra,Cross River,0,1095,2010,0,0
+218,Fagge,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+219,Fakai,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+220,Faskari,Giwa,Kaduna,0,1095,2010,0.002239,0.002239
+221,Fika,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+222,Fufore,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+223,Funakaye,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+224,Fune,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+225,Funtua,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+226,Gabasawa,Taura,Jigawa,0,1095,2010,0.029,0.029
+227,Gada,Gawabawa,Sokoto,0,1095,2010,0,0
+228,Gagarawa,Taura,Jigawa,0,1095,2010,0.029,0.029
+229,Gamawa,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+230,Ganaye,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+231,Ganjuwa,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+232,Garki,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+233,Garko,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+234,Garum Mallam,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+235,Gashaka,Oru West,Imo,0,1095,2010,0.101985,0.101985
+236,Gassol,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+237,Gawabawa,Gawabawa,Sokoto,0,1095,2010,0,0
+238,Gaya,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+239,Gbako,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+240,Gboko,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+241,Gboyin,Obubra,Cross River,0,1095,2010,0,0
+242,Geidam,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+243,Gezawa,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+244,Giade,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+245,Gireri,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+246,Giwa,Giwa,Kaduna,0,1095,2010,0.002239,0.002239
+247,Gokana,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+248,Gombe,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+249,Gombi,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+250,Goronyo,Gawabawa,Sokoto,0,1095,2010,0,0
+251,Gubio,Gawabawa,Sokoto,0,1095,2010,0,0
+252,Gudu,Gawabawa,Sokoto,0,1095,2010,0,0
+253,Gujba,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+254,Gulani,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+255,Guma,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+256,Gumel,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+257,Gummi,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+258,Gurara,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+259,Guri,Taura,Jigawa,0,1095,2010,0.029,0.029
+260,Gusau,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+261,Guyuk,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+262,Guzamala,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+263,Gwagwalada,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+264,Gwale,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+265,Gwandu,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+266,Gwaram,Takali,Kano,0,1095,2010,0.017351,0.017351
+267,Gwarzo,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+268,Gwer East,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+269,Gwer West,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+270,Gwiwa,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+271,Gwoza,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+272,Hadejia,Taura,Jigawa,0,1095,2010,0.029,0.029
+273,Hawul,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+274,Hong,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+275,Ibadan North,Owan East,Edo,0,1095,2010,0.040692,0.040692
+276,Ibadan North East,Owan East,Edo,0,1095,2010,0.040692,0.040692
+277,Ibadan North West,Owan East,Edo,0,1095,2010,0.040692,0.040692
+278,Ibadan South East,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+279,Ibadan South West,Owan East,Edo,0,1095,2010,0.040692,0.040692
+280,Ibaji,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+281,Ibarapa Central,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+282,Ibarapa East,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+283,Ibarapa North,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+284,Ibeju-Lekki,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+285,Ibeno,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+286,Ibesikpo Asutan,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+287,Ibi,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+288,Ibiono Ibom,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+289,Idah,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+290,Idanre,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+291,Ideato North,Oru West,Imo,0,1095,2010,0.101985,0.101985
+292,Ideato South,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+293,Idemili North,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+294,Idemili South,Oru West,Imo,0,1095,2010,0.101985,0.101985
+295,Ido,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+296,Idosi-Osi,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+297,Ifako-Ijaye,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+298,Ife Central,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+299,Ife East,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+300,Ife North,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+301,Ife South,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+302,Ifedayo,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+303,Ifedore,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+304,Ifelodun1,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+305,Ifelodun2,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+306,Ifo,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+307,Igabi,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+308,Igalamela-Odolu,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+309,Igbo-Etiti,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+310,Igbo-Eze North,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+311,Igbo-Eze South,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+312,Igueben,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+313,Ihiala,Oru West,Imo,0,1095,2010,0.101985,0.101985
+314,Ihitte-Uboma,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+315,Ijebu East,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+316,Ijebu North,Owan East,Edo,0,1095,2010,0.040692,0.040692
+317,Ijebu North East,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+318,Ijebu ode,Owan East,Edo,0,1095,2010,0.040692,0.040692
+319,Ijero,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+320,Ijumu,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+321,Ika,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+322,Ika North East,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+323,Ika South,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+324,Ikara,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+325,Ikeduru,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+326,Ikeja,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+327,Ikenne,Owan East,Edo,0,1095,2010,0.040692,0.040692
+328,Ikere,Owan East,Edo,0,1095,2010,0.040692,0.040692
+329,Ikole,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+330,Ikom,Obubra,Cross River,0,1095,2010,0,0
+331,Ikono,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+332,Ikorodu,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+333,Ikot Abasi,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+334,Ikot Ekpene,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+335,Ikpoba-Okha,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+336,Ikwerre,Oru West,Imo,0,1095,2010,0.101985,0.101985
+337,Ikwo,Obubra,Cross River,0,1095,2010,0,0
+338,Ikwuano,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+339,Ila,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+340,Ilaje,Owan East,Edo,0,1095,2010,0.040692,0.040692
+341,Ile-Oluji-Okeigbo,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+342,Ilemeji,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+343,Ilesha East,Owan East,Edo,0,1095,2010,0.040692,0.040692
+344,Ilesha West,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+345,Illela,Gawabawa,Sokoto,0,1095,2010,0,0
+346,Ilorin East,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+347,Ilorin South,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+348,Ilorin West,Owan East,Edo,0,1095,2010,0.040692,0.040692
+349,Imeko-Afon,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+350,Ingawa,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+351,Ini,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+352,Ipokia,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+353,Irele,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+354,Irepo,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+355,Irepodun-Ifelodun,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+356,Irepodun1,Owan East,Edo,0,1095,2010,0.040692,0.040692
+357,Irepodun2,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+358,Irewole,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+359,Isa,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+360,Ise-Orun,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+361,Iseyin,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+362,Ishielu,Owan East,Edo,0,1095,2010,0.040692,0.040692
+363,Isi-Uzo,Owan East,Edo,0,1095,2010,0.040692,0.040692
+364,Isiala Mbano,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+365,Isiala-Ngwa North,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+366,Isiala-Ngwa South,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+367,Isin,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+368,Isokan,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+369,Isoko North,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+370,Isoko South,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+371,Isu,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+372,Isuikwato,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+373,Itas-Gadau,Taura,Jigawa,0,1095,2010,0.029,0.029
+374,Itesiwaju,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+375,Itu,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+376,Ivo,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+377,Iwajowa,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+378,Iwo,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+379,Izzi,Owan East,Edo,0,1095,2010,0.040692,0.040692
+380,Jaba,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+381,Jada,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+382,Jahun,Taura,Jigawa,0,1095,2010,0.029,0.029
+383,Jakusko,Taura,Jigawa,0,1095,2010,0.029,0.029
+384,Jalingo,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+385,Jama'are,Taura,Jigawa,0,1095,2010,0.029,0.029
+386,Jega,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+387,Jema'a,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+388,Jere,Gawabawa,Sokoto,0,1095,2010,0,0
+389,Jibia,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+390,Jos East,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+391,Jos North,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+392,Jos South,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+393,Kabba-Bunu,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+394,Kabo,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+395,Kachia,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+396,Kaduna North,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+397,Kaduna South,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+398,Kafin Hausa,Taura,Jigawa,0,1095,2010,0.029,0.029
+399,Kafur,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+400,Kaga,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+401,Kagarko,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+402,Kaiama,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+403,Kaita,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+404,Kajola,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+405,Kajuru,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+406,Kala-Balge,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+407,Kalgo,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+408,Kaltungo,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+409,Kanam,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+410,Kankara,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+411,Kanke,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+412,Kankia,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+413,Kano Municipal,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+414,Karasuwa,Taura,Jigawa,0,1095,2010,0.029,0.029
+415,Karaye,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+416,Karin-Lamido,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+417,Karu,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+418,Katagum,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+419,Katcha,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+420,Katsina,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+421,Katsina-Ala,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+422,Kaugama,Taura,Jigawa,0,1095,2010,0.029,0.029
+423,Kaura,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+424,Kaura-Namoda,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+425,Kauru,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+426,Kazaure,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+427,Keana,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+428,Kebbe,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+429,Keffi,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+430,Khana,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+431,Kibiya,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+432,Kirfi,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+433,Kiri Kasamma,Taura,Jigawa,0,1095,2010,0.029,0.029
+434,Kiru,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+435,Kiyawa,Takali,Kano,0,1095,2010,0.017351,0.017351
+436,Kogi,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+437,Koko-Besse,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+438,Kokona,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+439,Kolokuma-Opokuma,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+440,Konduga,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+441,Konshisha,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+442,Kontagora,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+443,Kosofe,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+444,Kubau,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+445,Kudan,Giwa,Kaduna,0,1095,2010,0.002239,0.002239
+446,Kuje,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+447,Kukawa,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+448,Kumbotso,Taura,Jigawa,0,1095,2010,0.029,0.029
+449,Kunchi,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+450,Kura,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+451,Kurfi,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+452,Kurmi,Oru West,Imo,0,1095,2010,0.101985,0.101985
+453,Kusada,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+454,Kwali,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+455,Kwami,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+456,Kwande,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+457,Kware,Gawabawa,Sokoto,0,1095,2010,0,0
+458,Kwaya Kusar,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+459,Lafia,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+460,Lagelu,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+461,Lagos Island,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+462,Lagos Mainland,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+463,Lamurde,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+464,Langtang North,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+465,Langtang South,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+466,Lapai,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+467,Lau,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+468,Lavun,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+469,Lere,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+470,Logo,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+471,Lokoja,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+472,Machina,Taura,Jigawa,0,1095,2010,0.029,0.029
+473,Madagali,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+474,Madobi,Taura,Jigawa,0,1095,2010,0.029,0.029
+475,Mafa,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+476,Magama,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+477,Magumeri,Gawabawa,Sokoto,0,1095,2010,0,0
+478,Mai'Adua,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+479,Maiduguri,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+480,Maigatari,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+481,Maiha,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+482,Maiyama,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+483,Makoda,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+484,Makurdi,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+485,Malam Madori,Taura,Jigawa,0,1095,2010,0.029,0.029
+486,Malumfashi,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+487,Mangu,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+488,Mani,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+489,Maradun,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+490,Mariga,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+491,Markafi,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+492,Marte,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+493,Maru,Giwa,Kaduna,0,1095,2010,0.002239,0.002239
+494,Mashegu,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+495,Mashi,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+496,Matazuu,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+497,Mayo-Belwa,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+498,Mbaitoli,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+499,Mbo,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+500,Michika,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+501,Miga,Taura,Jigawa,0,1095,2010,0.029,0.029
+502,Mikang,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+503,Minjibir,Taura,Jigawa,0,1095,2010,0.029,0.029
+504,Misau,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+505,Mkpat Enin,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+506,Moba,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+507,Mobbar,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+508,Mokwa,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+509,Monguno,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+510,Mopa-Muro,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+511,Moro,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+512,Mubi North,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+513,Mubi South,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+514,Musawa,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+515,Mushin,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+516,Muya,Giwa,Kaduna,0,1095,2010,0.002239,0.002239
+517,Nafada,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+518,Nangere,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+519,Nasarawa-Eggon,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+520,Nasarawa1,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+521,Nasarawa2,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+522,Ndokwa East,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+523,Ndokwa West,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+524,Nembe,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+525,Ngala,Taura,Jigawa,0,1095,2010,0.029,0.029
+526,Nganzai,Gawabawa,Sokoto,0,1095,2010,0,0
+527,Ngaski,Owan East,Edo,0,1095,2010,0.040692,0.040692
+528,Ngor-Okpala,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+529,Nguru,Taura,Jigawa,0,1095,2010,0.029,0.029
+530,Ningi,Takali,Kano,0,1095,2010,0.017351,0.017351
+531,Njaba,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+532,Njikoka,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+533,Nkanu East,Owan East,Edo,0,1095,2010,0.040692,0.040692
+534,Nkanu West,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+535,Nkwerre,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+536,Nnewi North,Oru West,Imo,0,1095,2010,0.101985,0.101985
+537,Nnewi South,Oru West,Imo,0,1095,2010,0.101985,0.101985
+538,Nsit Atai,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+539,Nsit Ibom,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+540,Nsit Ubium,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+541,Nsukka,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+542,Numan,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+543,Nwangele,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+544,Obafemi-Owode,Owan East,Edo,0,1095,2010,0.040692,0.040692
+545,Obanliku,Obubra,Cross River,0,1095,2010,0,0
+546,Obi Nwa,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+547,Obi1,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+548,Obi2,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+549,Obia-Akpor,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+550,Obokun,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+551,Obot Akara,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+552,Obowo,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+553,Obubra,Obubra,Cross River,0,1095,2010,0,0
+554,Obudu,Obubra,Cross River,0,1095,2010,0,0
+555,Odeda,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+556,Odigbo,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+557,Odo-Otin,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+558,Odogbolu,Owan East,Edo,0,1095,2010,0.040692,0.040692
+559,Odukpani,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+560,Offa,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+561,Ofu,Owan East,Edo,0,1095,2010,0.040692,0.040692
+562,Ogba-Egbema-Ndoni,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+563,Ogbadibo,Owan East,Edo,0,1095,2010,0.040692,0.040692
+564,Ogbaru,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+565,Ogbia,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+566,Ogbomosho North,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+567,Ogbomosho South,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+568,Ogo Oluwa,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+569,Ogoja,Obubra,Cross River,0,1095,2010,0,0
+570,Ogori-Mangongo,Owan East,Edo,0,1095,2010,0.040692,0.040692
+571,Ogu-Bolo,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+572,Ogun waterside,Owan East,Edo,0,1095,2010,0.040692,0.040692
+573,Oguta,Oru West,Imo,0,1095,2010,0.101985,0.101985
+574,Ohafia,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+575,Ohaji-Egbema,Oru West,Imo,0,1095,2010,0.101985,0.101985
+576,Ohaozara,Obubra,Cross River,0,1095,2010,0,0
+577,Ohaukwu,Owan East,Edo,0,1095,2010,0.040692,0.040692
+578,Ohimini,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+579,Oji-River,Oru West,Imo,0,1095,2010,0.101985,0.101985
+580,Ojo,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+581,Oju,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+582,Oke-Ero,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+583,Okehi,Owan East,Edo,0,1095,2010,0.040692,0.040692
+584,Okene,Owan East,Edo,0,1095,2010,0.040692,0.040692
+585,Okigwe,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+586,Okitipupa,Owan East,Edo,0,1095,2010,0.040692,0.040692
+587,Okobo,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+588,Okpe,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+589,Okpokwu,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+590,Okrika,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+591,Ola-oluwa,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+592,Olamabolo,Owan East,Edo,0,1095,2010,0.040692,0.040692
+593,Olorunda,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+594,Olorunsogo,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+595,Oluyole,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+596,Omala,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+597,Omumma,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+598,Ona-Ara,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+599,Ondo East,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+600,Ondo West,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+601,Onicha,Obubra,Cross River,0,1095,2010,0,0
+602,Onitsha North,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+603,Onitsha South,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+604,Onna,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+605,Opobo-Nkoro,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+606,Oredo,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+607,Orelope,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+608,Orhionmwon,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+609,Ori Ire,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+610,Oriade,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+611,Orlu,Oru West,Imo,0,1095,2010,0.101985,0.101985
+612,Orolu,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+613,Oron,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+614,Orsu,Oru West,Imo,0,1095,2010,0.101985,0.101985
+615,Oru East,Oru West,Imo,0,1095,2010,0.101985,0.101985
+616,Oru West,Oru West,Imo,0,1095,2010,0.101985,0.101985
+617,Oruk Anam,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+618,Orumba North,Oru West,Imo,0,1095,2010,0.101985,0.101985
+619,Orumba South,Oru West,Imo,0,1095,2010,0.101985,0.101985
+620,Ose,Owan East,Edo,0,1095,2010,0.040692,0.040692
+621,Oshimili North,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+622,Oshimili South,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+623,Oshodi-Isolo,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+624,Osisioma Ngwa,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+625,Osogbo,Owan East,Edo,0,1095,2010,0.040692,0.040692
+626,Oturkpo,Owan East,Edo,0,1095,2010,0.040692,0.040692
+627,Ovia North East,Owan East,Edo,0,1095,2010,0.040692,0.040692
+628,Ovia South West,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+629,Owan East,Owan East,Edo,0,1095,2010,0.040692,0.040692
+630,Owan West,Owan East,Edo,0,1095,2010,0.040692,0.040692
+631,Owerri North,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+632,Owerri West,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+633,Owerri-Municipal,Oru West,Imo,0,1095,2010,0.101985,0.101985
+634,Owo,Owan East,Edo,0,1095,2010,0.040692,0.040692
+635,Oye,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+636,Oyi,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+637,Oyigbo,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+638,Oyo East,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+639,Oyo West,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+640,Oyun,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+641,Pailoro,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+642,Pankshin,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+643,Patani,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+644,Pategi,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+645,Port-Harcourt,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+646,Potiskum,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+647,Qua'an Pan,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+648,Rabah,Gawabawa,Sokoto,0,1095,2010,0,0
+649,Rafi,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+650,Rano,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+651,Remo North,Owan East,Edo,0,1095,2010,0.040692,0.040692
+652,Rijau,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+653,Rimi,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+654,Rimin Gado,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+655,Ringim,Taura,Jigawa,0,1095,2010,0.029,0.029
+656,Riyom,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+657,Rogo,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+658,Roni,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+659,Sabon Birni,Gawabawa,Sokoto,0,1095,2010,0,0
+660,Sabon-Gari,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+661,Sabuwa,Giwa,Kaduna,0,1095,2010,0.002239,0.002239
+662,Safana,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+663,Sagbama,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+664,Sakaba,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+665,Saki East,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+666,Saki West,Akinyele,Oyo,0,1095,2010,0.017876,0.017876
+667,Sandamu,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+668,Sanga,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+669,Sapele,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+670,Sardauna,Oru West,Imo,0,1095,2010,0.101985,0.101985
+671,Shagamu,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+672,Shagari,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+673,Shanga,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+674,Shani,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+675,Shanono,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+676,Shelleng,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+677,Shendam,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+678,Shinkafi,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+679,Shira,Takali,Kano,0,1095,2010,0.017351,0.017351
+680,Shiroro,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+681,Shomgom,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+682,Shomolu,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+683,Silame,Gawabawa,Sokoto,0,1095,2010,0,0
+684,Soba,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+685,Sokoto North,Gawabawa,Sokoto,0,1095,2010,0,0
+686,Sokoto South,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+687,Song,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+688,Southern Ijaw,Ahoada West,Rivers,0,1095,2010,0.139011,0.139011
+689,Sule-Tankarkar,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+690,Suleja,Giwa,Kaduna,0,1095,2010,0.002239,0.002239
+691,Sumaila,Takali,Kano,0,1095,2010,0.017351,0.017351
+692,Suru,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+693,Surulere1,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+694,Surulere2,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+695,Tafa,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+696,Tafawa-Balewa,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+697,Tai,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+698,Takali,Takali,Kano,0,1095,2010,0.017351,0.017351
+699,Takum,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+700,Talata Mafara,Darazo,Bauchi,0,1095,2010,0.016604,0.016604
+701,Tambuwal,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+702,Tangaza,Gawabawa,Sokoto,0,1095,2010,0,0
+703,Tarauni,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+704,Tarka,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+705,Tarmua,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+706,Taura,Taura,Jigawa,0,1095,2010,0.029,0.029
+707,Tofa,Taura,Jigawa,0,1095,2010,0.029,0.029
+708,Toro,Giwa,Kaduna,0,1095,2010,0.002239,0.002239
+709,Toto,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+710,Toungo,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+711,Tsafe,Takali,Kano,0,1095,2010,0.017351,0.017351
+712,Tsanyawa,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+713,Tudun Wada,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+714,Tureta,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+715,Udenu,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+716,Udi,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+717,Udu,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+718,Udung Uko,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+719,Ughelli North,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+720,Ughelli South,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+721,Ugwunagbo,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+722,Uhunmwonde,Owan East,Edo,0,1095,2010,0.040692,0.040692
+723,Ukanafun,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+724,Ukum,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+725,Ukwa East,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+726,Ukwa West,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+727,Ukwuani,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+728,Umu-Neochi,Oru West,Imo,0,1095,2010,0.101985,0.101985
+729,Umuahia North,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+730,Umuahia South,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+731,Ungogo,Taura,Jigawa,0,1095,2010,0.029,0.029
+732,Unuimo,Ngor-Okpala,Imo,0,1095,2010,0.014185,0.014185
+733,Uruan,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+734,Urue-Offong-Oruko,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+735,Ushongo,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+736,Ussa,Oru West,Imo,0,1095,2010,0.101985,0.101985
+737,Uvwie,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+738,Uyo,Nsit Ubium,Akwa lbom,0,1095,2010,0.049395,0.049395
+739,Uzo-Uwani,Uzo-Uwani,Enugu,0,1095,2010,0.065637,0.065637
+740,Vandeikya,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+741,Wamako,Gawabawa,Sokoto,0,1095,2010,0,0
+742,Wamba,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+743,Warawa,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+744,Warji,Takali,Kano,0,1095,2010,0.017351,0.017351
+745,Warri North,Owan East,Edo,0,1095,2010,0.040692,0.040692
+746,Warri South,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+747,Warri South West,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+748,Wasagu-Danko,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+749,Wase,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+750,Wudil,Gwarzo,Kano,0,1095,2010,0.007362,0.007362
+751,Wukari,Keana,Nasarawa,0,1095,2010,2.00E-06,2.00E-06
+752,Wurno,Gawabawa,Sokoto,0,1095,2010,0,0
+753,Wushishi,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+754,Yabo,Gawabawa,Sokoto,0,1095,2010,0,0
+755,Yagba East,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+756,Yagba West,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+757,Yakurr,Obubra,Cross River,0,1095,2010,0,0
+758,Yala,Oke-Ero,Kwara,0,1095,2010,0.008636,0.008636
+759,Yamaltu-Deba,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+760,Yankwashi,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+761,Yauri,Birnin Kebbi,Kebbi,0,1095,2010,5.50E-05,5.50E-05
+762,Yenegoa,Isoko South,Delta,0,1095,2010,0.051413,0.051413
+763,Yola North,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+764,Yola South,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+765,Yorro,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+766,Yunusari,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+767,Yusufari,Taura,Jigawa,0,1095,2010,0.029,0.029
+768,Zaki,Taura,Jigawa,0,1095,2010,0.029,0.029
+769,Zango,Babura,Jigawa,0,1095,2010,0.02454,0.02454
+770,Zango-Kataf,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+771,Zaria,Soba,Kaduna,0,1095,2010,0.034855,0.034855
+772,Zing,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+773,Zurmi,Rimi,Katsina,0,1095,2010,0.052429,0.052429
+774,Zuru,Alkaleri,Bauchi,0,1095,2010,0.048633,0.048633
+775,Aba North,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+776,Aba South,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+777,Abadam,Babura,,1095,730,2013,0,0
+778,Abaji,Keana,,1095,730,2013,0.005529724,0.005529724
+779,Abak,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+780,Abakaliki,Owan East,,1095,730,2013,0.0098755,0.0098755
+781,Abeokuta North,Owan East,,1095,730,2013,0.0098755,0.0098755
+782,Abeokuta South,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+783,Abi,Obubra,,1095,730,2013,0,0
+784,Aboh-Mbaise,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+785,Abua-Odual,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+786,Abuja Municipal,Keana,,1095,730,2013,0.005529724,0.005529724
+787,Adavi,Owan East,,1095,730,2013,0.0098755,0.0098755
+788,Ado,Akinyele,,1095,730,2013,0.004445616,0.004445616
+789,Ado Ekiti,Owan East,,1095,730,2013,0.0098755,0.0098755
+790,Ado-Odo-Ota,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+791,Afijio,Akinyele,,1095,730,2013,0.004445616,0.004445616
+792,Afikpo North,Oru West,,1095,730,2013,0.006251072,0.006251072
+793,Afikpo South,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+794,Agaie,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+795,Agatu,Keana,,1095,730,2013,0.005529724,0.005529724
+796,Agege,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+797,Aguata,Oru West,,1095,730,2013,0.006251072,0.006251072
+798,Agwara,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+799,Ahiazu-Mbaise,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+800,Ahoada East,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+801,Ahoada West,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+802,Aiyedade,Akinyele,,1095,730,2013,0.004445616,0.004445616
+803,Aiyedire,Akinyele,,1095,730,2013,0.004445616,0.004445616
+804,Ajaokuta,Owan East,,1095,730,2013,0.0098755,0.0098755
+805,Ajeromi-Ifelodun,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+806,Ajingi,Taura,,1095,730,2013,0.046769383,0.046769383
+807,Akamkpa,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+808,Akinyele,Akinyele,,1095,730,2013,0.004445616,0.004445616
+809,Akko,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+810,Akoko North East,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+811,Akoko North West,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+812,Akoko South East,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+813,Akoko South West,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+814,Akoko-Edo,Owan East,,1095,730,2013,0.0098755,0.0098755
+815,Akpabuyo,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+816,Akuku Toru,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+817,Akure North,Owan East,,1095,730,2013,0.0098755,0.0098755
+818,Akure South,Owan East,,1095,730,2013,0.0098755,0.0098755
+819,Akwanga,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+820,Albasu,Takali,,1095,730,2013,0,0
+821,Aleiro,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+822,Alimosho,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+823,Alkaleri,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+824,Amuwo-Odofin,Isoko South,,1095,730,2013,0.009945494,0.009945494
+825,Anambra East,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+826,Anambra West,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+827,Anaocha,Oru West,,1095,730,2013,0.006251072,0.006251072
+828,Andoni,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+829,Aninri,Oru West,,1095,730,2013,0.006251072,0.006251072
+830,Aniocha North,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+831,Aniocha South,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+832,Anka,Darazo,,1095,730,2013,0.000948997,0.000948997
+833,Ankpa,Owan East,,1095,730,2013,0.0098755,0.0098755
+834,Apa,Keana,,1095,730,2013,0.005529724,0.005529724
+835,Apapa,Isoko South,,1095,730,2013,0.009945494,0.009945494
+836,Ardo-Kola,Keana,,1095,730,2013,0.005529724,0.005529724
+837,Arewa-Dandi,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+838,Argungu,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+839,Arochukwu,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+840,Asa,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+841,Asari-Toru,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+842,Askira-Uba,Darazo,,1095,730,2013,0.000948997,0.000948997
+843,Atakumosa East,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+844,Atakumosa West,Akinyele,,1095,730,2013,0.004445616,0.004445616
+845,Atiba,Akinyele,,1095,730,2013,0.004445616,0.004445616
+846,Atigbo,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+847,Augie,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+848,Auyo,Taura,,1095,730,2013,0.046769383,0.046769383
+849,Awe,Keana,,1095,730,2013,0.005529724,0.005529724
+850,Awgu,Oru West,,1095,730,2013,0.006251072,0.006251072
+851,Awka North,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+852,Awka South,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+853,Ayamelum,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+854,Babura,Babura,,1095,730,2013,0,0
+855,Badagry,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+856,Bade,Taura,,1095,730,2013,0.046769383,0.046769383
+857,Bagudo,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+858,Bagwai,Babura,,1095,730,2013,0,0
+859,Bakassi,Obubra,,1095,730,2013,0,0
+860,Bakori,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+861,Bakura,Darazo,,1095,730,2013,0.000948997,0.000948997
+862,Balanga,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+863,Bali,Keana,,1095,730,2013,0.005529724,0.005529724
+864,Bama,Darazo,,1095,730,2013,0.000948997,0.000948997
+865,Barikin Ladi,Soba,,1095,730,2013,0,0
+866,Baruten,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+867,Bassa1,Keana,,1095,730,2013,0.005529724,0.005529724
+868,Bassa2,Soba,,1095,730,2013,0,0
+869,Batagarawa,Rimi,,1095,730,2013,0.022996125,0.022996125
+870,Batsari,Rimi,,1095,730,2013,0.022996125,0.022996125
+871,Bauchi,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+872,Baure,Babura,,1095,730,2013,0,0
+873,Bayo,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+874,Bebeji,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+875,Bekwara,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+876,Bende,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+877,Biase,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+878,Bichi,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+879,Bida,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+880,Billiri,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+881,Bindawa,Rimi,,1095,730,2013,0.022996125,0.022996125
+882,Binji,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+883,Biriniwa,Taura,,1095,730,2013,0.046769383,0.046769383
+884,Birni Kudu,Takali,,1095,730,2013,0,0
+885,Birnin Kebbi,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+886,Birnin Magaji,Rimi,,1095,730,2013,0.022996125,0.022996125
+887,Birnin-Gwari,Giwa,,1095,730,2013,0,0
+888,Biu,Darazo,,1095,730,2013,0.000948997,0.000948997
+889,Bodinga,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+890,Bogoro,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+891,Boki,Obubra,,1095,730,2013,0,0
+892,Bokkos,Giwa,,1095,730,2013,0,0
+893,Boluwaduro,Akinyele,,1095,730,2013,0.004445616,0.004445616
+894,Bomadi,Isoko South,,1095,730,2013,0.009945494,0.009945494
+895,Bonny,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+896,Borgu,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+897,Boripe,Akinyele,,1095,730,2013,0.004445616,0.004445616
+898,Bosso,Keana,,1095,730,2013,0.005529724,0.005529724
+899,Brass,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+900,Buji,Takali,,1095,730,2013,0,0
+901,Bukkuyum,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+902,Bungudu,Takali,,1095,730,2013,0,0
+903,Bunkure,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+904,Bunza,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+905,Bursari,Taura,,1095,730,2013,0.046769383,0.046769383
+906,Buruku,Keana,,1095,730,2013,0.005529724,0.005529724
+907,Burutu,Isoko South,,1095,730,2013,0.009945494,0.009945494
+908,Bwari,Giwa,,1095,730,2013,0,0
+909,Calabar South,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+910,Calabar-Municipal,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+911,Chanchaga,Keana,,1095,730,2013,0.005529724,0.005529724
+912,Charanchi,Rimi,,1095,730,2013,0.022996125,0.022996125
+913,Chibok,Darazo,,1095,730,2013,0.000948997,0.000948997
+914,Chikun,Soba,,1095,730,2013,0,0
+915,Dala,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+916,Damaturu,Darazo,,1095,730,2013,0.000948997,0.000948997
+917,Damban,Darazo,,1095,730,2013,0.000948997,0.000948997
+918,Dambatta,Babura,,1095,730,2013,0,0
+919,Damboa,Darazo,,1095,730,2013,0.000948997,0.000948997
+920,Dan Musa,Rimi,,1095,730,2013,0.022996125,0.022996125
+921,Dandi,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+922,Dandume,Giwa,,1095,730,2013,0,0
+923,Dange-Shnsi,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+924,Danja,Giwa,,1095,730,2013,0,0
+925,Darazo,Darazo,,1095,730,2013,0.000948997,0.000948997
+926,Dass,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+927,Daura,Babura,,1095,730,2013,0,0
+928,Dawakin Kudu,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+929,Dawakin Tofa,Taura,,1095,730,2013,0.046769383,0.046769383
+930,Degema,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+931,Dekina,Owan East,,1095,730,2013,0.0098755,0.0098755
+932,Demsa,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+933,Dikwa,Darazo,,1095,730,2013,0.000948997,0.000948997
+934,Doguwa,Giwa,,1095,730,2013,0,0
+935,Doma,Keana,,1095,730,2013,0.005529724,0.005529724
+936,Donga,Keana,,1095,730,2013,0.005529724,0.005529724
+937,Dukku,Darazo,,1095,730,2013,0.000948997,0.000948997
+938,Dunukofia,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+939,Dutse,Takali,,1095,730,2013,0,0
+940,Dutsi,Rimi,,1095,730,2013,0.022996125,0.022996125
+941,Dutsin-Ma,Rimi,,1095,730,2013,0.022996125,0.022996125
+942,Eastern Obolo,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+943,Ebonyi,Owan East,,1095,730,2013,0.0098755,0.0098755
+944,Edati,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+945,Ede North,Akinyele,,1095,730,2013,0.004445616,0.004445616
+946,Ede South,Akinyele,,1095,730,2013,0.004445616,0.004445616
+947,Edu,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+948,Efon-Alayee,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+949,Egbado North,Owan East,,1095,730,2013,0.0098755,0.0098755
+950,Egbado South,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+951,Egbeda,Akinyele,,1095,730,2013,0.004445616,0.004445616
+952,Egbedore,Akinyele,,1095,730,2013,0.004445616,0.004445616
+953,Egor,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+954,Ehime-Mbano,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+955,Ejigbo,Akinyele,,1095,730,2013,0.004445616,0.004445616
+956,Ekeremor,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+957,Eket,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+958,Ekiti,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+959,Ekiti East,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+960,Ekiti South West,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+961,Ekiti West,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+962,Ekwusigo,Oru West,,1095,730,2013,0.006251072,0.006251072
+963,Eleme,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+964,Emohua,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+965,Emure,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+966,Enugu East,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+967,Enugu North,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+968,Enugu South,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+969,Epe,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+970,Esan Central,Owan East,,1095,730,2013,0.0098755,0.0098755
+971,Esan North East,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+972,Esan South East,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+973,Esan West,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+974,Ese-Odo,Owan East,,1095,730,2013,0.0098755,0.0098755
+975,Esit Eket,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+976,Essien Udim,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+977,Etche,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+978,Ethiope East,Isoko South,,1095,730,2013,0.009945494,0.009945494
+979,Ethiope West,Isoko South,,1095,730,2013,0.009945494,0.009945494
+980,Eti-Osa,Isoko South,,1095,730,2013,0.009945494,0.009945494
+981,Etim Ekpo,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+982,Etinan,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+983,Etsako Central,Owan East,,1095,730,2013,0.0098755,0.0098755
+984,Etsako East,Owan East,,1095,730,2013,0.0098755,0.0098755
+985,Etsako West,Owan East,,1095,730,2013,0.0098755,0.0098755
+986,Etung,Obubra,,1095,730,2013,0,0
+987,Ewekoro,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+988,Ezeagu,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+989,Ezinihitte,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+990,Ezza North,Owan East,,1095,730,2013,0.0098755,0.0098755
+991,Ezza South,Obubra,,1095,730,2013,0,0
+992,Fagge,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+993,Fakai,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+994,Faskari,Giwa,,1095,730,2013,0,0
+995,Fika,Darazo,,1095,730,2013,0.000948997,0.000948997
+996,Fufore,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+997,Funakaye,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+998,Fune,Darazo,,1095,730,2013,0.000948997,0.000948997
+999,Funtua,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1000,Gabasawa,Taura,,1095,730,2013,0.046769383,0.046769383
+1001,Gada,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+1002,Gagarawa,Taura,,1095,730,2013,0.046769383,0.046769383
+1003,Gamawa,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1004,Ganaye,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1005,Ganjuwa,Darazo,,1095,730,2013,0.000948997,0.000948997
+1006,Garki,Babura,,1095,730,2013,0,0
+1007,Garko,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1008,Garum Mallam,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1009,Gashaka,Oru West,,1095,730,2013,0.006251072,0.006251072
+1010,Gassol,Keana,,1095,730,2013,0.005529724,0.005529724
+1011,Gawabawa,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+1012,Gaya,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1013,Gbako,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1014,Gboko,Keana,,1095,730,2013,0.005529724,0.005529724
+1015,Gboyin,Obubra,,1095,730,2013,0,0
+1016,Geidam,Babura,,1095,730,2013,0,0
+1017,Gezawa,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1018,Giade,Darazo,,1095,730,2013,0.000948997,0.000948997
+1019,Gireri,Darazo,,1095,730,2013,0.000948997,0.000948997
+1020,Giwa,Giwa,,1095,730,2013,0,0
+1021,Gokana,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1022,Gombe,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1023,Gombi,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1024,Goronyo,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+1025,Gubio,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+1026,Gudu,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+1027,Gujba,Darazo,,1095,730,2013,0.000948997,0.000948997
+1028,Gulani,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1029,Guma,Keana,,1095,730,2013,0.005529724,0.005529724
+1030,Gumel,Babura,,1095,730,2013,0,0
+1031,Gummi,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+1032,Gurara,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1033,Guri,Taura,,1095,730,2013,0.046769383,0.046769383
+1034,Gusau,Darazo,,1095,730,2013,0.000948997,0.000948997
+1035,Guyuk,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1036,Guzamala,Babura,,1095,730,2013,0,0
+1037,Gwagwalada,Keana,,1095,730,2013,0.005529724,0.005529724
+1038,Gwale,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1039,Gwandu,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+1040,Gwaram,Takali,,1095,730,2013,0,0
+1041,Gwarzo,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1042,Gwer East,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1043,Gwer West,Keana,,1095,730,2013,0.005529724,0.005529724
+1044,Gwiwa,Babura,,1095,730,2013,0,0
+1045,Gwoza,Darazo,,1095,730,2013,0.000948997,0.000948997
+1046,Hadejia,Taura,,1095,730,2013,0.046769383,0.046769383
+1047,Hawul,Darazo,,1095,730,2013,0.000948997,0.000948997
+1048,Hong,Darazo,,1095,730,2013,0.000948997,0.000948997
+1049,Ibadan North,Owan East,,1095,730,2013,0.0098755,0.0098755
+1050,Ibadan North East,Owan East,,1095,730,2013,0.0098755,0.0098755
+1051,Ibadan North West,Owan East,,1095,730,2013,0.0098755,0.0098755
+1052,Ibadan South East,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1053,Ibadan South West,Owan East,,1095,730,2013,0.0098755,0.0098755
+1054,Ibaji,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1055,Ibarapa Central,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1056,Ibarapa East,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1057,Ibarapa North,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1058,Ibeju-Lekki,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1059,Ibeno,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1060,Ibesikpo Asutan,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1061,Ibi,Keana,,1095,730,2013,0.005529724,0.005529724
+1062,Ibiono Ibom,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1063,Idah,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1064,Idanre,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1065,Ideato North,Oru West,,1095,730,2013,0.006251072,0.006251072
+1066,Ideato South,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1067,Idemili North,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1068,Idemili South,Oru West,,1095,730,2013,0.006251072,0.006251072
+1069,Ido,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1070,Idosi-Osi,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1071,Ifako-Ijaye,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1072,Ife Central,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1073,Ife East,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1074,Ife North,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1075,Ife South,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1076,Ifedayo,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1077,Ifedore,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1078,Ifelodun1,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1079,Ifelodun2,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1080,Ifo,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1081,Igabi,Soba,,1095,730,2013,0,0
+1082,Igalamela-Odolu,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1083,Igbo-Etiti,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1084,Igbo-Eze North,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1085,Igbo-Eze South,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1086,Igueben,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1087,Ihiala,Oru West,,1095,730,2013,0.006251072,0.006251072
+1088,Ihitte-Uboma,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1089,Ijebu East,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1090,Ijebu North,Owan East,,1095,730,2013,0.0098755,0.0098755
+1091,Ijebu North East,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1092,Ijebu ode,Owan East,,1095,730,2013,0.0098755,0.0098755
+1093,Ijero,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1094,Ijumu,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1095,Ika,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1096,Ika North East,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1097,Ika South,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1098,Ikara,Soba,,1095,730,2013,0,0
+1099,Ikeduru,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1100,Ikeja,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1101,Ikenne,Owan East,,1095,730,2013,0.0098755,0.0098755
+1102,Ikere,Owan East,,1095,730,2013,0.0098755,0.0098755
+1103,Ikole,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1104,Ikom,Obubra,,1095,730,2013,0,0
+1105,Ikono,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1106,Ikorodu,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1107,Ikot Abasi,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1108,Ikot Ekpene,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1109,Ikpoba-Okha,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1110,Ikwerre,Oru West,,1095,730,2013,0.006251072,0.006251072
+1111,Ikwo,Obubra,,1095,730,2013,0,0
+1112,Ikwuano,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1113,Ila,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1114,Ilaje,Owan East,,1095,730,2013,0.0098755,0.0098755
+1115,Ile-Oluji-Okeigbo,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1116,Ilemeji,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1117,Ilesha East,Owan East,,1095,730,2013,0.0098755,0.0098755
+1118,Ilesha West,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1119,Illela,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+1120,Ilorin East,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1121,Ilorin South,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1122,Ilorin West,Owan East,,1095,730,2013,0.0098755,0.0098755
+1123,Imeko-Afon,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1124,Ingawa,Rimi,,1095,730,2013,0.022996125,0.022996125
+1125,Ini,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1126,Ipokia,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1127,Irele,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1128,Irepo,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1129,Irepodun-Ifelodun,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1130,Irepodun1,Owan East,,1095,730,2013,0.0098755,0.0098755
+1131,Irepodun2,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1132,Irewole,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1133,Isa,Rimi,,1095,730,2013,0.022996125,0.022996125
+1134,Ise-Orun,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1135,Iseyin,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1136,Ishielu,Owan East,,1095,730,2013,0.0098755,0.0098755
+1137,Isi-Uzo,Owan East,,1095,730,2013,0.0098755,0.0098755
+1138,Isiala Mbano,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1139,Isiala-Ngwa North,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1140,Isiala-Ngwa South,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1141,Isin,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1142,Isokan,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1143,Isoko North,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1144,Isoko South,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1145,Isu,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1146,Isuikwato,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1147,Itas-Gadau,Taura,,1095,730,2013,0.046769383,0.046769383
+1148,Itesiwaju,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1149,Itu,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1150,Ivo,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1151,Iwajowa,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1152,Iwo,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1153,Izzi,Owan East,,1095,730,2013,0.0098755,0.0098755
+1154,Jaba,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1155,Jada,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1156,Jahun,Taura,,1095,730,2013,0.046769383,0.046769383
+1157,Jakusko,Taura,,1095,730,2013,0.046769383,0.046769383
+1158,Jalingo,Keana,,1095,730,2013,0.005529724,0.005529724
+1159,Jama'are,Taura,,1095,730,2013,0.046769383,0.046769383
+1160,Jega,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+1161,Jema'a,Soba,,1095,730,2013,0,0
+1162,Jere,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+1163,Jibia,Rimi,,1095,730,2013,0.022996125,0.022996125
+1164,Jos East,Soba,,1095,730,2013,0,0
+1165,Jos North,Soba,,1095,730,2013,0,0
+1166,Jos South,Soba,,1095,730,2013,0,0
+1167,Kabba-Bunu,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1168,Kabo,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1169,Kachia,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1170,Kaduna North,Soba,,1095,730,2013,0,0
+1171,Kaduna South,Soba,,1095,730,2013,0,0
+1172,Kafin Hausa,Taura,,1095,730,2013,0.046769383,0.046769383
+1173,Kafur,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1174,Kaga,Darazo,,1095,730,2013,0.000948997,0.000948997
+1175,Kagarko,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1176,Kaiama,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1177,Kaita,Rimi,,1095,730,2013,0.022996125,0.022996125
+1178,Kajola,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1179,Kajuru,Soba,,1095,730,2013,0,0
+1180,Kala-Balge,Darazo,,1095,730,2013,0.000948997,0.000948997
+1181,Kalgo,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+1182,Kaltungo,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1183,Kanam,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1184,Kankara,Rimi,,1095,730,2013,0.022996125,0.022996125
+1185,Kanke,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1186,Kankia,Rimi,,1095,730,2013,0.022996125,0.022996125
+1187,Kano Municipal,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1188,Karasuwa,Taura,,1095,730,2013,0.046769383,0.046769383
+1189,Karaye,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1190,Karin-Lamido,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1191,Karu,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1192,Katagum,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1193,Katcha,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1194,Katsina,Rimi,,1095,730,2013,0.022996125,0.022996125
+1195,Katsina-Ala,Keana,,1095,730,2013,0.005529724,0.005529724
+1196,Kaugama,Taura,,1095,730,2013,0.046769383,0.046769383
+1197,Kaura,Soba,,1095,730,2013,0,0
+1198,Kaura-Namoda,Rimi,,1095,730,2013,0.022996125,0.022996125
+1199,Kauru,Soba,,1095,730,2013,0,0
+1200,Kazaure,Babura,,1095,730,2013,0,0
+1201,Keana,Keana,,1095,730,2013,0.005529724,0.005529724
+1202,Kebbe,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+1203,Keffi,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1204,Khana,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1205,Kibiya,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1206,Kirfi,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1207,Kiri Kasamma,Taura,,1095,730,2013,0.046769383,0.046769383
+1208,Kiru,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1209,Kiyawa,Takali,,1095,730,2013,0,0
+1210,Kogi,Keana,,1095,730,2013,0.005529724,0.005529724
+1211,Koko-Besse,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+1212,Kokona,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1213,Kolokuma-Opokuma,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+1214,Konduga,Darazo,,1095,730,2013,0.000948997,0.000948997
+1215,Konshisha,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1216,Kontagora,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1217,Kosofe,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1218,Kubau,Soba,,1095,730,2013,0,0
+1219,Kudan,Giwa,,1095,730,2013,0,0
+1220,Kuje,Keana,,1095,730,2013,0.005529724,0.005529724
+1221,Kukawa,Babura,,1095,730,2013,0,0
+1222,Kumbotso,Taura,,1095,730,2013,0.046769383,0.046769383
+1223,Kunchi,Babura,,1095,730,2013,0,0
+1224,Kura,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1225,Kurfi,Rimi,,1095,730,2013,0.022996125,0.022996125
+1226,Kurmi,Oru West,,1095,730,2013,0.006251072,0.006251072
+1227,Kusada,Rimi,,1095,730,2013,0.022996125,0.022996125
+1228,Kwali,Keana,,1095,730,2013,0.005529724,0.005529724
+1229,Kwami,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1230,Kwande,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1231,Kware,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+1232,Kwaya Kusar,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1233,Lafia,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1234,Lagelu,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1235,Lagos Island,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1236,Lagos Mainland,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1237,Lamurde,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1238,Langtang North,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1239,Langtang South,Keana,,1095,730,2013,0.005529724,0.005529724
+1240,Lapai,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1241,Lau,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1242,Lavun,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1243,Lere,Soba,,1095,730,2013,0,0
+1244,Logo,Keana,,1095,730,2013,0.005529724,0.005529724
+1245,Lokoja,Keana,,1095,730,2013,0.005529724,0.005529724
+1246,Machina,Taura,,1095,730,2013,0.046769383,0.046769383
+1247,Madagali,Darazo,,1095,730,2013,0.000948997,0.000948997
+1248,Madobi,Taura,,1095,730,2013,0.046769383,0.046769383
+1249,Mafa,Darazo,,1095,730,2013,0.000948997,0.000948997
+1250,Magama,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1251,Magumeri,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+1252,Mai'Adua,Rimi,,1095,730,2013,0.022996125,0.022996125
+1253,Maiduguri,Darazo,,1095,730,2013,0.000948997,0.000948997
+1254,Maigatari,Babura,,1095,730,2013,0,0
+1255,Maiha,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1256,Maiyama,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+1257,Makoda,Babura,,1095,730,2013,0,0
+1258,Makurdi,Keana,,1095,730,2013,0.005529724,0.005529724
+1259,Malam Madori,Taura,,1095,730,2013,0.046769383,0.046769383
+1260,Malumfashi,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1261,Mangu,Darazo,,1095,730,2013,0.000948997,0.000948997
+1262,Mani,Rimi,,1095,730,2013,0.022996125,0.022996125
+1263,Maradun,Darazo,,1095,730,2013,0.000948997,0.000948997
+1264,Mariga,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1265,Markafi,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1266,Marte,Babura,,1095,730,2013,0,0
+1267,Maru,Giwa,,1095,730,2013,0,0
+1268,Mashegu,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1269,Mashi,Rimi,,1095,730,2013,0.022996125,0.022996125
+1270,Matazuu,Rimi,,1095,730,2013,0.022996125,0.022996125
+1271,Mayo-Belwa,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1272,Mbaitoli,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1273,Mbo,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1274,Michika,Darazo,,1095,730,2013,0.000948997,0.000948997
+1275,Miga,Taura,,1095,730,2013,0.046769383,0.046769383
+1276,Mikang,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1277,Minjibir,Taura,,1095,730,2013,0.046769383,0.046769383
+1278,Misau,Darazo,,1095,730,2013,0.000948997,0.000948997
+1279,Mkpat Enin,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1280,Moba,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1281,Mobbar,Babura,,1095,730,2013,0,0
+1282,Mokwa,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1283,Monguno,Babura,,1095,730,2013,0,0
+1284,Mopa-Muro,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1285,Moro,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1286,Mubi North,Darazo,,1095,730,2013,0.000948997,0.000948997
+1287,Mubi South,Darazo,,1095,730,2013,0.000948997,0.000948997
+1288,Musawa,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1289,Mushin,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1290,Muya,Giwa,,1095,730,2013,0,0
+1291,Nafada,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1292,Nangere,Darazo,,1095,730,2013,0.000948997,0.000948997
+1293,Nasarawa-Eggon,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1294,Nasarawa1,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1295,Nasarawa2,Keana,,1095,730,2013,0.005529724,0.005529724
+1296,Ndokwa East,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+1297,Ndokwa West,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1298,Nembe,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+1299,Ngala,Taura,,1095,730,2013,0.046769383,0.046769383
+1300,Nganzai,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+1301,Ngaski,Owan East,,1095,730,2013,0.0098755,0.0098755
+1302,Ngor-Okpala,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1303,Nguru,Taura,,1095,730,2013,0.046769383,0.046769383
+1304,Ningi,Takali,,1095,730,2013,0,0
+1305,Njaba,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1306,Njikoka,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1307,Nkanu East,Owan East,,1095,730,2013,0.0098755,0.0098755
+1308,Nkanu West,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1309,Nkwerre,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1310,Nnewi North,Oru West,,1095,730,2013,0.006251072,0.006251072
+1311,Nnewi South,Oru West,,1095,730,2013,0.006251072,0.006251072
+1312,Nsit Atai,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1313,Nsit Ibom,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1314,Nsit Ubium,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1315,Nsukka,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1316,Numan,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1317,Nwangele,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1318,Obafemi-Owode,Owan East,,1095,730,2013,0.0098755,0.0098755
+1319,Obanliku,Obubra,,1095,730,2013,0,0
+1320,Obi Nwa,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1321,Obi1,Keana,,1095,730,2013,0.005529724,0.005529724
+1322,Obi2,Keana,,1095,730,2013,0.005529724,0.005529724
+1323,Obia-Akpor,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+1324,Obokun,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1325,Obot Akara,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1326,Obowo,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1327,Obubra,Obubra,,1095,730,2013,0,0
+1328,Obudu,Obubra,,1095,730,2013,0,0
+1329,Odeda,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1330,Odigbo,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1331,Odo-Otin,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1332,Odogbolu,Owan East,,1095,730,2013,0.0098755,0.0098755
+1333,Odukpani,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1334,Offa,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1335,Ofu,Owan East,,1095,730,2013,0.0098755,0.0098755
+1336,Ogba-Egbema-Ndoni,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+1337,Ogbadibo,Owan East,,1095,730,2013,0.0098755,0.0098755
+1338,Ogbaru,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+1339,Ogbia,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+1340,Ogbomosho North,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1341,Ogbomosho South,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1342,Ogo Oluwa,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1343,Ogoja,Obubra,,1095,730,2013,0,0
+1344,Ogori-Mangongo,Owan East,,1095,730,2013,0.0098755,0.0098755
+1345,Ogu-Bolo,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1346,Ogun waterside,Owan East,,1095,730,2013,0.0098755,0.0098755
+1347,Oguta,Oru West,,1095,730,2013,0.006251072,0.006251072
+1348,Ohafia,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1349,Ohaji-Egbema,Oru West,,1095,730,2013,0.006251072,0.006251072
+1350,Ohaozara,Obubra,,1095,730,2013,0,0
+1351,Ohaukwu,Owan East,,1095,730,2013,0.0098755,0.0098755
+1352,Ohimini,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1353,Oji-River,Oru West,,1095,730,2013,0.006251072,0.006251072
+1354,Ojo,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1355,Oju,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1356,Oke-Ero,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1357,Okehi,Owan East,,1095,730,2013,0.0098755,0.0098755
+1358,Okene,Owan East,,1095,730,2013,0.0098755,0.0098755
+1359,Okigwe,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1360,Okitipupa,Owan East,,1095,730,2013,0.0098755,0.0098755
+1361,Okobo,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1362,Okpe,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1363,Okpokwu,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1364,Okrika,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1365,Ola-oluwa,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1366,Olamabolo,Owan East,,1095,730,2013,0.0098755,0.0098755
+1367,Olorunda,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1368,Olorunsogo,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1369,Oluyole,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1370,Omala,Keana,,1095,730,2013,0.005529724,0.005529724
+1371,Omumma,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1372,Ona-Ara,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1373,Ondo East,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1374,Ondo West,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1375,Onicha,Obubra,,1095,730,2013,0,0
+1376,Onitsha North,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1377,Onitsha South,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1378,Onna,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1379,Opobo-Nkoro,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1380,Oredo,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1381,Orelope,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1382,Orhionmwon,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1383,Ori Ire,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1384,Oriade,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1385,Orlu,Oru West,,1095,730,2013,0.006251072,0.006251072
+1386,Orolu,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1387,Oron,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1388,Orsu,Oru West,,1095,730,2013,0.006251072,0.006251072
+1389,Oru East,Oru West,,1095,730,2013,0.006251072,0.006251072
+1390,Oru West,Oru West,,1095,730,2013,0.006251072,0.006251072
+1391,Oruk Anam,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1392,Orumba North,Oru West,,1095,730,2013,0.006251072,0.006251072
+1393,Orumba South,Oru West,,1095,730,2013,0.006251072,0.006251072
+1394,Ose,Owan East,,1095,730,2013,0.0098755,0.0098755
+1395,Oshimili North,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1396,Oshimili South,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1397,Oshodi-Isolo,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1398,Osisioma Ngwa,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1399,Osogbo,Owan East,,1095,730,2013,0.0098755,0.0098755
+1400,Oturkpo,Owan East,,1095,730,2013,0.0098755,0.0098755
+1401,Ovia North East,Owan East,,1095,730,2013,0.0098755,0.0098755
+1402,Ovia South West,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1403,Owan East,Owan East,,1095,730,2013,0.0098755,0.0098755
+1404,Owan West,Owan East,,1095,730,2013,0.0098755,0.0098755
+1405,Owerri North,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1406,Owerri West,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1407,Owerri-Municipal,Oru West,,1095,730,2013,0.006251072,0.006251072
+1408,Owo,Owan East,,1095,730,2013,0.0098755,0.0098755
+1409,Oye,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1410,Oyi,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1411,Oyigbo,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1412,Oyo East,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1413,Oyo West,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1414,Oyun,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1415,Pailoro,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1416,Pankshin,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1417,Patani,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1418,Pategi,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1419,Port-Harcourt,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+1420,Potiskum,Darazo,,1095,730,2013,0.000948997,0.000948997
+1421,Qua'an Pan,Keana,,1095,730,2013,0.005529724,0.005529724
+1422,Rabah,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+1423,Rafi,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1424,Rano,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1425,Remo North,Owan East,,1095,730,2013,0.0098755,0.0098755
+1426,Rijau,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1427,Rimi,Rimi,,1095,730,2013,0.022996125,0.022996125
+1428,Rimin Gado,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1429,Ringim,Taura,,1095,730,2013,0.046769383,0.046769383
+1430,Riyom,Soba,,1095,730,2013,0,0
+1431,Rogo,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1432,Roni,Babura,,1095,730,2013,0,0
+1433,Sabon Birni,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+1434,Sabon-Gari,Soba,,1095,730,2013,0,0
+1435,Sabuwa,Giwa,,1095,730,2013,0,0
+1436,Safana,Babura,,1095,730,2013,0,0
+1437,Sagbama,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+1438,Sakaba,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1439,Saki East,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1440,Saki West,Akinyele,,1095,730,2013,0.004445616,0.004445616
+1441,Sandamu,Rimi,,1095,730,2013,0.022996125,0.022996125
+1442,Sanga,Soba,,1095,730,2013,0,0
+1443,Sapele,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1444,Sardauna,Oru West,,1095,730,2013,0.006251072,0.006251072
+1445,Shagamu,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1446,Shagari,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+1447,Shanga,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+1448,Shani,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1449,Shanono,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1450,Shelleng,Darazo,,1095,730,2013,0.000948997,0.000948997
+1451,Shendam,Keana,,1095,730,2013,0.005529724,0.005529724
+1452,Shinkafi,Rimi,,1095,730,2013,0.022996125,0.022996125
+1453,Shira,Takali,,1095,730,2013,0,0
+1454,Shiroro,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1455,Shomgom,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1456,Shomolu,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1457,Silame,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+1458,Soba,Soba,,1095,730,2013,0,0
+1459,Sokoto North,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+1460,Sokoto South,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+1461,Song,Darazo,,1095,730,2013,0.000948997,0.000948997
+1462,Southern Ijaw,Ahoada West,,1095,730,2013,0.10428689,0.10428689
+1463,Sule-Tankarkar,Babura,,1095,730,2013,0,0
+1464,Suleja,Giwa,,1095,730,2013,0,0
+1465,Sumaila,Takali,,1095,730,2013,0,0
+1466,Suru,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+1467,Surulere1,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1468,Surulere2,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1469,Tafa,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1470,Tafawa-Balewa,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1471,Tai,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1472,Takali,Takali,,1095,730,2013,0,0
+1473,Takum,Keana,,1095,730,2013,0.005529724,0.005529724
+1474,Talata Mafara,Darazo,,1095,730,2013,0.000948997,0.000948997
+1475,Tambuwal,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+1476,Tangaza,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+1477,Tarauni,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1478,Tarka,Keana,,1095,730,2013,0.005529724,0.005529724
+1479,Tarmua,Rimi,,1095,730,2013,0.022996125,0.022996125
+1480,Taura,Taura,,1095,730,2013,0.046769383,0.046769383
+1481,Tofa,Taura,,1095,730,2013,0.046769383,0.046769383
+1482,Toro,Giwa,,1095,730,2013,0,0
+1483,Toto,Keana,,1095,730,2013,0.005529724,0.005529724
+1484,Toungo,Keana,,1095,730,2013,0.005529724,0.005529724
+1485,Tsafe,Takali,,1095,730,2013,0,0
+1486,Tsanyawa,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1487,Tudun Wada,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1488,Tureta,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+1489,Udenu,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1490,Udi,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1491,Udu,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1492,Udung Uko,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1493,Ughelli North,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1494,Ughelli South,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1495,Ugwunagbo,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1496,Uhunmwonde,Owan East,,1095,730,2013,0.0098755,0.0098755
+1497,Ukanafun,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1498,Ukum,Keana,,1095,730,2013,0.005529724,0.005529724
+1499,Ukwa East,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1500,Ukwa West,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1501,Ukwuani,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1502,Umu-Neochi,Oru West,,1095,730,2013,0.006251072,0.006251072
+1503,Umuahia North,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1504,Umuahia South,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1505,Ungogo,Taura,,1095,730,2013,0.046769383,0.046769383
+1506,Unuimo,Ngor-Okpala,,1095,730,2013,0.003930417,0.003930417
+1507,Uruan,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1508,Urue-Offong-Oruko,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1509,Ushongo,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1510,Ussa,Oru West,,1095,730,2013,0.006251072,0.006251072
+1511,Uvwie,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1512,Uyo,Nsit Ubium,,1095,730,2013,0.043754235,0.043754235
+1513,Uzo-Uwani,Uzo-Uwani,,1095,730,2013,0.02817451,0.02817451
+1514,Vandeikya,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1515,Wamako,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+1516,Wamba,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1517,Warawa,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1518,Warji,Takali,,1095,730,2013,0,0
+1519,Warri North,Owan East,,1095,730,2013,0.0098755,0.0098755
+1520,Warri South,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1521,Warri South West,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1522,Wasagu-Danko,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1523,Wase,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1524,Wudil,Gwarzo,,1095,730,2013,0.003275168,0.003275168
+1525,Wukari,Keana,,1095,730,2013,0.005529724,0.005529724
+1526,Wurno,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+1527,Wushishi,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1528,Yabo,Gawabawa,,1095,730,2013,0.013935005,0.013935005
+1529,Yagba East,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1530,Yagba West,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1531,Yakurr,Obubra,,1095,730,2013,0,0
+1532,Yala,Oke-Ero,,1095,730,2013,0.030860305,0.030860305
+1533,Yamaltu-Deba,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1534,Yankwashi,Babura,,1095,730,2013,0,0
+1535,Yauri,Birnin Kebbi,,1095,730,2013,0.068057438,0.068057438
+1536,Yenegoa,Isoko South,,1095,730,2013,0.009945494,0.009945494
+1537,Yola North,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1538,Yola South,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1539,Yorro,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1540,Yunusari,Babura,,1095,730,2013,0,0
+1541,Yusufari,Taura,,1095,730,2013,0.046769383,0.046769383
+1542,Zaki,Taura,,1095,730,2013,0.046769383,0.046769383
+1543,Zango,Babura,,1095,730,2013,0,0
+1544,Zango-Kataf,Soba,,1095,730,2013,0,0
+1545,Zaria,Soba,,1095,730,2013,0,0
+1546,Zing,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1547,Zurmi,Rimi,,1095,730,2013,0.022996125,0.022996125
+1548,Zuru,Alkaleri,,1095,730,2013,0.031748425,0.031748425
+1549,Aba North,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1550,Aba South,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1551,Abadam,Babura,,1825,1095,2015,0.087708523,0.087708523
+1552,Abaji,Keana,,1825,1095,2015,0.041604488,0.041604488
+1553,Abak,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+1554,Abakaliki,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1555,Abeokuta North,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1556,Abeokuta South,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1557,Abi,Obubra,,1825,1095,2015,0.064518084,0.064518084
+1558,Aboh-Mbaise,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1559,Abua-Odual,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+1560,Abuja Municipal,Keana,,1825,1095,2015,0.041604488,0.041604488
+1561,Adavi,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1562,Ado,Akinyele,,1825,1095,2015,0,0
+1563,Ado Ekiti,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1564,Ado-Odo-Ota,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1565,Afijio,Akinyele,,1825,1095,2015,0,0
+1566,Afikpo North,Oru West,,1825,1095,2015,0.212880315,0.212880315
+1567,Afikpo South,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1568,Agaie,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1569,Agatu,Keana,,1825,1095,2015,0.041604488,0.041604488
+1570,Agege,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1571,Aguata,Oru West,,1825,1095,2015,0.212880315,0.212880315
+1572,Agwara,Birnin Kebbi,,1825,1095,2015,0,0
+1573,Ahiazu-Mbaise,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1574,Ahoada East,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+1575,Ahoada West,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+1576,Aiyedade,Akinyele,,1825,1095,2015,0,0
+1577,Aiyedire,Akinyele,,1825,1095,2015,0,0
+1578,Ajaokuta,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1579,Ajeromi-Ifelodun,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1580,Ajingi,Taura,,1825,1095,2015,0.058467978,0.058467978
+1581,Akamkpa,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1582,Akinyele,Akinyele,,1825,1095,2015,0,0
+1583,Akko,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1584,Akoko North East,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1585,Akoko North West,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1586,Akoko South East,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1587,Akoko South West,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1588,Akoko-Edo,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1589,Akpabuyo,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+1590,Akuku Toru,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+1591,Akure North,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1592,Akure South,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1593,Akwanga,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1594,Albasu,Takali,,1825,1095,2015,0.033950387,0.033950387
+1595,Aleiro,Birnin Kebbi,,1825,1095,2015,0,0
+1596,Alimosho,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1597,Alkaleri,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1598,Amuwo-Odofin,Isoko South,,1825,1095,2015,0,0
+1599,Anambra East,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1600,Anambra West,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1601,Anaocha,Oru West,,1825,1095,2015,0.212880315,0.212880315
+1602,Andoni,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+1603,Aninri,Oru West,,1825,1095,2015,0.212880315,0.212880315
+1604,Aniocha North,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1605,Aniocha South,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1606,Anka,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1607,Ankpa,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1608,Apa,Keana,,1825,1095,2015,0.041604488,0.041604488
+1609,Apapa,Isoko South,,1825,1095,2015,0,0
+1610,Ardo-Kola,Keana,,1825,1095,2015,0.041604488,0.041604488
+1611,Arewa-Dandi,Birnin Kebbi,,1825,1095,2015,0,0
+1612,Argungu,Birnin Kebbi,,1825,1095,2015,0,0
+1613,Arochukwu,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1614,Asa,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1615,Asari-Toru,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+1616,Askira-Uba,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1617,Atakumosa East,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1618,Atakumosa West,Akinyele,,1825,1095,2015,0,0
+1619,Atiba,Akinyele,,1825,1095,2015,0,0
+1620,Atigbo,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1621,Augie,Birnin Kebbi,,1825,1095,2015,0,0
+1622,Auyo,Taura,,1825,1095,2015,0.058467978,0.058467978
+1623,Awe,Keana,,1825,1095,2015,0.041604488,0.041604488
+1624,Awgu,Oru West,,1825,1095,2015,0.212880315,0.212880315
+1625,Awka North,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1626,Awka South,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1627,Ayamelum,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1628,Babura,Babura,,1825,1095,2015,0.087708523,0.087708523
+1629,Badagry,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1630,Bade,Taura,,1825,1095,2015,0.058467978,0.058467978
+1631,Bagudo,Birnin Kebbi,,1825,1095,2015,0,0
+1632,Bagwai,Babura,,1825,1095,2015,0.087708523,0.087708523
+1633,Bakassi,Obubra,,1825,1095,2015,0.064518084,0.064518084
+1634,Bakori,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1635,Bakura,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1636,Balanga,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1637,Bali,Keana,,1825,1095,2015,0.041604488,0.041604488
+1638,Bama,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1639,Barikin Ladi,Soba,,1825,1095,2015,0.008353962,0.008353962
+1640,Baruten,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1641,Bassa1,Keana,,1825,1095,2015,0.041604488,0.041604488
+1642,Bassa2,Soba,,1825,1095,2015,0.008353962,0.008353962
+1643,Batagarawa,Rimi,,1825,1095,2015,0.051240905,0.051240905
+1644,Batsari,Rimi,,1825,1095,2015,0.051240905,0.051240905
+1645,Bauchi,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1646,Baure,Babura,,1825,1095,2015,0.087708523,0.087708523
+1647,Bayo,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1648,Bebeji,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1649,Bekwara,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1650,Bende,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1651,Biase,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1652,Bichi,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1653,Bida,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1654,Billiri,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1655,Bindawa,Rimi,,1825,1095,2015,0.051240905,0.051240905
+1656,Binji,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+1657,Biriniwa,Taura,,1825,1095,2015,0.058467978,0.058467978
+1658,Birni Kudu,Takali,,1825,1095,2015,0.033950387,0.033950387
+1659,Birnin Kebbi,Birnin Kebbi,,1825,1095,2015,0,0
+1660,Birnin Magaji,Rimi,,1825,1095,2015,0.051240905,0.051240905
+1661,Birnin-Gwari,Giwa,,1825,1095,2015,0,0
+1662,Biu,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1663,Bodinga,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+1664,Bogoro,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1665,Boki,Obubra,,1825,1095,2015,0.064518084,0.064518084
+1666,Bokkos,Giwa,,1825,1095,2015,0,0
+1667,Boluwaduro,Akinyele,,1825,1095,2015,0,0
+1668,Bomadi,Isoko South,,1825,1095,2015,0,0
+1669,Bonny,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+1670,Borgu,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1671,Boripe,Akinyele,,1825,1095,2015,0,0
+1672,Bosso,Keana,,1825,1095,2015,0.041604488,0.041604488
+1673,Brass,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+1674,Buji,Takali,,1825,1095,2015,0.033950387,0.033950387
+1675,Bukkuyum,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1676,Bungudu,Takali,,1825,1095,2015,0.033950387,0.033950387
+1677,Bunkure,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1678,Bunza,Birnin Kebbi,,1825,1095,2015,0,0
+1679,Bursari,Taura,,1825,1095,2015,0.058467978,0.058467978
+1680,Buruku,Keana,,1825,1095,2015,0.041604488,0.041604488
+1681,Burutu,Isoko South,,1825,1095,2015,0,0
+1682,Bwari,Giwa,,1825,1095,2015,0,0
+1683,Calabar South,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+1684,Calabar-Municipal,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+1685,Chanchaga,Keana,,1825,1095,2015,0.041604488,0.041604488
+1686,Charanchi,Rimi,,1825,1095,2015,0.051240905,0.051240905
+1687,Chibok,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1688,Chikun,Soba,,1825,1095,2015,0.008353962,0.008353962
+1689,Dala,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1690,Damaturu,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1691,Damban,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1692,Dambatta,Babura,,1825,1095,2015,0.087708523,0.087708523
+1693,Damboa,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1694,Dan Musa,Rimi,,1825,1095,2015,0.051240905,0.051240905
+1695,Dandi,Birnin Kebbi,,1825,1095,2015,0,0
+1696,Dandume,Giwa,,1825,1095,2015,0,0
+1697,Dange-Shnsi,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+1698,Danja,Giwa,,1825,1095,2015,0,0
+1699,Darazo,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1700,Dass,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1701,Daura,Babura,,1825,1095,2015,0.087708523,0.087708523
+1702,Dawakin Kudu,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1703,Dawakin Tofa,Taura,,1825,1095,2015,0.058467978,0.058467978
+1704,Degema,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+1705,Dekina,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1706,Demsa,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1707,Dikwa,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1708,Doguwa,Giwa,,1825,1095,2015,0,0
+1709,Doma,Keana,,1825,1095,2015,0.041604488,0.041604488
+1710,Donga,Keana,,1825,1095,2015,0.041604488,0.041604488
+1711,Dukku,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1712,Dunukofia,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1713,Dutse,Takali,,1825,1095,2015,0.033950387,0.033950387
+1714,Dutsi,Rimi,,1825,1095,2015,0.051240905,0.051240905
+1715,Dutsin-Ma,Rimi,,1825,1095,2015,0.051240905,0.051240905
+1716,Eastern Obolo,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+1717,Ebonyi,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1718,Edati,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1719,Ede North,Akinyele,,1825,1095,2015,0,0
+1720,Ede South,Akinyele,,1825,1095,2015,0,0
+1721,Edu,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1722,Efon-Alayee,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1723,Egbado North,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1724,Egbado South,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1725,Egbeda,Akinyele,,1825,1095,2015,0,0
+1726,Egbedore,Akinyele,,1825,1095,2015,0,0
+1727,Egor,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1728,Ehime-Mbano,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1729,Ejigbo,Akinyele,,1825,1095,2015,0,0
+1730,Ekeremor,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+1731,Eket,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+1732,Ekiti,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1733,Ekiti East,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1734,Ekiti South West,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1735,Ekiti West,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1736,Ekwusigo,Oru West,,1825,1095,2015,0.212880315,0.212880315
+1737,Eleme,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+1738,Emohua,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+1739,Emure,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1740,Enugu East,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1741,Enugu North,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1742,Enugu South,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1743,Epe,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1744,Esan Central,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1745,Esan North East,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1746,Esan South East,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1747,Esan West,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1748,Ese-Odo,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1749,Esit Eket,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+1750,Essien Udim,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1751,Etche,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1752,Ethiope East,Isoko South,,1825,1095,2015,0,0
+1753,Ethiope West,Isoko South,,1825,1095,2015,0,0
+1754,Eti-Osa,Isoko South,,1825,1095,2015,0,0
+1755,Etim Ekpo,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1756,Etinan,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+1757,Etsako Central,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1758,Etsako East,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1759,Etsako West,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1760,Etung,Obubra,,1825,1095,2015,0.064518084,0.064518084
+1761,Ewekoro,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1762,Ezeagu,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1763,Ezinihitte,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1764,Ezza North,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1765,Ezza South,Obubra,,1825,1095,2015,0.064518084,0.064518084
+1766,Fagge,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1767,Fakai,Birnin Kebbi,,1825,1095,2015,0,0
+1768,Faskari,Giwa,,1825,1095,2015,0,0
+1769,Fika,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1770,Fufore,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1771,Funakaye,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1772,Fune,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1773,Funtua,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1774,Gabasawa,Taura,,1825,1095,2015,0.058467978,0.058467978
+1775,Gada,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+1776,Gagarawa,Taura,,1825,1095,2015,0.058467978,0.058467978
+1777,Gamawa,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1778,Ganaye,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1779,Ganjuwa,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1780,Garki,Babura,,1825,1095,2015,0.087708523,0.087708523
+1781,Garko,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1782,Garum Mallam,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1783,Gashaka,Oru West,,1825,1095,2015,0.212880315,0.212880315
+1784,Gassol,Keana,,1825,1095,2015,0.041604488,0.041604488
+1785,Gawabawa,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+1786,Gaya,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1787,Gbako,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1788,Gboko,Keana,,1825,1095,2015,0.041604488,0.041604488
+1789,Gboyin,Obubra,,1825,1095,2015,0.064518084,0.064518084
+1790,Geidam,Babura,,1825,1095,2015,0.087708523,0.087708523
+1791,Gezawa,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1792,Giade,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1793,Gireri,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1794,Giwa,Giwa,,1825,1095,2015,0,0
+1795,Gokana,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+1796,Gombe,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1797,Gombi,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1798,Goronyo,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+1799,Gubio,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+1800,Gudu,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+1801,Gujba,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1802,Gulani,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1803,Guma,Keana,,1825,1095,2015,0.041604488,0.041604488
+1804,Gumel,Babura,,1825,1095,2015,0.087708523,0.087708523
+1805,Gummi,Birnin Kebbi,,1825,1095,2015,0,0
+1806,Gurara,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1807,Guri,Taura,,1825,1095,2015,0.058467978,0.058467978
+1808,Gusau,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1809,Guyuk,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1810,Guzamala,Babura,,1825,1095,2015,0.087708523,0.087708523
+1811,Gwagwalada,Keana,,1825,1095,2015,0.041604488,0.041604488
+1812,Gwale,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1813,Gwandu,Birnin Kebbi,,1825,1095,2015,0,0
+1814,Gwaram,Takali,,1825,1095,2015,0.033950387,0.033950387
+1815,Gwarzo,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1816,Gwer East,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1817,Gwer West,Keana,,1825,1095,2015,0.041604488,0.041604488
+1818,Gwiwa,Babura,,1825,1095,2015,0.087708523,0.087708523
+1819,Gwoza,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1820,Hadejia,Taura,,1825,1095,2015,0.058467978,0.058467978
+1821,Hawul,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1822,Hong,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1823,Ibadan North,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1824,Ibadan North East,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1825,Ibadan North West,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1826,Ibadan South East,Akinyele,,1825,1095,2015,0,0
+1827,Ibadan South West,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1828,Ibaji,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1829,Ibarapa Central,Akinyele,,1825,1095,2015,0,0
+1830,Ibarapa East,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1831,Ibarapa North,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1832,Ibeju-Lekki,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1833,Ibeno,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+1834,Ibesikpo Asutan,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+1835,Ibi,Keana,,1825,1095,2015,0.041604488,0.041604488
+1836,Ibiono Ibom,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1837,Idah,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1838,Idanre,Akinyele,,1825,1095,2015,0,0
+1839,Ideato North,Oru West,,1825,1095,2015,0.212880315,0.212880315
+1840,Ideato South,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1841,Idemili North,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1842,Idemili South,Oru West,,1825,1095,2015,0.212880315,0.212880315
+1843,Ido,Akinyele,,1825,1095,2015,0,0
+1844,Idosi-Osi,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1845,Ifako-Ijaye,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1846,Ife Central,Akinyele,,1825,1095,2015,0,0
+1847,Ife East,Akinyele,,1825,1095,2015,0,0
+1848,Ife North,Akinyele,,1825,1095,2015,0,0
+1849,Ife South,Akinyele,,1825,1095,2015,0,0
+1850,Ifedayo,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1851,Ifedore,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1852,Ifelodun1,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1853,Ifelodun2,Akinyele,,1825,1095,2015,0,0
+1854,Ifo,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1855,Igabi,Soba,,1825,1095,2015,0.008353962,0.008353962
+1856,Igalamela-Odolu,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1857,Igbo-Etiti,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1858,Igbo-Eze North,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1859,Igbo-Eze South,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1860,Igueben,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1861,Ihiala,Oru West,,1825,1095,2015,0.212880315,0.212880315
+1862,Ihitte-Uboma,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1863,Ijebu East,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1864,Ijebu North,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1865,Ijebu North East,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1866,Ijebu ode,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1867,Ijero,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1868,Ijumu,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1869,Ika,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1870,Ika North East,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1871,Ika South,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1872,Ikara,Soba,,1825,1095,2015,0.008353962,0.008353962
+1873,Ikeduru,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1874,Ikeja,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1875,Ikenne,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1876,Ikere,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1877,Ikole,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1878,Ikom,Obubra,,1825,1095,2015,0.064518084,0.064518084
+1879,Ikono,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1880,Ikorodu,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1881,Ikot Abasi,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+1882,Ikot Ekpene,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1883,Ikpoba-Okha,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1884,Ikwerre,Oru West,,1825,1095,2015,0.212880315,0.212880315
+1885,Ikwo,Obubra,,1825,1095,2015,0.064518084,0.064518084
+1886,Ikwuano,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1887,Ila,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1888,Ilaje,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1889,Ile-Oluji-Okeigbo,Akinyele,,1825,1095,2015,0,0
+1890,Ilemeji,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1891,Ilesha East,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1892,Ilesha West,Akinyele,,1825,1095,2015,0,0
+1893,Illela,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+1894,Ilorin East,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1895,Ilorin South,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1896,Ilorin West,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1897,Imeko-Afon,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1898,Ingawa,Rimi,,1825,1095,2015,0.051240905,0.051240905
+1899,Ini,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1900,Ipokia,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+1901,Irele,Akinyele,,1825,1095,2015,0,0
+1902,Irepo,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1903,Irepodun-Ifelodun,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1904,Irepodun1,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1905,Irepodun2,Akinyele,,1825,1095,2015,0,0
+1906,Irewole,Akinyele,,1825,1095,2015,0,0
+1907,Isa,Rimi,,1825,1095,2015,0.051240905,0.051240905
+1908,Ise-Orun,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1909,Iseyin,Akinyele,,1825,1095,2015,0,0
+1910,Ishielu,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1911,Isi-Uzo,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1912,Isiala Mbano,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1913,Isiala-Ngwa North,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1914,Isiala-Ngwa South,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1915,Isin,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1916,Isokan,Akinyele,,1825,1095,2015,0,0
+1917,Isoko North,Isoko South,,1825,1095,2015,0,0
+1918,Isoko South,Isoko South,,1825,1095,2015,0,0
+1919,Isu,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1920,Isuikwato,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1921,Itas-Gadau,Taura,,1825,1095,2015,0.058467978,0.058467978
+1922,Itesiwaju,Akinyele,,1825,1095,2015,0,0
+1923,Itu,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1924,Ivo,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1925,Iwajowa,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1926,Iwo,Akinyele,,1825,1095,2015,0,0
+1927,Izzi,Owan East,,1825,1095,2015,0.182414224,0.182414224
+1928,Jaba,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1929,Jada,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1930,Jahun,Taura,,1825,1095,2015,0.058467978,0.058467978
+1931,Jakusko,Taura,,1825,1095,2015,0.058467978,0.058467978
+1932,Jalingo,Keana,,1825,1095,2015,0.041604488,0.041604488
+1933,Jama'are,Taura,,1825,1095,2015,0.058467978,0.058467978
+1934,Jega,Birnin Kebbi,,1825,1095,2015,0,0
+1935,Jema'a,Soba,,1825,1095,2015,0.008353962,0.008353962
+1936,Jere,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+1937,Jibia,Rimi,,1825,1095,2015,0.051240905,0.051240905
+1938,Jos East,Soba,,1825,1095,2015,0.008353962,0.008353962
+1939,Jos North,Soba,,1825,1095,2015,0.008353962,0.008353962
+1940,Jos South,Soba,,1825,1095,2015,0.008353962,0.008353962
+1941,Kabba-Bunu,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1942,Kabo,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1943,Kachia,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+1944,Kaduna North,Soba,,1825,1095,2015,0.008353962,0.008353962
+1945,Kaduna South,Soba,,1825,1095,2015,0.008353962,0.008353962
+1946,Kafin Hausa,Taura,,1825,1095,2015,0.058467978,0.058467978
+1947,Kafur,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1948,Kaga,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1949,Kagarko,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1950,Kaiama,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1951,Kaita,Rimi,,1825,1095,2015,0.051240905,0.051240905
+1952,Kajola,Akinyele,,1825,1095,2015,0,0
+1953,Kajuru,Soba,,1825,1095,2015,0.008353962,0.008353962
+1954,Kala-Balge,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1955,Kalgo,Birnin Kebbi,,1825,1095,2015,0,0
+1956,Kaltungo,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1957,Kanam,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1958,Kankara,Rimi,,1825,1095,2015,0.051240905,0.051240905
+1959,Kanke,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1960,Kankia,Rimi,,1825,1095,2015,0.051240905,0.051240905
+1961,Kano Municipal,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1962,Karasuwa,Taura,,1825,1095,2015,0.058467978,0.058467978
+1963,Karaye,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1964,Karin-Lamido,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1965,Karu,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1966,Katagum,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1967,Katcha,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1968,Katsina,Rimi,,1825,1095,2015,0.051240905,0.051240905
+1969,Katsina-Ala,Keana,,1825,1095,2015,0.041604488,0.041604488
+1970,Kaugama,Taura,,1825,1095,2015,0.058467978,0.058467978
+1971,Kaura,Soba,,1825,1095,2015,0.008353962,0.008353962
+1972,Kaura-Namoda,Rimi,,1825,1095,2015,0.051240905,0.051240905
+1973,Kauru,Soba,,1825,1095,2015,0.008353962,0.008353962
+1974,Kazaure,Babura,,1825,1095,2015,0.087708523,0.087708523
+1975,Keana,Keana,,1825,1095,2015,0.041604488,0.041604488
+1976,Kebbe,Birnin Kebbi,,1825,1095,2015,0,0
+1977,Keffi,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1978,Khana,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+1979,Kibiya,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1980,Kirfi,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+1981,Kiri Kasamma,Taura,,1825,1095,2015,0.058467978,0.058467978
+1982,Kiru,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1983,Kiyawa,Takali,,1825,1095,2015,0.033950387,0.033950387
+1984,Kogi,Keana,,1825,1095,2015,0.041604488,0.041604488
+1985,Koko-Besse,Birnin Kebbi,,1825,1095,2015,0,0
+1986,Kokona,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1987,Kolokuma-Opokuma,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+1988,Konduga,Darazo,,1825,1095,2015,0.125860196,0.125860196
+1989,Konshisha,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1990,Kontagora,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+1991,Kosofe,Isoko South,,1825,1095,2015,0,0
+1992,Kubau,Soba,,1825,1095,2015,0.008353962,0.008353962
+1993,Kudan,Giwa,,1825,1095,2015,0,0
+1994,Kuje,Keana,,1825,1095,2015,0.041604488,0.041604488
+1995,Kukawa,Babura,,1825,1095,2015,0.087708523,0.087708523
+1996,Kumbotso,Taura,,1825,1095,2015,0.058467978,0.058467978
+1997,Kunchi,Babura,,1825,1095,2015,0.087708523,0.087708523
+1998,Kura,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+1999,Kurfi,Rimi,,1825,1095,2015,0.051240905,0.051240905
+2000,Kurmi,Oru West,,1825,1095,2015,0.212880315,0.212880315
+2001,Kusada,Rimi,,1825,1095,2015,0.051240905,0.051240905
+2002,Kwali,Keana,,1825,1095,2015,0.041604488,0.041604488
+2003,Kwami,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2004,Kwande,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2005,Kware,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+2006,Kwaya Kusar,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2007,Lafia,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2008,Lagelu,Akinyele,,1825,1095,2015,0,0
+2009,Lagos Island,Isoko South,,1825,1095,2015,0,0
+2010,Lagos Mainland,Isoko South,,1825,1095,2015,0,0
+2011,Lamurde,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2012,Langtang North,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2013,Langtang South,Keana,,1825,1095,2015,0.041604488,0.041604488
+2014,Lapai,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2015,Lau,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2016,Lavun,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2017,Lere,Soba,,1825,1095,2015,0.008353962,0.008353962
+2018,Logo,Keana,,1825,1095,2015,0.041604488,0.041604488
+2019,Lokoja,Keana,,1825,1095,2015,0.041604488,0.041604488
+2020,Machina,Taura,,1825,1095,2015,0.058467978,0.058467978
+2021,Madagali,Darazo,,1825,1095,2015,0.125860196,0.125860196
+2022,Madobi,Taura,,1825,1095,2015,0.058467978,0.058467978
+2023,Mafa,Darazo,,1825,1095,2015,0.125860196,0.125860196
+2024,Magama,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2025,Magumeri,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+2026,Mai'Adua,Rimi,,1825,1095,2015,0.051240905,0.051240905
+2027,Maiduguri,Darazo,,1825,1095,2015,0.125860196,0.125860196
+2028,Maigatari,Babura,,1825,1095,2015,0.087708523,0.087708523
+2029,Maiha,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2030,Maiyama,Birnin Kebbi,,1825,1095,2015,0,0
+2031,Makoda,Babura,,1825,1095,2015,0.087708523,0.087708523
+2032,Makurdi,Keana,,1825,1095,2015,0.041604488,0.041604488
+2033,Malam Madori,Taura,,1825,1095,2015,0.058467978,0.058467978
+2034,Malumfashi,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+2035,Mangu,Darazo,,1825,1095,2015,0.125860196,0.125860196
+2036,Mani,Rimi,,1825,1095,2015,0.051240905,0.051240905
+2037,Maradun,Darazo,,1825,1095,2015,0.125860196,0.125860196
+2038,Mariga,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2039,Markafi,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+2040,Marte,Babura,,1825,1095,2015,0.087708523,0.087708523
+2041,Maru,Giwa,,1825,1095,2015,0,0
+2042,Mashegu,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2043,Mashi,Rimi,,1825,1095,2015,0.051240905,0.051240905
+2044,Matazuu,Rimi,,1825,1095,2015,0.051240905,0.051240905
+2045,Mayo-Belwa,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2046,Mbaitoli,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2047,Mbo,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2048,Michika,Darazo,,1825,1095,2015,0.125860196,0.125860196
+2049,Miga,Taura,,1825,1095,2015,0.058467978,0.058467978
+2050,Mikang,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2051,Minjibir,Taura,,1825,1095,2015,0.058467978,0.058467978
+2052,Misau,Darazo,,1825,1095,2015,0.125860196,0.125860196
+2053,Mkpat Enin,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2054,Moba,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2055,Mobbar,Babura,,1825,1095,2015,0.087708523,0.087708523
+2056,Mokwa,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2057,Monguno,Babura,,1825,1095,2015,0.087708523,0.087708523
+2058,Mopa-Muro,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2059,Moro,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2060,Mubi North,Darazo,,1825,1095,2015,0.125860196,0.125860196
+2061,Mubi South,Darazo,,1825,1095,2015,0.125860196,0.125860196
+2062,Musawa,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+2063,Mushin,Isoko South,,1825,1095,2015,0,0
+2064,Muya,Giwa,,1825,1095,2015,0,0
+2065,Nafada,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2066,Nangere,Darazo,,1825,1095,2015,0.125860196,0.125860196
+2067,Nasarawa-Eggon,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2068,Nasarawa1,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2069,Nasarawa2,Keana,,1825,1095,2015,0.041604488,0.041604488
+2070,Ndokwa East,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+2071,Ndokwa West,Isoko South,,1825,1095,2015,0,0
+2072,Nembe,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+2073,Ngala,Taura,,1825,1095,2015,0.058467978,0.058467978
+2074,Nganzai,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+2075,Ngaski,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2076,Ngor-Okpala,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2077,Nguru,Taura,,1825,1095,2015,0.058467978,0.058467978
+2078,Ningi,Takali,,1825,1095,2015,0.033950387,0.033950387
+2079,Njaba,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2080,Njikoka,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+2081,Nkanu East,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2082,Nkanu West,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+2083,Nkwerre,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2084,Nnewi North,Oru West,,1825,1095,2015,0.212880315,0.212880315
+2085,Nnewi South,Oru West,,1825,1095,2015,0.212880315,0.212880315
+2086,Nsit Atai,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2087,Nsit Ibom,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2088,Nsit Ubium,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2089,Nsukka,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+2090,Numan,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2091,Nwangele,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2092,Obafemi-Owode,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2093,Obanliku,Obubra,,1825,1095,2015,0.064518084,0.064518084
+2094,Obi Nwa,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2095,Obi1,Keana,,1825,1095,2015,0.041604488,0.041604488
+2096,Obi2,Keana,,1825,1095,2015,0.041604488,0.041604488
+2097,Obia-Akpor,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+2098,Obokun,Akinyele,,1825,1095,2015,0,0
+2099,Obot Akara,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2100,Obowo,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2101,Obubra,Obubra,,1825,1095,2015,0.064518084,0.064518084
+2102,Obudu,Obubra,,1825,1095,2015,0.064518084,0.064518084
+2103,Odeda,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2104,Odigbo,Akinyele,,1825,1095,2015,0,0
+2105,Odo-Otin,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2106,Odogbolu,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2107,Odukpani,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2108,Offa,Akinyele,,1825,1095,2015,0,0
+2109,Ofu,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2110,Ogba-Egbema-Ndoni,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+2111,Ogbadibo,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2112,Ogbaru,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+2113,Ogbia,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+2114,Ogbomosho North,Akinyele,,1825,1095,2015,0,0
+2115,Ogbomosho South,Akinyele,,1825,1095,2015,0,0
+2116,Ogo Oluwa,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2117,Ogoja,Obubra,,1825,1095,2015,0.064518084,0.064518084
+2118,Ogori-Mangongo,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2119,Ogu-Bolo,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2120,Ogun waterside,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2121,Oguta,Oru West,,1825,1095,2015,0.212880315,0.212880315
+2122,Ohafia,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2123,Ohaji-Egbema,Oru West,,1825,1095,2015,0.212880315,0.212880315
+2124,Ohaozara,Obubra,,1825,1095,2015,0.064518084,0.064518084
+2125,Ohaukwu,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2126,Ohimini,Akinyele,,1825,1095,2015,0,0
+2127,Oji-River,Oru West,,1825,1095,2015,0.212880315,0.212880315
+2128,Ojo,Isoko South,,1825,1095,2015,0,0
+2129,Oju,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2130,Oke-Ero,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2131,Okehi,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2132,Okene,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2133,Okigwe,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2134,Okitipupa,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2135,Okobo,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2136,Okpe,Isoko South,,1825,1095,2015,0,0
+2137,Okpokwu,Akinyele,,1825,1095,2015,0,0
+2138,Okrika,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2139,Ola-oluwa,Akinyele,,1825,1095,2015,0,0
+2140,Olamabolo,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2141,Olorunda,Akinyele,,1825,1095,2015,0,0
+2142,Olorunsogo,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2143,Oluyole,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2144,Omala,Keana,,1825,1095,2015,0.041604488,0.041604488
+2145,Omumma,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2146,Ona-Ara,Akinyele,,1825,1095,2015,0,0
+2147,Ondo East,Akinyele,,1825,1095,2015,0,0
+2148,Ondo West,Akinyele,,1825,1095,2015,0,0
+2149,Onicha,Obubra,,1825,1095,2015,0.064518084,0.064518084
+2150,Onitsha North,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+2151,Onitsha South,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+2152,Onna,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2153,Opobo-Nkoro,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2154,Oredo,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+2155,Orelope,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2156,Orhionmwon,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+2157,Ori Ire,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2158,Oriade,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2159,Orlu,Oru West,,1825,1095,2015,0.212880315,0.212880315
+2160,Orolu,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2161,Oron,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2162,Orsu,Oru West,,1825,1095,2015,0.212880315,0.212880315
+2163,Oru East,Oru West,,1825,1095,2015,0.212880315,0.212880315
+2164,Oru West,Oru West,,1825,1095,2015,0.212880315,0.212880315
+2165,Oruk Anam,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2166,Orumba North,Oru West,,1825,1095,2015,0.212880315,0.212880315
+2167,Orumba South,Oru West,,1825,1095,2015,0.212880315,0.212880315
+2168,Ose,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2169,Oshimili North,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+2170,Oshimili South,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+2171,Oshodi-Isolo,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+2172,Osisioma Ngwa,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2173,Osogbo,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2174,Oturkpo,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2175,Ovia North East,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2176,Ovia South West,Akinyele,,1825,1095,2015,0,0
+2177,Owan East,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2178,Owan West,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2179,Owerri North,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2180,Owerri West,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2181,Owerri-Municipal,Oru West,,1825,1095,2015,0.212880315,0.212880315
+2182,Owo,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2183,Oye,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2184,Oyi,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+2185,Oyigbo,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2186,Oyo East,Akinyele,,1825,1095,2015,0,0
+2187,Oyo West,Akinyele,,1825,1095,2015,0,0
+2188,Oyun,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2189,Pailoro,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2190,Pankshin,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2191,Patani,Isoko South,,1825,1095,2015,0,0
+2192,Pategi,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2193,Port-Harcourt,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+2194,Potiskum,Darazo,,1825,1095,2015,0.125860196,0.125860196
+2195,Qua'an Pan,Keana,,1825,1095,2015,0.041604488,0.041604488
+2196,Rabah,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+2197,Rafi,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2198,Rano,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+2199,Remo North,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2200,Rijau,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2201,Rimi,Rimi,,1825,1095,2015,0.051240905,0.051240905
+2202,Rimin Gado,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+2203,Ringim,Taura,,1825,1095,2015,0.058467978,0.058467978
+2204,Riyom,Soba,,1825,1095,2015,0.008353962,0.008353962
+2205,Rogo,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+2206,Roni,Babura,,1825,1095,2015,0.087708523,0.087708523
+2207,Sabon Birni,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+2208,Sabon-Gari,Soba,,1825,1095,2015,0.008353962,0.008353962
+2209,Sabuwa,Giwa,,1825,1095,2015,0,0
+2210,Safana,Babura,,1825,1095,2015,0.087708523,0.087708523
+2211,Sagbama,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+2212,Sakaba,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2213,Saki East,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2214,Saki West,Akinyele,,1825,1095,2015,0,0
+2215,Sandamu,Rimi,,1825,1095,2015,0.051240905,0.051240905
+2216,Sanga,Soba,,1825,1095,2015,0.008353962,0.008353962
+2217,Sapele,Isoko South,,1825,1095,2015,0,0
+2218,Sardauna,Oru West,,1825,1095,2015,0.212880315,0.212880315
+2219,Shagamu,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+2220,Shagari,Birnin Kebbi,,1825,1095,2015,0,0
+2221,Shanga,Birnin Kebbi,,1825,1095,2015,0,0
+2222,Shani,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2223,Shanono,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+2224,Shelleng,Darazo,,1825,1095,2015,0.125860196,0.125860196
+2225,Shendam,Keana,,1825,1095,2015,0.041604488,0.041604488
+2226,Shinkafi,Rimi,,1825,1095,2015,0.051240905,0.051240905
+2227,Shira,Takali,,1825,1095,2015,0.033950387,0.033950387
+2228,Shiroro,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2229,Shomgom,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2230,Shomolu,Isoko South,,1825,1095,2015,0,0
+2231,Silame,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+2232,Soba,Soba,,1825,1095,2015,0.008353962,0.008353962
+2233,Sokoto North,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+2234,Sokoto South,Birnin Kebbi,,1825,1095,2015,0,0
+2235,Song,Darazo,,1825,1095,2015,0.125860196,0.125860196
+2236,Southern Ijaw,Ahoada West,,1825,1095,2015,0.152126062,0.152126062
+2237,Sule-Tankarkar,Babura,,1825,1095,2015,0.087708523,0.087708523
+2238,Suleja,Giwa,,1825,1095,2015,0,0
+2239,Sumaila,Takali,,1825,1095,2015,0.033950387,0.033950387
+2240,Suru,Birnin Kebbi,,1825,1095,2015,0,0
+2241,Surulere1,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2242,Surulere2,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2243,Tafa,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2244,Tafawa-Balewa,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2245,Tai,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2246,Takali,Takali,,1825,1095,2015,0.033950387,0.033950387
+2247,Takum,Keana,,1825,1095,2015,0.041604488,0.041604488
+2248,Talata Mafara,Darazo,,1825,1095,2015,0.125860196,0.125860196
+2249,Tambuwal,Birnin Kebbi,,1825,1095,2015,0,0
+2250,Tangaza,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+2251,Tarauni,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2252,Tarka,Keana,,1825,1095,2015,0.041604488,0.041604488
+2253,Tarmua,Rimi,,1825,1095,2015,0.051240905,0.051240905
+2254,Taura,Taura,,1825,1095,2015,0.058467978,0.058467978
+2255,Tofa,Taura,,1825,1095,2015,0.058467978,0.058467978
+2256,Toro,Giwa,,1825,1095,2015,0,0
+2257,Toto,Keana,,1825,1095,2015,0.041604488,0.041604488
+2258,Toungo,Keana,,1825,1095,2015,0.041604488,0.041604488
+2259,Tsafe,Takali,,1825,1095,2015,0.033950387,0.033950387
+2260,Tsanyawa,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+2261,Tudun Wada,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+2262,Tureta,Birnin Kebbi,,1825,1095,2015,0,0
+2263,Udenu,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+2264,Udi,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+2265,Udu,Isoko South,,1825,1095,2015,0,0
+2266,Udung Uko,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2267,Ughelli North,Isoko South,,1825,1095,2015,0,0
+2268,Ughelli South,Isoko South,,1825,1095,2015,0,0
+2269,Ugwunagbo,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2270,Uhunmwonde,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2271,Ukanafun,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2272,Ukum,Keana,,1825,1095,2015,0.041604488,0.041604488
+2273,Ukwa East,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2274,Ukwa West,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2275,Ukwuani,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+2276,Umu-Neochi,Oru West,,1825,1095,2015,0.212880315,0.212880315
+2277,Umuahia North,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2278,Umuahia South,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2279,Ungogo,Taura,,1825,1095,2015,0.058467978,0.058467978
+2280,Unuimo,Ngor-Okpala,,1825,1095,2015,0.050004489,0.050004489
+2281,Uruan,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2282,Urue-Offong-Oruko,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2283,Ushongo,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2284,Ussa,Oru West,,1825,1095,2015,0.212880315,0.212880315
+2285,Uvwie,Isoko South,,1825,1095,2015,0,0
+2286,Uyo,Nsit Ubium,,1825,1095,2015,0.021527921,0.021527921
+2287,Uzo-Uwani,Uzo-Uwani,,1825,1095,2015,0.111596475,0.111596475
+2288,Vandeikya,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2289,Wamako,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+2290,Wamba,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2291,Warawa,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+2292,Warji,Takali,,1825,1095,2015,0.033950387,0.033950387
+2293,Warri North,Owan East,,1825,1095,2015,0.182414224,0.182414224
+2294,Warri South,Isoko South,,1825,1095,2015,0,0
+2295,Warri South West,Isoko South,,1825,1095,2015,0,0
+2296,Wasagu-Danko,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2297,Wase,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2298,Wudil,Gwarzo,,1825,1095,2015,0.024162651,0.024162651
+2299,Wukari,Keana,,1825,1095,2015,0.041604488,0.041604488
+2300,Wurno,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+2301,Wushishi,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2302,Yabo,Gawabawa,,1825,1095,2015,0.007795875,0.007795875
+2303,Yagba East,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2304,Yagba West,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2305,Yakurr,Obubra,,1825,1095,2015,0.064518084,0.064518084
+2306,Yala,Oke-Ero,,1825,1095,2015,0.051105035,0.051105035
+2307,Yamaltu-Deba,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2308,Yankwashi,Babura,,1825,1095,2015,0.087708523,0.087708523
+2309,Yauri,Birnin Kebbi,,1825,1095,2015,0,0
+2310,Yenegoa,Isoko South,,1825,1095,2015,0,0
+2311,Yola North,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2312,Yola South,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2313,Yorro,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2314,Yunusari,Babura,,1825,1095,2015,0.087708523,0.087708523
+2315,Yusufari,Taura,,1825,1095,2015,0.058467978,0.058467978
+2316,Zaki,Taura,,1825,1095,2015,0.058467978,0.058467978
+2317,Zango,Babura,,1825,1095,2015,0.087708523,0.087708523
+2318,Zango-Kataf,Soba,,1825,1095,2015,0.008353962,0.008353962
+2319,Zaria,Soba,,1825,1095,2015,0.008353962,0.008353962
+2320,Zing,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2321,Zurmi,Rimi,,1825,1095,2015,0.051240905,0.051240905
+2322,Zuru,Alkaleri,,1825,1095,2015,0.087804352,0.087804352
+2323,Aba North,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2324,Aba South,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2325,Abadam,Babura,,2920,-1,2018,0.281351601,0.281351601
+2326,Abaji,Keana,,2920,-1,2018,0.13506214,0.13506214
+2327,Abak,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2328,Abakaliki,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2329,Abeokuta North,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2330,Abeokuta South,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2331,Abi,Obubra,,2920,-1,2018,0.318847857,0.318847857
+2332,Aboh-Mbaise,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2333,Abua-Odual,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2334,Abuja Municipal,Keana,,2920,-1,2018,0.13506214,0.13506214
+2335,Adavi,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2336,Ado,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2337,Ado Ekiti,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2338,Ado-Odo-Ota,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2339,Afijio,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2340,Afikpo North,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2341,Afikpo South,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2342,Agaie,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2343,Agatu,Keana,,2920,-1,2018,0.13506214,0.13506214
+2344,Agege,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2345,Aguata,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2346,Agwara,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2347,Ahiazu-Mbaise,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2348,Ahoada East,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2349,Ahoada West,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2350,Aiyedade,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2351,Aiyedire,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2352,Ajaokuta,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2353,Ajeromi-Ifelodun,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2354,Ajingi,Taura,,2920,-1,2018,0.127558998,0.127558998
+2355,Akamkpa,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2356,Akinyele,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2357,Akko,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2358,Akoko North East,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2359,Akoko North West,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2360,Akoko South East,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2361,Akoko South West,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2362,Akoko-Edo,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2363,Akpabuyo,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2364,Akuku Toru,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2365,Akure North,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2366,Akure South,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2367,Akwanga,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2368,Albasu,Takali,,2920,-1,2018,0.109168462,0.109168462
+2369,Aleiro,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2370,Alimosho,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2371,Alkaleri,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2372,Amuwo-Odofin,Isoko South,,2920,-1,2018,0,0
+2373,Anambra East,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2374,Anambra West,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2375,Anaocha,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2376,Andoni,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2377,Aninri,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2378,Aniocha North,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2379,Aniocha South,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2380,Anka,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2381,Ankpa,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2382,Apa,Keana,,2920,-1,2018,0.13506214,0.13506214
+2383,Apapa,Isoko South,,2920,-1,2018,0,0
+2384,Ardo-Kola,Keana,,2920,-1,2018,0.13506214,0.13506214
+2385,Arewa-Dandi,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2386,Argungu,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2387,Arochukwu,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2388,Asa,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2389,Asari-Toru,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2390,Askira-Uba,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2391,Atakumosa East,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2392,Atakumosa West,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2393,Atiba,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2394,Atigbo,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2395,Augie,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2396,Auyo,Taura,,2920,-1,2018,0.127558998,0.127558998
+2397,Awe,Keana,,2920,-1,2018,0.13506214,0.13506214
+2398,Awgu,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2399,Awka North,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2400,Awka South,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2401,Ayamelum,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2402,Babura,Babura,,2920,-1,2018,0.281351601,0.281351601
+2403,Badagry,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2404,Bade,Taura,,2920,-1,2018,0.127558998,0.127558998
+2405,Bagudo,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2406,Bagwai,Babura,,2920,-1,2018,0.281351601,0.281351601
+2407,Bakassi,Obubra,,2920,-1,2018,0.318847857,0.318847857
+2408,Bakori,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2409,Bakura,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2410,Balanga,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2411,Bali,Keana,,2920,-1,2018,0.13506214,0.13506214
+2412,Bama,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2413,Barikin Ladi,Soba,,2920,-1,2018,0.003017484,0.003017484
+2414,Baruten,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2415,Bassa1,Keana,,2920,-1,2018,0.13506214,0.13506214
+2416,Bassa2,Soba,,2920,-1,2018,0.003017484,0.003017484
+2417,Batagarawa,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2418,Batsari,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2419,Bauchi,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2420,Baure,Babura,,2920,-1,2018,0.281351601,0.281351601
+2421,Bayo,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2422,Bebeji,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2423,Bekwara,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2424,Bende,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2425,Biase,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2426,Bichi,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2427,Bida,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2428,Billiri,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2429,Bindawa,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2430,Binji,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+2431,Biriniwa,Taura,,2920,-1,2018,0.127558998,0.127558998
+2432,Birni Kudu,Takali,,2920,-1,2018,0.109168462,0.109168462
+2433,Birnin Kebbi,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2434,Birnin Magaji,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2435,Birnin-Gwari,Giwa,,2920,-1,2018,0.056613318,0.056613318
+2436,Biu,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2437,Bodinga,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+2438,Bogoro,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2439,Boki,Obubra,,2920,-1,2018,0.318847857,0.318847857
+2440,Bokkos,Giwa,,2920,-1,2018,0.056613318,0.056613318
+2441,Boluwaduro,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2442,Bomadi,Isoko South,,2920,-1,2018,0,0
+2443,Bonny,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2444,Borgu,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2445,Boripe,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2446,Bosso,Keana,,2920,-1,2018,0.13506214,0.13506214
+2447,Brass,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2448,Buji,Takali,,2920,-1,2018,0.109168462,0.109168462
+2449,Bukkuyum,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2450,Bungudu,Takali,,2920,-1,2018,0.109168462,0.109168462
+2451,Bunkure,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2452,Bunza,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2453,Bursari,Taura,,2920,-1,2018,0.127558998,0.127558998
+2454,Buruku,Keana,,2920,-1,2018,0.13506214,0.13506214
+2455,Burutu,Isoko South,,2920,-1,2018,0,0
+2456,Bwari,Giwa,,2920,-1,2018,0.056613318,0.056613318
+2457,Calabar South,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2458,Calabar-Municipal,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2459,Chanchaga,Keana,,2920,-1,2018,0.13506214,0.13506214
+2460,Charanchi,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2461,Chibok,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2462,Chikun,Soba,,2920,-1,2018,0.003017484,0.003017484
+2463,Dala,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2464,Damaturu,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2465,Damban,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2466,Dambatta,Babura,,2920,-1,2018,0.281351601,0.281351601
+2467,Damboa,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2468,Dan Musa,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2469,Dandi,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2470,Dandume,Giwa,,2920,-1,2018,0.056613318,0.056613318
+2471,Dange-Shnsi,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+2472,Danja,Giwa,,2920,-1,2018,0.056613318,0.056613318
+2473,Darazo,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2474,Dass,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2475,Daura,Babura,,2920,-1,2018,0.281351601,0.281351601
+2476,Dawakin Kudu,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2477,Dawakin Tofa,Taura,,2920,-1,2018,0.127558998,0.127558998
+2478,Degema,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2479,Dekina,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2480,Demsa,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2481,Dikwa,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2482,Doguwa,Giwa,,2920,-1,2018,0.056613318,0.056613318
+2483,Doma,Keana,,2920,-1,2018,0.13506214,0.13506214
+2484,Donga,Keana,,2920,-1,2018,0.13506214,0.13506214
+2485,Dukku,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2486,Dunukofia,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2487,Dutse,Takali,,2920,-1,2018,0.109168462,0.109168462
+2488,Dutsi,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2489,Dutsin-Ma,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2490,Eastern Obolo,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2491,Ebonyi,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2492,Edati,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2493,Ede North,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2494,Ede South,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2495,Edu,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2496,Efon-Alayee,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2497,Egbado North,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2498,Egbado South,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2499,Egbeda,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2500,Egbedore,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2501,Egor,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2502,Ehime-Mbano,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2503,Ejigbo,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2504,Ekeremor,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2505,Eket,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2506,Ekiti,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2507,Ekiti East,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2508,Ekiti South West,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2509,Ekiti West,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2510,Ekwusigo,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2511,Eleme,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2512,Emohua,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2513,Emure,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2514,Enugu East,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2515,Enugu North,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2516,Enugu South,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2517,Epe,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2518,Esan Central,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2519,Esan North East,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2520,Esan South East,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2521,Esan West,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2522,Ese-Odo,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2523,Esit Eket,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2524,Essien Udim,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2525,Etche,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2526,Ethiope East,Isoko South,,2920,-1,2018,0,0
+2527,Ethiope West,Isoko South,,2920,-1,2018,0,0
+2528,Eti-Osa,Isoko South,,2920,-1,2018,0,0
+2529,Etim Ekpo,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2530,Etinan,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2531,Etsako Central,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2532,Etsako East,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2533,Etsako West,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2534,Etung,Obubra,,2920,-1,2018,0.318847857,0.318847857
+2535,Ewekoro,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2536,Ezeagu,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2537,Ezinihitte,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2538,Ezza North,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2539,Ezza South,Obubra,,2920,-1,2018,0.318847857,0.318847857
+2540,Fagge,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2541,Fakai,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2542,Faskari,Giwa,,2920,-1,2018,0.056613318,0.056613318
+2543,Fika,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2544,Fufore,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2545,Funakaye,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2546,Fune,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2547,Funtua,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2548,Gabasawa,Taura,,2920,-1,2018,0.127558998,0.127558998
+2549,Gada,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+2550,Gagarawa,Taura,,2920,-1,2018,0.127558998,0.127558998
+2551,Gamawa,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2552,Ganaye,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2553,Ganjuwa,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2554,Garki,Babura,,2920,-1,2018,0.281351601,0.281351601
+2555,Garko,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2556,Garum Mallam,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2557,Gashaka,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2558,Gassol,Keana,,2920,-1,2018,0.13506214,0.13506214
+2559,Gawabawa,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+2560,Gaya,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2561,Gbako,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2562,Gboko,Keana,,2920,-1,2018,0.13506214,0.13506214
+2563,Gboyin,Obubra,,2920,-1,2018,0.318847857,0.318847857
+2564,Geidam,Babura,,2920,-1,2018,0.281351601,0.281351601
+2565,Gezawa,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2566,Giade,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2567,Gireri,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2568,Giwa,Giwa,,2920,-1,2018,0.056613318,0.056613318
+2569,Gokana,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2570,Gombe,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2571,Gombi,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2572,Goronyo,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+2573,Gubio,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+2574,Gudu,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+2575,Gujba,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2576,Gulani,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2577,Guma,Keana,,2920,-1,2018,0.13506214,0.13506214
+2578,Gumel,Babura,,2920,-1,2018,0.281351601,0.281351601
+2579,Gummi,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2580,Gurara,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2581,Guri,Taura,,2920,-1,2018,0.127558998,0.127558998
+2582,Gusau,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2583,Guyuk,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2584,Guzamala,Babura,,2920,-1,2018,0.281351601,0.281351601
+2585,Gwagwalada,Keana,,2920,-1,2018,0.13506214,0.13506214
+2586,Gwale,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2587,Gwandu,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2588,Gwaram,Takali,,2920,-1,2018,0.109168462,0.109168462
+2589,Gwarzo,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2590,Gwer East,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2591,Gwer West,Keana,,2920,-1,2018,0.13506214,0.13506214
+2592,Gwiwa,Babura,,2920,-1,2018,0.281351601,0.281351601
+2593,Gwoza,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2594,Hadejia,Taura,,2920,-1,2018,0.127558998,0.127558998
+2595,Hawul,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2596,Hong,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2597,Ibadan North,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2598,Ibadan North East,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2599,Ibadan North West,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2600,Ibadan South East,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2601,Ibadan South West,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2602,Ibaji,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2603,Ibarapa Central,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2604,Ibarapa East,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2605,Ibarapa North,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2606,Ibeju-Lekki,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2607,Ibeno,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2608,Ibesikpo Asutan,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2609,Ibi,Keana,,2920,-1,2018,0.13506214,0.13506214
+2610,Ibiono Ibom,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2611,Idah,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2612,Idanre,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2613,Ideato North,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2614,Ideato South,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2615,Idemili North,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2616,Idemili South,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2617,Ido,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2618,Idosi-Osi,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2619,Ifako-Ijaye,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2620,Ife Central,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2621,Ife East,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2622,Ife North,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2623,Ife South,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2624,Ifedayo,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2625,Ifedore,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2626,Ifelodun1,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2627,Ifelodun2,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2628,Ifo,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2629,Igabi,Soba,,2920,-1,2018,0.003017484,0.003017484
+2630,Igalamela-Odolu,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2631,Igbo-Etiti,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2632,Igbo-Eze North,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2633,Igbo-Eze South,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2634,Igueben,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2635,Ihiala,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2636,Ihitte-Uboma,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2637,Ijebu East,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2638,Ijebu North,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2639,Ijebu North East,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2640,Ijebu ode,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2641,Ijero,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2642,Ijumu,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2643,Ika,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2644,Ika North East,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2645,Ika South,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2646,Ikara,Soba,,2920,-1,2018,0.003017484,0.003017484
+2647,Ikeduru,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2648,Ikeja,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2649,Ikenne,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2650,Ikere,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2651,Ikole,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2652,Ikom,Obubra,,2920,-1,2018,0.318847857,0.318847857
+2653,Ikono,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2654,Ikorodu,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2655,Ikot Abasi,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2656,Ikot Ekpene,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2657,Ikpoba-Okha,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2658,Ikwerre,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2659,Ikwo,Obubra,,2920,-1,2018,0.318847857,0.318847857
+2660,Ikwuano,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2661,Ila,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2662,Ilaje,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2663,Ile-Oluji-Okeigbo,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2664,Ilemeji,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2665,Ilesha East,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2666,Ilesha West,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2667,Illela,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+2668,Ilorin East,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2669,Ilorin South,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2670,Ilorin West,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2671,Imeko-Afon,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2672,Ingawa,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2673,Ini,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2674,Ipokia,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2675,Irele,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2676,Irepo,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2677,Irepodun-Ifelodun,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2678,Irepodun1,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2679,Irepodun2,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2680,Irewole,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2681,Isa,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2682,Ise-Orun,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2683,Iseyin,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2684,Ishielu,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2685,Isi-Uzo,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2686,Isiala Mbano,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2687,Isiala-Ngwa North,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2688,Isiala-Ngwa South,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2689,Isin,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2690,Isokan,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2691,Isoko North,Isoko South,,2920,-1,2018,0,0
+2692,Isoko South,Isoko South,,2920,-1,2018,0,0
+2693,Isu,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2694,Isuikwato,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2695,Itas-Gadau,Taura,,2920,-1,2018,0.127558998,0.127558998
+2696,Itesiwaju,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2697,Itu,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2698,Ivo,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2699,Iwajowa,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2700,Iwo,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2701,Izzi,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2702,Jaba,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2703,Jada,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2704,Jahun,Taura,,2920,-1,2018,0.127558998,0.127558998
+2705,Jakusko,Taura,,2920,-1,2018,0.127558998,0.127558998
+2706,Jalingo,Keana,,2920,-1,2018,0.13506214,0.13506214
+2707,Jama'are,Taura,,2920,-1,2018,0.127558998,0.127558998
+2708,Jega,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2709,Jema'a,Soba,,2920,-1,2018,0.003017484,0.003017484
+2710,Jere,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+2711,Jibia,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2712,Jos East,Soba,,2920,-1,2018,0.003017484,0.003017484
+2713,Jos North,Soba,,2920,-1,2018,0.003017484,0.003017484
+2714,Jos South,Soba,,2920,-1,2018,0.003017484,0.003017484
+2715,Kabba-Bunu,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2716,Kabo,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2717,Kachia,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2718,Kaduna North,Soba,,2920,-1,2018,0.003017484,0.003017484
+2719,Kaduna South,Soba,,2920,-1,2018,0.003017484,0.003017484
+2720,Kafin Hausa,Taura,,2920,-1,2018,0.127558998,0.127558998
+2721,Kafur,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2722,Kaga,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2723,Kagarko,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2724,Kaiama,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2725,Kaita,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2726,Kajola,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2727,Kajuru,Soba,,2920,-1,2018,0.003017484,0.003017484
+2728,Kala-Balge,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2729,Kalgo,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2730,Kaltungo,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2731,Kanam,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2732,Kankara,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2733,Kanke,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2734,Kankia,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2735,Kano Municipal,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2736,Karasuwa,Taura,,2920,-1,2018,0.127558998,0.127558998
+2737,Karaye,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2738,Karin-Lamido,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2739,Karu,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2740,Katagum,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2741,Katcha,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2742,Katsina,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2743,Katsina-Ala,Keana,,2920,-1,2018,0.13506214,0.13506214
+2744,Kaugama,Taura,,2920,-1,2018,0.127558998,0.127558998
+2745,Kaura,Soba,,2920,-1,2018,0.003017484,0.003017484
+2746,Kaura-Namoda,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2747,Kauru,Soba,,2920,-1,2018,0.003017484,0.003017484
+2748,Kazaure,Babura,,2920,-1,2018,0.281351601,0.281351601
+2749,Keana,Keana,,2920,-1,2018,0.13506214,0.13506214
+2750,Kebbe,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2751,Keffi,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2752,Khana,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2753,Kibiya,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2754,Kirfi,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2755,Kiri Kasamma,Taura,,2920,-1,2018,0.127558998,0.127558998
+2756,Kiru,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2757,Kiyawa,Takali,,2920,-1,2018,0.109168462,0.109168462
+2758,Kogi,Keana,,2920,-1,2018,0.13506214,0.13506214
+2759,Koko-Besse,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2760,Kokona,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2761,Kolokuma-Opokuma,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2762,Konduga,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2763,Konshisha,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2764,Kontagora,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2765,Kosofe,Isoko South,,2920,-1,2018,0,0
+2766,Kubau,Soba,,2920,-1,2018,0.003017484,0.003017484
+2767,Kudan,Giwa,,2920,-1,2018,0.056613318,0.056613318
+2768,Kuje,Keana,,2920,-1,2018,0.13506214,0.13506214
+2769,Kukawa,Babura,,2920,-1,2018,0.281351601,0.281351601
+2770,Kumbotso,Taura,,2920,-1,2018,0.127558998,0.127558998
+2771,Kunchi,Babura,,2920,-1,2018,0.281351601,0.281351601
+2772,Kura,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2773,Kurfi,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2774,Kurmi,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2775,Kusada,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2776,Kwali,Keana,,2920,-1,2018,0.13506214,0.13506214
+2777,Kwami,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2778,Kwande,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2779,Kware,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+2780,Kwaya Kusar,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2781,Lafia,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2782,Lagelu,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2783,Lagos Island,Isoko South,,2920,-1,2018,0,0
+2784,Lagos Mainland,Isoko South,,2920,-1,2018,0,0
+2785,Lamurde,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2786,Langtang North,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2787,Langtang South,Keana,,2920,-1,2018,0.13506214,0.13506214
+2788,Lapai,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2789,Lau,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2790,Lavun,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2791,Lere,Soba,,2920,-1,2018,0.003017484,0.003017484
+2792,Logo,Keana,,2920,-1,2018,0.13506214,0.13506214
+2793,Lokoja,Keana,,2920,-1,2018,0.13506214,0.13506214
+2794,Machina,Taura,,2920,-1,2018,0.127558998,0.127558998
+2795,Madagali,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2796,Madobi,Taura,,2920,-1,2018,0.127558998,0.127558998
+2797,Mafa,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2798,Magama,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2799,Magumeri,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+2800,Mai'Adua,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2801,Maiduguri,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2802,Maigatari,Babura,,2920,-1,2018,0.281351601,0.281351601
+2803,Maiha,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2804,Maiyama,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2805,Makoda,Babura,,2920,-1,2018,0.281351601,0.281351601
+2806,Makurdi,Keana,,2920,-1,2018,0.13506214,0.13506214
+2807,Malam Madori,Taura,,2920,-1,2018,0.127558998,0.127558998
+2808,Malumfashi,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2809,Mangu,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2810,Mani,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2811,Maradun,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2812,Mariga,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2813,Markafi,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2814,Marte,Babura,,2920,-1,2018,0.281351601,0.281351601
+2815,Maru,Giwa,,2920,-1,2018,0.056613318,0.056613318
+2816,Mashegu,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2817,Mashi,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2818,Matazuu,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2819,Mayo-Belwa,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2820,Mbaitoli,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2821,Mbo,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2822,Michika,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2823,Miga,Taura,,2920,-1,2018,0.127558998,0.127558998
+2824,Mikang,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2825,Minjibir,Taura,,2920,-1,2018,0.127558998,0.127558998
+2826,Misau,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2827,Mkpat Enin,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2828,Moba,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2829,Mobbar,Babura,,2920,-1,2018,0.281351601,0.281351601
+2830,Mokwa,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2831,Monguno,Babura,,2920,-1,2018,0.281351601,0.281351601
+2832,Mopa-Muro,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2833,Moro,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2834,Mubi North,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2835,Mubi South,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2836,Musawa,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2837,Mushin,Isoko South,,2920,-1,2018,0,0
+2838,Muya,Giwa,,2920,-1,2018,0.056613318,0.056613318
+2839,Nafada,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2840,Nangere,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2841,Nasarawa-Eggon,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2842,Nasarawa1,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2843,Nasarawa2,Keana,,2920,-1,2018,0.13506214,0.13506214
+2844,Ndokwa East,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2845,Ndokwa West,Isoko South,,2920,-1,2018,0,0
+2846,Nembe,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2847,Ngala,Taura,,2920,-1,2018,0.127558998,0.127558998
+2848,Nganzai,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+2849,Ngaski,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2850,Ngor-Okpala,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2851,Nguru,Taura,,2920,-1,2018,0.127558998,0.127558998
+2852,Ningi,Takali,,2920,-1,2018,0.109168462,0.109168462
+2853,Njaba,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2854,Njikoka,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2855,Nkanu East,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2856,Nkanu West,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2857,Nkwerre,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2858,Nnewi North,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2859,Nnewi South,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2860,Nsit Atai,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2861,Nsit Ibom,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2862,Nsit Ubium,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2863,Nsukka,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2864,Numan,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2865,Nwangele,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2866,Obafemi-Owode,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2867,Obanliku,Obubra,,2920,-1,2018,0.318847857,0.318847857
+2868,Obi Nwa,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2869,Obi1,Keana,,2920,-1,2018,0.13506214,0.13506214
+2870,Obi2,Keana,,2920,-1,2018,0.13506214,0.13506214
+2871,Obia-Akpor,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2872,Obokun,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2873,Obot Akara,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2874,Obowo,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2875,Obubra,Obubra,,2920,-1,2018,0.318847857,0.318847857
+2876,Obudu,Obubra,,2920,-1,2018,0.318847857,0.318847857
+2877,Odeda,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2878,Odigbo,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2879,Odo-Otin,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2880,Odogbolu,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2881,Odukpani,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2882,Offa,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2883,Ofu,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2884,Ogba-Egbema-Ndoni,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2885,Ogbadibo,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2886,Ogbaru,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2887,Ogbia,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2888,Ogbomosho North,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2889,Ogbomosho South,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2890,Ogo Oluwa,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2891,Ogoja,Obubra,,2920,-1,2018,0.318847857,0.318847857
+2892,Ogori-Mangongo,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2893,Ogu-Bolo,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2894,Ogun waterside,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2895,Oguta,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2896,Ohafia,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2897,Ohaji-Egbema,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2898,Ohaozara,Obubra,,2920,-1,2018,0.318847857,0.318847857
+2899,Ohaukwu,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2900,Ohimini,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2901,Oji-River,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2902,Ojo,Isoko South,,2920,-1,2018,0,0
+2903,Oju,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2904,Oke-Ero,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2905,Okehi,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2906,Okene,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2907,Okigwe,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2908,Okitipupa,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2909,Okobo,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2910,Okpe,Isoko South,,2920,-1,2018,0,0
+2911,Okpokwu,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2912,Okrika,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2913,Ola-oluwa,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2914,Olamabolo,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2915,Olorunda,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2916,Olorunsogo,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2917,Oluyole,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2918,Omala,Keana,,2920,-1,2018,0.13506214,0.13506214
+2919,Omumma,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2920,Ona-Ara,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2921,Ondo East,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2922,Ondo West,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2923,Onicha,Obubra,,2920,-1,2018,0.318847857,0.318847857
+2924,Onitsha North,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2925,Onitsha South,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2926,Onna,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2927,Opobo-Nkoro,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2928,Oredo,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2929,Orelope,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2930,Orhionmwon,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2931,Ori Ire,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2932,Oriade,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2933,Orlu,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2934,Orolu,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2935,Oron,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2936,Orsu,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2937,Oru East,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2938,Oru West,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2939,Oruk Anam,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2940,Orumba North,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2941,Orumba South,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2942,Ose,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2943,Oshimili North,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2944,Oshimili South,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2945,Oshodi-Isolo,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2946,Osisioma Ngwa,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2947,Osogbo,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2948,Oturkpo,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2949,Ovia North East,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2950,Ovia South West,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2951,Owan East,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2952,Owan West,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2953,Owerri North,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2954,Owerri West,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+2955,Owerri-Municipal,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2956,Owo,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2957,Oye,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2958,Oyi,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2959,Oyigbo,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+2960,Oyo East,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2961,Oyo West,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2962,Oyun,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2963,Pailoro,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2964,Pankshin,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2965,Patani,Isoko South,,2920,-1,2018,0,0
+2966,Pategi,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2967,Port-Harcourt,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2968,Potiskum,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2969,Qua'an Pan,Keana,,2920,-1,2018,0.13506214,0.13506214
+2970,Rabah,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+2971,Rafi,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2972,Rano,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2973,Remo North,Owan East,,2920,-1,2018,0.20854085,0.20854085
+2974,Rijau,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2975,Rimi,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2976,Rimin Gado,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2977,Ringim,Taura,,2920,-1,2018,0.127558998,0.127558998
+2978,Riyom,Soba,,2920,-1,2018,0.003017484,0.003017484
+2979,Rogo,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2980,Roni,Babura,,2920,-1,2018,0.281351601,0.281351601
+2981,Sabon Birni,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+2982,Sabon-Gari,Soba,,2920,-1,2018,0.003017484,0.003017484
+2983,Sabuwa,Giwa,,2920,-1,2018,0.056613318,0.056613318
+2984,Safana,Babura,,2920,-1,2018,0.281351601,0.281351601
+2985,Sagbama,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+2986,Sakaba,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2987,Saki East,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+2988,Saki West,Akinyele,,2920,-1,2018,0.08934872,0.08934872
+2989,Sandamu,Rimi,,2920,-1,2018,0.147569442,0.147569442
+2990,Sanga,Soba,,2920,-1,2018,0.003017484,0.003017484
+2991,Sapele,Isoko South,,2920,-1,2018,0,0
+2992,Sardauna,Oru West,,2920,-1,2018,0.336623251,0.336623251
+2993,Shagamu,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+2994,Shagari,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2995,Shanga,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+2996,Shani,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+2997,Shanono,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+2998,Shelleng,Darazo,,2920,-1,2018,0.076403711,0.076403711
+2999,Shendam,Keana,,2920,-1,2018,0.13506214,0.13506214
+3000,Shinkafi,Rimi,,2920,-1,2018,0.147569442,0.147569442
+3001,Shira,Takali,,2920,-1,2018,0.109168462,0.109168462
+3002,Shiroro,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+3003,Shomgom,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+3004,Shomolu,Isoko South,,2920,-1,2018,0,0
+3005,Silame,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+3006,Soba,Soba,,2920,-1,2018,0.003017484,0.003017484
+3007,Sokoto North,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+3008,Sokoto South,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+3009,Song,Darazo,,2920,-1,2018,0.076403711,0.076403711
+3010,Southern Ijaw,Ahoada West,,2920,-1,2018,0.176147202,0.176147202
+3011,Sule-Tankarkar,Babura,,2920,-1,2018,0.281351601,0.281351601
+3012,Suleja,Giwa,,2920,-1,2018,0.056613318,0.056613318
+3013,Sumaila,Takali,,2920,-1,2018,0.109168462,0.109168462
+3014,Suru,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+3015,Surulere1,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+3016,Surulere2,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+3017,Tafa,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+3018,Tafawa-Balewa,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+3019,Tai,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+3020,Takali,Takali,,2920,-1,2018,0.109168462,0.109168462
+3021,Takum,Keana,,2920,-1,2018,0.13506214,0.13506214
+3022,Talata Mafara,Darazo,,2920,-1,2018,0.076403711,0.076403711
+3023,Tambuwal,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+3024,Tangaza,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+3025,Tarauni,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+3026,Tarka,Keana,,2920,-1,2018,0.13506214,0.13506214
+3027,Tarmua,Rimi,,2920,-1,2018,0.147569442,0.147569442
+3028,Taura,Taura,,2920,-1,2018,0.127558998,0.127558998
+3029,Tofa,Taura,,2920,-1,2018,0.127558998,0.127558998
+3030,Toro,Giwa,,2920,-1,2018,0.056613318,0.056613318
+3031,Toto,Keana,,2920,-1,2018,0.13506214,0.13506214
+3032,Toungo,Keana,,2920,-1,2018,0.13506214,0.13506214
+3033,Tsafe,Takali,,2920,-1,2018,0.109168462,0.109168462
+3034,Tsanyawa,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+3035,Tudun Wada,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+3036,Tureta,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+3037,Udenu,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+3038,Udi,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+3039,Udu,Isoko South,,2920,-1,2018,0,0
+3040,Udung Uko,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+3041,Ughelli North,Isoko South,,2920,-1,2018,0,0
+3042,Ughelli South,Isoko South,,2920,-1,2018,0,0
+3043,Ugwunagbo,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+3044,Uhunmwonde,Owan East,,2920,-1,2018,0.20854085,0.20854085
+3045,Ukanafun,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+3046,Ukum,Keana,,2920,-1,2018,0.13506214,0.13506214
+3047,Ukwa East,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+3048,Ukwa West,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+3049,Ukwuani,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+3050,Umu-Neochi,Oru West,,2920,-1,2018,0.336623251,0.336623251
+3051,Umuahia North,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+3052,Umuahia South,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+3053,Ungogo,Taura,,2920,-1,2018,0.127558998,0.127558998
+3054,Unuimo,Ngor-Okpala,,2920,-1,2018,0.195985485,0.195985485
+3055,Uruan,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+3056,Urue-Offong-Oruko,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+3057,Ushongo,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+3058,Ussa,Oru West,,2920,-1,2018,0.336623251,0.336623251
+3059,Uvwie,Isoko South,,2920,-1,2018,0,0
+3060,Uyo,Nsit Ubium,,2920,-1,2018,0.207937524,0.207937524
+3061,Uzo-Uwani,Uzo-Uwani,,2920,-1,2018,0.330335247,0.330335247
+3062,Vandeikya,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+3063,Wamako,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+3064,Wamba,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+3065,Warawa,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+3066,Warji,Takali,,2920,-1,2018,0.109168462,0.109168462
+3067,Warri North,Owan East,,2920,-1,2018,0.20854085,0.20854085
+3068,Warri South,Isoko South,,2920,-1,2018,0,0
+3069,Warri South West,Isoko South,,2920,-1,2018,0,0
+3070,Wasagu-Danko,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+3071,Wase,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+3072,Wudil,Gwarzo,,2920,-1,2018,0.110737416,0.110737416
+3073,Wukari,Keana,,2920,-1,2018,0.13506214,0.13506214
+3074,Wurno,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+3075,Wushishi,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+3076,Yabo,Gawabawa,,2920,-1,2018,0.045471362,0.045471362
+3077,Yagba East,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+3078,Yagba West,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+3079,Yakurr,Obubra,,2920,-1,2018,0.318847857,0.318847857
+3080,Yala,Oke-Ero,,2920,-1,2018,0.20084988,0.20084988
+3081,Yamaltu-Deba,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+3082,Yankwashi,Babura,,2920,-1,2018,0.281351601,0.281351601
+3083,Yauri,Birnin Kebbi,,2920,-1,2018,0.331741673,0.331741673
+3084,Yenegoa,Isoko South,,2920,-1,2018,0,0
+3085,Yola North,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+3086,Yola South,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+3087,Yorro,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+3088,Yunusari,Babura,,2920,-1,2018,0.281351601,0.281351601
+3089,Yusufari,Taura,,2920,-1,2018,0.127558998,0.127558998
+3090,Zaki,Taura,,2920,-1,2018,0.127558998,0.127558998
+3091,Zango,Babura,,2920,-1,2018,0.281351601,0.281351601
+3092,Zango-Kataf,Soba,,2920,-1,2018,0.003017484,0.003017484
+3093,Zaria,Soba,,2920,-1,2018,0.003017484,0.003017484
+3094,Zing,Alkaleri,,2920,-1,2018,0.162145206,0.162145206
+3095,Zurmi,Rimi,,2920,-1,2018,0.147569442,0.147569442
+3096,Zuru,Alkaleri,,2920,-1,2018,0.162145206,0.162145206

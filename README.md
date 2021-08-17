@@ -41,7 +41,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The Nigerian Malaria Elimination Program (NMEP) together with the World Health Organization developed a targeted response to intervention deployment at the local government-level to inform the development of the 2021-2025 National Malaria Strategic Plan, as part of the [High Burden to High Impact response](https://www.who.int/publications/i/item/WHO-CDS-GMP-2018.25). The [Northwestern University Malaria Modeling Team](https://www.numalariamodeling.org/team.html) were recruited to create a mathematical modeling framework for predicting the impact of four NMEP proposed strategies on malaria morbidity and mortality in each of Nigeria's 774 local government areas (LGA). This repository contains scripts and data for replicating the LGA-level models described in the associated manuscript entitled "Application of mathematical modeling to inform national malaria intervention planning in Nigeria" and the modeling outputs also present in the manuscript and related R Shiny Application. 
+The Nigerian Malaria Elimination Program (NMEP) together with the World Health Organization developed a targeted response to intervention deployment at the local government-level to inform the development of the 2021-2025 National Malaria Strategic Plan, as part of the [High Burden to High Impact response](https://www.who.int/publications/i/item/WHO-CDS-GMP-2018.25). The [Northwestern University Malaria Modeling Team](https://www.numalariamodeling.org/team.html) were recruited to create a mathematical modeling framework for predicting the impact of four NMEP proposed strategies on malaria morbidity and mortality in each of Nigeria's 774 local government areas (LGA). This repository contains scripts and data for replicating the LGA-level models described in the associated manuscript entitled "Application of mathematical modeling to inform national malaria intervention planning in Nigeria" and the modeling outputs also present in the manuscript and related [R Shiny Application](https://ifeomaozo.shinyapps.io/hbhi-nigeria/). 
 
 
 
@@ -70,20 +70,20 @@ DTK-tools malaria package is also required as it contains module specific for mo
 
 ### Seasonality Calibration
 
-Four scripts are provided for replicating archetype-level seasonality calibrations 
+Five scripts are provided for replicating archetype-level seasonality calibrations 
 
 1. [SeasonalityCalibSite.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/SeasonalityCalibSite.py): Python module with class for getting reference incidence data per LGA and importing the [analyzer](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/ChannelByMultiYearSeasonCohortInsetAnalyzer.py) script for comparing simulation and incidence data.  
 
 2. [Helper.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/Helpers.py): Includes a function for setting priors on monthly habitats and another function for importing and processing facility-level incidence data from the Rapid Impact Assessment (RIA) study conducted by the NMEP. Incidence data is used to compare simulated incidence 
 
 
-3. [seasonality_calib.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/seasonality_calib.py): Contains a functions and scripts for calibrating seasonality 
+3. [seasonality_calib.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/seasonality_calib.py): Contains functions and scripts for calibrating seasonality 
 
 4. [grab_best_plots.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/grab_best_plots.py): Function and script for obtaining the best fitting archetypal seasonality plots and their values. 
 
 5. [replot_seasonality_best_fit.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/seasonality_calibration_by_ds/replot_seasonality_best_fit.py): Classes and functions for plotting the best archetype seasonality fits, their corresponding incidence values, and 95% confidence intervals.  
 
-Data inputs to the seasonality calibration - demographics and air temperature per LGA are provided [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/simulation_inputs/demographics_and%20climate_files). RIA and LGA population data is available from the NMEP on request. 
+Data inputs to the seasonality calibration - demographics and climate per LGA are provided [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/simulation_inputs/demographics_and%20climate_files). RIA and LGA population data are available from the NMEP on request. 
 
 
 ### Baseline Calibration
@@ -92,9 +92,9 @@ Five scripts are provided for setting baseline transmission intensity
 
 1. [sweep_biting_rates.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/sweep_biting_rates.py): For running a sweep of simulations to sample monthly larval habitats using vector relative abundance values.  
 
-2. [analyze_daily_bites_per_human.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/analyze_daily_bites_per_human.py): Analyzer simulation results from #1 for daily mosquito bites between 1 and 200 to produce associated minimum and maximum larval habitats scale factors to sample when matching *Pf*PR in the simulation to the 2010 MIS. 
+2. [analyze_daily_bites_per_human.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/analyze_daily_bites_per_human.py): Analyzes simulation results from #1 for daily mosquito bites between 1 and 200 to produce associated minimum and maximum larval habitats scale factors to sample when matching *Pf*PR in the simulation to the 2010 MIS. 
 
-3. [sweep_seasonal_archetypes.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/sweep_seasonal_archetypes.py): Comprises dtk related configuration builders and scripts for running 50 year burn-ins to establish population immunity (in the absence of ITN use) using larval habitat values, estimated from seasonality calibrations, and 2010 archetype-level case management estimates from the Nigerian Malaria Indicator Survey (MIS). 
+3. [sweep_seasonal_archetypes.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/sweep_seasonal_archetypes.py): Comprises dtk related configuration builders and scripts for running 50 year burn-ins to establish population immunity (in the absence of ITN use) using larval habitat values, estimated from seasonality calibrations, and in the presence of 2010 archetype-level case management estimates from the Nigeria Malaria Indicator Survey (MIS). 
 
 4. [sweep_2010_PfPR_with_ITN.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/baseline_calibration/sweep_2010_PfPR_with_ITN.py): Script for applying a scaling factor on the monthly vector larval habitat availability to reproduce the 2010 MIS U5 *Pf*PR, in the presence of the observed 2010 ITN usage and case management (CM) coverage. 
 
@@ -124,9 +124,9 @@ Adjustment for the impact of IPTp and IPTi on burden projections are done outsid
 
 ### IPTi
 
-1. [master.R](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/IPTi_scaling/master.R): This master script sources and runs associated adjustment scripts for specified scenarios. Included in the scripts are description of assumptions, experiment steps, and pre-requisites.   
+1. [master.R](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/IPTi_scaling/master.R): This master script sources and runs associated adjustment scripts for specified scenarios. Included in the scripts are descriptions of assumptions, experiment steps, and prerequisites.   
 
-Since IPTi is only applied in scenario 2, only the case management coverages for scenario 2 is required and it is available[here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/future%20projections/CM/cm_scenario2_increase80_2020_2030.csv). Since IPTi has never been historically implemented in Nigeria, Expanded Programme on Immunization coverages for the [first, second and third doses of pentavalent diphtheria, tetanus and pertussis vaccine](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/future%20projections/IPTi/assumedIPTicov.csv) were extracted from the 2018 DHS and used to substitute for historical coverages and both interventions are expected to be rolled out simultaneously. 
+Since IPTi is only applied in scenario 2, only the case management coverages for scenario 2 is required and it is available [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/future%20projections/CM/cm_scenario2_increase80_2020_2030.csv). BecauseIPTi has never been historically implemented in Nigeria, Expanded Programme on Immunization coverages for the [first, second and third doses of pentavalent diphtheria, tetanus and pertussis vaccine](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/future%20projections/IPTi/assumedIPTicov.csv) were extracted from the 2018 DHS and used to substitute for historical coverages as both interventions are expected to be rolled out simultaneously. 
 
 
 ### IPTp 
@@ -140,7 +140,7 @@ IPTp scenario coverages is located [here](https://github.com/numalariamodeling/h
 <!-- Analyzers-->
 ## Analyzers
 
-Several simulation output analyzers, plotting scripts, and related functions for plotting projected trends, relative reductions and replicating the tables in the manuscript are included in this repository [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/simulation/analyzer). Additional plotting functions are available within the [R shiny Application](https://ifeomaozo.shinyapps.io/hbhi-nigeria/) used to visualize manuscript outputs[here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/src/app/functions.R).
+Several simulation output analyzers, plotting scripts, and related functions for plotting projected trends, relative reductions and replicating the result tables within the manuscript are included in this repository [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/simulation/analyzer). Additional plotting functions are available within the [R shiny Application](https://ifeomaozo.shinyapps.io/hbhi-nigeria/) used to visualize manuscript outputs [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/src/app/functions.R).
 
 
 <!-- CONTACT -->

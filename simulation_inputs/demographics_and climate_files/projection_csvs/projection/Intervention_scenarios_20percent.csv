@@ -1,9 +1,0 @@
-Scenario_no,status,ITN_filename,SMC_filename,ANC_filename,IRS_filename,CM_filename,notes 
-1,queued,itn_scenario1,smc_cc_v3,ITN_ANC_current_coverage,,HS_placeholder,"done (skips), hold(skips), run, queued"
-2,queued,itn_scenario1,all_smc_MapA plus 20 percent,ITN_ANC_current_coverage,,HS_placeholder,*insecure_(check with Jaline)
-3,queued,itn_scenario1,all_smc_MapB 20 percent,ITN_ANC_current_coverage,,HS_placeholder,
-4,queued,itn_scenario4 plus 20 percent,smc_s4 plus 20 percent,,,HS_placeholder plus 20percent,
-5,queued,itn_scenario5 plus 20 percent,smc_s5 plus 20 percent,,irs_s5 plus 20 percent,HS_placeholder plus 20percent,
-6,queued,itn_scenario6 plus 20 percent,smc_s6 plus 20 percent,,,HS_placeholder plus 20percent,
-7,queued,itn_scenario7 plus 20 percent,smc_s7 plus 20 percent,,irs_s7 plus 20 percent,HS_placeholder plus 20percent,
-8,queued,itn_scenario8 plus 20 percent,smc_s8 plus 20 percent,,irs_s5 plus 20 percent,HS_placeholder plus 20percent,

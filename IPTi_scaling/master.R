@@ -30,7 +30,7 @@
 # Combine csv files per scenario into single csv file per age group
 #
 ### REQUIREMENTS:
-# - Case management csv with estimates for U5 as used in the HBHI analyzers ("HS_placeholder_scen2_80_v5","cm_scen2_10_v3","cm_scen2_20_v3","cm_scen2_30_v3")
+# - Case management csv with estimates for U5 as used in the HBHI analyzers ("cm_scenario2_increase80_2020_2030.csv")
 # - Requires that IPTi coverage has already been calculated and saved (IPTicov.csv) in appropriate format with columns for
 #   - LGA, State, IPTyn, IPTicov
 #   - including IPTi eligible as well as not eligible LGA's (relative reduction will be set to 1 regardless of coverage), to facilitate merging in the IPTp scaling afterwards.
@@ -62,9 +62,8 @@ cm_dir <- file.path(getwd(), "simulation_inputs")
 simoutDir <- file.path(ProjectDir, "simulation_output", "2020_to_2030_v3")
 
 ## Define scenario names to run IPTi adjustment for
-exp_names <- c("NGA projection scenario 2", "NGA projection scenario 3",
-               "NGA projection scenario 4", "NGA projection scenario 5")
-cm_names <- c("HS_placeholder_scen2_80_v5","cm_scen2_10_v3","cm_scen2_20_v3","cm_scen2_30_v3")
+exp_names <- c("NGA projection scenario 2")
+cm_names <- c("cm_scenario2_increase80_2020_2030.csv")
 ipti_cov_multipliers <- c(0.8, 1.1, 1.2, 1.3)
 
 ## From to

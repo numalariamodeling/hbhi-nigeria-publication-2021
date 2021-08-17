@@ -15,15 +15,21 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started-with-the-modeling-framework">Getting Started With The Simulation Modeling Framework</a></li>
+      <a href="#getting-started-with-the-simulation-modeling-framework">Getting Started With The Simulation Modeling Framework</a></li>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#seasonality-calibration">Seasonality Calibration</a></li>
-        <li><a href="#baseline-calibration">Baseline Calibration</a></li>
-<li><a href="#historical-simulations">Historical Simulations</a></li>
+        <li><a href="#baseline-calibration">Baseline Calibration</a</li>
+	<li><a href="#historical-simulations">Historical Simulations</a></li>
+	<li><a href="#future-projections">Future Projections</a></li>
       </ul>
     </li>
-    <li><a href="#troubleshooting-the-shiny-app">Troubleshooting The Shiny App</a></li>    
+	<li>
+	<a href="#Post-processing">Post processing</a></li> 
+	<ul>	
+        <li><a href="#IPTi">IPTi</a></li>
+		<li><a href="#IPTp">IPTp</a></li>
+	</ul>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -46,7 +52,7 @@ A three-step process was used to generate LGA-level predictions of potential nat
 
 ### Built With
 
-Models were developed within EMOD v2.20, [an agent-based model of *Plasmodium falciparum* Transmission](https://malariajournal.biomedcentral.com/articles/10.1186/1475-2875-10-303), a coupling of models of temperature-dependent vector lifecycle and vector population dynamics, human disease and immunity, and intervention effects. 
+Models were developed within [EMOD](https://docs.idmod.org/projects/emod-malaria/en/latest/index.html) v2.20, [an agent-based model of *Plasmodium falciparum* Transmission](https://malariajournal.biomedcentral.com/articles/10.1186/1475-2875-10-303), a coupling of models of temperature-dependent vector lifecycle and vector population dynamics, human disease and immunity, and intervention effects. 
 
 ![alt text](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/EMOD.png) 
 
@@ -100,20 +106,29 @@ Data inputs to the baseline calibration - 2010 MIS  archetype case management da
 
 1. [run_LGA_to_present.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/run_LGA_to_present.py): Used for running 11 year historical simulations from 2010-2020. 
 
-Intervention inputs files required for running the simulation - case management, insecticide treated net use and seasonal malaria chemoprevention (SMC) - can be found [here]()
+Intervention inputs files required for running the simulation - case management, insecticide treated net use and seasonal malaria chemoprevention (SMC) - can be found [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/simulation_inputs/historical%20projections)
 
 
 ### Future Projections 
 
 1. [run_LGA_2020_forward.py](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/run_LGA_2020_forward.py): Used for running 11 year historical simulations from 2020-2030. 
 
-Sccenario files required for running the simulation - case management, insecticide treated net use, SMC, Intermittent preventive treatment in pregnancy (IPTp), intemittent preventive treatment in infants (IPTp) - can be found [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/simulation_inputs/future%20projections)
+Scenario files required for running the simulation - case management, insecticide treated net use, SMC, Intermittent preventive treatment in pregnancy (IPTp), intemittent preventive treatment in infants (IPTp) - can be found [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/simulation_inputs/future%20projections)
 
 
-<!-- TROUBLESHOOT-->
-## Troubleshooting The Shiny App 
+<!-- POST-PROCESSING-->
+## Post-processing 
 
-Sometimes issues may arise within the Shiny app that require users to troubleshoot. One way to do this is to use the ``` browser() ``` call between the lines of code that you want to investigate and then step through the code in the console by running small snippets in the Console until the bug is identified.  
+Adjustment for the impact of IPTp and IPTi on burden projections are done outside the simulation. IPTi adjustment is done first to generate relative reduction tables per LGA, which are then used to adjust simulation outputs during the IPTp adjustment.The following scripts are used for post-postprocessing:
+
+###IPTi
+
+1. [master.R](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/IPTi_scaling/master.R): This master script sources and runs associated adjustment scripts for specified scenarios. Included in the scripts are description of assumptions, experiment steps, and pre-requisites.   
+
+Since IPTi is only applied in scenario 2, only the case management coverages for scenario 2 is required and it can be found [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/future%20projections/CM/cm_scenario2_increase80_2020_2030.csv). Since IPTi has never been historically implemented in Nigeria, Expanded Programme on Immunization coverages for the [first, second and third doses of pentavalent diphtheria, tetanus and pertussis vaccine](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/future%20projections/IPTi/assumedIPTicov.csv) were extracted from the 2018 DHS and used to substitute for historical coverages and both interventions are expected to be rolled out simultaneously. 
+
+
+###IPTp 
 
 _For more information on debugging shiny applications, please refer to the [Documentation](https://shiny.rstudio.com/articles/debugging.html)_
 

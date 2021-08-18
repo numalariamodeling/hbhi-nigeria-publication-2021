@@ -63,9 +63,9 @@ Models were developed within [EMOD](https://docs.idmod.org/projects/emod-malaria
 
 ### Prerequisites
 
-Install Python 3.6 and dtk-tools following the instructions [here](http://institutefordiseasemodeling.github.io/dtk-tools/gettingstarted.html). DTK-tools are a set of generic modules created for configuring disease and vector-related simulations, and intervention campaigns in EMOD. 
+Install Python 3.6 and dtk-tools following the instructions [here](http://institutefordiseasemodeling.github.io/dtk-tools/gettingstarted.html). dtk-tools is a set of generic modules created for configuring disease and vector-related simulations, and intervention campaigns in EMOD, and is available upon request from the Institute for Disease Modeling
 
-DTK-tools malaria package is also required as it contains module specific for modeling malaria. Installation instructions can be found [here](https://github.com/aouedraogo/dtk-tools-malaria). 
+The dtk-tools-malaria packageas it contains module specific for modeling malaria. Installation instructions can be found [here](https://github.com/aouedraogo/dtk-tools-malaria)and requests for access should also be directed to the Institute for Disease Modeling. 
 
 
 ### Seasonality Calibration

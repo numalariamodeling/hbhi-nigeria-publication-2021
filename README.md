@@ -48,14 +48,14 @@ The Nigerian Malaria Elimination Program (NMEP) together with the World Health O
 ## Summary of the Modeling Framework
 A three-step process was used to generate LGA-level predictions of potential national strategic plans. At the outset, the goal was to capture the intrinsic potential of each LGA to support malaria transmission in a baseline period before 2010 when most interventions were not scaled up nationwide. Data and geospatial modeled surfaces from 2010 or before were used to group LGAs into epidemiological archetypes. For each archetype, baseline malaria transmission was calibrated to 2010 data. Next, Nigeria’s intervention history from 2010-20 at the LGA level was imposed on the baseline models to generate 774 LGA-level models up through 2020. Last, various future intervention strategies were applied to the LGA models and intervention impact on prevalence, incidence, and mortality was assessed
  
-![alt text](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/Figure_1_model_overview_210715.png)
+![alt text](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/figures/Figure_1_model_overview_210715.png)
 
 
 ### Built With
 
 Models were developed within [EMOD](https://docs.idmod.org/projects/emod-malaria/en/latest/index.html) v2.20, [an agent-based model of *Plasmodium falciparum* Transmission](https://malariajournal.biomedcentral.com/articles/10.1186/1475-2875-10-303), a coupling of models of temperature-dependent vector lifecycle and vector population dynamics, human disease and immunity, and intervention effects. 
 
-![alt text](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/EMOD.png) 
+![alt text](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/figures/EMOD.png) 
 
 
 <!-- GETTING STARTED -->

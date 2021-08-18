@@ -39,14 +39,14 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About the Project
 
 The Nigerian Malaria Elimination Program (NMEP) together with the World Health Organization developed a targeted response to intervention deployment at the local government-level to inform the development of the 2021-2025 National Malaria Strategic Plan, as part of the [High Burden to High Impact response](https://www.who.int/publications/i/item/WHO-CDS-GMP-2018.25). The [Northwestern University Malaria Modeling Team](https://www.numalariamodeling.org/team.html) were recruited to create a mathematical modeling framework for predicting the impact of four NMEP proposed strategies on malaria morbidity and mortality in each of Nigeria's 774 local government areas (LGA). This repository contains scripts and data for replicating the LGA-level models described in the associated manuscript entitled "Application of mathematical modeling to inform national malaria intervention planning in Nigeria" and the modeling outputs also present in the manuscript and related [R Shiny Application](https://ifeomaozo.shinyapps.io/hbhi-nigeria/). 
 
 
 
-## Summary Of The Modeling Framework
-A three-step process was used to generate LGA-level predictions of potential national strategic plans. At the outset, the goal was to capture the intrinsic potential of each LGA to support malaria transmission in a baseline period before 2010 when most interventions were not scaled up nationwide. Data and geospatial modeled surfaces from 2010 or before were used to group LGAs into epidemiological archetypes. For each archetype, baseline malaria transmission was calibrated to 2010 data. Next, Nigeria’s intervention history from 2010-20 at the LGA level was imposed on the baseline models to generate 774 LGA-level models up through 2020. Last, various future intervention strategies were applied to the LGA models and intervention impact on prevalence, incidence, and mortality was assessed
+## Summary of the Modeling Framework
+A three-step process was used to generate LGA-level predictions of potential national strategic plans. At the outset, the goal was to capture the intrinsic potential of each LGA to support malaria transmission in a baseline period before 2010 when most interventions were not scaled up nationwide. Data and geospatial modeled surfaces from 2010 or before were used to group LGAs into epidemiological archetypes. For each archetype, baseline malaria transmission was calibrated to 2010 data. Next, Nigeriaâ€™s intervention history from 2010-20 at the LGA level was imposed on the baseline models to generate 774 LGA-level models up through 2020. Last, various future intervention strategies were applied to the LGA models and intervention impact on prevalence, incidence, and mortality was assessed
  
 ![alt text](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/Figure_1_model_overview_210715.png)
 
@@ -63,9 +63,9 @@ Models were developed within [EMOD](https://docs.idmod.org/projects/emod-malaria
 
 ### Prerequisites
 
-Install Python 3.6 and dtk-tools following the instructions [here](http://institutefordiseasemodeling.github.io/dtk-tools/gettingstarted.html). DTK-tools are a set of generic modules created for configuring disease and vector-related simulations, and intervention campaigns in EMOD. 
+Install Python 3.6 and dtk-tools following the instructions [here](http://institutefordiseasemodeling.github.io/dtk-tools/gettingstarted.html). dtk-tools is a set of generic modules created for configuring disease and vector-related simulations, and intervention campaigns in EMOD, and is available upon request from the Institute for Disease Modeling.
 
-DTK-tools malaria package is also required as it contains module specific for modeling malaria. Installation instructions can be found [here](https://github.com/aouedraogo/dtk-tools-malaria). 
+The dtk-tools-malaria package is also required as it contains modules specific for modeling malaria. Installation instructions can be found [here](https://github.com/aouedraogo/dtk-tools-malaria) and requests for access should also be directed to the Institute for Disease Modeling.
 
 
 ### Seasonality Calibration

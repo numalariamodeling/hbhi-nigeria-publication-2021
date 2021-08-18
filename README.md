@@ -66,7 +66,7 @@ Install Python 3.6 and dtk-tools following the instructions [here](http://instit
 
 The dtk-tools-malaria package is also required as it contains modules specific for modeling malaria. Installation instructions can be found [here](https://github.com/aouedraogo/dtk-tools-malaria) and requests for access should also be directed to the Institute for Disease Modeling.
 
-
+The EMOD model executable should be downloaded and linked to within [simtools.ini](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation/simtools.ini). A similar copy as that used in this project is available [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/model%20executable). 
 
 ### Seasonality Calibration
 

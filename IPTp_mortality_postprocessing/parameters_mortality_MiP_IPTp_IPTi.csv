@@ -1,0 +1,31 @@
+﻿index,parameter_name,Burkina,Nigeria,description
+1,iptp_relative_risk_estimate_0dose,1,1,"relative risk of the adverse outcome (mLBW or stillbirth) given 0 IPTp doses, relative to 0 doses (see the mortality notes for explanations of parameters)"
+2,iptp_relative_risk_estimate_1dose,0.666,0.666,"relative risk of the adverse outcome (mLBW or stillbirth) given 1 IPTp doses, relative to 0 doses (see the mortality notes for explanations of parameters)"
+3,iptp_relative_risk_estimate_2dose,0.405,0.405,"relative risk of the adverse outcome (mLBW or stillbirth) given 2 IPTp doses, relative to 0 doses (see the mortality notes for explanations of parameters)"
+4,iptp_relative_risk_estimate_3dose,0.324,0.324,"relative risk of the adverse outcome (mLBW or stillbirth) given >=3 IPTp doses, relative to 0 doses (see the mortality notes for explanations of parameters)"
+5,iptp_relative_risk_estimate_0dose_better,1,1,"relative risk of the adverse outcome (mLBW or stillbirth) given 0 IPTp doses, relative to 0 doses (see the mortality notes for explanations of parameters) - upper bound estimate"
+6,iptp_relative_risk_estimate_1dose_better,0.518,0.518,"relative risk of the adverse outcome (mLBW or stillbirth) given 1 IPTp doses, relative to 0 doses (see the mortality notes for explanations of parameters) - upper bound estimate"
+7,iptp_relative_risk_estimate_2dose_better,0.315,0.315,"relative risk of the adverse outcome (mLBW or stillbirth) given 2 IPTp doses, relative to 0 doses (see the mortality notes for explanations of parameters) - upper bound estimate"
+8,iptp_relative_risk_estimate_3dose_better,0.252,0.252,"relative risk of the adverse outcome (mLBW or stillbirth) given >=3 IPTp doses, relative to 0 doses (see the mortality notes for explanations of parameters) - upper bound estimate"
+9,iptp_relative_risk_estimate_0dose_worse,1,1,"relative risk of the adverse outcome (mLBW or stillbirth) given 0 IPTp doses, relative to 0 doses (see the mortality notes for explanations of parameters) - lower bound estimate"
+10,iptp_relative_risk_estimate_1dose_worse,0.814,0.814,"relative risk of the adverse outcome (mLBW or stillbirth) given 1 IPTp doses, relative to 0 doses (see the mortality notes for explanations of parameters) - lower bound estimate"
+11,iptp_relative_risk_estimate_2dose_worse,0.495,0.495,"relative risk of the adverse outcome (mLBW or stillbirth) given 2 IPTp doses, relative to 0 doses (see the mortality notes for explanations of parameters) - lower bound estimate"
+12,iptp_relative_risk_estimate_3dose_worse,0.396,0.396,"relative risk of the adverse outcome (mLBW or stillbirth) given >=3 IPTp doses, relative to 0 doses (see the mortality notes for explanations of parameters) - lower bound estimate"
+13,pm_LBW_iptp0,0.12,0.12,probability of a mLBW infant given that the mother was infected with malaria in her first or second pregnancy - 0 IPTp doses
+14,pm_still_iptp0,0.0062,0.0062,probability of malaria-attributable stillbirth given that the mother was infected with malaria and had taken 0 IPTp doses
+15,births_per_person_per_month,0.003075,0.002826,number of births per person per month
+16,d0,0.0395,0.0462,probability of death for a non-LBW infant
+17,d1,0.1265,0.1477,probability of death for a LBW infant
+18,non_mal_stillbirth_fraction,0.02,0.02,fraction of births that result in stillbirth from causes other than malaria
+19,frac_first_second_birth,0.36,0.36,fraction of all births that are first or second births (based off rough calculations with various assumptions about age of mother at first birth and years between births (see malaria_low_birth_rate_estimates.R))
+20,frac_preg_under_30,0.66,0.66,guessed fraction of births that occur to individuals under 30 based off rough calculations with various assumptions about age of mother at first birth and years between births (see malaria_low_birth_rate_estimates.R)
+21,prob_severe_from_MiP,0.057,0.057,probability of maternal severe anemia attributable to malaria
+22,reduced_prob_severe_IPTp,0.61,0.61,reduced probability of maternal severe anemia attributable to malaria if >=1 dose of IPTp is used
+23,weeks_protection_each_dose,10,10,weeks IPTp is assumed to prevent new infections
+24,prob_severe_MiP_treated,0.5,0.5,probability a woman with severe disease from MiP receives treatment
+25,starting_prob_1,0,0,indirect mortality parameters (describe probability a clinical case of malaria will eventually lead to an incident of indirect mortality)
+26,starting_prob_2,0,0,indirect mortality parameters (describe probability a clinical case of malaria will eventually lead to an incident of indirect mortality)
+27,age_shape_param,0.117,0.117,indirect mortality parameters (describe probability a clinical case of malaria will eventually lead to an incident of indirect mortality)
+28,cfr_severe_treated,0.097,0.097,CFR treated severe malaria cases
+29,cfr_severe_untreated_1,0.539,0.539,CFR untreated severe malaria cases - higher estimate
+30,cfr_severe_untreated_2,0.177,0.177,CFR untreated severe malaria cases - lower estimate

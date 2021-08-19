@@ -31,12 +31,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-We developed a set of tools for analyzing the Demographic and Health Surveys at the geopolitical, state, LGA-level and for the different epidemiological archetypes as described in our study entitled "Application of mathematical modeling to inform national malaria intervention planning in Nigeria". These tools are extendable in that the same script can be used for different indicators with very little modifications   
+We developed a set of tools for analyzing the Demographic and Health Surveys at the geopolitical, state, LGA-level and for  different epidemiological archetypes as described in our study entitled "Application of mathematical modeling to inform national malaria intervention planning in Nigeria". These tools are extendable in that the same script can be used for different indicators with very little modifications.   
 
 
-Acronynms used within the script:
-* Epidemiological Archetypes/Representative District(repDS)
-* Geopolitical zone(GPZ) 
+Acronyms used within the script:
+* Epidemiological Archetypes/Representative District (repDS)
+* Geopolitical zone (GPZ) 
 
 
 
@@ -62,10 +62,10 @@ Clone this repo to the folder you would like to place the file in, either using 
 
 ### Running The Scripts
 
-1. Open up the master script [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-dhs-tools/0_master.R). Ensure that file paths correspond to the file paths that links to your personal data directory for the DHS and the generic functions directories [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-dhs-tools/generic_functions). Also supply links to the shapefiles [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-dhs-tools/LGA_shapefiles/Nigeria_LGAs_shapefile_191016) and [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-nigeria-shiny-app/src/app/data/shapefiles/gadm36_NGA_shp)and the repDS file [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/LGA_and_respective_archetype.csv). 
+1. Open up the master script [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-dhs-tools/0_master.R). Ensure that file paths correspond to the file paths that links to your personal data directory for the DHS and the generic functions directories [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-dhs-tools/1_variables_scripts/generic_functions). Also supply links to the shapefiles [here] (https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-dhs-tools/LGA_shapefiles/Nigeria_LGAs_shapefile_191016) and [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-nigeria-shiny-app/src/app/data/shapefiles/gadm36_NGA_shp)and the repDS file [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/LGA_and_respective_archetype.csv). 
 
 
-2. Navigate to [analysis_variables_requirements_manuscript_manuscript.csv](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-dhs-tools/analysis_variables_requirements.csv) if you would like to replicate manuscript figures and simulation inputs based on the DHS or this csv if you want additional DHS estimates. Ensure that all functions and indicators files are correctly linked.  
+2. Navigate to [analysis_variables_requirements_manuscript_manuscript.csv](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-dhs-tools/analysis_variables_requirements.csv) if you would like to replicate manuscript figures and simulation inputs based on the DHS or this [csv](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-dhs-tools/analysis_variables_requirements.csv) if you want additional DHS estimates. Ensure that all functions and indicators files are correctly linked.  
 
 
 3. Highlight the master script and click run to generate output 

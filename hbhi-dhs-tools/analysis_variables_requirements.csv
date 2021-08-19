@@ -1,0 +1,12 @@
+Variable ,subVariable ,smoothing ,smoothing_type,age ,SAVE,plot,fun_path,main_path,variable_to_run,Notes  
+ITN,manuscript,FALSE,FALSE,all ages,TRUE,TRUE,ITN/functions/itn_functions.R,ITN/hh_itn.R,TRUE,
+ITN,LGA,,,all ages,TRUE,TRUE,ITN/functions/itn_functions.R,ITN/hh_itn.R,TRUE,"options for age (all ages, 18 or greater, U5, 6-9, 10-18)"
+ITN,LGA,,,18 or greater,TRUE,TRUE,ITN/functions/itn_functions.R,ITN/hh_itn.R,TRUE,
+ITN,State,,,18 or greater,TRUE,TRUE,ITN/functions/itn_functions.R,ITN/hh_itn.R,TRUE,
+ITN,repDS,,,all ages,TRUE,TRUE,ITN/functions/itn_functions.R,ITN/hh_itn.R,TRUE,repDS  stands for archetype-level estimates
+ITN,region ,,,all ages,TRUE,TRUE,ITN/functions/itn_functions.R,ITN/hh_itn.R,TRUE,
+CM,manuscript,FALSE,FALSE,,TRUE,TRUE,case_management/functions/cm_functions.R,case_management/CM_DHS_estimates.R,TRUE,
+CM,State,FALSE,FALSE,,TRUE,TRUE,case_management/functions/cm_functions.R,case_management/CM_DHS_estimates.R,TRUE,options for smoothing column (yes or no)
+CM,LGA,FALSE,FALSE,,TRUE,TRUE,case_management/functions/cm_functions.R,case_management/CM_DHS_estimates.R,TRUE,"options for smoothing_type column (space, space_time, no)"
+CM,repDS,FALSE,FALSE,,TRUE,TRUE,case_management/functions/cm_functions.R,case_management/CM_DHS_estimates.R,TRUE,options for plot column (yes or no)
+CM,region,FALSE,FALSE,,TRUE,TRUE,case_management/functions/cm_functions.R,case_management/CM_DHS_estimates.R,TRUE,

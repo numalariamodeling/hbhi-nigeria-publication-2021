@@ -1,0 +1,3 @@
+Variable ,subVariable ,smoothing ,smoothing_type,age ,SAVE,plot,fun_path,main_path,variable_to_run,Notes  
+ITN,manuscript,FALSE,FALSE,all ages,TRUE,TRUE,ITN/functions/itn_functions.R,ITN/hh_itn.R,TRUE,
+CM,manuscript,FALSE,FALSE,,TRUE,TRUE,case_management/functions/cm_functions.R,case_management/CM_DHS_estimates.R,TRUE,

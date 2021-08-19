@@ -103,7 +103,7 @@ Five scripts are provided for setting baseline transmission intensity
 
 Data inputs to the baseline calibration - 2010 MIS  archetype case management data is linked [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/archetype/arch_med_10_v2.csv), 2010 MIS archetype ITN data is linked [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/archetype/ITN_archetype_10_v4.csv), 2010 MIS archetype *Pf*PR data is linked [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/archetype/PfPr_archetype_10_v2.csv) and relative vector abundance input files are [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/DS_vector_rel_abundance.csv)
 
-We have also provided a set of tools of generating intervention coverage data from the Demographic and Health Surveys and the MIS in order to replicate the simulation intervention coverage inputs and plots in the manuscript [here](). 
+We have also provided a set of tools of generating intervention coverage data from the Demographic and Health Surveys and the MIS in order to replicate the simulation intervention coverage inputs and plots in the manuscript [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-dhs-tools). 
 
 ### Historical Simulations
 

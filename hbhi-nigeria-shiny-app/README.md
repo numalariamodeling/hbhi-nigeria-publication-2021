@@ -37,7 +37,7 @@ In partnership with the Nigerian Malaria Elimination Programme and the World Hea
 ![alt text](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-nigeria-shiny-app/input_data.PNG)
 
 
-List of acronynms used within the app:
+List of acronyms used within the app:
 * Budget-prioritized plan (BPP)
 * Business as Usual (BAU) 
 * Case management (CM) 

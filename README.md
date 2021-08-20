@@ -120,7 +120,7 @@ Scenario files required for running the simulation - case management, insecticid
 
 
 <!-- POST-PROCESSING-->
-## Post-processing 
+## Post-Processing 
 
 Adjustment for the impact of IPTp and IPTi on burden projections are done outside the simulation. Adjustment for IPTi occurs before the IPTp adjustment in order to generate relative reduction tables per LGA, which are then used to adjust simulation outputs during the IPTp adjustment.The following scripts are used for post-postprocessing:
 

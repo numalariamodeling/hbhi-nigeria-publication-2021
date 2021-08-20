@@ -15,7 +15,7 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started-on-using-the-dhs-analysis-tools ">Getting started on using the DHS Analysis Tools Locally </a>
+      <a href="#getting-started-on-using-the-dhs-analysis-tools ">Getting started on using the DHS Analysis Tools</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#running-the-scripts">Running The Scripts</a></li>
@@ -62,10 +62,10 @@ Clone this repo to the folder you would like to place the file in, either using 
 
 ### Running The Scripts
 
-1. Open up the master script [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-dhs-tools/0_master.R). Ensure that file paths correspond to the file paths that links to your personal data directory for the DHS and the generic functions directories [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-dhs-tools/1_variables_scripts/generic_functions). Also supply links to the shapefiles [here] (https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-dhs-tools/LGA_shapefiles/Nigeria_LGAs_shapefile_191016) and [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-nigeria-shiny-app/src/app/data/shapefiles/gadm36_NGA_shp)and the repDS file [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/LGA_and_respective_archetype.csv). 
+1. Open up the master script [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-dhs-tools/0_master.R). Ensure that file paths correspond to the file paths that links to your personal data directory for the DHS and the generic functions directories [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-dhs-tools/1_variables_scripts/generic_functions). Also supply links to the shapefiles [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-dhs-tools/LGA_shapefiles/Nigeria_LGAs_shapefile_191016) and [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/tree/main/hbhi-nigeria-shiny-app/src/app/data/shapefiles/gadm36_NGA_shp) and the repDS file [here](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/simulation_inputs/LGA_and_respective_archetype.csv). 
 
 
-2. Navigate to [analysis_variables_requirements_manuscript_manuscript.csv](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-dhs-tools/analysis_variables_requirements.csv) if you would like to replicate manuscript figures and simulation inputs based on the DHS or this [csv](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-dhs-tools/analysis_variables_requirements.csv) if you want additional DHS estimates. Ensure that all functions and indicators files are correctly linked.  
+2. Navigate to [analysis_variables_requirements_manuscript.csv](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-dhs-tools/analysis_variables_requirements.csv) if you would like to replicate manuscript figures and simulation inputs based on the DHS or this [csv](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021/blob/main/hbhi-dhs-tools/analysis_variables_requirements.csv) if you want additional DHS estimates. Ensure that all functions and indicators files are correctly linked.  
 
 
 3. Highlight the master script and click run to generate output 

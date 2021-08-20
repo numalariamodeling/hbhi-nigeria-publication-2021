@@ -80,8 +80,7 @@ for (i in 1:nrow(var_df)){
       NGAshplist<-read.files("*FL.shp$", DataDir, shapefile)
       key_list <- map(NGAshplist, over.fun)
       NGAshplist <- lapply(NGAshplist, st_as_sf)
-      #key_list <- lapply(key_list, st_as_sf)
-      #key_list <- lapply(NGAshplist, function(x) x %>%st_join(LGA_clean_names, join = st_nn, maxdist = 10000))
+
       
       source(file.path(VarDir, var_df[, "fun_path"][i]))
       source(file.path(VarDir, var_df[, "main_path"][i]))

@@ -148,11 +148,11 @@ Several simulation output analyzers, plotting scripts, and related functions for
 <!-- CONTACT -->
 ## Contact
 
-For IPTi-specific inquiries, contact Manuela Runge, [Postdoctoral Fellow, Northwestern University](https://www.numalariamodeling.org/team.html). Email - manuela.runge@northwestern.edu
+For IPTi-specific inquiries, contact Manuela Runge, [Postdoctoral Fellow, Northwestern University (NU)](https://www.numalariamodeling.org/team.html). Email - manuela.runge@northwestern.edu
 
 For IPTp-specific questions, contact Monique Ambrose, [Senior Research Scientist, Institute for Disease Modeling](https://www.idmod.org/team). Email - mambrose@idmod.org
 
-For all other inquiries, contact Ifeoma Ozodiegwu, [Research Assistant Professor, Northwestern University (NU).](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=52373)
+For all other inquiries, contact Ifeoma Ozodiegwu, [Research Assistant Professor, NU.](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=52373)
  Email - ifeoma.ozodiegwu@northwestern.edu 
 
 Project Link: [https://github.com/numalariamodeling/hbhi-nigeria-publication-2021](https://github.com/numalariamodeling/hbhi-nigeria-publication-2021)
